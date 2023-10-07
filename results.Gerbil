@@ -1,0 +1,1213 @@
+
+****************************
+Benchmarking Gerbil on Sun Oct 8 01:09:09 AM EEST 2023 under Linux dellicious 6.0.0-1020-oem #20-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul 14 13:12:17 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+
+Testing browse under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/browse.scm /tmp/larcenous/Gerbil/browse.exe
+/tmp/gxc.1696716550.9720263/scheme__base-impl.scm:
+/tmp/gxc.1696716550.9720263/browse.scm:
+/tmp/larcenous/Gerbil/browse.exe.scmx:
+/tmp/gxc.1696716550.9720263/scheme__base-impl.c:
+/tmp/gxc.1696716550.9720263/browse.c:
+/tmp/larcenous/Gerbil/browse.exe.c:
+/tmp/larcenous/Gerbil/browse.exe_.c:
+Running...
+Running browse:2000
+Elapsed time: 1.230697 seconds (1.231) for browse:2000
++!CSVLINE!+gerbil-v0.18-rc1,browse:2000,1.230697
+
+real	0m1.268s
+user	0m1.256s
+sys	0m0.012s
+
+Testing deriv under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/deriv.scm /tmp/larcenous/Gerbil/deriv.exe
+/tmp/gxc.1696716554.4998631/scheme__base-impl.scm:
+/tmp/gxc.1696716554.4998631/deriv.scm:
+/tmp/larcenous/Gerbil/deriv.exe.scmx:
+/tmp/gxc.1696716554.4998631/scheme__base-impl.c:
+/tmp/gxc.1696716554.4998631/deriv.c:
+/tmp/larcenous/Gerbil/deriv.exe.c:
+/tmp/larcenous/Gerbil/deriv.exe_.c:
+Running...
+Running deriv:10000000
+Elapsed time: 2.005912 seconds (2.006) for deriv:10000000
++!CSVLINE!+gerbil-v0.18-rc1,deriv:10000000,2.005912
+
+real	0m2.043s
+user	0m2.023s
+sys	0m0.020s
+
+Testing destruc under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/destruc.scm /tmp/larcenous/Gerbil/destruc.exe
+/tmp/gxc.1696716558.620193/scheme__base-impl.scm:
+/tmp/gxc.1696716558.620193/destruc.scm:
+/tmp/larcenous/Gerbil/destruc.exe.scmx:
+/tmp/gxc.1696716558.620193/scheme__base-impl.c:
+/tmp/gxc.1696716558.620193/destruc.c:
+/tmp/larcenous/Gerbil/destruc.exe.c:
+/tmp/larcenous/Gerbil/destruc.exe_.c:
+Running...
+Running destruc:600:50:4000
+Elapsed time: 2.425257 seconds (2.425) for destruc:600:50:4000
++!CSVLINE!+gerbil-v0.18-rc1,destruc:600:50:4000,2.425257
+
+real	0m2.462s
+user	0m2.448s
+sys	0m0.015s
+
+Testing diviter under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/diviter.scm /tmp/larcenous/Gerbil/diviter.exe
+/tmp/gxc.1696716563.2251458/scheme__base-impl.scm:
+/tmp/gxc.1696716563.2251458/diviter.scm:
+/tmp/larcenous/Gerbil/diviter.exe.scmx:
+/tmp/gxc.1696716563.2251458/scheme__base-impl.c:
+/tmp/gxc.1696716563.2251458/diviter.c:
+/tmp/larcenous/Gerbil/diviter.exe.c:
+/tmp/larcenous/Gerbil/diviter.exe_.c:
+Running...
+Running diviter:1000:1000000
+Elapsed time: 2.403443 seconds (2.403) for diviter:1000:1000000
++!CSVLINE!+gerbil-v0.18-rc1,diviter:1000:1000000,2.403443
+
+real	0m2.441s
+user	0m2.430s
+sys	0m0.011s
+
+Testing divrec under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/divrec.scm /tmp/larcenous/Gerbil/divrec.exe
+/tmp/gxc.1696716567.7386003/scheme__base-impl.scm:
+/tmp/gxc.1696716567.7386003/divrec.scm:
+/tmp/larcenous/Gerbil/divrec.exe.scmx:
+/tmp/gxc.1696716567.7386003/scheme__base-impl.c:
+/tmp/gxc.1696716567.7386003/divrec.c:
+/tmp/larcenous/Gerbil/divrec.exe.c:
+/tmp/larcenous/Gerbil/divrec.exe_.c:
+Running...
+Running divrec:1000:1000000
+Elapsed time: 3.279953 seconds (3.28) for divrec:1000:1000000
++!CSVLINE!+gerbil-v0.18-rc1,divrec:1000:1000000,3.279953
+
+real	0m3.319s
+user	0m3.298s
+sys	0m0.020s
+
+Testing puzzle under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/puzzle.scm /tmp/larcenous/Gerbil/puzzle.exe
+/tmp/gxc.1696716573.094503/scheme__base-impl.scm:
+/tmp/gxc.1696716573.094503/puzzle.scm:
+/tmp/larcenous/Gerbil/puzzle.exe.scmx:
+/tmp/gxc.1696716573.094503/scheme__base-impl.c:
+/tmp/gxc.1696716573.094503/puzzle.c:
+/tmp/larcenous/Gerbil/puzzle.exe.c:
+/tmp/larcenous/Gerbil/puzzle.exe_.c:
+Running...
+Running puzzle:1000
+Elapsed time: 2.666894 seconds (2.667) for puzzle:1000
++!CSVLINE!+gerbil-v0.18-rc1,puzzle:1000,2.666894
+
+real	0m2.705s
+user	0m2.693s
+sys	0m0.012s
+
+Testing triangl under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/triangl.scm /tmp/larcenous/Gerbil/triangl.exe
+/tmp/gxc.1696716578.1265998/scheme__base-impl.scm:
+/tmp/gxc.1696716578.1265998/triangl.scm:
+/tmp/larcenous/Gerbil/triangl.exe.scmx:
+/tmp/gxc.1696716578.1265998/scheme__base-impl.c:
+/tmp/gxc.1696716578.1265998/triangl.c:
+/tmp/larcenous/Gerbil/triangl.exe.c:
+/tmp/larcenous/Gerbil/triangl.exe_.c:
+Running...
+Running triangl:22:1:50
+Elapsed time: 1.822907 seconds (1.823) for triangl:22:1:50
++!CSVLINE!+gerbil-v0.18-rc1,triangl:22:1:50,1.822907
+
+real	0m1.863s
+user	0m1.844s
+sys	0m0.012s
+
+Testing tak under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/tak.scm /tmp/larcenous/Gerbil/tak.exe
+/tmp/gxc.1696716582.09716/scheme__base-impl.scm:
+/tmp/gxc.1696716582.09716/tak.scm:
+/tmp/larcenous/Gerbil/tak.exe.scmx:
+/tmp/gxc.1696716582.09716/scheme__base-impl.c:
+/tmp/gxc.1696716582.09716/tak.c:
+/tmp/larcenous/Gerbil/tak.exe.c:
+/tmp/larcenous/Gerbil/tak.exe_.c:
+Running...
+Running tak:40:20:11:1
+Elapsed time: 1.329407 seconds (1.329) for tak:40:20:11:1
++!CSVLINE!+gerbil-v0.18-rc1,tak:40:20:11:1,1.329407
+
+real	0m1.368s
+user	0m1.347s
+sys	0m0.016s
+
+Testing takl under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/takl.scm /tmp/larcenous/Gerbil/takl.exe
+/tmp/gxc.1696716585.5213492/scheme__base-impl.scm:
+/tmp/gxc.1696716585.5213492/takl.scm:
+/tmp/larcenous/Gerbil/takl.exe.scmx:
+/tmp/gxc.1696716585.5213492/scheme__base-impl.c:
+/tmp/gxc.1696716585.5213492/takl.c:
+/tmp/larcenous/Gerbil/takl.exe.c:
+/tmp/larcenous/Gerbil/takl.exe_.c:
+Running...
+Running takl:40:20:12:1
+Elapsed time: 2.143325 seconds (2.143) for takl:40:20:12:1
++!CSVLINE!+gerbil-v0.18-rc1,takl:40:20:12:1,2.143325
+
+real	0m2.180s
+user	0m2.164s
+sys	0m0.016s
+
+Testing ntakl under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/ntakl.scm /tmp/larcenous/Gerbil/ntakl.exe
+/tmp/gxc.1696716589.74858/scheme__base-impl.scm:
+/tmp/gxc.1696716589.74858/ntakl.scm:
+/tmp/larcenous/Gerbil/ntakl.exe.scmx:
+/tmp/gxc.1696716589.74858/scheme__base-impl.c:
+/tmp/gxc.1696716589.74858/ntakl.c:
+/tmp/larcenous/Gerbil/ntakl.exe.c:
+/tmp/larcenous/Gerbil/ntakl.exe_.c:
+Running...
+Running ntakl:40:20:12:1
+Elapsed time: 1.94006 seconds (1.94) for ntakl:40:20:12:1
++!CSVLINE!+gerbil-v0.18-rc1,ntakl:40:20:12:1,1.94006
+
+real	0m1.977s
+user	0m1.961s
+sys	0m0.016s
+
+Testing cpstak under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/cpstak.scm /tmp/larcenous/Gerbil/cpstak.exe
+/tmp/gxc.1696716593.803115/scheme__base-impl.scm:
+/tmp/gxc.1696716593.803115/cpstak.scm:
+/tmp/larcenous/Gerbil/cpstak.exe.scmx:
+/tmp/gxc.1696716593.803115/scheme__base-impl.c:
+/tmp/gxc.1696716593.803115/cpstak.c:
+/tmp/larcenous/Gerbil/cpstak.exe.c:
+/tmp/larcenous/Gerbil/cpstak.exe_.c:
+Running...
+Running cpstak:40:20:11:1
+Elapsed time: 5.30168 seconds (5.302) for cpstak:40:20:11:1
++!CSVLINE!+gerbil-v0.18-rc1,cpstak:40:20:11:1,5.30168
+
+real	0m5.338s
+user	0m5.322s
+sys	0m0.016s
+
+Testing ctak under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/ctak.scm /tmp/larcenous/Gerbil/ctak.exe
+/tmp/gxc.1696716601.2124932/scheme__base-impl.scm:
+/tmp/gxc.1696716601.2124932/ctak.scm:
+/tmp/larcenous/Gerbil/ctak.exe.scmx:
+/tmp/gxc.1696716601.2124932/scheme__base-impl.c:
+/tmp/gxc.1696716601.2124932/ctak.c:
+/tmp/larcenous/Gerbil/ctak.exe.c:
+/tmp/larcenous/Gerbil/ctak.exe_.c:
+Running...
+Running ctak:32:16:8:1
+Elapsed time: 2.171849 seconds (2.172) for ctak:32:16:8:1
++!CSVLINE!+gerbil-v0.18-rc1,ctak:32:16:8:1,2.171849
+
+real	0m2.206s
+user	0m2.194s
+sys	0m0.011s
+
+Testing fib under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/fib.scm /tmp/larcenous/Gerbil/fib.exe
+/tmp/gxc.1696716605.4735868/scheme__base-impl.scm:
+/tmp/gxc.1696716605.4735868/fib.scm:
+/tmp/larcenous/Gerbil/fib.exe.scmx:
+/tmp/gxc.1696716605.4735868/scheme__base-impl.c:
+/tmp/gxc.1696716605.4735868/fib.c:
+/tmp/larcenous/Gerbil/fib.exe.c:
+/tmp/larcenous/Gerbil/fib.exe_.c:
+Running...
+Running fib:40:5
+Elapsed time: 2.517593 seconds (2.518) for fib:40:5
++!CSVLINE!+gerbil-v0.18-rc1,fib:40:5,2.517593
+
+real	0m2.552s
+user	0m2.539s
+sys	0m0.012s
+
+Testing fibc under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/fibc.scm /tmp/larcenous/Gerbil/fibc.exe
+/tmp/gxc.1696716610.0895298/scheme__base-impl.scm:
+/tmp/gxc.1696716610.0895298/fibc.scm:
+/tmp/larcenous/Gerbil/fibc.exe.scmx:
+/tmp/gxc.1696716610.0895298/scheme__base-impl.c:
+/tmp/gxc.1696716610.0895298/fibc.c:
+/tmp/larcenous/Gerbil/fibc.exe.c:
+/tmp/larcenous/Gerbil/fibc.exe_.c:
+Running...
+Running fibc:30:10
+Elapsed time: 1.392994 seconds (1.393) for fibc:30:10
++!CSVLINE!+gerbil-v0.18-rc1,fibc:30:10,1.392994
+
+real	0m1.428s
+user	0m1.420s
+sys	0m0.008s
+
+Testing fibfp under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/fibfp.scm /tmp/larcenous/Gerbil/fibfp.exe
+/tmp/gxc.1696716613.549977/scheme__base-impl.scm:
+/tmp/gxc.1696716613.549977/fibfp.scm:
+/tmp/larcenous/Gerbil/fibfp.exe.scmx:
+/tmp/gxc.1696716613.549977/scheme__base-impl.c:
+/tmp/gxc.1696716613.549977/fibfp.c:
+/tmp/larcenous/Gerbil/fibfp.exe.c:
+/tmp/larcenous/Gerbil/fibfp.exe_.c:
+Running...
+Running fibfp:35.:10
+Elapsed time: 1.651214 seconds (1.651) for fibfp:35.:10
++!CSVLINE!+gerbil-v0.18-rc1,fibfp:35.:10,1.651214
+
+real	0m1.692s
+user	0m1.680s
+sys	0m0.012s
+
+Testing sum under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/sum.scm /tmp/larcenous/Gerbil/sum.exe
+/tmp/gxc.1696716617.3127718/scheme__base-impl.scm:
+/tmp/gxc.1696716617.3127718/sum.scm:
+/tmp/larcenous/Gerbil/sum.exe.scmx:
+/tmp/gxc.1696716617.3127718/scheme__base-impl.c:
+/tmp/gxc.1696716617.3127718/sum.c:
+/tmp/larcenous/Gerbil/sum.exe.c:
+/tmp/larcenous/Gerbil/sum.exe_.c:
+Running...
+Running sum:10000:200000
+Elapsed time: 1.867824 seconds (1.868) for sum:10000:200000
++!CSVLINE!+gerbil-v0.18-rc1,sum:10000:200000,1.867824
+
+real	0m1.904s
+user	0m1.894s
+sys	0m0.004s
+
+Testing sumfp under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/sumfp.scm /tmp/larcenous/Gerbil/sumfp.exe
+/tmp/gxc.1696716621.2789395/scheme__base-impl.scm:
+/tmp/gxc.1696716621.2789395/sumfp.scm:
+/tmp/larcenous/Gerbil/sumfp.exe.scmx:
+/tmp/gxc.1696716621.2789395/scheme__base-impl.c:
+/tmp/gxc.1696716621.2789395/sumfp.c:
+/tmp/larcenous/Gerbil/sumfp.exe.c:
+/tmp/larcenous/Gerbil/sumfp.exe_.c:
+Running...
+Running sumfp:1000000.:500
+Elapsed time: 2.868674 seconds (2.869) for sumfp:1000000.:500
++!CSVLINE!+gerbil-v0.18-rc1,sumfp:1000000.:500,2.868674
+
+real	0m2.905s
+user	0m2.891s
+sys	0m0.014s
+
+Testing fft under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/fft.scm /tmp/larcenous/Gerbil/fft.exe
+/tmp/gxc.1696716626.230381/scheme__base-impl.scm:
+/tmp/gxc.1696716626.230381/fft.scm:
+/tmp/larcenous/Gerbil/fft.exe.scmx:
+/tmp/gxc.1696716626.230381/scheme__base-impl.c:
+/tmp/gxc.1696716626.230381/fft.c:
+/tmp/larcenous/Gerbil/fft.exe.c:
+/tmp/larcenous/Gerbil/fft.exe_.c:
+Running...
+Running fft:65536:100
+Elapsed time: 1.98114 seconds (1.981) for fft:65536:100
++!CSVLINE!+gerbil-v0.18-rc1,fft:65536:100,1.98114
+
+real	0m2.018s
+user	0m1.997s
+sys	0m0.007s
+
+Testing mbrot under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/mbrot.scm /tmp/larcenous/Gerbil/mbrot.exe
+/tmp/gxc.1696716630.6480043/scheme__base-impl.scm:
+/tmp/gxc.1696716630.6480043/mbrot.scm:
+/tmp/larcenous/Gerbil/mbrot.exe.scmx:
+/tmp/gxc.1696716630.6480043/scheme__base-impl.c:
+/tmp/gxc.1696716630.6480043/mbrot.c:
+/tmp/larcenous/Gerbil/mbrot.exe.c:
+/tmp/larcenous/Gerbil/mbrot.exe_.c:
+Running...
+Running mbrot:75:1000
+Elapsed time: 3.889525 seconds (3.89) for mbrot:75:1000
++!CSVLINE!+gerbil-v0.18-rc1,mbrot:75:1000,3.889525
+
+real	0m3.928s
+user	0m3.885s
+sys	0m0.016s
+
+Testing mbrotZ under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/mbrotZ.scm /tmp/larcenous/Gerbil/mbrotZ.exe
+/tmp/gxc.1696716636.7794514/scheme__base-impl.scm:
+/tmp/gxc.1696716636.7794514/mbrotZ.scm:
+/tmp/larcenous/Gerbil/mbrotZ.exe.scmx:
+/tmp/gxc.1696716636.7794514/scheme__base-impl.c:
+/tmp/gxc.1696716636.7794514/mbrotZ.c:
+/tmp/larcenous/Gerbil/mbrotZ.exe.c:
+/tmp/larcenous/Gerbil/mbrotZ.exe_.c:
+Running...
+Running mbrotZ:75:1000
+Elapsed time: 9.217545 seconds (9.218) for mbrotZ:75:1000
++!CSVLINE!+gerbil-v0.18-rc1,mbrotZ:75:1000,9.217545
+
+real	0m9.252s
+user	0m9.232s
+sys	0m0.019s
+
+Testing nucleic under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/nucleic.scm /tmp/larcenous/Gerbil/nucleic.exe
+/tmp/gxc.1696716648.2318249/scheme__base-impl.scm:
+/tmp/gxc.1696716648.2318249/nucleic.scm:
+/tmp/larcenous/Gerbil/nucleic.exe.scmx:
+/tmp/gxc.1696716648.2318249/scheme__base-impl.c:
+/tmp/gxc.1696716648.2318249/nucleic.c:
+/tmp/larcenous/Gerbil/nucleic.exe.c:
+/tmp/larcenous/Gerbil/nucleic.exe_.c:
+Running...
+Running nucleic:50
+Elapsed time: 1.710492 seconds (1.71) for nucleic:50
++!CSVLINE!+gerbil-v0.18-rc1,nucleic:50,1.710492
+
+real	0m1.749s
+user	0m1.742s
+sys	0m0.007s
+
+Testing pi under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/pi.scm /tmp/larcenous/Gerbil/pi.exe
+/tmp/gxc.1696716655.2472458/scheme__base-impl.scm:
+/tmp/gxc.1696716655.2472458/pi.scm:
+/tmp/larcenous/Gerbil/pi.exe.scmx:
+/tmp/gxc.1696716655.2472458/scheme__base-impl.c:
+/tmp/gxc.1696716655.2472458/pi.c:
+/tmp/larcenous/Gerbil/pi.exe.c:
+/tmp/larcenous/Gerbil/pi.exe_.c:
+Running...
+Running pi:50:500:50:100
+Elapsed time: .67763 seconds (.678) for pi:50:500:50:100
++!CSVLINE!+gerbil-v0.18-rc1,pi:50:500:50:100,.67763
+
+real	0m0.717s
+user	0m0.709s
+sys	0m0.008s
+
+Testing pnpoly under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/pnpoly.scm /tmp/larcenous/Gerbil/pnpoly.exe
+/tmp/gxc.1696716658.446107/scheme__base-impl.scm:
+/tmp/gxc.1696716658.446107/pnpoly.scm:
+/tmp/larcenous/Gerbil/pnpoly.exe.scmx:
+/tmp/gxc.1696716658.446107/scheme__base-impl.c:
+/tmp/gxc.1696716658.446107/pnpoly.c:
+/tmp/larcenous/Gerbil/pnpoly.exe.c:
+/tmp/larcenous/Gerbil/pnpoly.exe_.c:
+Running...
+Running pnpoly:1000000
+Elapsed time: 2.792851 seconds (2.793) for pnpoly:1000000
++!CSVLINE!+gerbil-v0.18-rc1,pnpoly:1000000,2.792851
+
+real	0m2.830s
+user	0m2.810s
+sys	0m0.019s
+
+Testing ray under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/ray.scm /tmp/larcenous/Gerbil/ray.exe
+/tmp/gxc.1696716663.4692466/scheme__base-impl.scm:
+/tmp/gxc.1696716663.4692466/ray.scm:
+/tmp/larcenous/Gerbil/ray.exe.scmx:
+/tmp/gxc.1696716663.4692466/scheme__base-impl.c:
+/tmp/gxc.1696716663.4692466/ray.c:
+/tmp/larcenous/Gerbil/ray.exe.c:
+/tmp/larcenous/Gerbil/ray.exe_.c:
+Running...
+Running ray:50
+Elapsed time: 1.975235 seconds (1.975) for ray:50
++!CSVLINE!+gerbil-v0.18-rc1,ray:50,1.975235
+
+real	0m2.011s
+user	0m1.984s
+sys	0m0.027s
+
+Testing simplex under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/simplex.scm /tmp/larcenous/Gerbil/simplex.exe
+/tmp/gxc.1696716668.0711672/scheme__base-impl.scm:
+/tmp/gxc.1696716668.0711672/simplex.scm:
+/tmp/larcenous/Gerbil/simplex.exe.scmx:
+/tmp/gxc.1696716668.0711672/scheme__base-impl.c:
+/tmp/gxc.1696716668.0711672/simplex.c:
+/tmp/larcenous/Gerbil/simplex.exe.c:
+/tmp/larcenous/Gerbil/simplex.exe_.c:
+Running...
+Running simplex:1000000
+Elapsed time: 2.190919 seconds (2.191) for simplex:1000000
++!CSVLINE!+gerbil-v0.18-rc1,simplex:1000000,2.190919
+
+real	0m2.227s
+user	0m2.217s
+sys	0m0.010s
+
+Testing ack under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/ack.scm /tmp/larcenous/Gerbil/ack.exe
+/tmp/gxc.1696716673.0840137/scheme__base-impl.scm:
+/tmp/gxc.1696716673.0840137/ack.scm:
+/tmp/larcenous/Gerbil/ack.exe.scmx:
+/tmp/gxc.1696716673.0840137/scheme__base-impl.c:
+/tmp/gxc.1696716673.0840137/ack.c:
+/tmp/larcenous/Gerbil/ack.exe.c:
+/tmp/larcenous/Gerbil/ack.exe_.c:
+Running...
+Running ack:3:12:2
+Elapsed time: 1.83114 seconds (1.831) for ack:3:12:2
++!CSVLINE!+gerbil-v0.18-rc1,ack:3:12:2,1.83114
+
+real	0m1.868s
+user	0m1.849s
+sys	0m0.012s
+
+Testing array1 under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/array1.scm /tmp/larcenous/Gerbil/array1.exe
+/tmp/gxc.1696716677.0192516/scheme__base-impl.scm:
+/tmp/gxc.1696716677.0192516/array1.scm:
+/tmp/larcenous/Gerbil/array1.exe.scmx:
+/tmp/gxc.1696716677.0192516/scheme__base-impl.c:
+/tmp/gxc.1696716677.0192516/array1.c:
+/tmp/larcenous/Gerbil/array1.exe.c:
+/tmp/larcenous/Gerbil/array1.exe_.c:
+Running...
+Running array1:1000000:500
+Elapsed time: 4.319986 seconds (4.32) for array1:1000000:500
++!CSVLINE!+gerbil-v0.18-rc1,array1:1000000:500,4.319986
+
+real	0m4.356s
+user	0m2.652s
+sys	0m1.703s
+
+Testing string under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/string.scm /tmp/larcenous/Gerbil/string.exe
+/tmp/gxc.1696716683.4757128/scheme__base-impl.scm:
+/tmp/gxc.1696716683.4757128/string.scm:
+/tmp/larcenous/Gerbil/string.exe.scmx:
+/tmp/gxc.1696716683.4757128/scheme__base-impl.c:
+/tmp/gxc.1696716683.4757128/string.c:
+/tmp/larcenous/Gerbil/string.exe.c:
+/tmp/larcenous/Gerbil/string.exe_.c:
+Running...
+Running string:500000:100
+Elapsed time: 2.791187 seconds (2.791) for string:500000:100
++!CSVLINE!+gerbil-v0.18-rc1,string:500000:100,2.791187
+
+real	0m2.828s
+user	0m1.483s
+sys	0m1.344s
+
+Testing sum1 under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/sum1.scm /tmp/larcenous/Gerbil/sum1.exe
+/tmp/gxc.1696716688.3644216/scheme__base-impl.scm:
+/tmp/gxc.1696716688.3644216/sum1.scm:
+/tmp/larcenous/Gerbil/sum1.exe.scmx:
+/tmp/gxc.1696716688.3644216/scheme__base-impl.c:
+/tmp/gxc.1696716688.3644216/sum1.c:
+/tmp/larcenous/Gerbil/sum1.exe.c:
+/tmp/larcenous/Gerbil/sum1.exe_.c:
+Running...
+Running sum1:25
+Elapsed time: .423138 seconds (.423) for sum1:25
++!CSVLINE!+gerbil-v0.18-rc1,sum1:25,.423138
+
+real	0m0.461s
+user	0m0.447s
+sys	0m0.011s
+
+Testing cat under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/cat.scm /tmp/larcenous/Gerbil/cat.exe
+/tmp/gxc.1696716690.871884/scheme__base-impl.scm:
+/tmp/gxc.1696716690.871884/cat.scm:
+/tmp/larcenous/Gerbil/cat.exe.scmx:
+/tmp/gxc.1696716690.871884/scheme__base-impl.c:
+/tmp/gxc.1696716690.871884/cat.c:
+/tmp/larcenous/Gerbil/cat.exe.c:
+/tmp/larcenous/Gerbil/cat.exe_.c:
+Running...
+Running cat:50
+Elapsed time: 1.329539 seconds (1.33) for cat:50
++!CSVLINE!+gerbil-v0.18-rc1,cat:50,1.329539
+
+real	0m1.365s
+user	0m1.069s
+sys	0m0.295s
+
+Testing tail under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/tail.scm /tmp/larcenous/Gerbil/tail.exe
+/tmp/gxc.1696716694.2761743/scheme__base-impl.scm:
+/tmp/gxc.1696716694.2761743/tail.scm:
+/tmp/larcenous/Gerbil/tail.exe.scmx:
+/tmp/gxc.1696716694.2761743/scheme__base-impl.c:
+/tmp/gxc.1696716694.2761743/tail.c:
+/tmp/larcenous/Gerbil/tail.exe.c:
+/tmp/larcenous/Gerbil/tail.exe_.c:
+Running...
+Running tail:50
+Elapsed time: 1.719085 seconds (1.719) for tail:50
++!CSVLINE!+gerbil-v0.18-rc1,tail:50,1.719085
+
+real	0m1.761s
+user	0m1.389s
+sys	0m0.371s
+
+Testing wc under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/wc.scm /tmp/larcenous/Gerbil/wc.exe
+/tmp/gxc.1696716698.090289/scheme__base-impl.scm:
+/tmp/gxc.1696716698.090289/wc.scm:
+/tmp/larcenous/Gerbil/wc.exe.scmx:
+/tmp/gxc.1696716698.090289/scheme__base-impl.c:
+/tmp/gxc.1696716698.090289/wc.c:
+/tmp/larcenous/Gerbil/wc.exe.c:
+/tmp/larcenous/Gerbil/wc.exe_.c:
+Running...
+Running wc:inputs/bib:50
+Elapsed time: 1.363429 seconds (1.363) for wc:inputs/bib:50
++!CSVLINE!+gerbil-v0.18-rc1,wc:inputs/bib:50,1.363429
+
+real	0m1.403s
+user	0m1.329s
+sys	0m0.068s
+
+Testing read1 under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/read1.scm /tmp/larcenous/Gerbil/read1.exe
+/tmp/gxc.1696716701.5709586/scheme__base-impl.scm:
+/tmp/gxc.1696716701.5709586/read1.scm:
+/tmp/larcenous/Gerbil/read1.exe.scmx:
+/tmp/gxc.1696716701.5709586/scheme__base-impl.c:
+/tmp/gxc.1696716701.5709586/read1.c:
+/tmp/larcenous/Gerbil/read1.exe.c:
+/tmp/larcenous/Gerbil/read1.exe_.c:
+Running...
+Running read1:2500
+Elapsed time: .83084 seconds (.831) for read1:2500
++!CSVLINE!+gerbil-v0.18-rc1,read1:2500,.83084
+
+real	0m0.873s
+user	0m0.837s
+sys	0m0.036s
+
+Testing conform under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/conform.scm /tmp/larcenous/Gerbil/conform.exe
+/tmp/gxc.1696716704.5071998/scheme__base-impl.scm:
+/tmp/gxc.1696716704.5071998/conform.scm:
+/tmp/larcenous/Gerbil/conform.exe.scmx:
+/tmp/gxc.1696716704.5071998/scheme__base-impl.c:
+/tmp/gxc.1696716704.5071998/conform.c:
+/tmp/larcenous/Gerbil/conform.exe.c:
+/tmp/larcenous/Gerbil/conform.exe_.c:
+Running...
+Running conform:500
+Elapsed time: 2.533728 seconds (2.534) for conform:500
++!CSVLINE!+gerbil-v0.18-rc1,conform:500,2.533728
+
+real	0m2.569s
+user	0m2.552s
+sys	0m0.016s
+
+Testing dynamic under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/dynamic.scm /tmp/larcenous/Gerbil/dynamic.exe
+/tmp/gxc.1696716709.7086964/scheme__base-impl.scm:
+/tmp/gxc.1696716709.7086964/dynamic.scm:
+/tmp/larcenous/Gerbil/dynamic.exe.scmx:
+/tmp/gxc.1696716709.7086964/scheme__base-impl.c:
+/tmp/gxc.1696716709.7086964/dynamic.c:
+/tmp/larcenous/Gerbil/dynamic.exe.c:
+/tmp/larcenous/Gerbil/dynamic.exe_.c:
+Running...
+Running dynamic:500
+Elapsed time: 3.775529 seconds (3.776) for dynamic:500
++!CSVLINE!+gerbil-v0.18-rc1,dynamic:500,3.775529
+
+real	0m3.812s
+user	0m3.668s
+sys	0m0.143s
+
+Testing earley under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/earley.scm /tmp/larcenous/Gerbil/earley.exe
+/tmp/gxc.1696716719.7027943/scheme__base-impl.scm:
+/tmp/gxc.1696716719.7027943/earley.scm:
+/tmp/larcenous/Gerbil/earley.exe.scmx:
+/tmp/gxc.1696716719.7027943/scheme__base-impl.c:
+/tmp/gxc.1696716719.7027943/earley.c:
+/tmp/larcenous/Gerbil/earley.exe.c:
+/tmp/larcenous/Gerbil/earley.exe_.c:
+Running...
+Running earley:1
+Elapsed time: 2.960622 seconds (2.961) for earley:1
++!CSVLINE!+gerbil-v0.18-rc1,earley:1,2.960622
+
+real	0m3.070s
+user	0m2.449s
+sys	0m0.620s
+
+Testing graphs under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/graphs.scm /tmp/larcenous/Gerbil/graphs.exe
+/tmp/gxc.1696716725.7684727/scheme__base-impl.scm:
+/tmp/gxc.1696716725.7684727/graphs.scm:
+/tmp/larcenous/Gerbil/graphs.exe.scmx:
+/tmp/gxc.1696716725.7684727/scheme__base-impl.c:
+/tmp/gxc.1696716725.7684727/graphs.c:
+/tmp/larcenous/Gerbil/graphs.exe.c:
+/tmp/larcenous/Gerbil/graphs.exe_.c:
+Running...
+Running graphs:7:3
+Elapsed time: 6.759205 seconds (6.759) for graphs:7:3
++!CSVLINE!+gerbil-v0.18-rc1,graphs:7:3,6.759205
+
+real	0m6.798s
+user	0m6.649s
+sys	0m0.148s
+
+Testing lattice under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/lattice.scm /tmp/larcenous/Gerbil/lattice.exe
+/tmp/gxc.1696716734.9896734/scheme__base-impl.scm:
+/tmp/gxc.1696716734.9896734/lattice.scm:
+/tmp/larcenous/Gerbil/lattice.exe.scmx:
+/tmp/gxc.1696716734.9896734/scheme__base-impl.c:
+/tmp/gxc.1696716734.9896734/lattice.c:
+/tmp/larcenous/Gerbil/lattice.exe.c:
+/tmp/larcenous/Gerbil/lattice.exe_.c:
+Running...
+Running lattice:44:10
+Elapsed time: 3.712771 seconds (3.713) for lattice:44:10
++!CSVLINE!+gerbil-v0.18-rc1,lattice:44:10,3.712771
+
+real	0m3.747s
+user	0m3.713s
+sys	0m0.016s
+
+Testing matrix under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/matrix.scm /tmp/larcenous/Gerbil/matrix.exe
+/tmp/gxc.1696716740.9401698/scheme__base-impl.scm:
+/tmp/gxc.1696716740.9401698/matrix.scm:
+/tmp/larcenous/Gerbil/matrix.exe.scmx:
+/tmp/gxc.1696716740.9401698/scheme__base-impl.c:
+/tmp/gxc.1696716740.9401698/matrix.c:
+/tmp/larcenous/Gerbil/matrix.exe.c:
+/tmp/larcenous/Gerbil/matrix.exe_.c:
+Running...
+Running matrix:5:5:2500
+Elapsed time: 1.751867 seconds (1.752) for matrix:5:5:2500
++!CSVLINE!+gerbil-v0.18-rc1,matrix:5:5:2500,1.751867
+
+real	0m1.790s
+user	0m1.781s
+sys	0m0.009s
+
+Testing maze under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/maze.scm /tmp/larcenous/Gerbil/maze.exe
+/tmp/gxc.1696716745.5727499/scheme__base-impl.scm:
+/tmp/gxc.1696716745.5727499/maze.scm:
+/tmp/larcenous/Gerbil/maze.exe.scmx:
+/tmp/gxc.1696716745.5727499/scheme__base-impl.c:
+/tmp/gxc.1696716745.5727499/maze.c:
+/tmp/larcenous/Gerbil/maze.exe.c:
+/tmp/larcenous/Gerbil/maze.exe_.c:
+Running...
+Running maze:20:7:10000
+Elapsed time: .806318 seconds (.806) for maze:20:7:10000
++!CSVLINE!+gerbil-v0.18-rc1,maze:20:7:10000,.806318
+
+real	0m0.841s
+user	0m0.818s
+sys	0m0.023s
+
+Testing mazefun under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/mazefun.scm /tmp/larcenous/Gerbil/mazefun.exe
+/tmp/gxc.1696716749.4651303/scheme__base-impl.scm:
+/tmp/gxc.1696716749.4651303/mazefun.scm:
+/tmp/larcenous/Gerbil/mazefun.exe.scmx:
+/tmp/gxc.1696716749.4651303/scheme__base-impl.c:
+/tmp/gxc.1696716749.4651303/mazefun.c:
+/tmp/larcenous/Gerbil/mazefun.exe.c:
+/tmp/larcenous/Gerbil/mazefun.exe_.c:
+Running...
+Running mazefun:11:11:10000
+Elapsed time: 2.250178 seconds (2.25) for mazefun:11:11:10000
++!CSVLINE!+gerbil-v0.18-rc1,mazefun:11:11:10000,2.250178
+
+real	0m2.286s
+user	0m2.279s
+sys	0m0.007s
+
+Testing nqueens under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/nqueens.scm /tmp/larcenous/Gerbil/nqueens.exe
+/tmp/gxc.1696716754.0301545/scheme__base-impl.scm:
+/tmp/gxc.1696716754.0301545/nqueens.scm:
+/tmp/larcenous/Gerbil/nqueens.exe.scmx:
+/tmp/gxc.1696716754.0301545/scheme__base-impl.c:
+/tmp/gxc.1696716754.0301545/nqueens.c:
+/tmp/larcenous/Gerbil/nqueens.exe.c:
+/tmp/larcenous/Gerbil/nqueens.exe_.c:
+Running...
+Running nqueens:13:10
+Elapsed time: 6.595345 seconds (6.595) for nqueens:13:10
++!CSVLINE!+gerbil-v0.18-rc1,nqueens:13:10,6.595345
+
+real	0m6.633s
+user	0m6.612s
+sys	0m0.020s
+
+Testing paraffins under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/paraffins.scm /tmp/larcenous/Gerbil/paraffins.exe
+/tmp/gxc.1696716762.737277/scheme__base-impl.scm:
+/tmp/gxc.1696716762.737277/paraffins.scm:
+/tmp/larcenous/Gerbil/paraffins.exe.scmx:
+/tmp/gxc.1696716762.737277/scheme__base-impl.c:
+/tmp/gxc.1696716762.737277/paraffins.c:
+/tmp/larcenous/Gerbil/paraffins.exe.c:
+/tmp/larcenous/Gerbil/paraffins.exe_.c:
+Running...
+Running paraffins:23:10
+Elapsed time: 2.886934 seconds (2.887) for paraffins:23:10
++!CSVLINE!+gerbil-v0.18-rc1,paraffins:23:10,2.886934
+
+real	0m2.962s
+user	0m1.854s
+sys	0m1.107s
+
+Testing parsing under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/parsing.scm /tmp/larcenous/Gerbil/parsing.exe
+/tmp/gxc.1696716768.20725/scheme__base-impl.scm:
+/tmp/gxc.1696716768.20725/parsing.scm:
+/tmp/larcenous/Gerbil/parsing.exe.scmx:
+/tmp/gxc.1696716768.20725/scheme__base-impl.c:
+/tmp/gxc.1696716768.20725/parsing.c:
+/tmp/larcenous/Gerbil/parsing.exe.c:
+/tmp/larcenous/Gerbil/parsing.exe_.c:
+Running...
+Running parsing:2500
+Elapsed time: 1.537937 seconds (1.538) for parsing:2500
++!CSVLINE!+gerbil-v0.18-rc1,parsing:2500,1.537937
+
+real	0m1.575s
+user	0m1.556s
+sys	0m0.012s
+
+Testing peval under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/peval.scm /tmp/larcenous/Gerbil/peval.exe
+/tmp/gxc.1696716772.4218333/scheme__base-impl.scm:
+/tmp/gxc.1696716772.4218333/peval.scm:
+/tmp/larcenous/Gerbil/peval.exe.scmx:
+/tmp/gxc.1696716772.4218333/scheme__base-impl.c:
+/tmp/gxc.1696716772.4218333/peval.c:
+/tmp/larcenous/Gerbil/peval.exe.c:
+/tmp/larcenous/Gerbil/peval.exe_.c:
+Running...
+Running peval:2000
+Elapsed time: 1.984199 seconds (1.984) for peval:2000
++!CSVLINE!+gerbil-v0.18-rc1,peval:2000,1.984199
+
+real	0m2.022s
+user	0m1.991s
+sys	0m0.017s
+
+Testing primes under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/primes.scm /tmp/larcenous/Gerbil/primes.exe
+/tmp/gxc.1696716777.3893094/scheme__base-impl.scm:
+/tmp/gxc.1696716777.3893094/primes.scm:
+/tmp/larcenous/Gerbil/primes.exe.scmx:
+/tmp/gxc.1696716777.3893094/scheme__base-impl.c:
+/tmp/gxc.1696716777.3893094/primes.c:
+/tmp/larcenous/Gerbil/primes.exe.c:
+/tmp/larcenous/Gerbil/primes.exe_.c:
+Running...
+Running primes:1000:10000
+Elapsed time: .952024 seconds (.952) for primes:1000:10000
++!CSVLINE!+gerbil-v0.18-rc1,primes:1000:10000,.952024
+
+real	0m0.988s
+user	0m0.977s
+sys	0m0.011s
+
+Testing quicksort under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/quicksort.scm /tmp/larcenous/Gerbil/quicksort.exe
+/tmp/gxc.1696716780.4383655/scheme__base-impl.scm:
+/tmp/gxc.1696716780.4383655/quicksort.scm:
+/tmp/larcenous/Gerbil/quicksort.exe.scmx:
+/tmp/gxc.1696716780.4383655/scheme__base-impl.c:
+/tmp/gxc.1696716780.4383655/quicksort.c:
+/tmp/larcenous/Gerbil/quicksort.exe.c:
+/tmp/larcenous/Gerbil/quicksort.exe_.c:
+Running...
+Running quicksort:10000:2500
+Elapsed time: 3.703777 seconds (3.704) for quicksort:10000:2500
++!CSVLINE!+gerbil-v0.18-rc1,quicksort:10000:2500,3.703777
+
+real	0m3.745s
+user	0m3.645s
+sys	0m0.100s
+
+Testing scheme under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/scheme.scm /tmp/larcenous/Gerbil/scheme.exe
+/tmp/gxc.1696716786.532903/scheme__base-impl.scm:
+/tmp/gxc.1696716786.532903/scheme.scm:
+/tmp/larcenous/Gerbil/scheme.exe.scmx:
+/tmp/gxc.1696716786.532903/scheme__base-impl.c:
+/tmp/gxc.1696716786.532903/scheme.c:
+/tmp/larcenous/Gerbil/scheme.exe.c:
+/tmp/larcenous/Gerbil/scheme.exe_.c:
+Running...
+Running scheme:100000
+Elapsed time: 2.756349 seconds (2.756) for scheme:100000
++!CSVLINE!+gerbil-v0.18-rc1,scheme:100000,2.756349
+
+real	0m2.796s
+user	0m2.784s
+sys	0m0.012s
+
+Testing slatex under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/slatex.scm /tmp/larcenous/Gerbil/slatex.exe
+/tmp/gxc.1696716793.1680946/scheme__base-impl.scm:
+/tmp/gxc.1696716793.1680946/slatex.scm:
+/tmp/larcenous/Gerbil/slatex.exe.scmx:
+/tmp/gxc.1696716793.1680946/scheme__base-impl.c:
+/tmp/gxc.1696716793.1680946/slatex.c:
+/tmp/larcenous/Gerbil/slatex.exe.c:
+/tmp/larcenous/Gerbil/slatex.exe_.c:
+Running...
+Running slatex:500
+Elapsed time: 2.193705 seconds (2.194) for slatex:500
++!CSVLINE!+gerbil-v0.18-rc1,slatex:500,2.193705
+
+real	0m2.232s
+user	0m1.270s
+sys	0m0.922s
+
+Testing chudnovsky under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/chudnovsky.scm /tmp/larcenous/Gerbil/chudnovsky.exe
+/tmp/gxc.1696716801.633469/scheme__base-impl.scm:
+/tmp/gxc.1696716801.633469/chudnovsky.scm:
+/tmp/larcenous/Gerbil/chudnovsky.exe.scmx:
+/tmp/gxc.1696716801.633469/scheme__base-impl.c:
+/tmp/gxc.1696716801.633469/chudnovsky.c:
+/tmp/larcenous/Gerbil/chudnovsky.exe.c:
+/tmp/larcenous/Gerbil/chudnovsky.exe_.c:
+Running...
+Running chudnovsky:50:500:50:1000
+Elapsed time: .276976 seconds (.277) for chudnovsky:50:500:50:1000
++!CSVLINE!+gerbil-v0.18-rc1,chudnovsky:50:500:50:1000,.276976
+
+real	0m0.312s
+user	0m0.295s
+sys	0m0.016s
+
+Testing nboyer under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/nboyer.scm /tmp/larcenous/Gerbil/nboyer.exe
+/tmp/gxc.1696716804.1510825/scheme__base-impl.scm:
+/tmp/gxc.1696716804.1510825/nboyer.scm:
+/tmp/larcenous/Gerbil/nboyer.exe.scmx:
+/tmp/gxc.1696716804.1510825/scheme__base-impl.c:
+/tmp/gxc.1696716804.1510825/nboyer.c:
+/tmp/larcenous/Gerbil/nboyer.exe.c:
+/tmp/larcenous/Gerbil/nboyer.exe_.c:
+Running...
+Running nboyer:5:1
+Elapsed time: 2.33699 seconds (2.337) for nboyer:5:1
++!CSVLINE!+gerbil-v0.18-rc1,nboyer:5:1,2.33699
+
+real	0m2.413s
+user	0m2.113s
+sys	0m0.300s
+
+Testing sboyer under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/sboyer.scm /tmp/larcenous/Gerbil/sboyer.exe
+/tmp/gxc.1696716808.9104517/scheme__base-impl.scm:
+/tmp/gxc.1696716808.9104517/sboyer.scm:
+/tmp/larcenous/Gerbil/sboyer.exe.scmx:
+/tmp/gxc.1696716808.9104517/scheme__base-impl.c:
+/tmp/gxc.1696716808.9104517/sboyer.c:
+/tmp/larcenous/Gerbil/sboyer.exe.c:
+/tmp/larcenous/Gerbil/sboyer.exe_.c:
+Running...
+Running sboyer:5:1
+Elapsed time: 1.10671 seconds (1.107) for sboyer:5:1
++!CSVLINE!+gerbil-v0.18-rc1,sboyer:5:1,1.10671
+
+real	0m1.161s
+user	0m1.065s
+sys	0m0.096s
+
+Testing gcbench under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/gcbench.scm /tmp/larcenous/Gerbil/gcbench.exe
+/tmp/gxc.1696716812.4117055/scheme__base-impl.scm:
+/tmp/gxc.1696716812.4117055/gcbench.scm:
+/tmp/larcenous/Gerbil/gcbench.exe.scmx:
+/tmp/gxc.1696716812.4117055/scheme__base-impl.c:
+/tmp/gxc.1696716812.4117055/gcbench.c:
+/tmp/larcenous/Gerbil/gcbench.exe.c:
+/tmp/larcenous/Gerbil/gcbench.exe_.c:
+Running...
+The garbage collector should touch about 128 megabytes of heap storage.
+The use of more or less memory will skew the results.
+Running gcbench:20:1
+Garbage Collector Test
+ Stretching memory with a binary tree of depth 20
+ Total memory available= ???????? bytes  Free memory= ???????? bytes
+GCBench: Main
+ Creating a long-lived binary tree of depth 18
+ Creating a long-lived array of 2097148 inexact reals
+ Total memory available= ???????? bytes  Free memory= ???????? bytes
+Creating 135300 trees of depth 4
+GCBench: Top down construction
+GCBench: Bottom up construction
+Creating 33026 trees of depth 6
+GCBench: Top down construction
+GCBench: Bottom up construction
+Creating 8208 trees of depth 8
+GCBench: Top down construction
+GCBench: Bottom up construction
+Creating 2048 trees of depth 10
+GCBench: Top down construction
+GCBench: Bottom up construction
+Creating 512 trees of depth 12
+GCBench: Top down construction
+GCBench: Bottom up construction
+Creating 128 trees of depth 14
+GCBench: Top down construction
+GCBench: Bottom up construction
+Creating 32 trees of depth 16
+GCBench: Top down construction
+GCBench: Bottom up construction
+Creating 8 trees of depth 18
+GCBench: Top down construction
+GCBench: Bottom up construction
+ Total memory available= ???????? bytes  Free memory= ???????? bytes
+Elapsed time: 2.256337 seconds (2.256) for gcbench:20:1
++!CSVLINE!+gerbil-v0.18-rc1,gcbench:20:1,2.256337
+
+real	0m2.307s
+user	0m2.167s
+sys	0m0.125s
+
+Testing mperm under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/mperm.scm /tmp/larcenous/Gerbil/mperm.exe
+/tmp/gxc.1696716816.9022644/scheme__base-impl.scm:
+/tmp/gxc.1696716816.9022644/mperm.scm:
+/tmp/larcenous/Gerbil/mperm.exe.scmx:
+/tmp/gxc.1696716816.9022644/scheme__base-impl.c:
+/tmp/gxc.1696716816.9022644/mperm.c:
+/tmp/larcenous/Gerbil/mperm.exe.c:
+/tmp/larcenous/Gerbil/mperm.exe_.c:
+Running...
+Running mperm:20:10:2:1
+Elapsed time: 4.296824 seconds (4.297) for mperm:20:10:2:1
++!CSVLINE!+gerbil-v0.18-rc1,mperm:20:10:2:1,4.296824
+
+real	0m4.766s
+user	0m4.042s
+sys	0m0.724s
+
+Testing equal under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/equal.scm /tmp/larcenous/Gerbil/equal.exe
+/tmp/gxc.1696716823.9151618/scheme__base-impl.scm:
+/tmp/gxc.1696716823.9151618/equal.scm:
+/tmp/larcenous/Gerbil/equal.exe.scmx:
+/tmp/gxc.1696716823.9151618/scheme__base-impl.c:
+/tmp/gxc.1696716823.9151618/equal.c:
+/tmp/larcenous/Gerbil/equal.exe.c:
+/tmp/larcenous/Gerbil/equal.exe_.c:
+Running...
+Running equal:100:100:8:1000:2000:5000
+Elapsed time: .229859 seconds (.23) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+gerbil-v0.18-rc1,equal:100:100:8:1000:2000:5000,.229859
+
+real	0m0.268s
+user	0m0.203s
+sys	0m0.065s
+
+Testing bv2string under Gerbil
+Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-prelude.scm
+Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-postlude.scm
+Compiling...
+gerbil_comp /tmp/larcenous/Gerbil/bv2string.scm /tmp/larcenous/Gerbil/bv2string.exe
+/tmp/gxc.1696716826.3362224/scheme__base-impl.scm:
+/tmp/gxc.1696716826.3362224/bv2string.scm:
+/tmp/larcenous/Gerbil/bv2string.exe.scmx:
+/tmp/gxc.1696716826.3362224/scheme__base-impl.c:
+/tmp/gxc.1696716826.3362224/bv2string.c:
+/tmp/larcenous/Gerbil/bv2string.exe.c:
+/tmp/larcenous/Gerbil/bv2string.exe_.c:
+Running...
+Running bv2string:1000:1000:100
+Elapsed time: .791318 seconds (.791) for bv2string:1000:1000:100
++!CSVLINE!+gerbil-v0.18-rc1,bv2string:1000:1000:100,.791318
+
+real	0m0.830s
+user	0m0.674s
+sys	0m0.156s

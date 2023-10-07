@@ -71,7 +71,8 @@ KVW_BENCHMARKS="ack array1 string sum1 cat tail wc"
 
 IO_BENCHMARKS="read1"
 
-OTHER_BENCHMARKS="compiler conform dynamic earley graphs lattice matrix maze mazefun nqueens paraffins parsing peval primes quicksort scheme slatex chudnovsky"
+#OTHER_BENCHMARKS="compiler conform dynamic earley graphs lattice matrix maze mazefun nqueens paraffins parsing peval primes quicksort scheme slatex chudnovsky"
+OTHER_BENCHMARKS="conform dynamic earley graphs lattice matrix maze mazefun nqueens paraffins parsing peval primes quicksort scheme slatex chudnovsky"
 
 GC_BENCHMARKS="nboyer sboyer gcbench mperm"
 
