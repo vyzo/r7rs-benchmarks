@@ -1,299 +1,299 @@
 
 ****************************
-Benchmarking Gerbil-unsafe-sep on Sun Oct 8 02:01:25 AM EEST 2023 under Linux dellicious 6.0.0-1020-oem #20-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul 14 13:12:17 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+Benchmarking Gerbil-unsafe-sep on Sun Oct 8 02:11:31 AM EEST 2023 under Linux dellicious 6.0.0-1020-oem #20-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul 14 13:12:17 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
 
 Testing browse under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/browse.scm /tmp/larcenous/Gerbil-unsafe-sep/browse.exe
-/tmp/gxc.1696719686.4499872/scheme__base-impl.scm:
-/tmp/gxc.1696719686.4499872/browse.scm:
+/tmp/gxc.1696720292.9084706/scheme__base-impl.scm:
+/tmp/gxc.1696720292.9084706/browse.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/browse.exe.scmx:
-/tmp/gxc.1696719686.4499872/scheme__base-impl.c:
-/tmp/gxc.1696719686.4499872/browse.c:
+/tmp/gxc.1696720292.9084706/scheme__base-impl.c:
+/tmp/gxc.1696720292.9084706/browse.c:
 /tmp/larcenous/Gerbil-unsafe-sep/browse.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/browse.exe_.c:
 Running...
 Running browse:2000
-Elapsed time: 1.06323 seconds (1.063) for browse:2000
-+!CSVLINE!+gerbil-v0.18-rc1,browse:2000,1.06323
+Elapsed time: 1.045259 seconds (1.045) for browse:2000
++!CSVLINE!+gerbil-v0.18-rc1,browse:2000,1.045259
 
-real	0m1.099s
-user	0m1.084s
-sys	0m0.015s
+real	0m1.083s
+user	0m1.065s
+sys	0m0.011s
 
 Testing deriv under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/deriv.scm /tmp/larcenous/Gerbil-unsafe-sep/deriv.exe
-/tmp/gxc.1696719689.764159/scheme__base-impl.scm:
-/tmp/gxc.1696719689.764159/deriv.scm:
+/tmp/gxc.1696720296.245174/scheme__base-impl.scm:
+/tmp/gxc.1696720296.245174/deriv.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/deriv.exe.scmx:
-/tmp/gxc.1696719689.764159/scheme__base-impl.c:
-/tmp/gxc.1696719689.764159/deriv.c:
+/tmp/gxc.1696720296.245174/scheme__base-impl.c:
+/tmp/gxc.1696720296.245174/deriv.c:
 /tmp/larcenous/Gerbil-unsafe-sep/deriv.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/deriv.exe_.c:
 Running...
 Running deriv:10000000
-Elapsed time: 2.005051 seconds (2.005) for deriv:10000000
-+!CSVLINE!+gerbil-v0.18-rc1,deriv:10000000,2.005051
+Elapsed time: 2.017994 seconds (2.018) for deriv:10000000
++!CSVLINE!+gerbil-v0.18-rc1,deriv:10000000,2.017994
 
-real	0m2.039s
-user	0m2.019s
-sys	0m0.020s
+real	0m2.054s
+user	0m2.046s
+sys	0m0.008s
 
 Testing destruc under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/destruc.scm /tmp/larcenous/Gerbil-unsafe-sep/destruc.exe
-/tmp/gxc.1696719693.8310559/scheme__base-impl.scm:
-/tmp/gxc.1696719693.8310559/destruc.scm:
+/tmp/gxc.1696720300.325888/scheme__base-impl.scm:
+/tmp/gxc.1696720300.325888/destruc.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/destruc.exe.scmx:
-/tmp/gxc.1696719693.8310559/scheme__base-impl.c:
-/tmp/gxc.1696719693.8310559/destruc.c:
+/tmp/gxc.1696720300.325888/scheme__base-impl.c:
+/tmp/gxc.1696720300.325888/destruc.c:
 /tmp/larcenous/Gerbil-unsafe-sep/destruc.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/destruc.exe_.c:
 Running...
 Running destruc:600:50:4000
-Elapsed time: 1.926929 seconds (1.927) for destruc:600:50:4000
-+!CSVLINE!+gerbil-v0.18-rc1,destruc:600:50:4000,1.926929
+Elapsed time: 1.902315 seconds (1.902) for destruc:600:50:4000
++!CSVLINE!+gerbil-v0.18-rc1,destruc:600:50:4000,1.902315
 
-real	0m1.964s
-user	0m1.953s
-sys	0m0.011s
+real	0m1.938s
+user	0m1.917s
+sys	0m0.020s
 
 Testing diviter under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/diviter.scm /tmp/larcenous/Gerbil-unsafe-sep/diviter.exe
-/tmp/gxc.1696719697.891056/scheme__base-impl.scm:
-/tmp/gxc.1696719697.891056/diviter.scm:
+/tmp/gxc.1696720304.3989038/scheme__base-impl.scm:
+/tmp/gxc.1696720304.3989038/diviter.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/diviter.exe.scmx:
-/tmp/gxc.1696719697.891056/scheme__base-impl.c:
-/tmp/gxc.1696719697.891056/diviter.c:
+/tmp/gxc.1696720304.3989038/scheme__base-impl.c:
+/tmp/gxc.1696720304.3989038/diviter.c:
 /tmp/larcenous/Gerbil-unsafe-sep/diviter.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/diviter.exe_.c:
 Running...
 Running diviter:1000:1000000
-Elapsed time: 2.481762 seconds (2.482) for diviter:1000:1000000
-+!CSVLINE!+gerbil-v0.18-rc1,diviter:1000:1000000,2.481762
+Elapsed time: 2.424445 seconds (2.424) for diviter:1000:1000000
++!CSVLINE!+gerbil-v0.18-rc1,diviter:1000:1000000,2.424445
 
-real	0m2.517s
-user	0m2.490s
-sys	0m0.026s
+real	0m2.462s
+user	0m2.446s
+sys	0m0.016s
 
 Testing divrec under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/divrec.scm /tmp/larcenous/Gerbil-unsafe-sep/divrec.exe
-/tmp/gxc.1696719702.4917018/scheme__base-impl.scm:
-/tmp/gxc.1696719702.4917018/divrec.scm:
+/tmp/gxc.1696720308.875381/scheme__base-impl.scm:
+/tmp/gxc.1696720308.875381/divrec.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/divrec.exe.scmx:
-/tmp/gxc.1696719702.4917018/scheme__base-impl.c:
-/tmp/gxc.1696719702.4917018/divrec.c:
+/tmp/gxc.1696720308.875381/scheme__base-impl.c:
+/tmp/gxc.1696720308.875381/divrec.c:
 /tmp/larcenous/Gerbil-unsafe-sep/divrec.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/divrec.exe_.c:
 Running...
 Running divrec:1000:1000000
-Elapsed time: 2.905325 seconds (2.905) for divrec:1000:1000000
-+!CSVLINE!+gerbil-v0.18-rc1,divrec:1000:1000000,2.905325
+Elapsed time: 2.901891 seconds (2.902) for divrec:1000:1000000
++!CSVLINE!+gerbil-v0.18-rc1,divrec:1000:1000000,2.901891
 
-real	0m2.944s
-user	0m2.921s
-sys	0m0.023s
+real	0m2.939s
+user	0m2.930s
+sys	0m0.008s
 
 Testing puzzle under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/puzzle.scm /tmp/larcenous/Gerbil-unsafe-sep/puzzle.exe
-/tmp/gxc.1696719707.5133607/scheme__base-impl.scm:
-/tmp/gxc.1696719707.5133607/puzzle.scm:
+/tmp/gxc.1696720313.8494701/scheme__base-impl.scm:
+/tmp/gxc.1696720313.8494701/puzzle.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/puzzle.exe.scmx:
-/tmp/gxc.1696719707.5133607/scheme__base-impl.c:
-/tmp/gxc.1696719707.5133607/puzzle.c:
+/tmp/gxc.1696720313.8494701/scheme__base-impl.c:
+/tmp/gxc.1696720313.8494701/puzzle.c:
 /tmp/larcenous/Gerbil-unsafe-sep/puzzle.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/puzzle.exe_.c:
 Running...
 Running puzzle:1000
-Elapsed time: 1.639083 seconds (1.639) for puzzle:1000
-+!CSVLINE!+gerbil-v0.18-rc1,puzzle:1000,1.639083
+Elapsed time: 1.64665 seconds (1.647) for puzzle:1000
++!CSVLINE!+gerbil-v0.18-rc1,puzzle:1000,1.64665
 
-real	0m1.678s
-user	0m1.662s
-sys	0m0.016s
+real	0m1.695s
+user	0m1.659s
+sys	0m0.029s
 
 Testing triangl under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/triangl.scm /tmp/larcenous/Gerbil-unsafe-sep/triangl.exe
-/tmp/gxc.1696719711.486532/scheme__base-impl.scm:
-/tmp/gxc.1696719711.486532/triangl.scm:
+/tmp/gxc.1696720317.8189254/scheme__base-impl.scm:
+/tmp/gxc.1696720317.8189254/triangl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/triangl.exe.scmx:
-/tmp/gxc.1696719711.486532/scheme__base-impl.c:
-/tmp/gxc.1696719711.486532/triangl.c:
+/tmp/gxc.1696720317.8189254/scheme__base-impl.c:
+/tmp/gxc.1696720317.8189254/triangl.c:
 /tmp/larcenous/Gerbil-unsafe-sep/triangl.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/triangl.exe_.c:
 Running...
 Running triangl:22:1:50
-Elapsed time: 1.223586 seconds (1.224) for triangl:22:1:50
-+!CSVLINE!+gerbil-v0.18-rc1,triangl:22:1:50,1.223586
+Elapsed time: 1.231231 seconds (1.231) for triangl:22:1:50
++!CSVLINE!+gerbil-v0.18-rc1,triangl:22:1:50,1.231231
 
-real	0m1.260s
-user	0m1.248s
-sys	0m0.012s
+real	0m1.279s
+user	0m1.274s
+sys	0m0.004s
 
 Testing tak under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/tak.scm /tmp/larcenous/Gerbil-unsafe-sep/tak.exe
-/tmp/gxc.1696719714.8231256/scheme__base-impl.scm:
-/tmp/gxc.1696719714.8231256/tak.scm:
+/tmp/gxc.1696720321.1515021/scheme__base-impl.scm:
+/tmp/gxc.1696720321.1515021/tak.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/tak.exe.scmx:
-/tmp/gxc.1696719714.8231256/scheme__base-impl.c:
-/tmp/gxc.1696719714.8231256/tak.c:
+/tmp/gxc.1696720321.1515021/scheme__base-impl.c:
+/tmp/gxc.1696720321.1515021/tak.c:
 /tmp/larcenous/Gerbil-unsafe-sep/tak.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/tak.exe_.c:
 Running...
 Running tak:40:20:11:1
-Elapsed time: 1.42635 seconds (1.426) for tak:40:20:11:1
-+!CSVLINE!+gerbil-v0.18-rc1,tak:40:20:11:1,1.42635
+Elapsed time: 1.431747 seconds (1.432) for tak:40:20:11:1
++!CSVLINE!+gerbil-v0.18-rc1,tak:40:20:11:1,1.431747
 
-real	0m1.465s
-user	0m1.457s
-sys	0m0.008s
+real	0m1.467s
+user	0m1.447s
+sys	0m0.020s
 
 Testing takl under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/takl.scm /tmp/larcenous/Gerbil-unsafe-sep/takl.exe
-/tmp/gxc.1696719718.3585243/scheme__base-impl.scm:
-/tmp/gxc.1696719718.3585243/takl.scm:
+/tmp/gxc.1696720324.6500509/scheme__base-impl.scm:
+/tmp/gxc.1696720324.6500509/takl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/takl.exe.scmx:
-/tmp/gxc.1696719718.3585243/scheme__base-impl.c:
-/tmp/gxc.1696719718.3585243/takl.c:
+/tmp/gxc.1696720324.6500509/scheme__base-impl.c:
+/tmp/gxc.1696720324.6500509/takl.c:
 /tmp/larcenous/Gerbil-unsafe-sep/takl.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/takl.exe_.c:
 Running...
 Running takl:40:20:12:1
-Elapsed time: 1.147546 seconds (1.148) for takl:40:20:12:1
-+!CSVLINE!+gerbil-v0.18-rc1,takl:40:20:12:1,1.147546
+Elapsed time: 1.149543 seconds (1.15) for takl:40:20:12:1
++!CSVLINE!+gerbil-v0.18-rc1,takl:40:20:12:1,1.149543
 
-real	0m1.185s
-user	0m1.164s
-sys	0m0.020s
+real	0m1.195s
+user	0m1.178s
+sys	0m0.017s
 
 Testing ntakl under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/ntakl.scm /tmp/larcenous/Gerbil-unsafe-sep/ntakl.exe
-/tmp/gxc.1696719721.5851588/scheme__base-impl.scm:
-/tmp/gxc.1696719721.5851588/ntakl.scm:
+/tmp/gxc.1696720327.8989575/scheme__base-impl.scm:
+/tmp/gxc.1696720327.8989575/ntakl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/ntakl.exe.scmx:
-/tmp/gxc.1696719721.5851588/scheme__base-impl.c:
-/tmp/gxc.1696719721.5851588/ntakl.c:
+/tmp/gxc.1696720327.8989575/scheme__base-impl.c:
+/tmp/gxc.1696720327.8989575/ntakl.c:
 /tmp/larcenous/Gerbil-unsafe-sep/ntakl.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/ntakl.exe_.c:
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 1.09132 seconds (1.091) for ntakl:40:20:12:1
-+!CSVLINE!+gerbil-v0.18-rc1,ntakl:40:20:12:1,1.09132
+Elapsed time: 1.097279 seconds (1.097) for ntakl:40:20:12:1
++!CSVLINE!+gerbil-v0.18-rc1,ntakl:40:20:12:1,1.097279
 
-real	0m1.130s
-user	0m1.117s
-sys	0m0.013s
+real	0m1.138s
+user	0m1.114s
+sys	0m0.020s
 
 Testing cpstak under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/cpstak.scm /tmp/larcenous/Gerbil-unsafe-sep/cpstak.exe
-/tmp/gxc.1696719724.7754474/scheme__base-impl.scm:
-/tmp/gxc.1696719724.7754474/cpstak.scm:
+/tmp/gxc.1696720331.0833526/scheme__base-impl.scm:
+/tmp/gxc.1696720331.0833526/cpstak.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/cpstak.exe.scmx:
-/tmp/gxc.1696719724.7754474/scheme__base-impl.c:
-/tmp/gxc.1696719724.7754474/cpstak.c:
+/tmp/gxc.1696720331.0833526/scheme__base-impl.c:
+/tmp/gxc.1696720331.0833526/cpstak.c:
 /tmp/larcenous/Gerbil-unsafe-sep/cpstak.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/cpstak.exe_.c:
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 5.748995 seconds (5.749) for cpstak:40:20:11:1
-+!CSVLINE!+gerbil-v0.18-rc1,cpstak:40:20:11:1,5.748995
+Elapsed time: 5.425766 seconds (5.426) for cpstak:40:20:11:1
++!CSVLINE!+gerbil-v0.18-rc1,cpstak:40:20:11:1,5.425766
 
-real	0m5.788s
-user	0m5.775s
-sys	0m0.012s
+real	0m5.462s
+user	0m5.446s
+sys	0m0.016s
 
 Testing ctak under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/ctak.scm /tmp/larcenous/Gerbil-unsafe-sep/ctak.exe
-/tmp/gxc.1696719732.639082/scheme__base-impl.scm:
-/tmp/gxc.1696719732.639082/ctak.scm:
+/tmp/gxc.1696720338.5898094/scheme__base-impl.scm:
+/tmp/gxc.1696720338.5898094/ctak.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/ctak.exe.scmx:
-/tmp/gxc.1696719732.639082/scheme__base-impl.c:
-/tmp/gxc.1696719732.639082/ctak.c:
+/tmp/gxc.1696720338.5898094/scheme__base-impl.c:
+/tmp/gxc.1696720338.5898094/ctak.c:
 /tmp/larcenous/Gerbil-unsafe-sep/ctak.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/ctak.exe_.c:
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 2.42481 seconds (2.425) for ctak:32:16:8:1
-+!CSVLINE!+gerbil-v0.18-rc1,ctak:32:16:8:1,2.42481
+Elapsed time: 2.213058 seconds (2.213) for ctak:32:16:8:1
++!CSVLINE!+gerbil-v0.18-rc1,ctak:32:16:8:1,2.213058
 
-real	0m2.464s
-user	0m2.433s
-sys	0m0.007s
+real	0m2.251s
+user	0m2.242s
+sys	0m0.009s
 
 Testing fib under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/fib.scm /tmp/larcenous/Gerbil-unsafe-sep/fib.exe
-/tmp/gxc.1696719737.1872993/scheme__base-impl.scm:
-/tmp/gxc.1696719737.1872993/fib.scm:
+/tmp/gxc.1696720342.9336994/scheme__base-impl.scm:
+/tmp/gxc.1696720342.9336994/fib.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/fib.exe.scmx:
-/tmp/gxc.1696719737.1872993/scheme__base-impl.c:
-/tmp/gxc.1696719737.1872993/fib.c:
+/tmp/gxc.1696720342.9336994/scheme__base-impl.c:
+/tmp/gxc.1696720342.9336994/fib.c:
 /tmp/larcenous/Gerbil-unsafe-sep/fib.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/fib.exe_.c:
 Running...
 Running fib:40:5
-Elapsed time: 1.832045 seconds (1.832) for fib:40:5
-+!CSVLINE!+gerbil-v0.18-rc1,fib:40:5,1.832045
+Elapsed time: 1.84321 seconds (1.843) for fib:40:5
++!CSVLINE!+gerbil-v0.18-rc1,fib:40:5,1.84321
 
-real	0m1.881s
-user	0m1.872s
-sys	0m0.008s
+real	0m1.878s
+user	0m1.862s
+sys	0m0.016s
 
 Testing fibc under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/fibc.scm /tmp/larcenous/Gerbil-unsafe-sep/fibc.exe
-/tmp/gxc.1696719741.130782/scheme__base-impl.scm:
-/tmp/gxc.1696719741.130782/fibc.scm:
+/tmp/gxc.1696720346.8659217/scheme__base-impl.scm:
+/tmp/gxc.1696720346.8659217/fibc.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/fibc.exe.scmx:
-/tmp/gxc.1696719741.130782/scheme__base-impl.c:
-/tmp/gxc.1696719741.130782/fibc.c:
+/tmp/gxc.1696720346.8659217/scheme__base-impl.c:
+/tmp/gxc.1696720346.8659217/fibc.c:
 /tmp/larcenous/Gerbil-unsafe-sep/fibc.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/fibc.exe_.c:
 Running...
 Running fibc:30:10
-Elapsed time: 1.396625 seconds (1.397) for fibc:30:10
-+!CSVLINE!+gerbil-v0.18-rc1,fibc:30:10,1.396625
+Elapsed time: 1.313208 seconds (1.313) for fibc:30:10
++!CSVLINE!+gerbil-v0.18-rc1,fibc:30:10,1.313208
 
-real	0m1.435s
-user	0m1.426s
+real	0m1.351s
+user	0m1.343s
 sys	0m0.009s
 
 Testing fibfp under Gerbil-unsafe-sep
@@ -301,251 +301,251 @@ Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prel
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/fibfp.scm /tmp/larcenous/Gerbil-unsafe-sep/fibfp.exe
-/tmp/gxc.1696719744.6152403/scheme__base-impl.scm:
-/tmp/gxc.1696719744.6152403/fibfp.scm:
+/tmp/gxc.1696720350.2811515/scheme__base-impl.scm:
+/tmp/gxc.1696720350.2811515/fibfp.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/fibfp.exe.scmx:
-/tmp/gxc.1696719744.6152403/scheme__base-impl.c:
-/tmp/gxc.1696719744.6152403/fibfp.c:
+/tmp/gxc.1696720350.2811515/scheme__base-impl.c:
+/tmp/gxc.1696720350.2811515/fibfp.c:
 /tmp/larcenous/Gerbil-unsafe-sep/fibfp.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/fibfp.exe_.c:
 Running...
 Running fibfp:35.:10
-Elapsed time: 1.573791 seconds (1.574) for fibfp:35.:10
-+!CSVLINE!+gerbil-v0.18-rc1,fibfp:35.:10,1.573791
+Elapsed time: 1.528876 seconds (1.529) for fibfp:35.:10
++!CSVLINE!+gerbil-v0.18-rc1,fibfp:35.:10,1.528876
 
-real	0m1.612s
-user	0m1.590s
-sys	0m0.022s
+real	0m1.569s
+user	0m1.547s
+sys	0m0.023s
 
 Testing sum under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/sum.scm /tmp/larcenous/Gerbil-unsafe-sep/sum.exe
-/tmp/gxc.1696719748.2926984/scheme__base-impl.scm:
-/tmp/gxc.1696719748.2926984/sum.scm:
+/tmp/gxc.1696720353.9218183/scheme__base-impl.scm:
+/tmp/gxc.1696720353.9218183/sum.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/sum.exe.scmx:
-/tmp/gxc.1696719748.2926984/scheme__base-impl.c:
-/tmp/gxc.1696719748.2926984/sum.c:
+/tmp/gxc.1696720353.9218183/scheme__base-impl.c:
+/tmp/gxc.1696720353.9218183/sum.c:
 /tmp/larcenous/Gerbil-unsafe-sep/sum.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/sum.exe_.c:
 Running...
 Running sum:10000:200000
-Elapsed time: 1.699438 seconds (1.699) for sum:10000:200000
-+!CSVLINE!+gerbil-v0.18-rc1,sum:10000:200000,1.699438
+Elapsed time: 1.699646 seconds (1.7) for sum:10000:200000
++!CSVLINE!+gerbil-v0.18-rc1,sum:10000:200000,1.699646
 
-real	0m1.739s
-user	0m1.727s
-sys	0m0.012s
+real	0m1.736s
+user	0m1.728s
+sys	0m0.008s
 
 Testing sumfp under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/sumfp.scm /tmp/larcenous/Gerbil-unsafe-sep/sumfp.exe
-/tmp/gxc.1696719752.0896895/scheme__base-impl.scm:
-/tmp/gxc.1696719752.0896895/sumfp.scm:
+/tmp/gxc.1696720357.69853/scheme__base-impl.scm:
+/tmp/gxc.1696720357.69853/sumfp.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/sumfp.exe.scmx:
-/tmp/gxc.1696719752.0896895/scheme__base-impl.c:
-/tmp/gxc.1696719752.0896895/sumfp.c:
+/tmp/gxc.1696720357.69853/scheme__base-impl.c:
+/tmp/gxc.1696720357.69853/sumfp.c:
 /tmp/larcenous/Gerbil-unsafe-sep/sumfp.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/sumfp.exe_.c:
 Running...
 Running sumfp:1000000.:500
-Elapsed time: 2.879711 seconds (2.88) for sumfp:1000000.:500
-+!CSVLINE!+gerbil-v0.18-rc1,sumfp:1000000.:500,2.879711
+Elapsed time: 2.861403 seconds (2.861) for sumfp:1000000.:500
++!CSVLINE!+gerbil-v0.18-rc1,sumfp:1000000.:500,2.861403
 
-real	0m2.919s
-user	0m2.899s
-sys	0m0.020s
+real	0m2.897s
+user	0m2.891s
+sys	0m0.007s
 
 Testing fft under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/fft.scm /tmp/larcenous/Gerbil-unsafe-sep/fft.exe
-/tmp/gxc.1696719757.0601037/scheme__base-impl.scm:
-/tmp/gxc.1696719757.0601037/fft.scm:
+/tmp/gxc.1696720362.6317234/scheme__base-impl.scm:
+/tmp/gxc.1696720362.6317234/fft.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/fft.exe.scmx:
-/tmp/gxc.1696719757.0601037/scheme__base-impl.c:
-/tmp/gxc.1696719757.0601037/fft.c:
+/tmp/gxc.1696720362.6317234/scheme__base-impl.c:
+/tmp/gxc.1696720362.6317234/fft.c:
 /tmp/larcenous/Gerbil-unsafe-sep/fft.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/fft.exe_.c:
 Running...
 Running fft:65536:100
-Elapsed time: 1.880531 seconds (1.881) for fft:65536:100
-+!CSVLINE!+gerbil-v0.18-rc1,fft:65536:100,1.880531
+Elapsed time: 1.733425 seconds (1.733) for fft:65536:100
++!CSVLINE!+gerbil-v0.18-rc1,fft:65536:100,1.733425
 
-real	0m1.919s
-user	0m1.900s
-sys	0m0.019s
+real	0m1.772s
+user	0m1.755s
+sys	0m0.016s
 
 Testing mbrot under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/mbrot.scm /tmp/larcenous/Gerbil-unsafe-sep/mbrot.exe
-/tmp/gxc.1696719761.455778/scheme__base-impl.scm:
-/tmp/gxc.1696719761.455778/mbrot.scm:
+/tmp/gxc.1696720366.9031432/scheme__base-impl.scm:
+/tmp/gxc.1696720366.9031432/mbrot.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/mbrot.exe.scmx:
-/tmp/gxc.1696719761.455778/scheme__base-impl.c:
-/tmp/gxc.1696719761.455778/mbrot.c:
+/tmp/gxc.1696720366.9031432/scheme__base-impl.c:
+/tmp/gxc.1696720366.9031432/mbrot.c:
 /tmp/larcenous/Gerbil-unsafe-sep/mbrot.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/mbrot.exe_.c:
 Running...
 Running mbrot:75:1000
-Elapsed time: 4.171014 seconds (4.171) for mbrot:75:1000
-+!CSVLINE!+gerbil-v0.18-rc1,mbrot:75:1000,4.171014
+Elapsed time: 3.904994 seconds (3.905) for mbrot:75:1000
++!CSVLINE!+gerbil-v0.18-rc1,mbrot:75:1000,3.904994
 
-real	0m4.209s
-user	0m4.152s
-sys	0m0.022s
+real	0m3.941s
+user	0m3.888s
+sys	0m0.026s
 
 Testing mbrotZ under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/mbrotZ.scm /tmp/larcenous/Gerbil-unsafe-sep/mbrotZ.exe
-/tmp/gxc.1696719767.8195424/scheme__base-impl.scm:
-/tmp/gxc.1696719767.8195424/mbrotZ.scm:
+/tmp/gxc.1696720372.9962506/scheme__base-impl.scm:
+/tmp/gxc.1696720372.9962506/mbrotZ.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/mbrotZ.exe.scmx:
-/tmp/gxc.1696719767.8195424/scheme__base-impl.c:
-/tmp/gxc.1696719767.8195424/mbrotZ.c:
+/tmp/gxc.1696720372.9962506/scheme__base-impl.c:
+/tmp/gxc.1696720372.9962506/mbrotZ.c:
 /tmp/larcenous/Gerbil-unsafe-sep/mbrotZ.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/mbrotZ.exe_.c:
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 8.813082 seconds (8.813) for mbrotZ:75:1000
-+!CSVLINE!+gerbil-v0.18-rc1,mbrotZ:75:1000,8.813082
+Elapsed time: 8.850894 seconds (8.851) for mbrotZ:75:1000
++!CSVLINE!+gerbil-v0.18-rc1,mbrotZ:75:1000,8.850894
 
-real	0m8.852s
-user	0m8.836s
-sys	0m0.015s
+real	0m8.886s
+user	0m8.877s
+sys	0m0.008s
 
 Testing nucleic under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/nucleic.scm /tmp/larcenous/Gerbil-unsafe-sep/nucleic.exe
-/tmp/gxc.1696719778.9005349/scheme__base-impl.scm:
-/tmp/gxc.1696719778.9005349/nucleic.scm:
+/tmp/gxc.1696720384.10606/scheme__base-impl.scm:
+/tmp/gxc.1696720384.10606/nucleic.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/nucleic.exe.scmx:
-/tmp/gxc.1696719778.9005349/scheme__base-impl.c:
-/tmp/gxc.1696719778.9005349/nucleic.c:
+/tmp/gxc.1696720384.10606/scheme__base-impl.c:
+/tmp/gxc.1696720384.10606/nucleic.c:
 /tmp/larcenous/Gerbil-unsafe-sep/nucleic.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/nucleic.exe_.c:
 Running...
 Running nucleic:50
-Elapsed time: 1.532598 seconds (1.533) for nucleic:50
-+!CSVLINE!+gerbil-v0.18-rc1,nucleic:50,1.532598
+Elapsed time: 1.339844 seconds (1.34) for nucleic:50
++!CSVLINE!+gerbil-v0.18-rc1,nucleic:50,1.339844
 
-real	0m1.574s
-user	0m1.553s
-sys	0m0.005s
+real	0m1.378s
+user	0m1.351s
+sys	0m0.018s
 
 Testing pi under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/pi.scm /tmp/larcenous/Gerbil-unsafe-sep/pi.exe
-/tmp/gxc.1696719786.2927861/scheme__base-impl.scm:
-/tmp/gxc.1696719786.2927861/pi.scm:
+/tmp/gxc.1696720391.2232525/scheme__base-impl.scm:
+/tmp/gxc.1696720391.2232525/pi.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/pi.exe.scmx:
-/tmp/gxc.1696719786.2927861/scheme__base-impl.c:
-/tmp/gxc.1696719786.2927861/pi.c:
+/tmp/gxc.1696720391.2232525/scheme__base-impl.c:
+/tmp/gxc.1696720391.2232525/pi.c:
 /tmp/larcenous/Gerbil-unsafe-sep/pi.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/pi.exe_.c:
 Running...
 Running pi:50:500:50:100
-Elapsed time: .701382 seconds (.701) for pi:50:500:50:100
-+!CSVLINE!+gerbil-v0.18-rc1,pi:50:500:50:100,.701382
+Elapsed time: .685362 seconds (.685) for pi:50:500:50:100
++!CSVLINE!+gerbil-v0.18-rc1,pi:50:500:50:100,.685362
 
-real	0m0.737s
-user	0m0.729s
-sys	0m0.008s
+real	0m0.721s
+user	0m0.709s
+sys	0m0.012s
 
 Testing pnpoly under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/pnpoly.scm /tmp/larcenous/Gerbil-unsafe-sep/pnpoly.exe
-/tmp/gxc.1696719789.98295/scheme__base-impl.scm:
-/tmp/gxc.1696719789.98295/pnpoly.scm:
+/tmp/gxc.1696720394.9143097/scheme__base-impl.scm:
+/tmp/gxc.1696720394.9143097/pnpoly.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/pnpoly.exe.scmx:
-/tmp/gxc.1696719789.98295/scheme__base-impl.c:
-/tmp/gxc.1696719789.98295/pnpoly.c:
+/tmp/gxc.1696720394.9143097/scheme__base-impl.c:
+/tmp/gxc.1696720394.9143097/pnpoly.c:
 /tmp/larcenous/Gerbil-unsafe-sep/pnpoly.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/pnpoly.exe_.c:
 Running...
 Running pnpoly:1000000
-Elapsed time: 1.874122 seconds (1.874) for pnpoly:1000000
-+!CSVLINE!+gerbil-v0.18-rc1,pnpoly:1000000,1.874122
+Elapsed time: 1.764252 seconds (1.764) for pnpoly:1000000
++!CSVLINE!+gerbil-v0.18-rc1,pnpoly:1000000,1.764252
 
-real	0m1.911s
-user	0m1.902s
-sys	0m0.009s
+real	0m1.800s
+user	0m1.792s
+sys	0m0.008s
 
 Testing ray under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/ray.scm /tmp/larcenous/Gerbil-unsafe-sep/ray.exe
-/tmp/gxc.1696719794.0668387/scheme__base-impl.scm:
-/tmp/gxc.1696719794.0668387/ray.scm:
+/tmp/gxc.1696720398.820371/scheme__base-impl.scm:
+/tmp/gxc.1696720398.820371/ray.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/ray.exe.scmx:
-/tmp/gxc.1696719794.0668387/scheme__base-impl.c:
-/tmp/gxc.1696719794.0668387/ray.c:
+/tmp/gxc.1696720398.820371/scheme__base-impl.c:
+/tmp/gxc.1696720398.820371/ray.c:
 /tmp/larcenous/Gerbil-unsafe-sep/ray.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/ray.exe_.c:
 Running...
 Running ray:50
-Elapsed time: 1.49506 seconds (1.495) for ray:50
-+!CSVLINE!+gerbil-v0.18-rc1,ray:50,1.49506
+Elapsed time: 1.443241 seconds (1.443) for ray:50
++!CSVLINE!+gerbil-v0.18-rc1,ray:50,1.443241
 
-real	0m1.531s
-user	0m1.503s
-sys	0m0.028s
+real	0m1.478s
+user	0m1.447s
+sys	0m0.023s
 
 Testing simplex under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/simplex.scm /tmp/larcenous/Gerbil-unsafe-sep/simplex.exe
-/tmp/gxc.1696719798.6924222/scheme__base-impl.scm:
-/tmp/gxc.1696719798.6924222/simplex.scm:
+/tmp/gxc.1696720403.2929912/scheme__base-impl.scm:
+/tmp/gxc.1696720403.2929912/simplex.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/simplex.exe.scmx:
-/tmp/gxc.1696719798.6924222/scheme__base-impl.c:
-/tmp/gxc.1696719798.6924222/simplex.c:
+/tmp/gxc.1696720403.2929912/scheme__base-impl.c:
+/tmp/gxc.1696720403.2929912/simplex.c:
 /tmp/larcenous/Gerbil-unsafe-sep/simplex.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/simplex.exe_.c:
 Running...
 Running simplex:1000000
-Elapsed time: 1.20882 seconds (1.209) for simplex:1000000
-+!CSVLINE!+gerbil-v0.18-rc1,simplex:1000000,1.20882
+Elapsed time: 1.196041 seconds (1.196) for simplex:1000000
++!CSVLINE!+gerbil-v0.18-rc1,simplex:1000000,1.196041
 
-real	0m1.246s
-user	0m1.227s
-sys	0m0.019s
+real	0m1.232s
+user	0m1.218s
+sys	0m0.013s
 
 Testing ack under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/ack.scm /tmp/larcenous/Gerbil-unsafe-sep/ack.exe
-/tmp/gxc.1696719802.700012/scheme__base-impl.scm:
-/tmp/gxc.1696719802.700012/ack.scm:
+/tmp/gxc.1696720407.2177465/scheme__base-impl.scm:
+/tmp/gxc.1696720407.2177465/ack.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/ack.exe.scmx:
-/tmp/gxc.1696719802.700012/scheme__base-impl.c:
-/tmp/gxc.1696719802.700012/ack.c:
+/tmp/gxc.1696720407.2177465/scheme__base-impl.c:
+/tmp/gxc.1696720407.2177465/ack.c:
 /tmp/larcenous/Gerbil-unsafe-sep/ack.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/ack.exe_.c:
 Running...
 Running ack:3:12:2
-Elapsed time: 1.802765 seconds (1.803) for ack:3:12:2
-+!CSVLINE!+gerbil-v0.18-rc1,ack:3:12:2,1.802765
+Elapsed time: 1.833434 seconds (1.833) for ack:3:12:2
++!CSVLINE!+gerbil-v0.18-rc1,ack:3:12:2,1.833434
 
-real	0m1.848s
-user	0m1.832s
+real	0m1.869s
+user	0m1.853s
 sys	0m0.016s
 
 Testing array1 under Gerbil-unsafe-sep
@@ -553,335 +553,335 @@ Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prel
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/array1.scm /tmp/larcenous/Gerbil-unsafe-sep/array1.exe
-/tmp/gxc.1696719806.6165862/scheme__base-impl.scm:
-/tmp/gxc.1696719806.6165862/array1.scm:
+/tmp/gxc.1696720411.128671/scheme__base-impl.scm:
+/tmp/gxc.1696720411.128671/array1.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/array1.exe.scmx:
-/tmp/gxc.1696719806.6165862/scheme__base-impl.c:
-/tmp/gxc.1696719806.6165862/array1.c:
+/tmp/gxc.1696720411.128671/scheme__base-impl.c:
+/tmp/gxc.1696720411.128671/array1.c:
 /tmp/larcenous/Gerbil-unsafe-sep/array1.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/array1.exe_.c:
 Running...
 Running array1:1000000:500
-Elapsed time: 3.36174 seconds (3.362) for array1:1000000:500
-+!CSVLINE!+gerbil-v0.18-rc1,array1:1000000:500,3.36174
+Elapsed time: 3.305807 seconds (3.306) for array1:1000000:500
++!CSVLINE!+gerbil-v0.18-rc1,array1:1000000:500,3.305807
 
-real	0m3.400s
-user	0m1.565s
-sys	0m1.809s
+real	0m3.343s
+user	0m1.528s
+sys	0m1.816s
 
 Testing string under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/string.scm /tmp/larcenous/Gerbil-unsafe-sep/string.exe
-/tmp/gxc.1696719812.0994108/scheme__base-impl.scm:
-/tmp/gxc.1696719812.0994108/string.scm:
+/tmp/gxc.1696720416.5435958/scheme__base-impl.scm:
+/tmp/gxc.1696720416.5435958/string.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/string.exe.scmx:
-/tmp/gxc.1696719812.0994108/scheme__base-impl.c:
-/tmp/gxc.1696719812.0994108/string.c:
+/tmp/gxc.1696720416.5435958/scheme__base-impl.c:
+/tmp/gxc.1696720416.5435958/string.c:
 /tmp/larcenous/Gerbil-unsafe-sep/string.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/string.exe_.c:
 Running...
 Running string:500000:100
-Elapsed time: 2.849419 seconds (2.849) for string:500000:100
-+!CSVLINE!+gerbil-v0.18-rc1,string:500000:100,2.849419
+Elapsed time: 2.86939 seconds (2.869) for string:500000:100
++!CSVLINE!+gerbil-v0.18-rc1,string:500000:100,2.86939
 
-real	0m2.885s
-user	0m1.443s
-sys	0m1.442s
+real	0m2.908s
+user	0m1.588s
+sys	0m1.320s
 
 Testing sum1 under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/sum1.scm /tmp/larcenous/Gerbil-unsafe-sep/sum1.exe
-/tmp/gxc.1696719817.0649197/scheme__base-impl.scm:
-/tmp/gxc.1696719817.0649197/sum1.scm:
+/tmp/gxc.1696720421.4817662/scheme__base-impl.scm:
+/tmp/gxc.1696720421.4817662/sum1.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/sum1.exe.scmx:
-/tmp/gxc.1696719817.0649197/scheme__base-impl.c:
-/tmp/gxc.1696719817.0649197/sum1.c:
+/tmp/gxc.1696720421.4817662/scheme__base-impl.c:
+/tmp/gxc.1696720421.4817662/sum1.c:
 /tmp/larcenous/Gerbil-unsafe-sep/sum1.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/sum1.exe_.c:
 Running...
 Running sum1:25
-Elapsed time: .4373 seconds (.437) for sum1:25
-+!CSVLINE!+gerbil-v0.18-rc1,sum1:25,.4373
+Elapsed time: .380876 seconds (.381) for sum1:25
++!CSVLINE!+gerbil-v0.18-rc1,sum1:25,.380876
 
-real	0m0.479s
-user	0m0.443s
-sys	0m0.031s
+real	0m0.415s
+user	0m0.391s
+sys	0m0.024s
 
 Testing cat under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/cat.scm /tmp/larcenous/Gerbil-unsafe-sep/cat.exe
-/tmp/gxc.1696719819.6063082/scheme__base-impl.scm:
-/tmp/gxc.1696719819.6063082/cat.scm:
+/tmp/gxc.1696720423.946771/scheme__base-impl.scm:
+/tmp/gxc.1696720423.946771/cat.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/cat.exe.scmx:
-/tmp/gxc.1696719819.6063082/scheme__base-impl.c:
-/tmp/gxc.1696719819.6063082/cat.c:
+/tmp/gxc.1696720423.946771/scheme__base-impl.c:
+/tmp/gxc.1696720423.946771/cat.c:
 /tmp/larcenous/Gerbil-unsafe-sep/cat.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/cat.exe_.c:
 Running...
 Running cat:50
-Elapsed time: 1.047416 seconds (1.047) for cat:50
-+!CSVLINE!+gerbil-v0.18-rc1,cat:50,1.047416
+Elapsed time: 1.047783 seconds (1.048) for cat:50
++!CSVLINE!+gerbil-v0.18-rc1,cat:50,1.047783
 
-real	0m1.091s
-user	0m0.869s
-sys	0m0.219s
+real	0m1.084s
+user	0m0.806s
+sys	0m0.273s
 
 Testing tail under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/tail.scm /tmp/larcenous/Gerbil-unsafe-sep/tail.exe
-/tmp/gxc.1696719822.7731972/scheme__base-impl.scm:
-/tmp/gxc.1696719822.7731972/tail.scm:
+/tmp/gxc.1696720427.079824/scheme__base-impl.scm:
+/tmp/gxc.1696720427.079824/tail.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/tail.exe.scmx:
-/tmp/gxc.1696719822.7731972/scheme__base-impl.c:
-/tmp/gxc.1696719822.7731972/tail.c:
+/tmp/gxc.1696720427.079824/scheme__base-impl.c:
+/tmp/gxc.1696720427.079824/tail.c:
 /tmp/larcenous/Gerbil-unsafe-sep/tail.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/tail.exe_.c:
 Running...
 Running tail:50
-Elapsed time: 1.69489 seconds (1.695) for tail:50
-+!CSVLINE!+gerbil-v0.18-rc1,tail:50,1.69489
+Elapsed time: 1.692928 seconds (1.693) for tail:50
++!CSVLINE!+gerbil-v0.18-rc1,tail:50,1.692928
 
-real	0m1.738s
-user	0m1.369s
-sys	0m0.368s
+real	0m1.732s
+user	0m1.341s
+sys	0m0.380s
 
 Testing wc under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/wc.scm /tmp/larcenous/Gerbil-unsafe-sep/wc.exe
-/tmp/gxc.1696719826.5377927/scheme__base-impl.scm:
-/tmp/gxc.1696719826.5377927/wc.scm:
+/tmp/gxc.1696720430.866223/scheme__base-impl.scm:
+/tmp/gxc.1696720430.866223/wc.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/wc.exe.scmx:
-/tmp/gxc.1696719826.5377927/scheme__base-impl.c:
-/tmp/gxc.1696719826.5377927/wc.c:
+/tmp/gxc.1696720430.866223/scheme__base-impl.c:
+/tmp/gxc.1696720430.866223/wc.c:
 /tmp/larcenous/Gerbil-unsafe-sep/wc.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/wc.exe_.c:
 Running...
 Running wc:inputs/bib:50
-Elapsed time: .981856 seconds (.982) for wc:inputs/bib:50
-+!CSVLINE!+gerbil-v0.18-rc1,wc:inputs/bib:50,.981856
+Elapsed time: .975095 seconds (.975) for wc:inputs/bib:50
++!CSVLINE!+gerbil-v0.18-rc1,wc:inputs/bib:50,.975095
 
-real	0m1.018s
-user	0m0.970s
-sys	0m0.048s
+real	0m1.014s
+user	0m0.954s
+sys	0m0.060s
 
 Testing read1 under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/read1.scm /tmp/larcenous/Gerbil-unsafe-sep/read1.exe
-/tmp/gxc.1696719829.6105664/scheme__base-impl.scm:
-/tmp/gxc.1696719829.6105664/read1.scm:
+/tmp/gxc.1696720433.9682086/scheme__base-impl.scm:
+/tmp/gxc.1696720433.9682086/read1.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/read1.exe.scmx:
-/tmp/gxc.1696719829.6105664/scheme__base-impl.c:
-/tmp/gxc.1696719829.6105664/read1.c:
+/tmp/gxc.1696720433.9682086/scheme__base-impl.c:
+/tmp/gxc.1696720433.9682086/read1.c:
 /tmp/larcenous/Gerbil-unsafe-sep/read1.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/read1.exe_.c:
 Running...
 Running read1:2500
-Elapsed time: .83506 seconds (.835) for read1:2500
-+!CSVLINE!+gerbil-v0.18-rc1,read1:2500,.83506
+Elapsed time: .837434 seconds (.837) for read1:2500
++!CSVLINE!+gerbil-v0.18-rc1,read1:2500,.837434
 
-real	0m0.878s
-user	0m0.836s
-sys	0m0.036s
+real	0m0.875s
+user	0m0.841s
+sys	0m0.028s
 
 Testing conform under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/conform.scm /tmp/larcenous/Gerbil-unsafe-sep/conform.exe
-/tmp/gxc.1696719832.5646863/scheme__base-impl.scm:
-/tmp/gxc.1696719832.5646863/conform.scm:
+/tmp/gxc.1696720436.9021728/scheme__base-impl.scm:
+/tmp/gxc.1696720436.9021728/conform.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/conform.exe.scmx:
-/tmp/gxc.1696719832.5646863/scheme__base-impl.c:
-/tmp/gxc.1696719832.5646863/conform.c:
+/tmp/gxc.1696720436.9021728/scheme__base-impl.c:
+/tmp/gxc.1696720436.9021728/conform.c:
 /tmp/larcenous/Gerbil-unsafe-sep/conform.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/conform.exe_.c:
 Running...
 Running conform:500
-Elapsed time: 1.897496 seconds (1.897) for conform:500
-+!CSVLINE!+gerbil-v0.18-rc1,conform:500,1.897496
+Elapsed time: 1.909313 seconds (1.909) for conform:500
++!CSVLINE!+gerbil-v0.18-rc1,conform:500,1.909313
 
-real	0m1.933s
-user	0m1.921s
-sys	0m0.012s
+real	0m1.946s
+user	0m1.933s
+sys	0m0.013s
 
 Testing dynamic under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/dynamic.scm /tmp/larcenous/Gerbil-unsafe-sep/dynamic.exe
-/tmp/gxc.1696719837.0234828/scheme__base-impl.scm:
-/tmp/gxc.1696719837.0234828/dynamic.scm:
+/tmp/gxc.1696720441.3804023/scheme__base-impl.scm:
+/tmp/gxc.1696720441.3804023/dynamic.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/dynamic.exe.scmx:
-/tmp/gxc.1696719837.0234828/scheme__base-impl.c:
-/tmp/gxc.1696719837.0234828/dynamic.c:
+/tmp/gxc.1696720441.3804023/scheme__base-impl.c:
+/tmp/gxc.1696720441.3804023/dynamic.c:
 /tmp/larcenous/Gerbil-unsafe-sep/dynamic.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/dynamic.exe_.c:
 Running...
 Running dynamic:500
-Elapsed time: 3.590531 seconds (3.591) for dynamic:500
-+!CSVLINE!+gerbil-v0.18-rc1,dynamic:500,3.590531
+Elapsed time: 3.563958 seconds (3.564) for dynamic:500
++!CSVLINE!+gerbil-v0.18-rc1,dynamic:500,3.563958
 
-real	0m3.629s
-user	0m3.525s
-sys	0m0.104s
+real	0m3.602s
+user	0m3.522s
+sys	0m0.080s
 
 Testing earley under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/earley.scm /tmp/larcenous/Gerbil-unsafe-sep/earley.exe
-/tmp/gxc.1696719847.0126147/scheme__base-impl.scm:
-/tmp/gxc.1696719847.0126147/earley.scm:
+/tmp/gxc.1696720450.9333405/scheme__base-impl.scm:
+/tmp/gxc.1696720450.9333405/earley.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/earley.exe.scmx:
-/tmp/gxc.1696719847.0126147/scheme__base-impl.c:
-/tmp/gxc.1696719847.0126147/earley.c:
+/tmp/gxc.1696720450.9333405/scheme__base-impl.c:
+/tmp/gxc.1696720450.9333405/earley.c:
 /tmp/larcenous/Gerbil-unsafe-sep/earley.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/earley.exe_.c:
 Running...
 Running earley:1
-Elapsed time: 2.880176 seconds (2.88) for earley:1
-+!CSVLINE!+gerbil-v0.18-rc1,earley:1,2.880176
+Elapsed time: 2.835932 seconds (2.836) for earley:1
++!CSVLINE!+gerbil-v0.18-rc1,earley:1,2.835932
 
-real	0m2.995s
-user	0m2.278s
-sys	0m0.717s
+real	0m2.945s
+user	0m2.281s
+sys	0m0.664s
 
 Testing graphs under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/graphs.scm /tmp/larcenous/Gerbil-unsafe-sep/graphs.exe
-/tmp/gxc.1696719852.8093657/scheme__base-impl.scm:
-/tmp/gxc.1696719852.8093657/graphs.scm:
+/tmp/gxc.1696720456.6384706/scheme__base-impl.scm:
+/tmp/gxc.1696720456.6384706/graphs.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/graphs.exe.scmx:
-/tmp/gxc.1696719852.8093657/scheme__base-impl.c:
-/tmp/gxc.1696719852.8093657/graphs.c:
+/tmp/gxc.1696720456.6384706/scheme__base-impl.c:
+/tmp/gxc.1696720456.6384706/graphs.c:
 /tmp/larcenous/Gerbil-unsafe-sep/graphs.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/graphs.exe_.c:
 Running...
 Running graphs:7:3
-Elapsed time: 6.953996 seconds (6.954) for graphs:7:3
-+!CSVLINE!+gerbil-v0.18-rc1,graphs:7:3,6.953996
+Elapsed time: 6.89917 seconds (6.899) for graphs:7:3
++!CSVLINE!+gerbil-v0.18-rc1,graphs:7:3,6.89917
 
-real	0m6.994s
-user	0m6.894s
-sys	0m0.100s
+real	0m6.938s
+user	0m6.833s
+sys	0m0.104s
 
 Testing lattice under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/lattice.scm /tmp/larcenous/Gerbil-unsafe-sep/lattice.exe
-/tmp/gxc.1696719862.2481005/scheme__base-impl.scm:
-/tmp/gxc.1696719862.2481005/lattice.scm:
+/tmp/gxc.1696720466.0088232/scheme__base-impl.scm:
+/tmp/gxc.1696720466.0088232/lattice.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/lattice.exe.scmx:
-/tmp/gxc.1696719862.2481005/scheme__base-impl.c:
-/tmp/gxc.1696719862.2481005/lattice.c:
+/tmp/gxc.1696720466.0088232/scheme__base-impl.c:
+/tmp/gxc.1696720466.0088232/lattice.c:
 /tmp/larcenous/Gerbil-unsafe-sep/lattice.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/lattice.exe_.c:
 Running...
 Running lattice:44:10
-Elapsed time: 2.974121 seconds (2.974) for lattice:44:10
-+!CSVLINE!+gerbil-v0.18-rc1,lattice:44:10,2.974121
+Elapsed time: 2.94806 seconds (2.948) for lattice:44:10
++!CSVLINE!+gerbil-v0.18-rc1,lattice:44:10,2.94806
 
-real	0m3.011s
-user	0m2.989s
-sys	0m0.008s
+real	0m2.986s
+user	0m2.970s
+sys	0m0.016s
 
 Testing matrix under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/matrix.scm /tmp/larcenous/Gerbil-unsafe-sep/matrix.exe
-/tmp/gxc.1696719867.4733787/scheme__base-impl.scm:
-/tmp/gxc.1696719867.4733787/matrix.scm:
+/tmp/gxc.1696720471.2105906/scheme__base-impl.scm:
+/tmp/gxc.1696720471.2105906/matrix.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/matrix.exe.scmx:
-/tmp/gxc.1696719867.4733787/scheme__base-impl.c:
-/tmp/gxc.1696719867.4733787/matrix.c:
+/tmp/gxc.1696720471.2105906/scheme__base-impl.c:
+/tmp/gxc.1696720471.2105906/matrix.c:
 /tmp/larcenous/Gerbil-unsafe-sep/matrix.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/matrix.exe_.c:
 Running...
 Running matrix:5:5:2500
-Elapsed time: 1.528027 seconds (1.528) for matrix:5:5:2500
-+!CSVLINE!+gerbil-v0.18-rc1,matrix:5:5:2500,1.528027
+Elapsed time: 1.534972 seconds (1.535) for matrix:5:5:2500
++!CSVLINE!+gerbil-v0.18-rc1,matrix:5:5:2500,1.534972
 
-real	0m1.563s
-user	0m1.554s
-sys	0m0.009s
+real	0m1.571s
+user	0m1.551s
+sys	0m0.020s
 
 Testing maze under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/maze.scm /tmp/larcenous/Gerbil-unsafe-sep/maze.exe
-/tmp/gxc.1696719872.3409336/scheme__base-impl.scm:
-/tmp/gxc.1696719872.3409336/maze.scm:
+/tmp/gxc.1696720476.1005776/scheme__base-impl.scm:
+/tmp/gxc.1696720476.1005776/maze.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/maze.exe.scmx:
-/tmp/gxc.1696719872.3409336/scheme__base-impl.c:
-/tmp/gxc.1696719872.3409336/maze.c:
+/tmp/gxc.1696720476.1005776/scheme__base-impl.c:
+/tmp/gxc.1696720476.1005776/maze.c:
 /tmp/larcenous/Gerbil-unsafe-sep/maze.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/maze.exe_.c:
 Running...
 Running maze:20:7:10000
-Elapsed time: .65919 seconds (.659) for maze:20:7:10000
-+!CSVLINE!+gerbil-v0.18-rc1,maze:20:7:10000,.65919
+Elapsed time: .653269 seconds (.653) for maze:20:7:10000
++!CSVLINE!+gerbil-v0.18-rc1,maze:20:7:10000,.653269
 
-real	0m0.695s
-user	0m0.685s
-sys	0m0.005s
+real	0m0.692s
+user	0m0.676s
+sys	0m0.016s
 
 Testing mazefun under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/mazefun.scm /tmp/larcenous/Gerbil-unsafe-sep/mazefun.exe
-/tmp/gxc.1696719876.240908/scheme__base-impl.scm:
-/tmp/gxc.1696719876.240908/mazefun.scm:
+/tmp/gxc.1696720479.9764254/scheme__base-impl.scm:
+/tmp/gxc.1696720479.9764254/mazefun.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/mazefun.exe.scmx:
-/tmp/gxc.1696719876.240908/scheme__base-impl.c:
-/tmp/gxc.1696719876.240908/mazefun.c:
+/tmp/gxc.1696720479.9764254/scheme__base-impl.c:
+/tmp/gxc.1696720479.9764254/mazefun.c:
 /tmp/larcenous/Gerbil-unsafe-sep/mazefun.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/mazefun.exe_.c:
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 2.084772 seconds (2.085) for mazefun:11:11:10000
-+!CSVLINE!+gerbil-v0.18-rc1,mazefun:11:11:10000,2.084772
+Elapsed time: 2.094098 seconds (2.094) for mazefun:11:11:10000
++!CSVLINE!+gerbil-v0.18-rc1,mazefun:11:11:10000,2.094098
 
-real	0m2.120s
-user	0m2.090s
-sys	0m0.015s
+real	0m2.134s
+user	0m2.118s
+sys	0m0.016s
 
 Testing nqueens under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/nqueens.scm /tmp/larcenous/Gerbil-unsafe-sep/nqueens.exe
-/tmp/gxc.1696719880.702768/scheme__base-impl.scm:
-/tmp/gxc.1696719880.702768/nqueens.scm:
+/tmp/gxc.1696720484.4657009/scheme__base-impl.scm:
+/tmp/gxc.1696720484.4657009/nqueens.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/nqueens.exe.scmx:
-/tmp/gxc.1696719880.702768/scheme__base-impl.c:
-/tmp/gxc.1696719880.702768/nqueens.c:
+/tmp/gxc.1696720484.4657009/scheme__base-impl.c:
+/tmp/gxc.1696720484.4657009/nqueens.c:
 /tmp/larcenous/Gerbil-unsafe-sep/nqueens.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/nqueens.exe_.c:
 Running...
 Running nqueens:13:10
-Elapsed time: 6.089622 seconds (6.09) for nqueens:13:10
-+!CSVLINE!+gerbil-v0.18-rc1,nqueens:13:10,6.089622
+Elapsed time: 6.106521 seconds (6.107) for nqueens:13:10
++!CSVLINE!+gerbil-v0.18-rc1,nqueens:13:10,6.106521
 
-real	0m6.128s
-user	0m6.119s
+real	0m6.146s
+user	0m6.098s
 sys	0m0.008s
 
 Testing paraffins under Gerbil-unsafe-sep
@@ -889,221 +889,221 @@ Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prel
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/paraffins.scm /tmp/larcenous/Gerbil-unsafe-sep/paraffins.exe
-/tmp/gxc.1696719888.8860385/scheme__base-impl.scm:
-/tmp/gxc.1696719888.8860385/paraffins.scm:
+/tmp/gxc.1696720492.70636/scheme__base-impl.scm:
+/tmp/gxc.1696720492.70636/paraffins.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/paraffins.exe.scmx:
-/tmp/gxc.1696719888.8860385/scheme__base-impl.c:
-/tmp/gxc.1696719888.8860385/paraffins.c:
+/tmp/gxc.1696720492.70636/scheme__base-impl.c:
+/tmp/gxc.1696720492.70636/paraffins.c:
 /tmp/larcenous/Gerbil-unsafe-sep/paraffins.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/paraffins.exe_.c:
 Running...
 Running paraffins:23:10
-Elapsed time: 2.80734 seconds (2.807) for paraffins:23:10
-+!CSVLINE!+gerbil-v0.18-rc1,paraffins:23:10,2.80734
+Elapsed time: 2.799089 seconds (2.799) for paraffins:23:10
++!CSVLINE!+gerbil-v0.18-rc1,paraffins:23:10,2.799089
 
-real	0m2.882s
-user	0m1.793s
-sys	0m1.089s
+real	0m2.876s
+user	0m1.749s
+sys	0m1.110s
 
 Testing parsing under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/parsing.scm /tmp/larcenous/Gerbil-unsafe-sep/parsing.exe
-/tmp/gxc.1696719894.2563906/scheme__base-impl.scm:
-/tmp/gxc.1696719894.2563906/parsing.scm:
+/tmp/gxc.1696720498.0649154/scheme__base-impl.scm:
+/tmp/gxc.1696720498.0649154/parsing.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/parsing.exe.scmx:
-/tmp/gxc.1696719894.2563906/scheme__base-impl.c:
-/tmp/gxc.1696719894.2563906/parsing.c:
+/tmp/gxc.1696720498.0649154/scheme__base-impl.c:
+/tmp/gxc.1696720498.0649154/parsing.c:
 /tmp/larcenous/Gerbil-unsafe-sep/parsing.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/parsing.exe_.c:
 Running...
 Running parsing:2500
-Elapsed time: 1.46176 seconds (1.462) for parsing:2500
-+!CSVLINE!+gerbil-v0.18-rc1,parsing:2500,1.46176
+Elapsed time: 1.47801 seconds (1.478) for parsing:2500
++!CSVLINE!+gerbil-v0.18-rc1,parsing:2500,1.47801
 
-real	0m1.500s
-user	0m1.488s
-sys	0m0.012s
+real	0m1.515s
+user	0m1.506s
+sys	0m0.009s
 
 Testing peval under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/peval.scm /tmp/larcenous/Gerbil-unsafe-sep/peval.exe
-/tmp/gxc.1696719898.310294/scheme__base-impl.scm:
-/tmp/gxc.1696719898.310294/peval.scm:
+/tmp/gxc.1696720502.1398854/scheme__base-impl.scm:
+/tmp/gxc.1696720502.1398854/peval.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/peval.exe.scmx:
-/tmp/gxc.1696719898.310294/scheme__base-impl.c:
-/tmp/gxc.1696719898.310294/peval.c:
+/tmp/gxc.1696720502.1398854/scheme__base-impl.c:
+/tmp/gxc.1696720502.1398854/peval.c:
 /tmp/larcenous/Gerbil-unsafe-sep/peval.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/peval.exe_.c:
 Running...
 Running peval:2000
-Elapsed time: 1.71228 seconds (1.712) for peval:2000
-+!CSVLINE!+gerbil-v0.18-rc1,peval:2000,1.71228
+Elapsed time: 1.703783 seconds (1.704) for peval:2000
++!CSVLINE!+gerbil-v0.18-rc1,peval:2000,1.703783
 
-real	0m1.752s
-user	0m1.744s
-sys	0m0.007s
+real	0m1.742s
+user	0m1.742s
+sys	0m0.000s
 
 Testing primes under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/primes.scm /tmp/larcenous/Gerbil-unsafe-sep/primes.exe
-/tmp/gxc.1696719902.796878/scheme__base-impl.scm:
-/tmp/gxc.1696719902.796878/primes.scm:
+/tmp/gxc.1696720506.5843265/scheme__base-impl.scm:
+/tmp/gxc.1696720506.5843265/primes.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/primes.exe.scmx:
-/tmp/gxc.1696719902.796878/scheme__base-impl.c:
-/tmp/gxc.1696719902.796878/primes.c:
+/tmp/gxc.1696720506.5843265/scheme__base-impl.c:
+/tmp/gxc.1696720506.5843265/primes.c:
 /tmp/larcenous/Gerbil-unsafe-sep/primes.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/primes.exe_.c:
 Running...
 Running primes:1000:10000
-Elapsed time: .842457 seconds (.842) for primes:1000:10000
-+!CSVLINE!+gerbil-v0.18-rc1,primes:1000:10000,.842457
+Elapsed time: .884609 seconds (.885) for primes:1000:10000
++!CSVLINE!+gerbil-v0.18-rc1,primes:1000:10000,.884609
 
-real	0m0.878s
-user	0m0.859s
-sys	0m0.018s
+real	0m0.924s
+user	0m0.917s
+sys	0m0.007s
 
 Testing quicksort under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/quicksort.scm /tmp/larcenous/Gerbil-unsafe-sep/quicksort.exe
-/tmp/gxc.1696719905.7483783/scheme__base-impl.scm:
-/tmp/gxc.1696719905.7483783/quicksort.scm:
+/tmp/gxc.1696720509.5655906/scheme__base-impl.scm:
+/tmp/gxc.1696720509.5655906/quicksort.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/quicksort.exe.scmx:
-/tmp/gxc.1696719905.7483783/scheme__base-impl.c:
-/tmp/gxc.1696719905.7483783/quicksort.c:
+/tmp/gxc.1696720509.5655906/scheme__base-impl.c:
+/tmp/gxc.1696720509.5655906/quicksort.c:
 /tmp/larcenous/Gerbil-unsafe-sep/quicksort.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/quicksort.exe_.c:
 Running...
 Running quicksort:10000:2500
-Elapsed time: 3.155377 seconds (3.155) for quicksort:10000:2500
-+!CSVLINE!+gerbil-v0.18-rc1,quicksort:10000:2500,3.155377
+Elapsed time: 3.137656 seconds (3.138) for quicksort:10000:2500
++!CSVLINE!+gerbil-v0.18-rc1,quicksort:10000:2500,3.137656
 
-real	0m3.194s
-user	0m3.105s
-sys	0m0.088s
+real	0m3.176s
+user	0m3.092s
+sys	0m0.084s
 
 Testing scheme under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/scheme.scm /tmp/larcenous/Gerbil-unsafe-sep/scheme.exe
-/tmp/gxc.1696719911.2664773/scheme__base-impl.scm:
-/tmp/gxc.1696719911.2664773/scheme.scm:
+/tmp/gxc.1696720515.0801525/scheme__base-impl.scm:
+/tmp/gxc.1696720515.0801525/scheme.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/scheme.exe.scmx:
-/tmp/gxc.1696719911.2664773/scheme__base-impl.c:
-/tmp/gxc.1696719911.2664773/scheme.c:
+/tmp/gxc.1696720515.0801525/scheme__base-impl.c:
+/tmp/gxc.1696720515.0801525/scheme.c:
 /tmp/larcenous/Gerbil-unsafe-sep/scheme.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/scheme.exe_.c:
 Running...
 Running scheme:100000
-Elapsed time: 2.580573 seconds (2.581) for scheme:100000
-+!CSVLINE!+gerbil-v0.18-rc1,scheme:100000,2.580573
+Elapsed time: 2.365829 seconds (2.366) for scheme:100000
++!CSVLINE!+gerbil-v0.18-rc1,scheme:100000,2.365829
 
-real	0m2.622s
-user	0m2.587s
-sys	0m0.013s
+real	0m2.401s
+user	0m2.384s
+sys	0m0.017s
 
 Testing slatex under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/slatex.scm /tmp/larcenous/Gerbil-unsafe-sep/slatex.exe
-/tmp/gxc.1696719917.514763/scheme__base-impl.scm:
-/tmp/gxc.1696719917.514763/slatex.scm:
+/tmp/gxc.1696720521.033462/scheme__base-impl.scm:
+/tmp/gxc.1696720521.033462/slatex.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/slatex.exe.scmx:
-/tmp/gxc.1696719917.514763/scheme__base-impl.c:
-/tmp/gxc.1696719917.514763/slatex.c:
+/tmp/gxc.1696720521.033462/scheme__base-impl.c:
+/tmp/gxc.1696720521.033462/slatex.c:
 /tmp/larcenous/Gerbil-unsafe-sep/slatex.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/slatex.exe_.c:
 Running...
 Running slatex:500
-Elapsed time: 2.041237 seconds (2.041) for slatex:500
-+!CSVLINE!+gerbil-v0.18-rc1,slatex:500,2.041237
+Elapsed time: 2.06784 seconds (2.068) for slatex:500
++!CSVLINE!+gerbil-v0.18-rc1,slatex:500,2.06784
 
-real	0m2.077s
-user	0m1.137s
-sys	0m0.900s
+real	0m2.106s
+user	0m1.134s
+sys	0m0.941s
 
 Testing chudnovsky under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/chudnovsky.scm /tmp/larcenous/Gerbil-unsafe-sep/chudnovsky.exe
-/tmp/gxc.1696719924.3381727/scheme__base-impl.scm:
-/tmp/gxc.1696719924.3381727/chudnovsky.scm:
+/tmp/gxc.1696720527.8637311/scheme__base-impl.scm:
+/tmp/gxc.1696720527.8637311/chudnovsky.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/chudnovsky.exe.scmx:
-/tmp/gxc.1696719924.3381727/scheme__base-impl.c:
-/tmp/gxc.1696719924.3381727/chudnovsky.c:
+/tmp/gxc.1696720527.8637311/scheme__base-impl.c:
+/tmp/gxc.1696720527.8637311/chudnovsky.c:
 /tmp/larcenous/Gerbil-unsafe-sep/chudnovsky.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/chudnovsky.exe_.c:
 Running...
 Running chudnovsky:50:500:50:1000
-Elapsed time: .269452 seconds (.269) for chudnovsky:50:500:50:1000
-+!CSVLINE!+gerbil-v0.18-rc1,chudnovsky:50:500:50:1000,.269452
+Elapsed time: .272329 seconds (.272) for chudnovsky:50:500:50:1000
++!CSVLINE!+gerbil-v0.18-rc1,chudnovsky:50:500:50:1000,.272329
 
-real	0m0.306s
-user	0m0.294s
-sys	0m0.012s
+real	0m0.307s
+user	0m0.280s
+sys	0m0.026s
 
 Testing nboyer under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/nboyer.scm /tmp/larcenous/Gerbil-unsafe-sep/nboyer.exe
-/tmp/gxc.1696719926.855956/scheme__base-impl.scm:
-/tmp/gxc.1696719926.855956/nboyer.scm:
+/tmp/gxc.1696720530.3716493/scheme__base-impl.scm:
+/tmp/gxc.1696720530.3716493/nboyer.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/nboyer.exe.scmx:
-/tmp/gxc.1696719926.855956/scheme__base-impl.c:
-/tmp/gxc.1696719926.855956/nboyer.c:
+/tmp/gxc.1696720530.3716493/scheme__base-impl.c:
+/tmp/gxc.1696720530.3716493/nboyer.c:
 /tmp/larcenous/Gerbil-unsafe-sep/nboyer.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/nboyer.exe_.c:
 Running...
 Running nboyer:5:1
-Elapsed time: 2.172993 seconds (2.173) for nboyer:5:1
-+!CSVLINE!+gerbil-v0.18-rc1,nboyer:5:1,2.172993
+Elapsed time: 2.126273 seconds (2.126) for nboyer:5:1
++!CSVLINE!+gerbil-v0.18-rc1,nboyer:5:1,2.126273
 
-real	0m2.248s
-user	0m1.920s
-sys	0m0.328s
+real	0m2.201s
+user	0m1.829s
+sys	0m0.372s
 
 Testing sboyer under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/sboyer.scm /tmp/larcenous/Gerbil-unsafe-sep/sboyer.exe
-/tmp/gxc.1696719931.420226/scheme__base-impl.scm:
-/tmp/gxc.1696719931.420226/sboyer.scm:
+/tmp/gxc.1696720534.8929522/scheme__base-impl.scm:
+/tmp/gxc.1696720534.8929522/sboyer.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/sboyer.exe.scmx:
-/tmp/gxc.1696719931.420226/scheme__base-impl.c:
-/tmp/gxc.1696719931.420226/sboyer.c:
+/tmp/gxc.1696720534.8929522/scheme__base-impl.c:
+/tmp/gxc.1696720534.8929522/sboyer.c:
 /tmp/larcenous/Gerbil-unsafe-sep/sboyer.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/sboyer.exe_.c:
 Running...
 Running sboyer:5:1
-Elapsed time: .733819 seconds (.734) for sboyer:5:1
-+!CSVLINE!+gerbil-v0.18-rc1,sboyer:5:1,.733819
+Elapsed time: .736365 seconds (.736) for sboyer:5:1
++!CSVLINE!+gerbil-v0.18-rc1,sboyer:5:1,.736365
 
-real	0m0.787s
+real	0m0.783s
 user	0m0.683s
-sys	0m0.104s
+sys	0m0.100s
 
 Testing gcbench under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/gcbench.scm /tmp/larcenous/Gerbil-unsafe-sep/gcbench.exe
-/tmp/gxc.1696719934.5354257/scheme__base-impl.scm:
-/tmp/gxc.1696719934.5354257/gcbench.scm:
+/tmp/gxc.1696720537.97583/scheme__base-impl.scm:
+/tmp/gxc.1696720537.97583/gcbench.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/gcbench.exe.scmx:
-/tmp/gxc.1696719934.5354257/scheme__base-impl.c:
-/tmp/gxc.1696719934.5354257/gcbench.c:
+/tmp/gxc.1696720537.97583/scheme__base-impl.c:
+/tmp/gxc.1696720537.97583/gcbench.c:
 /tmp/larcenous/Gerbil-unsafe-sep/gcbench.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/gcbench.exe_.c:
 Running...
@@ -1142,72 +1142,72 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 1.374601 seconds (1.375) for gcbench:20:1
-+!CSVLINE!+gerbil-v0.18-rc1,gcbench:20:1,1.374601
+Elapsed time: 1.308729 seconds (1.309) for gcbench:20:1
++!CSVLINE!+gerbil-v0.18-rc1,gcbench:20:1,1.308729
 
-real	0m1.426s
-user	0m1.279s
-sys	0m0.135s
+real	0m1.354s
+user	0m1.253s
+sys	0m0.092s
 
 Testing mperm under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/mperm.scm /tmp/larcenous/Gerbil-unsafe-sep/mperm.exe
-/tmp/gxc.1696719938.5478194/scheme__base-impl.scm:
-/tmp/gxc.1696719938.5478194/mperm.scm:
+/tmp/gxc.1696720541.8782978/scheme__base-impl.scm:
+/tmp/gxc.1696720541.8782978/mperm.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/mperm.exe.scmx:
-/tmp/gxc.1696719938.5478194/scheme__base-impl.c:
-/tmp/gxc.1696719938.5478194/mperm.c:
+/tmp/gxc.1696720541.8782978/scheme__base-impl.c:
+/tmp/gxc.1696720541.8782978/mperm.c:
 /tmp/larcenous/Gerbil-unsafe-sep/mperm.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/mperm.exe_.c:
 Running...
 Running mperm:20:10:2:1
-Elapsed time: 4.070316 seconds (4.07) for mperm:20:10:2:1
-+!CSVLINE!+gerbil-v0.18-rc1,mperm:20:10:2:1,4.070316
+Elapsed time: 4.204055 seconds (4.204) for mperm:20:10:2:1
++!CSVLINE!+gerbil-v0.18-rc1,mperm:20:10:2:1,4.204055
 
-real	0m4.562s
-user	0m3.762s
-sys	0m0.775s
+real	0m4.689s
+user	0m3.912s
+sys	0m0.754s
 
 Testing equal under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/equal.scm /tmp/larcenous/Gerbil-unsafe-sep/equal.exe
-/tmp/gxc.1696719945.683257/scheme__base-impl.scm:
-/tmp/gxc.1696719945.683257/equal.scm:
+/tmp/gxc.1696720549.0233245/scheme__base-impl.scm:
+/tmp/gxc.1696720549.0233245/equal.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/equal.exe.scmx:
-/tmp/gxc.1696719945.683257/scheme__base-impl.c:
-/tmp/gxc.1696719945.683257/equal.c:
+/tmp/gxc.1696720549.0233245/scheme__base-impl.c:
+/tmp/gxc.1696720549.0233245/equal.c:
 /tmp/larcenous/Gerbil-unsafe-sep/equal.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/equal.exe_.c:
 Running...
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: .235933 seconds (.236) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+gerbil-v0.18-rc1,equal:100:100:8:1000:2000:5000,.235933
+Elapsed time: .233249 seconds (.233) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+gerbil-v0.18-rc1,equal:100:100:8:1000:2000:5000,.233249
 
-real	0m0.276s
-user	0m0.200s
-sys	0m0.076s
+real	0m0.269s
+user	0m0.217s
+sys	0m0.052s
 
 Testing bv2string under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/bv2string.scm /tmp/larcenous/Gerbil-unsafe-sep/bv2string.exe
-/tmp/gxc.1696719948.2286224/scheme__base-impl.scm:
-/tmp/gxc.1696719948.2286224/bv2string.scm:
+/tmp/gxc.1696720551.5374153/scheme__base-impl.scm:
+/tmp/gxc.1696720551.5374153/bv2string.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/bv2string.exe.scmx:
-/tmp/gxc.1696719948.2286224/scheme__base-impl.c:
-/tmp/gxc.1696719948.2286224/bv2string.c:
+/tmp/gxc.1696720551.5374153/scheme__base-impl.c:
+/tmp/gxc.1696720551.5374153/bv2string.c:
 /tmp/larcenous/Gerbil-unsafe-sep/bv2string.exe.c:
 /tmp/larcenous/Gerbil-unsafe-sep/bv2string.exe_.c:
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: .813319 seconds (.813) for bv2string:1000:1000:100
-+!CSVLINE!+gerbil-v0.18-rc1,bv2string:1000:1000:100,.813319
+Elapsed time: .817352 seconds (.817) for bv2string:1000:1000:100
++!CSVLINE!+gerbil-v0.18-rc1,bv2string:1000:1000:100,.817352
 
-real	0m0.854s
-user	0m0.688s
-sys	0m0.161s
+real	0m0.855s
+user	0m0.691s
+sys	0m0.164s
