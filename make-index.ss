@@ -8,6 +8,7 @@
 (def contestants
   '("Racket"
     "Gerbil"
+    "Gerbil-unsafe-sep"
     "Gerbil-unsafe"))
 
 (def top #<<END
@@ -15,10 +16,10 @@
   <head><title>R7RS Benchmarks</title></head>
 <body>
   <h2>R7RS benchmarks for Gerbil v0.18-rc1 and Racket v8.2</h2>
-  This is based on ecraven's benchmarks, which seem unmatained.
-  So I run them for Gerbil v0.18-rc1, both safe and unsafe mode, and Racket v8.2 (this is what ubuntu installs).
+  <p>This is based on ecraven's benchmarks, which seem unmatained.
+  <p>So I run them for Gerbil v0.18-rc1, both safe and unsafe mode, and Racket v8.2 (this is what ubuntu installs).
 
-  The benchmarks were run on a Dell XPS 13-9320 laptop.
+  <p>The benchmarks were run on a Dell XPS 13-9320 laptop.
   <h2>Results</h2>
 END
 )
@@ -80,7 +81,7 @@ END
          (sorted (sort indexed (lambda (a b) (< (car a) (car b)))))
          (colored (map (lambda (x c) (cons c (cdr x)))
                        sorted
-                       '("lightgreen" "yellow" "orange")))
+                       '("lightgreen" "lightblue" "yellow" "orange")))
          (sorted (sort colored (lambda (a b) (< (cdr a) (cdr b))))))
     (map car sorted)))
 
@@ -89,5 +90,8 @@ END
          (case c
            (("Racket") "Racket v8.2")
            (("Gerbil") "Gerbil v0.18-rc1 safe/separate")
-           (("Gerbil-unsafe") "Gerbil v0.18-rc1 unsafe/fpo")))
+           (("Gerbil-unsafe-sep") "Gerbil v0.18-rc1 unsafe/separate")
+           (("Gerbil-unsafe") "Gerbil v0.18-rc1 unsafe/fpo")
+           (else
+            (error "unknown contestatnt" c))))
        contestants))

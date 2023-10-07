@@ -823,6 +823,12 @@ gerbil_unsafe_comp ()
     ${GERBIL} -d $(dirname "$1") -exe -O -full-program-optimization -prelude "(declare (not safe))" -o "${1%.scm}.exe" "$1"
 }
 
+gerbil_unsafe_sep_comp ()
+{
+    sed -i -e 's/^(run-benchmark)$//' $1
+    ${GERBIL} -d $(dirname "$1") -exe -O -o "${1%.scm}.exe" "$1"
+}
+
 gerbil_exec ()
 {
     time "$1" < "$2"
@@ -1260,6 +1266,16 @@ for system in $systems ; do
 
         gerbil-unsafe) NAME='Gerbil-unsafe'
                 COMP=gerbil_unsafe_comp
+                EXEC=gerbil_exec
+                COMPOPTS=""
+                EXTENSION="scm"
+                EXTENSIONCOMP="exe"
+                COMPCOMMANDS=""
+                EXECCOMMANDS=""
+                ;;
+
+        gerbil-unsafe-sep) NAME='Gerbil-unsafe-sep'
+                COMP=gerbil_unsafe_sep_comp
                 EXEC=gerbil_exec
                 COMPOPTS=""
                 EXTENSION="scm"
