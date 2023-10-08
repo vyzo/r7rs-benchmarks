@@ -83,7 +83,7 @@ ALL_BENCHMARKS="$GABRIEL_BENCHMARKS $NUM_BENCHMARKS $KVW_BENCHMARKS $IO_BENCHMAR
 ALL_SYSTEMS="bigloo bones chez chibi chicken5 chicken5csi cyclone femtolisp foment gambitc gauche gerbil guile guile3 ironscheme kawa larceny loko mit owllisp petite picrin racket rhizome rscheme s7 s9fes sagittarius scheme48 stklos vicare ypsilon" #  chicken4 chicken4csi
 ################################################################
 
-NB_RUNS=1
+NB_RUNS=3
 clean=true
 options=""
 
@@ -1438,6 +1438,6 @@ for system in $systems ; do
     mkdir -p "${TEMP}" 2> /dev/null
 
     for program in $benchmarks ; do
-        evaluate $program $system
+        evaluate $program $system $x
     done
 done
