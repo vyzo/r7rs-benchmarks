@@ -6,10 +6,10 @@
         :std/misc/ports)
 
 (def contestants
-  '("Racket"
-    "Gerbil"
+  '("Gerbil"
     "Gerbil-unsafe-sep"
-    "Gerbil-unsafe"))
+    "Gerbil-unsafe"
+    "Racket"))
 
 (def top #<<END
 <html>
@@ -20,6 +20,7 @@
   <p>So I run them for Gerbil v0.18-rc1, both safe and unsafe mode, and Racket v8.2 (this is what ubuntu installs).
 
   <p>The benchmarks were run on a Dell XPS 13-9320 laptop.
+  <p>Each benchmark was run 3 times, and I kept the best value.
   <h2>Results</h2>
 END
 )
@@ -43,7 +44,8 @@ END
         )
       (display "</tr>\n" out)
       (let* ((results (map (lambda (c) (read-file-lines (string-append "results." c))) contestants))
-             (results (map filter-result-lines results)))
+             (results (map filter-result-lines results))
+             (results (map select-best-run results)))
         (unless (apply = (map length results))
           (error "Misaligned results; length mismatch"))
         (let lp ((rest results))
@@ -95,3 +97,19 @@ END
            (else
             (error "unknown contestatnt" c))))
        contestants))
+
+(def (select-best-run lines)
+  (let lp ((rest lines) (current #f) (best-time #f) (best-line #f) (result []))
+    (match rest
+      ([line . rest]
+       (let ((bench-name (benchmark-name line))
+             (bench-time (string->number (benchmark-result line))))
+         (if (equal? current bench-name)
+           (if (< bench-time best-time)
+             (lp rest bench-name bench-time line result)
+             (lp rest bench-name best-time best-line result))
+           (if current
+             (lp rest bench-name bench-time line (cons best-line result))
+             (lp rest bench-name bench-time line result)))))
+      (else
+       (reverse (cons best-line result))))))

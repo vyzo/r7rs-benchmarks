@@ -6,629 +6,630 @@
   <p>So I run them for Gerbil v0.18-rc1, both safe and unsafe mode, and Racket v8.2 (this is what ubuntu installs).
 
   <p>The benchmarks were run on a Dell XPS 13-9320 laptop.
+  <p>Each benchmark was run 3 times, and I kept the best value.
   <h2>Results</h2><table>
 <tr>
 <th>Benchmark</th>
-<th align="center">⋄⋄⋄</th><th align="center">Racket v8.2</th>
 <th align="center">⋄⋄⋄</th><th align="center">Gerbil v0.18-rc1 safe/separate</th>
 <th align="center">⋄⋄⋄</th><th align="center">Gerbil v0.18-rc1 unsafe/separate</th>
 <th align="center">⋄⋄⋄</th><th align="center">Gerbil v0.18-rc1 unsafe/fpo</th>
+<th align="center">⋄⋄⋄</th><th align="center">Racket v8.2</th>
 </tr>
 <tr>
 <td>browse</td>
 <td/>
-<td align="right" style="background-color:orange">1.858</td>
+<td align="right" style="background-color:yellow">1.177593</td>
 <td/>
-<td align="right" style="background-color:yellow">1.230697</td>
+<td align="right" style="background-color:lightblue">1.042414</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.045259</td>
+<td align="right" style="background-color:lightgreen">.796936</td>
 <td/>
-<td align="right" style="background-color:lightgreen">.792447</td>
+<td align="right" style="background-color:orange">1.86</td>
 </tr>
 <tr>
 <td>deriv</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.096</td>
+<td align="right" style="background-color:orange">2.004261</td>
 <td/>
-<td align="right" style="background-color:yellow">2.005912</td>
+<td align="right" style="background-color:yellow">1.994011</td>
 <td/>
-<td align="right" style="background-color:orange">2.017994</td>
+<td align="right" style="background-color:lightblue">1.024281</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.024751</td>
+<td align="right" style="background-color:lightgreen">0.957</td>
 </tr>
 <tr>
 <td>destruc</td>
 <td/>
-<td align="right" style="background-color:yellow">2.235</td>
+<td align="right" style="background-color:orange">2.418909</td>
 <td/>
-<td align="right" style="background-color:orange">2.425257</td>
+<td align="right" style="background-color:lightblue">1.907796</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.902315</td>
+<td align="right" style="background-color:lightgreen">1.657932</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.637607</td>
+<td align="right" style="background-color:yellow">2.286</td>
 </tr>
 <tr>
 <td>diviter</td>
 <td/>
-<td align="right" style="background-color:lightblue">2.281</td>
+<td align="right" style="background-color:yellow">2.406134</td>
 <td/>
-<td align="right" style="background-color:yellow">2.403443</td>
+<td align="right" style="background-color:orange">2.413634</td>
 <td/>
-<td align="right" style="background-color:orange">2.424445</td>
+<td align="right" style="background-color:lightgreen">1.513779</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.502579</td>
+<td align="right" style="background-color:lightblue">2.071</td>
 </tr>
 <tr>
 <td>divrec</td>
 <td/>
-<td align="right" style="background-color:lightblue">2.562</td>
+<td align="right" style="background-color:orange">3.310734</td>
 <td/>
-<td align="right" style="background-color:orange">3.279953</td>
+<td align="right" style="background-color:yellow">2.935809</td>
 <td/>
-<td align="right" style="background-color:yellow">2.901891</td>
+<td align="right" style="background-color:lightgreen">1.984917</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.012116</td>
+<td align="right" style="background-color:lightblue">2.558</td>
 </tr>
 <tr>
 <td>puzzle</td>
 <td/>
-<td align="right" style="background-color:yellow">2.235</td>
+<td align="right" style="background-color:orange">2.670674</td>
 <td/>
-<td align="right" style="background-color:orange">2.666894</td>
+<td align="right" style="background-color:lightgreen">1.638169</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.64665</td>
+<td align="right" style="background-color:lightblue">1.642399</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.646578</td>
+<td align="right" style="background-color:yellow">1.961</td>
 </tr>
 <tr>
 <td>triangl</td>
 <td/>
-<td align="right" style="background-color:yellow">1.769</td>
+<td align="right" style="background-color:orange">1.816747</td>
 <td/>
-<td align="right" style="background-color:orange">1.822907</td>
+<td align="right" style="background-color:lightblue">1.20054</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.231231</td>
+<td align="right" style="background-color:lightgreen">1.160439</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.162514</td>
+<td align="right" style="background-color:yellow">1.624</td>
 </tr>
 <tr>
 <td>tak</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.06</td>
+<td align="right" style="background-color:yellow">1.323597</td>
 <td/>
-<td align="right" style="background-color:yellow">1.329407</td>
+<td align="right" style="background-color:orange">1.423973</td>
 <td/>
-<td align="right" style="background-color:orange">1.431747</td>
+<td align="right" style="background-color:lightblue">1.23525</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.242424</td>
+<td align="right" style="background-color:lightgreen">1.083</td>
 </tr>
 <tr>
 <td>takl</td>
 <td/>
-<td align="right" style="background-color:orange">3.121</td>
+<td align="right" style="background-color:yellow">2.200456</td>
 <td/>
-<td align="right" style="background-color:yellow">2.143325</td>
+<td align="right" style="background-color:lightgreen">1.145314</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.149543</td>
+<td align="right" style="background-color:lightblue">1.373571</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.384694</td>
+<td align="right" style="background-color:orange">2.947</td>
 </tr>
 <tr>
 <td>ntakl</td>
 <td/>
-<td align="right" style="background-color:orange">3.273</td>
+<td align="right" style="background-color:yellow">1.948655</td>
 <td/>
-<td align="right" style="background-color:yellow">1.94006</td>
+<td align="right" style="background-color:lightgreen">1.090454</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.097279</td>
+<td align="right" style="background-color:lightblue">1.558087</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.557577</td>
+<td align="right" style="background-color:orange">3.221</td>
 </tr>
 <tr>
 <td>cpstak</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.627</td>
+<td align="right" style="background-color:yellow">5.295225</td>
 <td/>
-<td align="right" style="background-color:yellow">5.30168</td>
+<td align="right" style="background-color:orange">5.357734</td>
 <td/>
-<td align="right" style="background-color:orange">5.425766</td>
+<td align="right" style="background-color:lightblue">2.727116</td>
 <td/>
-<td align="right" style="background-color:lightblue">2.736969</td>
+<td align="right" style="background-color:lightgreen">2.584</td>
 </tr>
 <tr>
 <td>ctak</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.637</td>
+<td align="right" style="background-color:orange">2.207858</td>
 <td/>
-<td align="right" style="background-color:yellow">2.171849</td>
+<td align="right" style="background-color:yellow">2.154785</td>
 <td/>
-<td align="right" style="background-color:orange">2.213058</td>
+<td align="right" style="background-color:lightblue">1.539587</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.586401</td>
+<td align="right" style="background-color:lightgreen">1.519</td>
 </tr>
 <tr>
 <td>fib</td>
 <td/>
-<td align="right" style="background-color:lightblue">2.38</td>
+<td align="right" style="background-color:yellow">2.517633</td>
 <td/>
-<td align="right" style="background-color:yellow">2.517593</td>
+<td align="right" style="background-color:lightgreen">1.82251</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.84321</td>
+<td align="right" style="background-color:orange">3.446788</td>
 <td/>
-<td align="right" style="background-color:orange">3.438395</td>
+<td align="right" style="background-color:lightblue">2.352</td>
 </tr>
 <tr>
 <td>fibc</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.019</td>
+<td align="right" style="background-color:orange">1.416822</td>
 <td/>
-<td align="right" style="background-color:orange">1.392994</td>
+<td align="right" style="background-color:yellow">1.32214</td>
 <td/>
-<td align="right" style="background-color:yellow">1.313208</td>
+<td align="right" style="background-color:lightblue">1.067764</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.13878</td>
+<td align="right" style="background-color:lightgreen">1.016</td>
 </tr>
 <tr>
 <td>fibfp</td>
 <td/>
-<td align="right" style="background-color:orange">1.917</td>
+<td align="right" style="background-color:yellow">1.59865</td>
 <td/>
-<td align="right" style="background-color:yellow">1.651214</td>
+<td align="right" style="background-color:lightblue">1.571944</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.528876</td>
+<td align="right" style="background-color:lightgreen">.82822</td>
 <td/>
-<td align="right" style="background-color:lightgreen">.836602</td>
+<td align="right" style="background-color:orange">2.005</td>
 </tr>
 <tr>
 <td>sum</td>
 <td/>
-<td align="right" style="background-color:orange">1.949</td>
+<td align="right" style="background-color:yellow">1.896988</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.867824</td>
+<td align="right" style="background-color:lightgreen">1.691372</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.699646</td>
+<td align="right" style="background-color:lightblue">1.865357</td>
 <td/>
-<td align="right" style="background-color:yellow">1.885544</td>
+<td align="right" style="background-color:orange">1.939</td>
 </tr>
 <tr>
 <td>sumfp</td>
 <td/>
-<td align="right" style="background-color:lightblue">2.272</td>
+<td align="right" style="background-color:orange">2.927296</td>
 <td/>
-<td align="right" style="background-color:orange">2.868674</td>
+<td align="right" style="background-color:yellow">2.807947</td>
 <td/>
-<td align="right" style="background-color:yellow">2.861403</td>
+<td align="right" style="background-color:lightgreen">1.526917</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.517964</td>
+<td align="right" style="background-color:lightblue">2.283</td>
 </tr>
 <tr>
 <td>fft</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.295</td>
+<td align="right" style="background-color:orange">1.894794</td>
 <td/>
-<td align="right" style="background-color:orange">1.98114</td>
+<td align="right" style="background-color:yellow">1.743516</td>
 <td/>
-<td align="right" style="background-color:yellow">1.733425</td>
+<td align="right" style="background-color:lightgreen">1.076308</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.142645</td>
+<td align="right" style="background-color:lightblue">1.301</td>
 </tr>
 <tr>
 <td>mbrot</td>
 <td/>
-<td align="right" style="background-color:orange">4.007</td>
+<td align="right" style="background-color:orange">3.907554</td>
 <td/>
-<td align="right" style="background-color:lightblue">3.889525</td>
+<td align="right" style="background-color:yellow">3.898684</td>
 <td/>
-<td align="right" style="background-color:yellow">3.904994</td>
+<td align="right" style="background-color:lightgreen">2.193496</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.196638</td>
+<td align="right" style="background-color:lightblue">3.715</td>
 </tr>
 <tr>
 <td>mbrotZ</td>
 <td/>
-<td align="right" style="background-color:lightgreen">4.004</td>
+<td align="right" style="background-color:orange">9.165381</td>
 <td/>
-<td align="right" style="background-color:orange">9.217545</td>
+<td align="right" style="background-color:yellow">8.64543</td>
 <td/>
-<td align="right" style="background-color:yellow">8.850894</td>
+<td align="right" style="background-color:lightblue">6.658746</td>
 <td/>
-<td align="right" style="background-color:lightblue">6.66912</td>
+<td align="right" style="background-color:lightgreen">3.309</td>
 </tr>
 <tr>
 <td>nucleic</td>
 <td/>
-<td align="right" style="background-color:yellow">1.372</td>
+<td align="right" style="background-color:orange">1.699102</td>
 <td/>
-<td align="right" style="background-color:orange">1.710492</td>
+<td align="right" style="background-color:lightblue">1.337536</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.339844</td>
+<td align="right" style="background-color:lightgreen">.947534</td>
 <td/>
-<td align="right" style="background-color:lightgreen">.963236</td>
+<td align="right" style="background-color:yellow">1.384</td>
 </tr>
 <tr>
 <td>pi</td>
 <td/>
-<td align="right" style="background-color:lightgreen">0.48</td>
+<td align="right" style="background-color:yellow">.677962</td>
 <td/>
-<td align="right" style="background-color:yellow">.67763</td>
+<td align="right" style="background-color:orange">.685489</td>
 <td/>
-<td align="right" style="background-color:orange">.685362</td>
+<td align="right" style="background-color:lightblue">.649141</td>
 <td/>
-<td align="right" style="background-color:lightblue">.652182</td>
+<td align="right" style="background-color:lightgreen">0.468</td>
 </tr>
 <tr>
 <td>pnpoly</td>
 <td/>
-<td align="right" style="background-color:orange">3.398</td>
+<td align="right" style="background-color:yellow">2.720025</td>
 <td/>
-<td align="right" style="background-color:yellow">2.792851</td>
+<td align="right" style="background-color:lightblue">1.772297</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.764252</td>
+<td align="right" style="background-color:lightgreen">1.700423</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.712701</td>
+<td align="right" style="background-color:orange">3.271</td>
 </tr>
 <tr>
 <td>ray</td>
 <td/>
-<td align="right" style="background-color:orange">3.023</td>
+<td align="right" style="background-color:yellow">1.927884</td>
 <td/>
-<td align="right" style="background-color:yellow">1.975235</td>
+<td align="right" style="background-color:lightblue">1.42526</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.443241</td>
+<td align="right" style="background-color:lightgreen">.936997</td>
 <td/>
-<td align="right" style="background-color:lightgreen">.969309</td>
+<td align="right" style="background-color:orange">2.851</td>
 </tr>
 <tr>
 <td>simplex</td>
 <td/>
-<td align="right" style="background-color:yellow">1.649</td>
+<td align="right" style="background-color:orange">2.179622</td>
 <td/>
-<td align="right" style="background-color:orange">2.190919</td>
+<td align="right" style="background-color:lightblue">1.186705</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.196041</td>
+<td align="right" style="background-color:lightgreen">.931455</td>
 <td/>
-<td align="right" style="background-color:lightgreen">.948552</td>
+<td align="right" style="background-color:yellow">1.651</td>
 </tr>
 <tr>
 <td>ack</td>
 <td/>
-<td align="right" style="background-color:yellow">2.035</td>
+<td align="right" style="background-color:lightblue">1.839796</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.83114</td>
+<td align="right" style="background-color:lightgreen">1.812063</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.833434</td>
+<td align="right" style="background-color:orange">2.013087</td>
 <td/>
-<td align="right" style="background-color:orange">2.599462</td>
+<td align="right" style="background-color:yellow">1.976</td>
 </tr>
 <tr>
 <td>array1</td>
 <td/>
-<td align="right" style="background-color:orange">6.181</td>
+<td align="right" style="background-color:yellow">4.340836</td>
 <td/>
-<td align="right" style="background-color:yellow">4.319986</td>
+<td align="right" style="background-color:lightblue">3.339707</td>
 <td/>
-<td align="right" style="background-color:lightblue">3.305807</td>
+<td align="right" style="background-color:lightgreen">3.19103</td>
 <td/>
-<td align="right" style="background-color:lightgreen">3.182409</td>
+<td align="right" style="background-color:orange">5.922</td>
 </tr>
 <tr>
 <td>string</td>
 <td/>
-<td align="right" style="background-color:lightblue">2.05</td>
+<td align="right" style="background-color:lightblue">2.792387</td>
 <td/>
-<td align="right" style="background-color:yellow">2.791187</td>
+<td align="right" style="background-color:yellow">2.796204</td>
 <td/>
-<td align="right" style="background-color:orange">2.86939</td>
+<td align="right" style="background-color:lightgreen">.944362</td>
 <td/>
-<td align="right" style="background-color:lightgreen">.959704</td>
+<td align="right" style="background-color:orange">4.345</td>
 </tr>
 <tr>
 <td>sum1</td>
 <td/>
-<td align="right" style="background-color:orange">9.502</td>
+<td align="right" style="background-color:yellow">.407814</td>
 <td/>
-<td align="right" style="background-color:yellow">.423138</td>
+<td align="right" style="background-color:lightblue">.376965</td>
 <td/>
-<td align="right" style="background-color:lightblue">.380876</td>
+<td align="right" style="background-color:lightgreen">.3227</td>
 <td/>
-<td align="right" style="background-color:lightgreen">.326025</td>
+<td align="right" style="background-color:orange">8.697</td>
 </tr>
 <tr>
 <td>cat</td>
 <td/>
-<td align="right" style="background-color:orange">3.688</td>
+<td align="right" style="background-color:yellow">1.320431</td>
 <td/>
-<td align="right" style="background-color:yellow">1.329539</td>
+<td align="right" style="background-color:lightgreen">1.045256</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.047783</td>
+<td align="right" style="background-color:lightblue">1.048139</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.039599</td>
+<td align="right" style="background-color:orange">3.645</td>
 </tr>
 <tr>
 <td>tail</td>
 <td/>
-<td align="right" style="background-color:orange">2.145</td>
+<td align="right" style="background-color:yellow">1.706663</td>
 <td/>
-<td align="right" style="background-color:yellow">1.719085</td>
+<td align="right" style="background-color:lightblue">1.701771</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.692928</td>
+<td align="right" style="background-color:lightgreen">1.542297</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.540263</td>
+<td align="right" style="background-color:orange">2.151</td>
 </tr>
 <tr>
 <td>wc</td>
 <td/>
-<td align="right" style="background-color:orange">2.485</td>
+<td align="right" style="background-color:yellow">1.356028</td>
 <td/>
-<td align="right" style="background-color:yellow">1.363429</td>
+<td align="right" style="background-color:lightgreen">.971986</td>
 <td/>
-<td align="right" style="background-color:lightgreen">.975095</td>
+<td align="right" style="background-color:lightblue">1.091369</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.099138</td>
+<td align="right" style="background-color:orange">2.522</td>
 </tr>
 <tr>
 <td>read1</td>
 <td/>
-<td align="right" style="background-color:orange">9.94</td>
+<td align="right" style="background-color:yellow">.826915</td>
 <td/>
-<td align="right" style="background-color:lightblue">.83084</td>
+<td align="right" style="background-color:lightblue">.825449</td>
 <td/>
-<td align="right" style="background-color:yellow">.837434</td>
+<td align="right" style="background-color:lightgreen">.781547</td>
 <td/>
-<td align="right" style="background-color:lightgreen">.787459</td>
+<td align="right" style="background-color:orange">9.44</td>
 </tr>
 <tr>
 <td>conform</td>
 <td/>
-<td align="right" style="background-color:orange">3.641</td>
+<td align="right" style="background-color:yellow">2.533116</td>
 <td/>
-<td align="right" style="background-color:yellow">2.533728</td>
+<td align="right" style="background-color:lightblue">1.903382</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.909313</td>
+<td align="right" style="background-color:lightgreen">1.757581</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.769132</td>
+<td align="right" style="background-color:orange">3.316</td>
 </tr>
 <tr>
 <td>dynamic</td>
 <td/>
-<td align="right" style="background-color:orange">7.75</td>
+<td align="right" style="background-color:yellow">3.762306</td>
 <td/>
-<td align="right" style="background-color:yellow">3.775529</td>
+<td align="right" style="background-color:lightblue">3.539244</td>
 <td/>
-<td align="right" style="background-color:lightblue">3.563958</td>
+<td align="right" style="background-color:lightgreen">2.778876</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.788925</td>
+<td align="right" style="background-color:orange">7.645</td>
 </tr>
 <tr>
 <td>earley</td>
 <td/>
-<td align="right" style="background-color:orange">5.208</td>
+<td align="right" style="background-color:lightblue">3.006459</td>
 <td/>
-<td align="right" style="background-color:lightblue">2.960622</td>
+<td align="right" style="background-color:lightgreen">2.819931</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.835932</td>
+<td align="right" style="background-color:yellow">3.147632</td>
 <td/>
-<td align="right" style="background-color:yellow">3.167578</td>
+<td align="right" style="background-color:orange">5.047</td>
 </tr>
 <tr>
 <td>graphs</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.85</td>
+<td align="right" style="background-color:yellow">6.698502</td>
 <td/>
-<td align="right" style="background-color:yellow">6.759205</td>
+<td align="right" style="background-color:orange">6.853401</td>
 <td/>
-<td align="right" style="background-color:orange">6.89917</td>
+<td align="right" style="background-color:lightblue">5.938881</td>
 <td/>
-<td align="right" style="background-color:lightblue">5.880057</td>
+<td align="right" style="background-color:lightgreen">1.801</td>
 </tr>
 <tr>
 <td>lattice</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.707</td>
+<td align="right" style="background-color:orange">3.691809</td>
 <td/>
-<td align="right" style="background-color:orange">3.712771</td>
+<td align="right" style="background-color:lightblue">2.942244</td>
 <td/>
-<td align="right" style="background-color:lightblue">2.94806</td>
+<td align="right" style="background-color:yellow">3.01643</td>
 <td/>
-<td align="right" style="background-color:yellow">3.035203</td>
+<td align="right" style="background-color:lightgreen">2.542</td>
 </tr>
 <tr>
 <td>matrix</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.007</td>
+<td align="right" style="background-color:orange">1.759524</td>
 <td/>
-<td align="right" style="background-color:orange">1.751867</td>
+<td align="right" style="background-color:yellow">1.517258</td>
 <td/>
-<td align="right" style="background-color:yellow">1.534972</td>
+<td align="right" style="background-color:lightblue">1.130388</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.130439</td>
+<td align="right" style="background-color:lightgreen">0.994</td>
 </tr>
 <tr>
 <td>maze</td>
 <td/>
-<td align="right" style="background-color:yellow">0.689</td>
+<td align="right" style="background-color:orange">.810185</td>
 <td/>
-<td align="right" style="background-color:orange">.806318</td>
+<td align="right" style="background-color:lightblue">.658469</td>
 <td/>
-<td align="right" style="background-color:lightblue">.653269</td>
+<td align="right" style="background-color:lightgreen">.598878</td>
 <td/>
-<td align="right" style="background-color:lightgreen">.597833</td>
+<td align="right" style="background-color:yellow">0.676</td>
 </tr>
 <tr>
 <td>mazefun</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.966</td>
+<td align="right" style="background-color:orange">2.237359</td>
 <td/>
-<td align="right" style="background-color:orange">2.250178</td>
+<td align="right" style="background-color:yellow">2.060638</td>
 <td/>
-<td align="right" style="background-color:yellow">2.094098</td>
+<td align="right" style="background-color:lightgreen">1.736419</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.737545</td>
+<td align="right" style="background-color:lightblue">1.963</td>
 </tr>
 <tr>
 <td>nqueens</td>
 <td/>
-<td align="right" style="background-color:lightgreen">4.604</td>
+<td align="right" style="background-color:orange">6.578422</td>
 <td/>
-<td align="right" style="background-color:orange">6.595345</td>
+<td align="right" style="background-color:yellow">6.083604</td>
 <td/>
-<td align="right" style="background-color:yellow">6.106521</td>
+<td align="right" style="background-color:lightblue">5.487806</td>
 <td/>
-<td align="right" style="background-color:lightblue">5.482869</td>
+<td align="right" style="background-color:lightgreen">4.489</td>
 </tr>
 <tr>
 <td>paraffins</td>
 <td/>
-<td align="right" style="background-color:orange">6.267</td>
+<td align="right" style="background-color:yellow">2.8615</td>
 <td/>
-<td align="right" style="background-color:yellow">2.886934</td>
+<td align="right" style="background-color:lightblue">2.781842</td>
 <td/>
-<td align="right" style="background-color:lightblue">2.799089</td>
+<td align="right" style="background-color:lightgreen">2.627384</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.68432</td>
+<td align="right" style="background-color:orange">6.053</td>
 </tr>
 <tr>
 <td>parsing</td>
 <td/>
-<td align="right" style="background-color:yellow">1.51</td>
+<td align="right" style="background-color:orange">1.541824</td>
 <td/>
-<td align="right" style="background-color:orange">1.537937</td>
+<td align="right" style="background-color:lightblue">1.464091</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.47801</td>
+<td align="right" style="background-color:lightgreen">1.41668</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.435488</td>
+<td align="right" style="background-color:yellow">1.501</td>
 </tr>
 <tr>
 <td>peval</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.606</td>
+<td align="right" style="background-color:orange">1.958164</td>
 <td/>
-<td align="right" style="background-color:orange">1.984199</td>
+<td align="right" style="background-color:yellow">1.704442</td>
 <td/>
-<td align="right" style="background-color:yellow">1.703783</td>
+<td align="right" style="background-color:lightgreen">1.421733</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.435235</td>
+<td align="right" style="background-color:lightblue">1.582</td>
 </tr>
 <tr>
 <td>primes</td>
 <td/>
-<td align="right" style="background-color:lightblue">0.672</td>
+<td align="right" style="background-color:orange">.96164</td>
 <td/>
-<td align="right" style="background-color:orange">.952024</td>
+<td align="right" style="background-color:yellow">.851169</td>
 <td/>
-<td align="right" style="background-color:yellow">.884609</td>
+<td align="right" style="background-color:lightgreen">.510947</td>
 <td/>
-<td align="right" style="background-color:lightgreen">.508887</td>
+<td align="right" style="background-color:lightblue">0.67</td>
 </tr>
 <tr>
 <td>quicksort</td>
 <td/>
-<td align="right" style="background-color:orange">7.956</td>
+<td align="right" style="background-color:yellow">3.691028</td>
 <td/>
-<td align="right" style="background-color:yellow">3.703777</td>
+<td align="right" style="background-color:lightblue">3.127215</td>
 <td/>
-<td align="right" style="background-color:lightblue">3.137656</td>
+<td align="right" style="background-color:lightgreen">3.053944</td>
 <td/>
-<td align="right" style="background-color:lightgreen">3.073376</td>
+<td align="right" style="background-color:orange">7.819</td>
 </tr>
 <tr>
 <td>scheme</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.332</td>
+<td align="right" style="background-color:orange">2.761936</td>
 <td/>
-<td align="right" style="background-color:orange">2.756349</td>
+<td align="right" style="background-color:lightblue">2.368813</td>
 <td/>
-<td align="right" style="background-color:lightblue">2.365829</td>
+<td align="right" style="background-color:yellow">2.437168</td>
 <td/>
-<td align="right" style="background-color:yellow">2.460925</td>
+<td align="right" style="background-color:lightgreen">2.353</td>
 </tr>
 <tr>
 <td>slatex</td>
 <td/>
-<td align="right" style="background-color:orange">5.835</td>
+<td align="right" style="background-color:yellow">2.151685</td>
 <td/>
-<td align="right" style="background-color:yellow">2.193705</td>
+<td align="right" style="background-color:lightblue">2.012988</td>
 <td/>
-<td align="right" style="background-color:lightblue">2.06784</td>
+<td align="right" style="background-color:lightgreen">1.856375</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.887674</td>
+<td align="right" style="background-color:orange">5.773</td>
 </tr>
 <tr>
 <td>chudnovsky</td>
 <td/>
-<td align="right" style="background-color:lightgreen">0.207</td>
+<td align="right" style="background-color:orange">.273067</td>
 <td/>
-<td align="right" style="background-color:orange">.276976</td>
+<td align="right" style="background-color:yellow">.271121</td>
 <td/>
-<td align="right" style="background-color:yellow">.272329</td>
+<td align="right" style="background-color:lightblue">.248334</td>
 <td/>
-<td align="right" style="background-color:lightblue">.249008</td>
+<td align="right" style="background-color:lightgreen">0.205</td>
 </tr>
 <tr>
 <td>nboyer</td>
 <td/>
-<td align="right" style="background-color:orange">3.099</td>
+<td align="right" style="background-color:yellow">2.321689</td>
 <td/>
-<td align="right" style="background-color:yellow">2.33699</td>
+<td align="right" style="background-color:lightgreen">2.100946</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.126273</td>
+<td align="right" style="background-color:lightblue">2.207415</td>
 <td/>
-<td align="right" style="background-color:lightblue">2.229215</td>
+<td align="right" style="background-color:orange">3.08</td>
 </tr>
 <tr>
 <td>sboyer</td>
 <td/>
-<td align="right" style="background-color:yellow">0.902</td>
+<td align="right" style="background-color:orange">1.069247</td>
 <td/>
-<td align="right" style="background-color:orange">1.10671</td>
+<td align="right" style="background-color:lightgreen">.733202</td>
 <td/>
-<td align="right" style="background-color:lightgreen">.736365</td>
+<td align="right" style="background-color:lightblue">.847356</td>
 <td/>
-<td align="right" style="background-color:lightblue">.884409</td>
+<td align="right" style="background-color:yellow">0.918</td>
 </tr>
 <tr>
 <td>gcbench</td>
 <td/>
-<td align="right" style="background-color:orange">2.29</td>
+<td align="right" style="background-color:yellow">1.919827</td>
 <td/>
-<td align="right" style="background-color:yellow">2.256337</td>
+<td align="right" style="background-color:lightblue">1.312237</td>
 <td/>
-<td align="right" style="background-color:lightblue">1.308729</td>
+<td align="right" style="background-color:lightgreen">1.283287</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.279728</td>
+<td align="right" style="background-color:orange">2.245</td>
 </tr>
 <tr>
 <td>mperm</td>
 <td/>
-<td align="right" style="background-color:orange">16.025</td>
+<td align="right" style="background-color:lightblue">4.283696</td>
 <td/>
-<td align="right" style="background-color:lightblue">4.296824</td>
+<td align="right" style="background-color:lightgreen">3.988523</td>
 <td/>
-<td align="right" style="background-color:lightgreen">4.204055</td>
+<td align="right" style="background-color:yellow">4.434276</td>
 <td/>
-<td align="right" style="background-color:yellow">4.403959</td>
+<td align="right" style="background-color:orange">15.943</td>
 </tr>
 <tr>
 <td>equal</td>
 <td/>
-<td align="right" style="background-color:orange">1.606</td>
+<td align="right" style="background-color:yellow">.231377</td>
 <td/>
-<td align="right" style="background-color:lightblue">.229859</td>
+<td align="right" style="background-color:lightblue">.226817</td>
 <td/>
-<td align="right" style="background-color:yellow">.233249</td>
+<td align="right" style="background-color:lightgreen">.213186</td>
 <td/>
-<td align="right" style="background-color:lightgreen">.219648</td>
+<td align="right" style="background-color:orange">1.551</td>
 </tr>
 <tr>
 <td>bv2string</td>
 <td/>
-<td align="right" style="background-color:orange">1.55</td>
+<td align="right" style="background-color:lightblue">.791287</td>
 <td/>
-<td align="right" style="background-color:lightblue">.791318</td>
+<td align="right" style="background-color:yellow">.816</td>
 <td/>
-<td align="right" style="background-color:yellow">.817352</td>
+<td align="right" style="background-color:lightgreen">.687448</td>
 <td/>
-<td align="right" style="background-color:lightgreen">.690423</td>
+<td align="right" style="background-color:orange">1.534</td>
 </tr>
 </table>
 </body>
