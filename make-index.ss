@@ -6,9 +6,12 @@
         :std/misc/ports)
 
 (def contestants
-  '("Gerbil"
-    "Gerbil-unsafe-sep"
-    "Gerbil-unsafe"
+  '("Gerbil-shared"
+    "Gerbil-static"
+    "Gerbil-unsafe-sep-shared"
+    "Gerbil-unsafe-sep-static"
+    "Gerbil-unsafe-shared"
+    "Gerbil-unsafe-static"
     "Racket"))
 
 (def top #<<END
@@ -21,6 +24,10 @@
 
   <p>The benchmarks were run on a Dell XPS 13-9320 laptop.
   <p>Each benchmark was run 3 times, and I kept the best value.
+  <p><b>Note</b>This is not a d*ck swinging contest. I compiled these results to see
+  how well we do in non-idiomatic, non-optimized, vanilla Scheme code and I want to be able
+  to track progress with compiler improvements (there are plenty to come in Gerbil v0.19).
+  Take them with a (big) grain of salt.
   <h2>Results</h2>
 END
 )
@@ -83,17 +90,20 @@ END
          (sorted (sort indexed (lambda (a b) (< (car a) (car b)))))
          (colored (map (lambda (x c) (cons c (cdr x)))
                        sorted
-                       '("lightgreen" "lightblue" "yellow" "orange")))
+                       '("lightgreen" "lightcyan" "lightblue" "lightyellow" "yellow" "orange" "orangered")))
          (sorted (sort colored (lambda (a b) (< (cdr a) (cdr b))))))
     (map car sorted)))
 
 (def (contestant-names contestants)
   (map (lambda (c)
          (case c
-           (("Racket") "Racket v8.2")
-           (("Gerbil") "Gerbil v0.18-rc1 safe/separate")
-           (("Gerbil-unsafe-sep") "Gerbil v0.18-rc1 unsafe/separate")
-           (("Gerbil-unsafe") "Gerbil v0.18-rc1 unsafe/fpo")
+           (("Racket") "Racket")
+           (("Gerbil-shared") "Gerbil shared/safe")
+           (("Gerbil-unsafe-sep-shared") "Gerbil shared/unsafe")
+           (("Gerbil-unsafe-shared") "Gerbil shared/unsafe/fpo")
+           (("Gerbil-static") "Gerbil static/safe")
+           (("Gerbil-unsafe-sep-static") "Gerbil static/unsafe")
+           (("Gerbil-unsafe-static") "Gerbil static/unsafe/fpo")
            (else
             (error "unknown contestatnt" c))))
        contestants))
