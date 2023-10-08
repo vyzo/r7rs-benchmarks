@@ -85,13 +85,24 @@ END
   (last (string-split line #\,)))
 
 (def (result-colors results)
-  (let* ((indexed (map (lambda (r i) (cons (string->number r) i))
-                       results
-                       (iota (length results))))
-         (sorted (sort indexed (lambda (a b) (< (car a) (car b)))))
-         (colored (map (lambda (x c) (cons c (cdr x)))
-                       sorted
-                       '("lightgreen" "lightcyan" "lightblue" "lightyellow" "yellow" "orange" "orangered")))
+  (let* ((indexed  (map (lambda (r i) (cons (string->number r) i))
+                        results
+                        (iota (length results))))
+         (sorted  (sort indexed (lambda (a b) (< (car a) (car b)))))
+         (best    (caar sorted))
+         (colored (map (lambda (x)
+                         (cons
+                          (let (delta (/ (- (car x) best) best))
+                            (cond
+                             ((zero? delta) "lawngreen")
+                             ((< delta .05) "lightgreen")
+                             ((< delta .1)  "lightcyan")
+                             ((< delta .25) "lightyellow")
+                             ((< delta .5)  "yellow")
+                             ((< delta 1)   "orange")
+                             (else          "orangered")))
+                          (cdr x)))
+                       sorted))
          (sorted (sort colored (lambda (a b) (< (cdr a) (cdr b))))))
     (map car sorted)))
 
