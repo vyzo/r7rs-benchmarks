@@ -29,6 +29,18 @@
   to track progress with compiler improvements (there are plenty to come in Gerbil v0.19).
   Take them with a (big) grain of salt.
   <h2>Results</h2>
+  <table>
+  <tr><td> <b>Color Coding:</b> </td>
+      <td style="background-color:lawngreen">best</td>
+      <td style="background-color:lightgreen">within 5%</td>
+      <td style="background-color:lightcyan">within 5-10%</td>
+      <td style="background-color:lightyellow">within 10-25%</td>
+      <td style="background-color:yellow">within 25-50%</td>
+      <td style="background-color:orange">within 50-100%</td>
+      <td style="background-color:orangered">over 100%</td>
+  </tr>
+  </table>
+  <br/>
 END
 )
 
