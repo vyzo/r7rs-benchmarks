@@ -32,12 +32,12 @@
   <table>
   <tr><td> <b>Color Coding:</b> </td>
       <td style="background-color:lawngreen">best</td>
-      <td style="background-color:lightgreen">within 5%</td>
-      <td style="background-color:lightcyan">within 5-10%</td>
-      <td style="background-color:lightyellow">within 10-25%</td>
-      <td style="background-color:yellow">within 25-50%</td>
-      <td style="background-color:orange">within 50-100%</td>
-      <td style="background-color:orangered">over 100%</td>
+      <td style="background-color:lightgreen">within 10%</td>
+      <td style="background-color:lightcyan">within 10-25%</td>
+      <td style="background-color:lightyellow">within 25-50%</td>
+      <td style="background-color:yellow">within 50-100%</td>
+      <td style="background-color:orange">within 100-200%</td>
+      <td style="background-color:orangered">over 200%</td>
   </tr>
   </table>
   <br/>
@@ -107,11 +107,11 @@ END
                           (let (delta (/ (- (car x) best) best))
                             (cond
                              ((zero? delta) "lawngreen")
-                             ((< delta .05) "lightgreen")
-                             ((< delta .1)  "lightcyan")
-                             ((< delta .25) "lightyellow")
-                             ((< delta .5)  "yellow")
-                             ((< delta 1)   "orange")
+                             ((< delta .1) "lightgreen")
+                             ((< delta .25)  "lightcyan")
+                             ((< delta .5) "lightyellow")
+                             ((< delta 1)  "yellow")
+                             ((< delta 2)   "orange")
                              (else          "orangered")))
                           (cdr x)))
                        sorted))
