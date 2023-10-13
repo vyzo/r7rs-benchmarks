@@ -18,9 +18,8 @@
 <html>
   <head><title>R7RS Benchmarks</title></head>
 <body>
-  <h2>R7RS benchmarks for Gerbil v0.18-rc1 and Racket v8.2</h2>
+  <h2>R7RS benchmarks for Gerbil v0.18 and Racket v8.6</h2>
   <p>This is based on ecraven's benchmarks, which seem unmatained.
-  <p>So I run them for Gerbil v0.18-rc1, both safe and unsafe mode, and Racket v8.2 (this is what ubuntu installs).
 
   <p>The benchmarks were run on a Dell XPS 13-9320 laptop.
   <p>Each benchmark was run 3 times, and I kept the best value.

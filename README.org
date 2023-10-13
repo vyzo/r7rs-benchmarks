@@ -1,9 +1,8 @@
 * vyzo's unofficial r7rs benchmarks
 
 These are just an unofficial run of the benchmarks of my laptop, for
-Gerbil v0.18-rc1 and Racket v8.2 (that's what ubuntu installs).  I did
-it out of curiousity, as ecraven's benchmarks seem unmaintained these
-days.
+Gerbil v0.18 and Racket v8.6. I did it out of curiousity, as
+ecraven's benchmarks seem unmaintained these days.
 
 Take them with a grain of salt; this is vanilla Scheme code, not
 idiomatic optimized Gerbil code which can be significantly faster.
