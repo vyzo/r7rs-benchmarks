@@ -1,7 +1,7 @@
 <html>
   <head><title>R7RS Benchmarks</title></head>
 <body>
-  <h2>R7RS benchmarks for Gerbil v0.18 and Racket v8.6</h2>
+  <h2>R7RS benchmarks for Gerbil v0.18 and Racket v8.10</h2>
   <p>This is based on ecraven's benchmarks, which seem unmatained.
 
   <p>The benchmarks were run on a Dell XPS 13-9320 laptop.
@@ -10,6 +10,9 @@
   how well we do in non-idiomatic, non-optimized, vanilla Scheme code and I want to be able
   to track progress with compiler improvements (there are plenty to come in Gerbil v0.19).
   Take them with a (big) grain of salt.
+  <p><b>Note</b> I've been asked why I don't include Chez in the benchmarks. This is simply
+  because I don't trust languages who are not boostrapped with open source provenance.
+  Racket's fork of Chez is, Dybvig Chez is not; see also <a href="https://cons.io/reference/dev/bootstrap.html">The Gerbil Bootstrap</a>.
   <h2>Results</h2>
   <table>
   <tr><td> <b>Color Coding:</b> </td>
@@ -48,24 +51,24 @@
 <td/>
 <td align="right" style="background-color:lawngreen">.785758 ↻</td>
 <td/>
-<td align="right" style="background-color:orange">1.794 (+128.3%)</td>
+<td align="right" style="background-color:orange">1.826 (+132.3%)</td>
 </tr>
 <tr>
 <td>deriv</td>
 <td/>
-<td align="right" style="background-color:orange">2.004261 (+108.1%)</td>
+<td align="right" style="background-color:orange">2.004261 (+109.6%)</td>
 <td/>
-<td align="right" style="background-color:orange">2.04079 (+111.9%)</td>
+<td align="right" style="background-color:orange">2.04079 (+113.4%)</td>
 <td/>
-<td align="right" style="background-color:orange">1.994011 (+107.%)</td>
+<td align="right" style="background-color:orange">1.994011 (+108.5%)</td>
 <td/>
-<td align="right" style="background-color:orange">2.006049 (+108.3%)</td>
+<td align="right" style="background-color:orange">2.006049 (+109.8%)</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.024281 (+6.3%)</td>
+<td align="right" style="background-color:lightgreen">1.024281 (+7.1%)</td>
 <td/>
-<td align="right" style="background-color:lightgreen">.99355 (+3.1%)</td>
+<td align="right" style="background-color:lightgreen">.99355 (+3.9%)</td>
 <td/>
-<td align="right" style="background-color:lawngreen">0.963 ↻</td>
+<td align="right" style="background-color:lawngreen">0.956 ↻</td>
 </tr>
 <tr>
 <td>destruc</td>
@@ -82,7 +85,7 @@
 <td/>
 <td align="right" style="background-color:lawngreen">1.656932 ↻</td>
 <td/>
-<td align="right" style="background-color:lightyellow">2.306 (+39.1%)</td>
+<td align="right" style="background-color:lightyellow">2.237 (+35.%)</td>
 </tr>
 <tr>
 <td>diviter</td>
@@ -99,7 +102,7 @@
 <td/>
 <td align="right" style="background-color:lightgreen">1.517906 (+.2%)</td>
 <td/>
-<td align="right" style="background-color:yellow">2.322 (+53.3%)</td>
+<td align="right" style="background-color:lightyellow">2.176 (+43.7%)</td>
 </tr>
 <tr>
 <td>divrec</td>
@@ -116,7 +119,7 @@
 <td/>
 <td align="right" style="background-color:lawngreen">1.96954 ↻</td>
 <td/>
-<td align="right" style="background-color:lightyellow">2.473 (+25.5%)</td>
+<td align="right" style="background-color:lightyellow">2.867 (+45.5%)</td>
 </tr>
 <tr>
 <td>puzzle</td>
@@ -133,7 +136,7 @@
 <td/>
 <td align="right" style="background-color:lightgreen">1.658758 (+4.3%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">1.973 (+24.1%)</td>
+<td align="right" style="background-color:lightyellow">1.987 (+25.%)</td>
 </tr>
 <tr>
 <td>triangl</td>
@@ -150,24 +153,24 @@
 <td/>
 <td align="right" style="background-color:lightyellow">1.454371 (+25.7%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">1.591 (+37.5%)</td>
+<td align="right" style="background-color:lightyellow">1.616 (+39.7%)</td>
 </tr>
 <tr>
 <td>tak</td>
 <td/>
-<td align="right" style="background-color:lightcyan">1.323597 (+20.2%)</td>
+<td align="right" style="background-color:lightcyan">1.323597 (+11.2%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">1.398808 (+27.%)</td>
+<td align="right" style="background-color:lightcyan">1.398808 (+17.5%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">1.423973 (+29.3%)</td>
+<td align="right" style="background-color:lightcyan">1.423973 (+19.6%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">1.375421 (+24.9%)</td>
+<td align="right" style="background-color:lightcyan">1.375421 (+15.5%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">1.23525 (+12.1%)</td>
+<td align="right" style="background-color:lightgreen">1.23525 (+3.8%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">1.301701 (+18.2%)</td>
+<td align="right" style="background-color:lightgreen">1.301701 (+9.3%)</td>
 <td/>
-<td align="right" style="background-color:lawngreen">1.101 ↻</td>
+<td align="right" style="background-color:lawngreen">1.19 ↻</td>
 </tr>
 <tr>
 <td>takl</td>
@@ -184,7 +187,7 @@
 <td/>
 <td align="right" style="background-color:lightcyan">1.312003 (+16.8%)</td>
 <td/>
-<td align="right" style="background-color:orange">3.02 (+169.%)</td>
+<td align="right" style="background-color:orange">3.05 (+171.6%)</td>
 </tr>
 <tr>
 <td>ntakl</td>
@@ -201,41 +204,41 @@
 <td/>
 <td align="right" style="background-color:lightyellow">1.56669 (+43.6%)</td>
 <td/>
-<td align="right" style="background-color:orange">3.006 (+175.6%)</td>
+<td align="right" style="background-color:orange">2.997 (+174.8%)</td>
 </tr>
 <tr>
 <td>cpstak</td>
 <td/>
-<td align="right" style="background-color:orange">5.295225 (+107.4%)</td>
+<td align="right" style="background-color:orange">5.295225 (+105.7%)</td>
 <td/>
-<td align="right" style="background-color:orange">5.221523 (+104.6%)</td>
+<td align="right" style="background-color:orange">5.221523 (+102.9%)</td>
 <td/>
-<td align="right" style="background-color:orange">5.357734 (+109.9%)</td>
+<td align="right" style="background-color:orange">5.357734 (+108.2%)</td>
 <td/>
-<td align="right" style="background-color:orange">5.373495 (+110.5%)</td>
+<td align="right" style="background-color:orange">5.373495 (+108.8%)</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.727116 (+6.8%)</td>
+<td align="right" style="background-color:lightgreen">2.727116 (+5.9%)</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.644588 (+3.6%)</td>
+<td align="right" style="background-color:lightgreen">2.644588 (+2.7%)</td>
 <td/>
-<td align="right" style="background-color:lawngreen">2.552 ↻</td>
+<td align="right" style="background-color:lawngreen">2.573 ↻</td>
 </tr>
 <tr>
 <td>ctak</td>
 <td/>
-<td align="right" style="background-color:lightyellow">2.207858 (+44.5%)</td>
+<td align="right" style="background-color:yellow">2.207858 (+58.4%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">2.216394 (+45.1%)</td>
+<td align="right" style="background-color:yellow">2.216394 (+59.1%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">2.154785 (+41.1%)</td>
+<td align="right" style="background-color:yellow">2.154785 (+54.6%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">2.167758 (+41.9%)</td>
+<td align="right" style="background-color:yellow">2.167758 (+55.6%)</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.539587 (+.8%)</td>
+<td align="right" style="background-color:lightcyan">1.539587 (+10.5%)</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.527646 (+0.%)</td>
+<td align="right" style="background-color:lightgreen">1.527646 (+9.6%)</td>
 <td/>
-<td align="right" style="background-color:lawngreen">1.527 ↻</td>
+<td align="right" style="background-color:lawngreen">1.393 ↻</td>
 </tr>
 <tr>
 <td>fib</td>
@@ -252,24 +255,24 @@
 <td/>
 <td align="right" style="background-color:lightyellow">2.540783 (+39.4%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">2.201 (+20.7%)</td>
+<td align="right" style="background-color:lightyellow">2.464 (+35.1%)</td>
 </tr>
 <tr>
 <td>fibc</td>
 <td/>
-<td align="right" style="background-color:lightyellow">1.416822 (+38.2%)</td>
+<td align="right" style="background-color:yellow">1.416822 (+52.5%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">1.413022 (+37.8%)</td>
+<td align="right" style="background-color:yellow">1.413022 (+52.1%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">1.32214 (+28.9%)</td>
+<td align="right" style="background-color:lightyellow">1.32214 (+42.3%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">1.381736 (+34.8%)</td>
+<td align="right" style="background-color:lightyellow">1.381736 (+48.7%)</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.067764 (+4.1%)</td>
+<td align="right" style="background-color:lightcyan">1.067764 (+14.9%)</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.059126 (+3.3%)</td>
+<td align="right" style="background-color:lightcyan">1.059126 (+14.%)</td>
 <td/>
-<td align="right" style="background-color:lawngreen">1.025 ↻</td>
+<td align="right" style="background-color:lawngreen">0.929 ↻</td>
 </tr>
 <tr>
 <td>fibfp</td>
@@ -286,7 +289,7 @@
 <td/>
 <td align="right" style="background-color:lightgreen">.849167 (+2.5%)</td>
 <td/>
-<td align="right" style="background-color:orange">1.913 (+130.9%)</td>
+<td align="right" style="background-color:orange">1.937 (+133.8%)</td>
 </tr>
 <tr>
 <td>sum</td>
@@ -303,7 +306,7 @@
 <td/>
 <td align="right" style="background-color:lightcyan">1.877902 (+11.3%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">1.916 (+13.6%)</td>
+<td align="right" style="background-color:lightcyan">1.918 (+13.7%)</td>
 </tr>
 <tr>
 <td>sumfp</td>
@@ -320,7 +323,7 @@
 <td/>
 <td align="right" style="background-color:lightgreen">1.547594 (+1.3%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">2.27 (+48.6%)</td>
+<td align="right" style="background-color:lightyellow">2.289 (+49.9%)</td>
 </tr>
 <tr>
 <td>fft</td>
@@ -337,7 +340,7 @@
 <td/>
 <td align="right" style="background-color:lightgreen">1.085122 (+.8%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">1.326 (+23.1%)</td>
+<td align="right" style="background-color:lightcyan">1.272 (+18.1%)</td>
 </tr>
 <tr>
 <td>mbrot</td>
@@ -354,24 +357,24 @@
 <td/>
 <td align="right" style="background-color:lawngreen">2.162133 ↻</td>
 <td/>
-<td align="right" style="background-color:yellow">3.663 (+69.4%)</td>
+<td align="right" style="background-color:yellow">3.891 (+79.9%)</td>
 </tr>
 <tr>
 <td>mbrotZ</td>
 <td/>
-<td align="right" style="background-color:orange">9.165381 (+179.3%)</td>
+<td align="right" style="background-color:orange">9.165381 (+161.8%)</td>
 <td/>
-<td align="right" style="background-color:orange">8.53371 (+160.%)</td>
+<td align="right" style="background-color:orange">8.53371 (+143.8%)</td>
 <td/>
-<td align="right" style="background-color:orange">8.64543 (+163.4%)</td>
+<td align="right" style="background-color:orange">8.64543 (+147.%)</td>
 <td/>
-<td align="right" style="background-color:orange">8.072206 (+146.%)</td>
+<td align="right" style="background-color:orange">8.072206 (+130.6%)</td>
 <td/>
-<td align="right" style="background-color:orange">6.658746 (+102.9%)</td>
+<td align="right" style="background-color:yellow">6.658746 (+90.2%)</td>
 <td/>
-<td align="right" style="background-color:orange">6.638957 (+102.3%)</td>
+<td align="right" style="background-color:yellow">6.638957 (+89.6%)</td>
 <td/>
-<td align="right" style="background-color:lawngreen">3.281 ↻</td>
+<td align="right" style="background-color:lawngreen">3.5 ↻</td>
 </tr>
 <tr>
 <td>nucleic</td>
@@ -388,24 +391,24 @@
 <td/>
 <td align="right" style="background-color:lightgreen">.956562 (+.9%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">1.396 (+47.3%)</td>
+<td align="right" style="background-color:lightyellow">1.365 (+44.%)</td>
 </tr>
 <tr>
 <td>pi</td>
 <td/>
-<td align="right" style="background-color:lightyellow">.677962 (+49.3%)</td>
+<td align="right" style="background-color:lightyellow">.677962 (+44.5%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">.669509 (+47.4%)</td>
+<td align="right" style="background-color:lightyellow">.669509 (+42.7%)</td>
 <td/>
-<td align="right" style="background-color:yellow">.685489 (+50.9%)</td>
+<td align="right" style="background-color:lightyellow">.685489 (+46.1%)</td>
 <td/>
-<td align="right" style="background-color:yellow">.689728 (+51.9%)</td>
+<td align="right" style="background-color:lightyellow">.689728 (+47.%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">.649141 (+42.9%)</td>
+<td align="right" style="background-color:lightyellow">.649141 (+38.4%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">.651003 (+43.3%)</td>
+<td align="right" style="background-color:lightyellow">.651003 (+38.8%)</td>
 <td/>
-<td align="right" style="background-color:lawngreen">0.454 ↻</td>
+<td align="right" style="background-color:lawngreen">0.469 ↻</td>
 </tr>
 <tr>
 <td>pnpoly</td>
@@ -422,7 +425,7 @@
 <td/>
 <td align="right" style="background-color:lightgreen">1.716093 (+.9%)</td>
 <td/>
-<td align="right" style="background-color:yellow">3.353 (+97.1%)</td>
+<td align="right" style="background-color:yellow">3.325 (+95.5%)</td>
 </tr>
 <tr>
 <td>ray</td>
@@ -439,7 +442,7 @@
 <td/>
 <td align="right" style="background-color:lightgreen">.938671 (+.1%)</td>
 <td/>
-<td align="right" style="background-color:orangered">2.925 (+212.1%)</td>
+<td align="right" style="background-color:orangered">2.849 (+204.%)</td>
 </tr>
 <tr>
 <td>simplex</td>
@@ -456,7 +459,7 @@
 <td/>
 <td align="right" style="background-color:lightgreen">.939368 (+.8%)</td>
 <td/>
-<td align="right" style="background-color:yellow">1.672 (+79.5%)</td>
+<td align="right" style="background-color:yellow">1.63 (+74.9%)</td>
 </tr>
 <tr>
 <td>ack</td>
@@ -473,7 +476,7 @@
 <td/>
 <td align="right" style="background-color:lightcyan">2.00138 (+10.4%)</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.977 (+9.1%)</td>
+<td align="right" style="background-color:lightcyan">2.046 (+12.9%)</td>
 </tr>
 <tr>
 <td>array1</td>
@@ -490,7 +493,7 @@
 <td/>
 <td align="right" style="background-color:lightgreen">3.195461 (+.1%)</td>
 <td/>
-<td align="right" style="background-color:yellow">6.069 (+90.1%)</td>
+<td align="right" style="background-color:yellow">6.062 (+89.9%)</td>
 </tr>
 <tr>
 <td>string</td>
@@ -507,7 +510,7 @@
 <td/>
 <td align="right" style="background-color:lawngreen">.934493 ↻</td>
 <td/>
-<td align="right" style="background-color:yellow">1.679 (+79.6%)</td>
+<td align="right" style="background-color:yellow">1.637 (+75.1%)</td>
 </tr>
 <tr>
 <td>sum1</td>
@@ -524,7 +527,7 @@
 <td/>
 <td align="right" style="background-color:lawngreen">.310945 ↻</td>
 <td/>
-<td align="right" style="background-color:orangered">9.182 (+2852.9%)</td>
+<td align="right" style="background-color:orangered">9.146 (+2841.3%)</td>
 </tr>
 <tr>
 <td>cat</td>
@@ -541,7 +544,7 @@
 <td/>
 <td align="right" style="background-color:lightgreen">1.046413 (+.9%)</td>
 <td/>
-<td align="right" style="background-color:orangered">3.586 (+245.8%)</td>
+<td align="right" style="background-color:orangered">3.606 (+247.7%)</td>
 </tr>
 <tr>
 <td>tail</td>
@@ -558,7 +561,7 @@
 <td/>
 <td align="right" style="background-color:lawngreen">1.526462 ↻</td>
 <td/>
-<td align="right" style="background-color:lightyellow">2.17 (+42.1%)</td>
+<td align="right" style="background-color:lightyellow">2.15 (+40.8%)</td>
 </tr>
 <tr>
 <td>wc</td>
@@ -575,7 +578,7 @@
 <td/>
 <td align="right" style="background-color:lightcyan">1.081372 (+11.2%)</td>
 <td/>
-<td align="right" style="background-color:orange">2.629 (+170.4%)</td>
+<td align="right" style="background-color:orange">2.557 (+163.%)</td>
 </tr>
 <tr>
 <td>read1</td>
@@ -592,7 +595,7 @@
 <td/>
 <td align="right" style="background-color:lawngreen">.751539 ↻</td>
 <td/>
-<td align="right" style="background-color:orangered">9.537 (+1168.9%)</td>
+<td align="right" style="background-color:orangered">9.768 (+1199.7%)</td>
 </tr>
 <tr>
 <td>conform</td>
@@ -609,7 +612,7 @@
 <td/>
 <td align="right" style="background-color:lawngreen">1.717183 ↻</td>
 <td/>
-<td align="right" style="background-color:yellow">3.305 (+92.4%)</td>
+<td align="right" style="background-color:yellow">3.311 (+92.8%)</td>
 </tr>
 <tr>
 <td>dynamic</td>
@@ -626,7 +629,7 @@
 <td/>
 <td align="right" style="background-color:lawngreen">2.628898 ↻</td>
 <td/>
-<td align="right" style="background-color:orange">7.794 (+196.4%)</td>
+<td align="right" style="background-color:orange">7.844 (+198.3%)</td>
 </tr>
 <tr>
 <td>earley</td>
@@ -643,58 +646,58 @@
 <td/>
 <td align="right" style="background-color:lightcyan">3.13855 (+11.2%)</td>
 <td/>
-<td align="right" style="background-color:orange">6.986 (+147.7%)</td>
+<td align="right" style="background-color:orange">6.857 (+143.1%)</td>
 </tr>
 <tr>
 <td>graphs</td>
 <td/>
-<td align="right" style="background-color:orangered">6.698502 (+269.6%)</td>
+<td align="right" style="background-color:orangered">6.698502 (+266.6%)</td>
 <td/>
-<td align="right" style="background-color:orangered">6.58441 (+263.3%)</td>
+<td align="right" style="background-color:orangered">6.58441 (+260.3%)</td>
 <td/>
-<td align="right" style="background-color:orangered">6.853401 (+278.2%)</td>
+<td align="right" style="background-color:orangered">6.853401 (+275.1%)</td>
 <td/>
-<td align="right" style="background-color:orangered">6.744576 (+272.2%)</td>
+<td align="right" style="background-color:orangered">6.744576 (+269.1%)</td>
 <td/>
-<td align="right" style="background-color:orangered">5.938881 (+227.7%)</td>
+<td align="right" style="background-color:orangered">5.938881 (+225.%)</td>
 <td/>
-<td align="right" style="background-color:orangered">5.749392 (+217.2%)</td>
+<td align="right" style="background-color:orangered">5.749392 (+214.6%)</td>
 <td/>
-<td align="right" style="background-color:lawngreen">1.812 ↻</td>
+<td align="right" style="background-color:lawngreen">1.827 ↻</td>
 </tr>
 <tr>
 <td>lattice</td>
 <td/>
-<td align="right" style="background-color:lightyellow">3.691809 (+38.3%)</td>
+<td align="right" style="background-color:lightyellow">3.691809 (+43.9%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">3.941794 (+47.6%)</td>
+<td align="right" style="background-color:yellow">3.941794 (+53.6%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">2.942244 (+10.2%)</td>
+<td align="right" style="background-color:lightcyan">2.942244 (+14.7%)</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.801647 (+4.9%)</td>
+<td align="right" style="background-color:lightgreen">2.801647 (+9.2%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">3.01643 (+13.%)</td>
+<td align="right" style="background-color:lightcyan">3.01643 (+17.5%)</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.88945 (+8.2%)</td>
+<td align="right" style="background-color:lightcyan">2.88945 (+12.6%)</td>
 <td/>
-<td align="right" style="background-color:lawngreen">2.669 ↻</td>
+<td align="right" style="background-color:lawngreen">2.565 ↻</td>
 </tr>
 <tr>
 <td>matrix</td>
 <td/>
-<td align="right" style="background-color:yellow">1.759524 (+73.3%)</td>
+<td align="right" style="background-color:yellow">1.759524 (+74.7%)</td>
 <td/>
-<td align="right" style="background-color:yellow">1.68764 (+66.2%)</td>
+<td align="right" style="background-color:yellow">1.68764 (+67.5%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">1.517258 (+49.4%)</td>
+<td align="right" style="background-color:yellow">1.517258 (+50.6%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">1.487517 (+46.5%)</td>
+<td align="right" style="background-color:lightyellow">1.487517 (+47.7%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">1.130388 (+11.3%)</td>
+<td align="right" style="background-color:lightcyan">1.130388 (+12.2%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">1.123807 (+10.7%)</td>
+<td align="right" style="background-color:lightcyan">1.123807 (+11.5%)</td>
 <td/>
-<td align="right" style="background-color:lawngreen">1.015 ↻</td>
+<td align="right" style="background-color:lawngreen">1.007 ↻</td>
 </tr>
 <tr>
 <td>maze</td>
@@ -711,7 +714,7 @@
 <td/>
 <td align="right" style="background-color:lightgreen">.619785 (+3.4%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">0.676 (+12.8%)</td>
+<td align="right" style="background-color:lightcyan">0.698 (+16.5%)</td>
 </tr>
 <tr>
 <td>mazefun</td>
@@ -728,24 +731,24 @@
 <td/>
 <td align="right" style="background-color:lawngreen">1.653993 ↻</td>
 <td/>
-<td align="right" style="background-color:lightcyan">1.984 (+19.9%)</td>
+<td align="right" style="background-color:lightcyan">1.929 (+16.6%)</td>
 </tr>
 <tr>
 <td>nqueens</td>
 <td/>
-<td align="right" style="background-color:lightyellow">6.578422 (+47.5%)</td>
+<td align="right" style="background-color:lightyellow">6.578422 (+47.%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">6.630963 (+48.7%)</td>
+<td align="right" style="background-color:lightyellow">6.630963 (+48.1%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">6.083604 (+36.4%)</td>
+<td align="right" style="background-color:lightyellow">6.083604 (+35.9%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">6.157948 (+38.1%)</td>
+<td align="right" style="background-color:lightyellow">6.157948 (+37.6%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">5.487806 (+23.1%)</td>
+<td align="right" style="background-color:lightcyan">5.487806 (+22.6%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">5.432058 (+21.8%)</td>
+<td align="right" style="background-color:lightcyan">5.432058 (+21.3%)</td>
 <td/>
-<td align="right" style="background-color:lawngreen">4.457 ↻</td>
+<td align="right" style="background-color:lawngreen">4.475 ↻</td>
 </tr>
 <tr>
 <td>paraffins</td>
@@ -762,7 +765,7 @@
 <td/>
 <td align="right" style="background-color:lawngreen">2.61788 ↻</td>
 <td/>
-<td align="right" style="background-color:orangered">7.954 (+203.8%)</td>
+<td align="right" style="background-color:orangered">8.863 (+238.5%)</td>
 </tr>
 <tr>
 <td>parsing</td>
@@ -779,7 +782,7 @@
 <td/>
 <td align="right" style="background-color:lightgreen">1.409168 (+1.1%)</td>
 <td/>
-<td align="right" style="background-color:lightgreen">1.487 (+6.6%)</td>
+<td align="right" style="background-color:lightgreen">1.489 (+6.8%)</td>
 </tr>
 <tr>
 <td>peval</td>
@@ -796,7 +799,7 @@
 <td/>
 <td align="right" style="background-color:lawngreen">1.414618 ↻</td>
 <td/>
-<td align="right" style="background-color:lightcyan">1.659 (+17.2%)</td>
+<td align="right" style="background-color:lightcyan">1.626 (+14.9%)</td>
 </tr>
 <tr>
 <td>primes</td>
@@ -813,7 +816,7 @@
 <td/>
 <td align="right" style="background-color:lawngreen">.510637 ↻</td>
 <td/>
-<td align="right" style="background-color:lightyellow">0.656 (+28.4%)</td>
+<td align="right" style="background-color:lightyellow">0.664 (+30.%)</td>
 </tr>
 <tr>
 <td>quicksort</td>
@@ -830,24 +833,24 @@
 <td/>
 <td align="right" style="background-color:lawngreen">3.009726 ↻</td>
 <td/>
-<td align="right" style="background-color:orange">7.786 (+158.6%)</td>
+<td align="right" style="background-color:orange">7.651 (+154.2%)</td>
 </tr>
 <tr>
 <td>scheme</td>
 <td/>
-<td align="right" style="background-color:lightcyan">2.761936 (+18.3%)</td>
+<td align="right" style="background-color:lightcyan">2.761936 (+19.4%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">2.791303 (+19.5%)</td>
+<td align="right" style="background-color:lightcyan">2.791303 (+20.6%)</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.368813 (+1.4%)</td>
+<td align="right" style="background-color:lightgreen">2.368813 (+2.4%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">2.644372 (+13.2%)</td>
+<td align="right" style="background-color:lightcyan">2.644372 (+14.3%)</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.437168 (+4.4%)</td>
+<td align="right" style="background-color:lightgreen">2.437168 (+5.3%)</td>
 <td/>
-<td align="right" style="background-color:lawngreen">2.334286 ↻</td>
+<td align="right" style="background-color:lightgreen">2.334286 (+.9%)</td>
 <td/>
-<td align="right" style="background-color:lightgreen">2.382 (+2.%)</td>
+<td align="right" style="background-color:lawngreen">2.313 ↻</td>
 </tr>
 <tr>
 <td>slatex</td>
@@ -864,24 +867,24 @@
 <td/>
 <td align="right" style="background-color:lawngreen">1.803445 ↻</td>
 <td/>
-<td align="right" style="background-color:orangered">6.26 (+247.1%)</td>
+<td align="right" style="background-color:orangered">5.975 (+231.3%)</td>
 </tr>
 <tr>
 <td>chudnovsky</td>
 <td/>
-<td align="right" style="background-color:lightyellow">.273067 (+37.2%)</td>
+<td align="right" style="background-color:lightyellow">.273067 (+31.9%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">.271415 (+36.3%)</td>
+<td align="right" style="background-color:lightyellow">.271415 (+31.1%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">.271121 (+36.2%)</td>
+<td align="right" style="background-color:lightyellow">.271121 (+30.9%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">.267838 (+34.5%)</td>
+<td align="right" style="background-color:lightyellow">.267838 (+29.3%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">.248334 (+24.7%)</td>
+<td align="right" style="background-color:lightcyan">.248334 (+19.9%)</td>
 <td/>
-<td align="right" style="background-color:lightcyan">.247911 (+24.5%)</td>
+<td align="right" style="background-color:lightcyan">.247911 (+19.7%)</td>
 <td/>
-<td align="right" style="background-color:lawngreen">0.199 ↻</td>
+<td align="right" style="background-color:lawngreen">0.207 ↻</td>
 </tr>
 <tr>
 <td>nboyer</td>
@@ -898,7 +901,7 @@
 <td/>
 <td align="right" style="background-color:lightgreen">2.16183 (+2.8%)</td>
 <td/>
-<td align="right" style="background-color:yellow">3.459 (+64.6%)</td>
+<td align="right" style="background-color:yellow">3.387 (+61.2%)</td>
 </tr>
 <tr>
 <td>sboyer</td>
@@ -915,7 +918,7 @@
 <td/>
 <td align="right" style="background-color:lightcyan">.849238 (+15.8%)</td>
 <td/>
-<td align="right" style="background-color:lightyellow">0.947 (+29.1%)</td>
+<td align="right" style="background-color:lightcyan">0.866 (+18.1%)</td>
 </tr>
 <tr>
 <td>gcbench</td>
@@ -932,7 +935,7 @@
 <td/>
 <td align="right" style="background-color:lightgreen">1.336527 (+4.1%)</td>
 <td/>
-<td align="right" style="background-color:yellow">2.465 (+92.%)</td>
+<td align="right" style="background-color:yellow">2.331 (+81.6%)</td>
 </tr>
 <tr>
 <td>mperm</td>
@@ -949,7 +952,7 @@
 <td/>
 <td align="right" style="background-color:lightcyan">4.458138 (+11.7%)</td>
 <td/>
-<td align="right" style="background-color:orangered">20.47 (+413.2%)</td>
+<td align="right" style="background-color:orangered">20.891 (+423.7%)</td>
 </tr>
 <tr>
 <td>equal</td>
@@ -966,7 +969,7 @@
 <td/>
 <td align="right" style="background-color:lightgreen">.224409 (+5.2%)</td>
 <td/>
-<td align="right" style="background-color:orangered">1.535 (+620.%)</td>
+<td align="right" style="background-color:orangered">1.551 (+627.5%)</td>
 </tr>
 <tr>
 <td>bv2string</td>
@@ -983,7 +986,7 @@
 <td/>
 <td align="right" style="background-color:lawngreen">.68544 ↻</td>
 <td/>
-<td align="right" style="background-color:orange">1.545 (+125.4%)</td>
+<td align="right" style="background-color:orange">1.487 (+116.9%)</td>
 </tr>
 </table>
 </body>

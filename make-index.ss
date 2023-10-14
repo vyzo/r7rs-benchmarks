@@ -18,7 +18,7 @@
 <html>
   <head><title>R7RS Benchmarks</title></head>
 <body>
-  <h2>R7RS benchmarks for Gerbil v0.18 and Racket v8.6</h2>
+  <h2>R7RS benchmarks for Gerbil v0.18 and Racket v8.10</h2>
   <p>This is based on ecraven's benchmarks, which seem unmatained.
 
   <p>The benchmarks were run on a Dell XPS 13-9320 laptop.
@@ -27,6 +27,9 @@
   how well we do in non-idiomatic, non-optimized, vanilla Scheme code and I want to be able
   to track progress with compiler improvements (there are plenty to come in Gerbil v0.19).
   Take them with a (big) grain of salt.
+  <p><b>Note</b> I've been asked why I don't include Chez in the benchmarks. This is simply
+  because I don't trust languages who are not boostrapped with open source provenance.
+  Racket's fork of Chez is, Dybvig Chez is not; see also <a href="https://cons.io/reference/dev/bootstrap.html">The Gerbil Bootstrap</a>.
   <h2>Results</h2>
   <table>
   <tr><td> <b>Color Coding:</b> </td>
