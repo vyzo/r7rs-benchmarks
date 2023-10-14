@@ -80,7 +80,7 @@ END
               (unless (apply string=? bench-names)
                 (error "Misaligned results; benchmark name mismatch" bench-names))
               (display "<tr>\n" out)
-              (fprintf out "<td>~a</td>~n"  (car bench-names))
+              (fprintf out "<td><b>~a</b></td>~n"  (car bench-names))
               (for ((result bench-results)
                     (color (result-colors bench-results))
                     (delta (result-deltas bench-results)))
