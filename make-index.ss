@@ -16,7 +16,10 @@
 
 (def top #<<END
 <html>
-  <head><title>R7RS Benchmarks</title></head>
+<head>
+<title>R7RS Benchmarks</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
 <body>
   <h2>R7RS benchmarks for Gerbil v0.18 and Racket v8.10</h2>
   <p>This is based on ecraven's benchmarks, which seem unmatained.
