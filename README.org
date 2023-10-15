@@ -1,4 +1,4 @@
-* vyzo's unofficial r7rs benchmarks
+* vyzo's unofficial r7rs benchmarks for Gerbil
 
 These are just an unofficial run of the benchmarks of my laptop, for
 Gerbil v0.18 and Racket v8.6. I did it out of curiousity, as
