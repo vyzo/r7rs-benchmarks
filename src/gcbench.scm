@@ -44,6 +44,14 @@
   (display "  Free memory= ???????? bytes")
   (newline))
 
+(define-record-type classNode
+  (make-node-raw left right i j)
+  classNode?
+  (left  node.left  node.left-set!)
+  (right node.right node.right-set!)
+  (i     node.i     node.i-set!)
+  (j     node.j     node.j-set!))
+
 (define (gcbench kStretchTreeDepth)
 
   ;;  Nodes used by a tree of a given size
@@ -72,15 +80,6 @@
     ;; Elements 3 and 4 of the allocated records are useless.
     ;; They're just to take up space, so this will be comparable
     ;; to the Java original.
-
-    (define-record-type classNode
-      (make-node-raw left right i j)
-      classNode?
-      (left  node.left  node.left-set!)
-      (right node.right node.right-set!)
-      (i     node.i     node.i-set!)
-      (j     node.j     node.j-set!))
-
     (let ((make-empty-node (lambda () (make-node-raw 0 0 0 0)))
 	  (make-node (lambda (l r) (make-node-raw l r 0 0))))
 
