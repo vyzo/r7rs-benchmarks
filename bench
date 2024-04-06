@@ -811,19 +811,25 @@ gauche_exec ()
 # -----------------------------------------------------------------------------
 # Definitions specific to Gerbil
 
-gerbil_comp ()
+gerbil_shared_comp ()
 {
     sed -i -e 's/^(run-benchmark)$//' $1
     ${GERBIL} -d $(dirname "$1") -exe -O -o "${1%.scm}.exe" "$1"
 }
 
-gerbil_unsafe_comp ()
+gerbil_fpo_comp ()
+{
+    sed -i -e 's/^(run-benchmark)$//' $1
+    ${GERBIL} -d $(dirname "$1") -exe -O -full-program-optimization -o "${1%.scm}.exe" "$1"
+}
+
+gerbil_unsafe_fpo_comp ()
 {
     sed -i -e 's/^(run-benchmark)$//' $1
     ${GERBIL} -d $(dirname "$1") -exe -O -full-program-optimization -prelude "(declare (not safe))" -o "${1%.scm}.exe" "$1"
 }
 
-gerbil_unsafe_sep_comp ()
+gerbil_unsafe_shared_comp ()
 {
     sed -i -e 's/^(run-benchmark)$//' $1
     ${GERBIL} -d $(dirname "$1") -exe -O -o "${1%.scm}.exe" "$1"
@@ -1254,8 +1260,8 @@ for system in $systems ; do
                  EXECCOMMANDS=""
                  ;;
 
-        gerbil) NAME='Gerbil'
-                COMP=gerbil_comp
+        gerbil-shared) NAME='Gerbil-shared'
+                COMP=gerbil_shared_comp
                 EXEC=gerbil_exec
                 COMPOPTS=""
                 EXTENSION="scm"
@@ -1264,8 +1270,8 @@ for system in $systems ; do
                 EXECCOMMANDS=""
                 ;;
 
-        gerbil-unsafe) NAME='Gerbil-unsafe'
-                COMP=gerbil_unsafe_comp
+        gerbil-fpo) NAME='Gerbil-fpo'
+                COMP=gerbil_fpo_comp
                 EXEC=gerbil_exec
                 COMPOPTS=""
                 EXTENSION="scm"
@@ -1274,8 +1280,18 @@ for system in $systems ; do
                 EXECCOMMANDS=""
                 ;;
 
-        gerbil-unsafe-sep) NAME='Gerbil-unsafe-sep'
-                COMP=gerbil_unsafe_sep_comp
+        gerbil-unsafe-fpo) NAME='Gerbil-unsafe-fpo'
+                COMP=gerbil_unsafe_fpo_comp
+                EXEC=gerbil_exec
+                COMPOPTS=""
+                EXTENSION="scm"
+                EXTENSIONCOMP="exe"
+                COMPCOMMANDS=""
+                EXECCOMMANDS=""
+                ;;
+
+        gerbil-unsafe-shared) NAME='Gerbil-unsafe-shared'
+                COMP=gerbil_unsafe_shared_comp
                 EXEC=gerbil_exec
                 COMPOPTS=""
                 EXTENSION="scm"
