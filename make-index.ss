@@ -7,32 +7,28 @@
 
 (def contestants
   '("Gerbil-shared"
-    "Gerbil-static"
-    "Gerbil-unsafe-sep-shared"
-    "Gerbil-unsafe-sep-static"
+    "Gerbil-fpo"
     "Gerbil-unsafe-shared"
-    "Gerbil-unsafe-static"
+    "Gerbil-unsafe-fpo"
+    "GambitC"
     "Racket"))
 
 (def top #<<END
 <html>
 <head>
-<title>R7RS Benchmarks</title>
+<title>R7RS Benchmarks for Gerbil</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-  <h2>R7RS benchmarks for Gerbil v0.18 and Racket v8.10</h2>
-  <p>This is based on ecraven's benchmarks, which seem unmatained.
+  <h2>R7RS benchmarks for Gerbil</h2>
+  <p>These are the results for v0.18.2 pre-release, Gambit v4.9.5-125, and Racket v8.10</h2>
+  <p>This is based on ecraven's benchmarks, which seem unmaintained.
 
   <p>The benchmarks were run on a Dell XPS 13-9320 laptop.
   <p>Each benchmark was run 3 times, and I kept the best value.
-  <p><b>Note</b>This is not a d*ck swinging contest. I compiled these results to see
-  how well we do in non-idiomatic, non-optimized, vanilla Scheme code and I want to be able
-  to track progress with compiler improvements (there are plenty to come in Gerbil v0.19).
-  Take them with a (big) grain of salt.
-  <p><b>Note</b> I've been asked why I don't include Chez in the benchmarks. This is simply
-  because I don't trust languages who are not boostrapped with open source provenance.
-  Racket's fork of Chez is, Dybvig Chez is not; see also <a href="https://cons.io/reference/dev/bootstrap.html">The Gerbil Bootstrap</a>.
+
+  <b>Note:</b> See also the results for <a href="index-v0-18.html">Gerbil v0.18</a>.
+
   <h2>Results</h2>
   <table>
   <tr><td> <b>Color Coding:</b> </td>
@@ -136,12 +132,11 @@ END
   (map (lambda (c)
          (case c
            (("Racket") "Racket")
-           (("Gerbil-shared") "Gerbil shared/safe")
-           (("Gerbil-unsafe-sep-shared") "Gerbil shared/unsafe")
-           (("Gerbil-unsafe-shared") "Gerbil shared/unsafe/fpo")
-           (("Gerbil-static") "Gerbil static/safe")
-           (("Gerbil-unsafe-sep-static") "Gerbil static/unsafe")
-           (("Gerbil-unsafe-static") "Gerbil static/unsafe/fpo")
+           (("GambitC") "Gambit (baseline)")
+           (("Gerbil-shared") "Gerbil safe/shared")
+           (("Gerbil-fpo") "Gerbil safe/fpo")
+           (("Gerbil-unsafe-shared") "Gerbil unsafe/shared")
+           (("Gerbil-unsafe-fpo") "Gerbil unsafe/fpo")
            (else
             (error "unknown contestatnt" c))))
        contestants))
