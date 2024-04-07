@@ -1,4 +1,4 @@
 #!/bin/bash
-for x in gerbil-shared gerbil-fpo gerbil-unsafe-shared gerbil-unsafe-fpo; do
+for x in gerbil-sep gerbil-fpo gerbil-unsafe-sep gerbil-unsafe-sep; do
     ./bench $x all
 done

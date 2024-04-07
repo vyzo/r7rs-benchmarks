@@ -6,9 +6,9 @@
         :std/misc/ports)
 
 (def contestants
-  '("Gerbil-shared"
+  '("Gerbil-sep"
     "Gerbil-fpo"
-    "Gerbil-unsafe-shared"
+    "Gerbil-unsafe-sep"
     "Gerbil-unsafe-fpo"
     "GambitC"
     "Racket"))
@@ -29,6 +29,7 @@
   <p>
   <b>Note:</b> See also the results for <a href="index-v0-18.html">Gerbil v0.18</a>.
 
+
   <h2>Results</h2>
   <table>
   <tr><td> <b>Color Coding:</b> </td>
@@ -42,6 +43,7 @@
   </tr>
   </table>
   <br/>
+
 END
 )
 
@@ -60,8 +62,7 @@ END
       (display "<th>Benchmark</th>\n" out)
       (for (c (contestant-names contestants))
         (fprintf out "<th align=\"center\">⋄⋄⋄</th>")
-        (fprintf out "<th align=\"center\">~a</th>~n" c)
-        )
+        (fprintf out "<th align=\"center\">~a</th>~n" c))
       (display "</tr>\n" out)
       (let* ((results (map (lambda (c) (read-file-lines (string-append "results." c))) contestants))
              (results (map filter-result-lines results))
@@ -133,9 +134,9 @@ END
          (case c
            (("Racket") "Racket")
            (("GambitC") "Gambit (baseline)")
-           (("Gerbil-shared") "Gerbil safe/shared")
+           (("Gerbil-sep") "Gerbil safe/sep")
            (("Gerbil-fpo") "Gerbil safe/fpo")
-           (("Gerbil-unsafe-shared") "Gerbil unsafe/shared")
+           (("Gerbil-unsafe-sep") "Gerbil unsafe/sep")
            (("Gerbil-unsafe-fpo") "Gerbil unsafe/fpo")
            (else
             (error "unknown contestatnt" c))))

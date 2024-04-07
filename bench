@@ -180,8 +180,9 @@ Usage: bench [-r runs] <system> <benchmark>
   foment           for Foment
   gambitc          for GambitC Scheme
   gauche           for Gauche
-  gerbil           for Gerbil Scheme
-  gerbil-unsafe    for Gerbil Scheme with unsafe optimizations enabled
+  gerbil-sep       for Gerbil Scheme with separate compilation
+  gerbil-fpo       for Gerbil Scheme with full program optimization
+  gerbil-unsafe-*  for Gerbil Scheme with unsafe optimizations enabled
   guile            for Guile Scheme
   guile3           for Guile Scheme 3
   husk             for Husk
@@ -811,7 +812,7 @@ gauche_exec ()
 # -----------------------------------------------------------------------------
 # Definitions specific to Gerbil
 
-gerbil_shared_comp ()
+gerbil_sep_comp ()
 {
     sed -i -e 's/^(run-benchmark)$//' $1
     ${GERBIL} -d $(dirname "$1") -exe -O -o "${1%.scm}.exe" "$1"
@@ -829,7 +830,7 @@ gerbil_unsafe_fpo_comp ()
     ${GERBIL} -d $(dirname "$1") -exe -O -full-program-optimization -prelude "(declare (not safe))" -o "${1%.scm}.exe" "$1"
 }
 
-gerbil_unsafe_shared_comp ()
+gerbil_unsafe_sep_comp ()
 {
     sed -i -e 's/^(run-benchmark)$//' $1
     ${GERBIL} -d $(dirname "$1") -exe -O -o "${1%.scm}.exe" "$1"
@@ -1260,8 +1261,8 @@ for system in $systems ; do
                  EXECCOMMANDS=""
                  ;;
 
-        gerbil-shared) NAME='Gerbil-shared'
-                COMP=gerbil_shared_comp
+        gerbil-sep) NAME='Gerbil-sep'
+                COMP=gerbil_ep_comp
                 EXEC=gerbil_exec
                 COMPOPTS=""
                 EXTENSION="scm"
@@ -1290,8 +1291,8 @@ for system in $systems ; do
                 EXECCOMMANDS=""
                 ;;
 
-        gerbil-unsafe-shared) NAME='Gerbil-unsafe-shared'
-                COMP=gerbil_unsafe_shared_comp
+        gerbil-unsafe-sep) NAME='Gerbil-unsafe-sep'
+                COMP=gerbil_unsafe_sep_comp
                 EXEC=gerbil_exec
                 COMPOPTS=""
                 EXTENSION="scm"
