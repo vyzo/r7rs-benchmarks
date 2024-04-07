@@ -1,6 +1,6 @@
 
 ****************************
-Benchmarking GambitC on Sun Apr 7 09:55:17 PM EEST 2024 under Linux dellicious 6.1.0-1034-oem #34-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 5 18:29:21 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Benchmarking GambitC on Mon Apr 8 02:04:39 AM EEST 2024 under Linux dellicious 6.1.0-1034-oem #34-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 5 18:29:21 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 
 Testing browse under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -8,28 +8,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/browse.scm /tmp/larcenous/GambitC/browse.exe
 Running...
 Running browse:2000
-Elapsed time: .910346 seconds (.91) for browse:2000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,browse:2000,.910346
+Elapsed time: .920458 seconds (.92) for browse:2000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,browse:2000,.920458
 
-real	0m0.917s
-user	0m0.912s
+real	0m0.925s
+user	0m0.920s
 sys	0m0.005s
 Running...
 Running browse:2000
-Elapsed time: .916915 seconds (.917) for browse:2000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,browse:2000,.916915
+Elapsed time: .914978 seconds (.915) for browse:2000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,browse:2000,.914978
 
-real	0m0.924s
-user	0m0.916s
-sys	0m0.008s
+real	0m0.919s
+user	0m0.919s
+sys	0m0.000s
 Running...
 Running browse:2000
-Elapsed time: .922972 seconds (.923) for browse:2000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,browse:2000,.922972
+Elapsed time: .908777 seconds (.909) for browse:2000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,browse:2000,.908777
 
-real	0m0.932s
-user	0m0.930s
-sys	0m0.002s
+real	0m0.913s
+user	0m0.903s
+sys	0m0.010s
 
 Testing deriv under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -37,28 +37,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/deriv.scm /tmp/larcenous/GambitC/deriv.exe
 Running...
 Running deriv:10000000
-Elapsed time: .991856 seconds (.992) for deriv:10000000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,deriv:10000000,.991856
+Elapsed time: .992249 seconds (.992) for deriv:10000000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,deriv:10000000,.992249
 
 real	0m0.997s
-user	0m0.985s
-sys	0m0.012s
+user	0m0.995s
+sys	0m0.002s
 Running...
 Running deriv:10000000
-Elapsed time: 1.007402 seconds (1.007) for deriv:10000000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,deriv:10000000,1.007402
+Elapsed time: .989988 seconds (.99) for deriv:10000000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,deriv:10000000,.989988
 
-real	0m1.014s
-user	0m1.007s
+real	0m0.994s
+user	0m0.987s
+sys	0m0.007s
+Running...
+Running deriv:10000000
+Elapsed time: .995348 seconds (.995) for deriv:10000000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,deriv:10000000,.995348
+
+real	0m1.000s
+user	0m0.994s
 sys	0m0.006s
-Running...
-Running deriv:10000000
-Elapsed time: .991214 seconds (.991) for deriv:10000000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,deriv:10000000,.991214
-
-real	0m0.998s
-user	0m0.992s
-sys	0m0.005s
 
 Testing destruc under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -66,28 +66,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/destruc.scm /tmp/larcenous/GambitC/destruc.exe
 Running...
 Running destruc:600:50:4000
-Elapsed time: 1.867324 seconds (1.867) for destruc:600:50:4000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,destruc:600:50:4000,1.867324
+Elapsed time: 1.902518 seconds (1.903) for destruc:600:50:4000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,destruc:600:50:4000,1.902518
 
-real	0m1.874s
-user	0m1.862s
-sys	0m0.012s
+real	0m1.907s
+user	0m1.899s
+sys	0m0.008s
 Running...
 Running destruc:600:50:4000
-Elapsed time: 2.042272 seconds (2.042) for destruc:600:50:4000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,destruc:600:50:4000,2.042272
+Elapsed time: 1.92902 seconds (1.929) for destruc:600:50:4000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,destruc:600:50:4000,1.92902
 
-real	0m2.049s
-user	0m2.049s
+real	0m1.933s
+user	0m1.933s
 sys	0m0.000s
 Running...
 Running destruc:600:50:4000
-Elapsed time: 1.9414 seconds (1.941) for destruc:600:50:4000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,destruc:600:50:4000,1.9414
+Elapsed time: 1.911938 seconds (1.912) for destruc:600:50:4000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,destruc:600:50:4000,1.911938
 
-real	0m1.948s
-user	0m1.939s
-sys	0m0.007s
+real	0m1.916s
+user	0m1.905s
+sys	0m0.012s
 
 Testing diviter under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -95,28 +95,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/diviter.scm /tmp/larcenous/GambitC/diviter.exe
 Running...
 Running diviter:1000:1000000
-Elapsed time: 1.534486 seconds (1.534) for diviter:1000:1000000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,diviter:1000:1000000,1.534486
+Elapsed time: 1.526155 seconds (1.526) for diviter:1000:1000000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,diviter:1000:1000000,1.526155
 
-real	0m1.541s
-user	0m1.533s
+real	0m1.530s
+user	0m1.525s
+sys	0m0.005s
+Running...
+Running diviter:1000:1000000
+Elapsed time: 1.535462 seconds (1.535) for diviter:1000:1000000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,diviter:1000:1000000,1.535462
+
+real	0m1.540s
+user	0m1.529s
+sys	0m0.010s
+Running...
+Running diviter:1000:1000000
+Elapsed time: 1.538117 seconds (1.538) for diviter:1000:1000000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,diviter:1000:1000000,1.538117
+
+real	0m1.542s
+user	0m1.534s
 sys	0m0.008s
-Running...
-Running diviter:1000:1000000
-Elapsed time: 1.594151 seconds (1.594) for diviter:1000:1000000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,diviter:1000:1000000,1.594151
-
-real	0m1.601s
-user	0m1.591s
-sys	0m0.009s
-Running...
-Running diviter:1000:1000000
-Elapsed time: 1.589832 seconds (1.59) for diviter:1000:1000000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,diviter:1000:1000000,1.589832
-
-real	0m1.596s
-user	0m1.592s
-sys	0m0.000s
 
 Testing divrec under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -124,28 +124,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/divrec.scm /tmp/larcenous/GambitC/divrec.exe
 Running...
 Running divrec:1000:1000000
-Elapsed time: 2.156228 seconds (2.156) for divrec:1000:1000000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,divrec:1000:1000000,2.156228
+Elapsed time: 2.360235 seconds (2.36) for divrec:1000:1000000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,divrec:1000:1000000,2.360235
 
-real	0m2.162s
-user	0m2.151s
+real	0m2.364s
+user	0m2.359s
+sys	0m0.005s
+Running...
+Running divrec:1000:1000000
+Elapsed time: 2.130782 seconds (2.131) for divrec:1000:1000000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,divrec:1000:1000000,2.130782
+
+real	0m2.135s
+user	0m2.129s
+sys	0m0.005s
+Running...
+Running divrec:1000:1000000
+Elapsed time: 2.128186 seconds (2.128) for divrec:1000:1000000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,divrec:1000:1000000,2.128186
+
+real	0m2.132s
+user	0m2.124s
 sys	0m0.009s
-Running...
-Running divrec:1000:1000000
-Elapsed time: 2.176764 seconds (2.177) for divrec:1000:1000000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,divrec:1000:1000000,2.176764
-
-real	0m2.183s
-user	0m2.181s
-sys	0m0.002s
-Running...
-Running divrec:1000:1000000
-Elapsed time: 2.143061 seconds (2.143) for divrec:1000:1000000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,divrec:1000:1000000,2.143061
-
-real	0m2.151s
-user	0m2.144s
-sys	0m0.006s
 
 Testing puzzle under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -153,28 +153,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/puzzle.scm /tmp/larcenous/GambitC/puzzle.exe
 Running...
 Running puzzle:1000
-Elapsed time: 2.665184 seconds (2.665) for puzzle:1000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,puzzle:1000,2.665184
+Elapsed time: 2.834729 seconds (2.835) for puzzle:1000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,puzzle:1000,2.834729
 
-real	0m2.672s
-user	0m2.668s
-sys	0m0.004s
+real	0m2.839s
+user	0m2.827s
+sys	0m0.012s
 Running...
 Running puzzle:1000
-Elapsed time: 2.674028 seconds (2.674) for puzzle:1000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,puzzle:1000,2.674028
+Elapsed time: 2.83563 seconds (2.836) for puzzle:1000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,puzzle:1000,2.83563
 
-real	0m2.680s
-user	0m2.676s
-sys	0m0.004s
+real	0m2.840s
+user	0m2.840s
+sys	0m0.000s
 Running...
 Running puzzle:1000
-Elapsed time: 2.641662 seconds (2.642) for puzzle:1000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,puzzle:1000,2.641662
+Elapsed time: 2.836532 seconds (2.837) for puzzle:1000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,puzzle:1000,2.836532
 
-real	0m2.648s
-user	0m2.644s
-sys	0m0.004s
+real	0m2.842s
+user	0m2.834s
+sys	0m0.008s
 
 Testing triangl under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -182,28 +182,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/triangl.scm /tmp/larcenous/GambitC/triangl.exe
 Running...
 Running triangl:22:1:50
-Elapsed time: 1.87854 seconds (1.879) for triangl:22:1:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,triangl:22:1:50,1.87854
+Elapsed time: 1.923547 seconds (1.924) for triangl:22:1:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,triangl:22:1:50,1.923547
 
-real	0m1.885s
-user	0m1.876s
+real	0m1.928s
+user	0m1.920s
 sys	0m0.008s
 Running...
 Running triangl:22:1:50
-Elapsed time: 1.879978 seconds (1.88) for triangl:22:1:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,triangl:22:1:50,1.879978
+Elapsed time: 1.897216 seconds (1.897) for triangl:22:1:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,triangl:22:1:50,1.897216
 
-real	0m1.886s
-user	0m1.878s
+real	0m1.901s
+user	0m1.893s
 sys	0m0.008s
 Running...
 Running triangl:22:1:50
-Elapsed time: 1.878604 seconds (1.879) for triangl:22:1:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,triangl:22:1:50,1.878604
+Elapsed time: 1.903708 seconds (1.904) for triangl:22:1:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,triangl:22:1:50,1.903708
 
-real	0m1.885s
-user	0m1.877s
-sys	0m0.008s
+real	0m1.908s
+user	0m1.904s
+sys	0m0.004s
 
 Testing tak under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -211,28 +211,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/tak.scm /tmp/larcenous/GambitC/tak.exe
 Running...
 Running tak:40:20:11:1
-Elapsed time: 1.282571 seconds (1.283) for tak:40:20:11:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,tak:40:20:11:1,1.282571
+Elapsed time: 1.300385 seconds (1.3) for tak:40:20:11:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,tak:40:20:11:1,1.300385
 
-real	0m1.288s
-user	0m1.288s
+real	0m1.304s
+user	0m1.304s
 sys	0m0.000s
 Running...
 Running tak:40:20:11:1
-Elapsed time: 1.270726 seconds (1.271) for tak:40:20:11:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,tak:40:20:11:1,1.270726
+Elapsed time: 1.307637 seconds (1.308) for tak:40:20:11:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,tak:40:20:11:1,1.307637
 
-real	0m1.276s
-user	0m1.276s
-sys	0m0.000s
+real	0m1.312s
+user	0m1.308s
+sys	0m0.004s
 Running...
 Running tak:40:20:11:1
-Elapsed time: 1.268013 seconds (1.268) for tak:40:20:11:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,tak:40:20:11:1,1.268013
+Elapsed time: 1.298672 seconds (1.299) for tak:40:20:11:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,tak:40:20:11:1,1.298672
 
-real	0m1.274s
-user	0m1.274s
-sys	0m0.000s
+real	0m1.302s
+user	0m1.298s
+sys	0m0.004s
 
 Testing takl under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -240,27 +240,27 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/takl.scm /tmp/larcenous/GambitC/takl.exe
 Running...
 Running takl:40:20:12:1
-Elapsed time: 1.599313 seconds (1.599) for takl:40:20:12:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,takl:40:20:12:1,1.599313
+Elapsed time: 1.596651 seconds (1.597) for takl:40:20:12:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,takl:40:20:12:1,1.596651
 
-real	0m1.605s
-user	0m1.601s
+real	0m1.600s
+user	0m1.600s
+sys	0m0.000s
+Running...
+Running takl:40:20:12:1
+Elapsed time: 1.622042 seconds (1.622) for takl:40:20:12:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,takl:40:20:12:1,1.622042
+
+real	0m1.626s
+user	0m1.622s
 sys	0m0.004s
 Running...
 Running takl:40:20:12:1
-Elapsed time: 1.609456 seconds (1.609) for takl:40:20:12:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,takl:40:20:12:1,1.609456
+Elapsed time: 1.598489 seconds (1.598) for takl:40:20:12:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,takl:40:20:12:1,1.598489
 
-real	0m1.615s
-user	0m1.611s
-sys	0m0.004s
-Running...
-Running takl:40:20:12:1
-Elapsed time: 1.615501 seconds (1.616) for takl:40:20:12:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,takl:40:20:12:1,1.615501
-
-real	0m1.621s
-user	0m1.621s
+real	0m1.602s
+user	0m1.602s
 sys	0m0.000s
 
 Testing ntakl under GambitC
@@ -269,28 +269,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/ntakl.scm /tmp/larcenous/GambitC/ntakl.exe
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 1.58709 seconds (1.587) for ntakl:40:20:12:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ntakl:40:20:12:1,1.58709
+Elapsed time: 1.602691 seconds (1.603) for ntakl:40:20:12:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ntakl:40:20:12:1,1.602691
 
-real	0m1.593s
-user	0m1.592s
+real	0m1.606s
+user	0m1.598s
+sys	0m0.008s
+Running...
+Running ntakl:40:20:12:1
+Elapsed time: 1.609887 seconds (1.61) for ntakl:40:20:12:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ntakl:40:20:12:1,1.609887
+
+real	0m1.613s
+user	0m1.613s
 sys	0m0.000s
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 1.610933 seconds (1.611) for ntakl:40:20:12:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ntakl:40:20:12:1,1.610933
+Elapsed time: 1.60104 seconds (1.601) for ntakl:40:20:12:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ntakl:40:20:12:1,1.60104
 
-real	0m1.616s
-user	0m1.612s
+real	0m1.604s
+user	0m1.600s
 sys	0m0.004s
-Running...
-Running ntakl:40:20:12:1
-Elapsed time: 1.581084 seconds (1.581) for ntakl:40:20:12:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ntakl:40:20:12:1,1.581084
-
-real	0m1.587s
-user	0m1.587s
-sys	0m0.000s
 
 Testing cpstak under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -298,28 +298,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/cpstak.scm /tmp/larcenous/GambitC/cpstak.exe
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 2.825338 seconds (2.825) for cpstak:40:20:11:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,cpstak:40:20:11:1,2.825338
+Elapsed time: 2.742874 seconds (2.743) for cpstak:40:20:11:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,cpstak:40:20:11:1,2.742874
 
-real	0m2.831s
-user	0m2.826s
-sys	0m0.005s
+real	0m2.746s
+user	0m2.738s
+sys	0m0.008s
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 2.862277 seconds (2.862) for cpstak:40:20:11:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,cpstak:40:20:11:1,2.862277
+Elapsed time: 2.766535 seconds (2.767) for cpstak:40:20:11:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,cpstak:40:20:11:1,2.766535
 
-real	0m2.868s
-user	0m2.863s
-sys	0m0.005s
+real	0m2.770s
+user	0m2.764s
+sys	0m0.006s
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 2.821917 seconds (2.822) for cpstak:40:20:11:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,cpstak:40:20:11:1,2.821917
+Elapsed time: 2.749413 seconds (2.749) for cpstak:40:20:11:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,cpstak:40:20:11:1,2.749413
 
-real	0m2.828s
-user	0m2.816s
-sys	0m0.012s
+real	0m2.753s
+user	0m2.748s
+sys	0m0.005s
 
 Testing ctak under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -327,28 +327,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/ctak.scm /tmp/larcenous/GambitC/ctak.exe
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 1.626631 seconds (1.627) for ctak:32:16:8:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ctak:32:16:8:1,1.626631
+Elapsed time: 1.62084 seconds (1.621) for ctak:32:16:8:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ctak:32:16:8:1,1.62084
 
-real	0m1.633s
-user	0m1.624s
+real	0m1.625s
+user	0m1.617s
 sys	0m0.008s
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 1.632644 seconds (1.633) for ctak:32:16:8:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ctak:32:16:8:1,1.632644
+Elapsed time: 1.699359 seconds (1.699) for ctak:32:16:8:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ctak:32:16:8:1,1.699359
 
-real	0m1.639s
-user	0m1.639s
-sys	0m0.000s
+real	0m1.703s
+user	0m1.699s
+sys	0m0.004s
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 1.631575 seconds (1.632) for ctak:32:16:8:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ctak:32:16:8:1,1.631575
+Elapsed time: 1.613404 seconds (1.613) for ctak:32:16:8:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ctak:32:16:8:1,1.613404
 
-real	0m1.639s
-user	0m1.633s
-sys	0m0.005s
+real	0m1.617s
+user	0m1.607s
+sys	0m0.010s
 
 Testing fib under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -356,28 +356,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/fib.scm /tmp/larcenous/GambitC/fib.exe
 Running...
 Running fib:40:5
-Elapsed time: 2.073695 seconds (2.074) for fib:40:5
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fib:40:5,2.073695
+Elapsed time: 1.913912 seconds (1.914) for fib:40:5
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fib:40:5,1.913912
 
-real	0m2.079s
-user	0m2.079s
+real	0m1.917s
+user	0m1.913s
+sys	0m0.004s
+Running...
+Running fib:40:5
+Elapsed time: 1.894459 seconds (1.894) for fib:40:5
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fib:40:5,1.894459
+
+real	0m1.898s
+user	0m1.898s
 sys	0m0.000s
 Running...
 Running fib:40:5
-Elapsed time: 2.064085 seconds (2.064) for fib:40:5
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fib:40:5,2.064085
+Elapsed time: 1.893751 seconds (1.894) for fib:40:5
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fib:40:5,1.893751
 
-real	0m2.069s
-user	0m2.069s
-sys	0m0.000s
-Running...
-Running fib:40:5
-Elapsed time: 2.06771 seconds (2.068) for fib:40:5
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fib:40:5,2.06771
-
-real	0m2.073s
-user	0m2.073s
-sys	0m0.000s
+real	0m1.897s
+user	0m1.893s
+sys	0m0.004s
 
 Testing fibc under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -385,28 +385,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/fibc.scm /tmp/larcenous/GambitC/fibc.exe
 Running...
 Running fibc:30:10
-Elapsed time: 1.035484 seconds (1.035) for fibc:30:10
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fibc:30:10,1.035484
+Elapsed time: 1.080169 seconds (1.08) for fibc:30:10
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fibc:30:10,1.080169
 
-real	0m1.041s
-user	0m1.041s
-sys	0m0.000s
+real	0m1.085s
+user	0m1.077s
+sys	0m0.008s
 Running...
 Running fibc:30:10
-Elapsed time: 1.104531 seconds (1.105) for fibc:30:10
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fibc:30:10,1.104531
+Elapsed time: 1.077011 seconds (1.077) for fibc:30:10
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fibc:30:10,1.077011
 
-real	0m1.111s
-user	0m1.099s
-sys	0m0.012s
+real	0m1.082s
+user	0m1.074s
+sys	0m0.007s
 Running...
 Running fibc:30:10
-Elapsed time: 1.038354 seconds (1.038) for fibc:30:10
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fibc:30:10,1.038354
+Elapsed time: 1.095356 seconds (1.095) for fibc:30:10
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fibc:30:10,1.095356
 
-real	0m1.045s
-user	0m1.026s
-sys	0m0.019s
+real	0m1.100s
+user	0m1.093s
+sys	0m0.007s
 
 Testing fibfp under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -414,28 +414,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/fibfp.scm /tmp/larcenous/GambitC/fibfp.exe
 Running...
 Running fibfp:35.:10
-Elapsed time: 1.019312 seconds (1.019) for fibfp:35.:10
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fibfp:35.:10,1.019312
+Elapsed time: 1.084953 seconds (1.085) for fibfp:35.:10
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fibfp:35.:10,1.084953
 
-real	0m1.025s
-user	0m1.012s
-sys	0m0.013s
+real	0m1.089s
+user	0m1.073s
+sys	0m0.002s
 Running...
 Running fibfp:35.:10
-Elapsed time: 1.040368 seconds (1.04) for fibfp:35.:10
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fibfp:35.:10,1.040368
+Elapsed time: 1.028988 seconds (1.029) for fibfp:35.:10
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fibfp:35.:10,1.028988
 
-real	0m1.046s
-user	0m1.046s
+real	0m1.033s
+user	0m1.024s
+sys	0m0.008s
+Running...
+Running fibfp:35.:10
+Elapsed time: 1.03359 seconds (1.034) for fibfp:35.:10
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fibfp:35.:10,1.03359
+
+real	0m1.037s
+user	0m1.037s
 sys	0m0.000s
-Running...
-Running fibfp:35.:10
-Elapsed time: 1.039725 seconds (1.04) for fibfp:35.:10
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fibfp:35.:10,1.039725
-
-real	0m1.046s
-user	0m1.034s
-sys	0m0.012s
 
 Testing sum under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -443,28 +443,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/sum.scm /tmp/larcenous/GambitC/sum.exe
 Running...
 Running sum:10000:200000
-Elapsed time: 1.708113 seconds (1.708) for sum:10000:200000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sum:10000:200000,1.708113
+Elapsed time: 1.691447 seconds (1.691) for sum:10000:200000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sum:10000:200000,1.691447
 
-real	0m1.714s
-user	0m1.698s
-sys	0m0.016s
+real	0m1.696s
+user	0m1.691s
+sys	0m0.004s
 Running...
 Running sum:10000:200000
-Elapsed time: 1.689596 seconds (1.69) for sum:10000:200000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sum:10000:200000,1.689596
+Elapsed time: 1.690998 seconds (1.691) for sum:10000:200000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sum:10000:200000,1.690998
 
 real	0m1.695s
-user	0m1.687s
-sys	0m0.008s
+user	0m1.691s
+sys	0m0.004s
 Running...
 Running sum:10000:200000
-Elapsed time: 1.690258 seconds (1.69) for sum:10000:200000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sum:10000:200000,1.690258
+Elapsed time: 1.692232 seconds (1.692) for sum:10000:200000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sum:10000:200000,1.692232
 
-real	0m1.697s
-user	0m1.697s
-sys	0m0.000s
+real	0m1.696s
+user	0m1.692s
+sys	0m0.004s
 
 Testing sumfp under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -472,28 +472,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/sumfp.scm /tmp/larcenous/GambitC/sumfp.exe
 Running...
 Running sumfp:1000000.:500
-Elapsed time: 1.569937 seconds (1.57) for sumfp:1000000.:500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sumfp:1000000.:500,1.569937
+Elapsed time: 1.594636 seconds (1.595) for sumfp:1000000.:500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sumfp:1000000.:500,1.594636
 
-real	0m1.576s
-user	0m1.568s
-sys	0m0.008s
+real	0m1.599s
+user	0m1.586s
+sys	0m0.012s
 Running...
 Running sumfp:1000000.:500
-Elapsed time: 1.562191 seconds (1.562) for sumfp:1000000.:500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sumfp:1000000.:500,1.562191
+Elapsed time: 1.582196 seconds (1.582) for sumfp:1000000.:500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sumfp:1000000.:500,1.582196
 
-real	0m1.570s
-user	0m1.560s
-sys	0m0.010s
-Running...
-Running sumfp:1000000.:500
-Elapsed time: 1.565118 seconds (1.565) for sumfp:1000000.:500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sumfp:1000000.:500,1.565118
-
-real	0m1.572s
-user	0m1.567s
+real	0m1.587s
+user	0m1.581s
 sys	0m0.005s
+Running...
+Running sumfp:1000000.:500
+Elapsed time: 1.602894 seconds (1.603) for sumfp:1000000.:500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sumfp:1000000.:500,1.602894
+
+real	0m1.607s
+user	0m1.597s
+sys	0m0.010s
 
 Testing fft under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -501,28 +501,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/fft.scm /tmp/larcenous/GambitC/fft.exe
 Running...
 Running fft:65536:100
-Elapsed time: 1.245825 seconds (1.246) for fft:65536:100
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fft:65536:100,1.245825
+Elapsed time: 1.258269 seconds (1.258) for fft:65536:100
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fft:65536:100,1.258269
 
-real	0m1.251s
-user	0m1.243s
-sys	0m0.008s
+real	0m1.262s
+user	0m1.252s
+sys	0m0.010s
 Running...
 Running fft:65536:100
-Elapsed time: 1.243727 seconds (1.244) for fft:65536:100
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fft:65536:100,1.243727
+Elapsed time: 1.258478 seconds (1.258) for fft:65536:100
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fft:65536:100,1.258478
 
-real	0m1.249s
-user	0m1.245s
-sys	0m0.004s
+real	0m1.262s
+user	0m1.252s
+sys	0m0.010s
 Running...
 Running fft:65536:100
-Elapsed time: 1.250076 seconds (1.25) for fft:65536:100
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fft:65536:100,1.250076
+Elapsed time: 1.25927 seconds (1.259) for fft:65536:100
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,fft:65536:100,1.25927
 
-real	0m1.256s
-user	0m1.250s
-sys	0m0.006s
+real	0m1.263s
+user	0m1.262s
+sys	0m0.000s
 
 Testing mbrot under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -530,28 +530,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/mbrot.scm /tmp/larcenous/GambitC/mbrot.exe
 Running...
 Running mbrot:75:1000
-Elapsed time: 2.256897 seconds (2.257) for mbrot:75:1000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mbrot:75:1000,2.256897
+Elapsed time: 2.278582 seconds (2.279) for mbrot:75:1000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mbrot:75:1000,2.278582
 
-real	0m2.263s
+real	0m2.283s
+user	0m2.277s
+sys	0m0.005s
+Running...
+Running mbrot:75:1000
+Elapsed time: 2.270275 seconds (2.27) for mbrot:75:1000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mbrot:75:1000,2.270275
+
+real	0m2.274s
 user	0m2.262s
-sys	0m0.000s
-Running...
-Running mbrot:75:1000
-Elapsed time: 2.255156 seconds (2.255) for mbrot:75:1000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mbrot:75:1000,2.255156
-
-real	0m2.262s
-user	0m2.255s
-sys	0m0.007s
-Running...
-Running mbrot:75:1000
-Elapsed time: 2.243458 seconds (2.243) for mbrot:75:1000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mbrot:75:1000,2.243458
-
-real	0m2.250s
-user	0m2.238s
 sys	0m0.012s
+Running...
+Running mbrot:75:1000
+Elapsed time: 2.263135 seconds (2.263) for mbrot:75:1000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mbrot:75:1000,2.263135
+
+real	0m2.267s
+user	0m2.261s
+sys	0m0.006s
 
 Testing mbrotZ under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -559,28 +559,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/mbrotZ.scm /tmp/larcenous/GambitC/mbrotZ.exe
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 6.7005 seconds (6.701) for mbrotZ:75:1000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mbrotZ:75:1000,6.7005
+Elapsed time: 6.384304 seconds (6.384) for mbrotZ:75:1000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mbrotZ:75:1000,6.384304
 
-real	0m6.706s
-user	0m6.684s
-sys	0m0.022s
-Running...
-Running mbrotZ:75:1000
-Elapsed time: 6.81027 seconds (6.81) for mbrotZ:75:1000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mbrotZ:75:1000,6.81027
-
-real	0m6.817s
-user	0m6.808s
-sys	0m0.009s
-Running...
-Running mbrotZ:75:1000
-Elapsed time: 6.734384 seconds (6.734) for mbrotZ:75:1000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mbrotZ:75:1000,6.734384
-
-real	0m6.741s
-user	0m6.733s
+real	0m6.389s
+user	0m6.380s
 sys	0m0.008s
+Running...
+Running mbrotZ:75:1000
+Elapsed time: 6.41154 seconds (6.412) for mbrotZ:75:1000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mbrotZ:75:1000,6.41154
+
+real	0m6.416s
+user	0m6.411s
+sys	0m0.004s
+Running...
+Running mbrotZ:75:1000
+Elapsed time: 6.806884 seconds (6.807) for mbrotZ:75:1000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mbrotZ:75:1000,6.806884
+
+real	0m6.810s
+user	0m6.735s
+sys	0m0.012s
 
 Testing nucleic under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -588,24 +588,24 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/nucleic.scm /tmp/larcenous/GambitC/nucleic.exe
 Running...
 Running nucleic:50
-Elapsed time: 1.354956 seconds (1.355) for nucleic:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nucleic:50,1.354956
+Elapsed time: 1.361427 seconds (1.361) for nucleic:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nucleic:50,1.361427
 
-real	0m1.362s
-user	0m1.356s
-sys	0m0.006s
+real	0m1.366s
+user	0m1.361s
+sys	0m0.005s
 Running...
 Running nucleic:50
-Elapsed time: 1.354353 seconds (1.354) for nucleic:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nucleic:50,1.354353
+Elapsed time: 1.378596 seconds (1.379) for nucleic:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nucleic:50,1.378596
 
-real	0m1.361s
-user	0m1.353s
-sys	0m0.008s
+real	0m1.383s
+user	0m1.377s
+sys	0m0.005s
 Running...
 Running nucleic:50
-Elapsed time: 1.357384 seconds (1.357) for nucleic:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nucleic:50,1.357384
+Elapsed time: 1.360016 seconds (1.36) for nucleic:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nucleic:50,1.360016
 
 real	0m1.364s
 user	0m1.357s
@@ -617,28 +617,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/pi.scm /tmp/larcenous/GambitC/pi.exe
 Running...
 Running pi:50:500:50:100
-Elapsed time: .660879 seconds (.661) for pi:50:500:50:100
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,pi:50:500:50:100,.660879
+Elapsed time: .66056 seconds (.661) for pi:50:500:50:100
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,pi:50:500:50:100,.66056
 
-real	0m0.668s
-user	0m0.668s
-sys	0m0.000s
-Running...
-Running pi:50:500:50:100
-Elapsed time: .653819 seconds (.654) for pi:50:500:50:100
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,pi:50:500:50:100,.653819
-
-real	0m0.661s
-user	0m0.652s
+real	0m0.665s
+user	0m0.657s
 sys	0m0.008s
 Running...
 Running pi:50:500:50:100
-Elapsed time: .654081 seconds (.654) for pi:50:500:50:100
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,pi:50:500:50:100,.654081
+Elapsed time: .654791 seconds (.655) for pi:50:500:50:100
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,pi:50:500:50:100,.654791
 
-real	0m0.661s
-user	0m0.656s
+real	0m0.659s
+user	0m0.654s
 sys	0m0.004s
+Running...
+Running pi:50:500:50:100
+Elapsed time: .660844 seconds (.661) for pi:50:500:50:100
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,pi:50:500:50:100,.660844
+
+real	0m0.665s
+user	0m0.653s
+sys	0m0.012s
 
 Testing pnpoly under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -646,28 +646,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/pnpoly.scm /tmp/larcenous/GambitC/pnpoly.exe
 Running...
 Running pnpoly:1000000
-Elapsed time: 2.187042 seconds (2.187) for pnpoly:1000000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,pnpoly:1000000,2.187042
-
-real	0m2.193s
-user	0m2.183s
-sys	0m0.010s
-Running...
-Running pnpoly:1000000
-Elapsed time: 2.187158 seconds (2.187) for pnpoly:1000000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,pnpoly:1000000,2.187158
+Elapsed time: 2.190239 seconds (2.19) for pnpoly:1000000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,pnpoly:1000000,2.190239
 
 real	0m2.194s
-user	0m2.187s
-sys	0m0.007s
+user	0m2.190s
+sys	0m0.000s
 Running...
 Running pnpoly:1000000
-Elapsed time: 2.184698 seconds (2.185) for pnpoly:1000000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,pnpoly:1000000,2.184698
+Elapsed time: 2.171714 seconds (2.172) for pnpoly:1000000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,pnpoly:1000000,2.171714
 
-real	0m2.192s
-user	0m2.189s
-sys	0m0.002s
+real	0m2.176s
+user	0m2.171s
+sys	0m0.004s
+Running...
+Running pnpoly:1000000
+Elapsed time: 2.172042 seconds (2.172) for pnpoly:1000000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,pnpoly:1000000,2.172042
+
+real	0m2.176s
+user	0m2.166s
+sys	0m0.010s
 
 Testing ray under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -675,28 +675,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/ray.scm /tmp/larcenous/GambitC/ray.exe
 Running...
 Running ray:50
-Elapsed time: 1.055798 seconds (1.056) for ray:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ray:50,1.055798
+Elapsed time: 1.06934 seconds (1.069) for ray:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ray:50,1.06934
 
-real	0m1.062s
-user	0m1.052s
-sys	0m0.009s
+real	0m1.073s
+user	0m1.043s
+sys	0m0.022s
 Running...
 Running ray:50
-Elapsed time: 1.058419 seconds (1.058) for ray:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ray:50,1.058419
+Elapsed time: 1.056915 seconds (1.057) for ray:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ray:50,1.056915
 
-real	0m1.065s
-user	0m1.057s
+real	0m1.060s
+user	0m1.052s
 sys	0m0.008s
 Running...
 Running ray:50
-Elapsed time: 1.058724 seconds (1.059) for ray:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ray:50,1.058724
+Elapsed time: 1.056081 seconds (1.056) for ray:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ray:50,1.056081
 
-real	0m1.065s
-user	0m1.045s
-sys	0m0.020s
+real	0m1.060s
+user	0m1.046s
+sys	0m0.014s
 
 Testing simplex under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -704,27 +704,27 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/simplex.scm /tmp/larcenous/GambitC/simplex.exe
 Running...
 Running simplex:1000000
-Elapsed time: 1.516918 seconds (1.517) for simplex:1000000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,simplex:1000000,1.516918
+Elapsed time: 1.554356 seconds (1.554) for simplex:1000000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,simplex:1000000,1.554356
+
+real	0m1.559s
+user	0m1.552s
+sys	0m0.007s
+Running...
+Running simplex:1000000
+Elapsed time: 1.519171 seconds (1.519) for simplex:1000000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,simplex:1000000,1.519171
 
 real	0m1.523s
-user	0m1.513s
-sys	0m0.010s
-Running...
-Running simplex:1000000
-Elapsed time: 1.513788 seconds (1.514) for simplex:1000000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,simplex:1000000,1.513788
-
-real	0m1.520s
 user	0m1.510s
-sys	0m0.010s
+sys	0m0.012s
 Running...
 Running simplex:1000000
-Elapsed time: 1.517198 seconds (1.517) for simplex:1000000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,simplex:1000000,1.517198
+Elapsed time: 1.522833 seconds (1.523) for simplex:1000000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,simplex:1000000,1.522833
 
-real	0m1.524s
-user	0m1.516s
+real	0m1.526s
+user	0m1.518s
 sys	0m0.008s
 
 Testing ack under GambitC
@@ -733,28 +733,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/ack.scm /tmp/larcenous/GambitC/ack.exe
 Running...
 Running ack:3:12:2
-Elapsed time: 1.907636 seconds (1.908) for ack:3:12:2
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ack:3:12:2,1.907636
+Elapsed time: 2.100133 seconds (2.1) for ack:3:12:2
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ack:3:12:2,2.100133
 
-real	0m1.914s
-user	0m1.914s
+real	0m2.104s
+user	0m2.100s
+sys	0m0.004s
+Running...
+Running ack:3:12:2
+Elapsed time: 1.863643 seconds (1.864) for ack:3:12:2
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ack:3:12:2,1.863643
+
+real	0m1.867s
+user	0m1.867s
 sys	0m0.000s
 Running...
 Running ack:3:12:2
-Elapsed time: 1.930355 seconds (1.93) for ack:3:12:2
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ack:3:12:2,1.930355
+Elapsed time: 1.827078 seconds (1.827) for ack:3:12:2
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ack:3:12:2,1.827078
 
-real	0m1.936s
-user	0m1.932s
-sys	0m0.004s
-Running...
-Running ack:3:12:2
-Elapsed time: 2.187951 seconds (2.188) for ack:3:12:2
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,ack:3:12:2,2.187951
-
-real	0m2.194s
-user	0m2.190s
-sys	0m0.004s
+real	0m1.830s
+user	0m1.830s
+sys	0m0.000s
 
 Testing array1 under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -762,28 +762,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/array1.scm /tmp/larcenous/GambitC/array1.exe
 Running...
 Running array1:1000000:500
-Elapsed time: 4.138674 seconds (4.139) for array1:1000000:500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,array1:1000000:500,4.138674
+Elapsed time: 4.170922 seconds (4.171) for array1:1000000:500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,array1:1000000:500,4.170922
 
-real	0m4.145s
-user	0m1.996s
-sys	0m2.149s
+real	0m4.175s
+user	0m2.021s
+sys	0m2.153s
 Running...
 Running array1:1000000:500
-Elapsed time: 4.173127 seconds (4.173) for array1:1000000:500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,array1:1000000:500,4.173127
+Elapsed time: 4.128488 seconds (4.128) for array1:1000000:500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,array1:1000000:500,4.128488
 
-real	0m4.179s
-user	0m1.953s
-sys	0m2.226s
+real	0m4.132s
+user	0m1.924s
+sys	0m2.208s
 Running...
 Running array1:1000000:500
-Elapsed time: 4.173078 seconds (4.173) for array1:1000000:500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,array1:1000000:500,4.173078
+Elapsed time: 4.138022 seconds (4.138) for array1:1000000:500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,array1:1000000:500,4.138022
 
-real	0m4.179s
-user	0m2.017s
-sys	0m2.162s
+real	0m4.142s
+user	0m2.005s
+sys	0m2.137s
 
 Testing string under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -791,28 +791,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/string.scm /tmp/larcenous/GambitC/string.exe
 Running...
 Running string:500000:100
-Elapsed time: .961604 seconds (.962) for string:500000:100
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,string:500000:100,.961604
+Elapsed time: .941893 seconds (.942) for string:500000:100
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,string:500000:100,.941893
 
-real	0m0.968s
-user	0m0.606s
-sys	0m0.362s
+real	0m0.946s
+user	0m0.589s
+sys	0m0.357s
 Running...
 Running string:500000:100
-Elapsed time: .942046 seconds (.942) for string:500000:100
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,string:500000:100,.942046
+Elapsed time: .948866 seconds (.949) for string:500000:100
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,string:500000:100,.948866
 
-real	0m0.948s
-user	0m0.569s
-sys	0m0.379s
-Running...
-Running string:500000:100
-Elapsed time: .945008 seconds (.945) for string:500000:100
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,string:500000:100,.945008
-
-real	0m0.951s
+real	0m0.953s
 user	0m0.627s
-sys	0m0.324s
+sys	0m0.325s
+Running...
+Running string:500000:100
+Elapsed time: .93747 seconds (.937) for string:500000:100
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,string:500000:100,.93747
+
+real	0m0.942s
+user	0m0.556s
+sys	0m0.385s
 
 Testing sum1 under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -820,28 +820,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/sum1.scm /tmp/larcenous/GambitC/sum1.exe
 Running...
 Running sum1:25
-Elapsed time: .336735 seconds (.337) for sum1:25
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sum1:25,.336735
+Elapsed time: .33659 seconds (.337) for sum1:25
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sum1:25,.33659
 
-real	0m0.342s
-user	0m0.324s
-sys	0m0.019s
+real	0m0.341s
+user	0m0.326s
+sys	0m0.015s
 Running...
 Running sum1:25
-Elapsed time: .34621 seconds (.346) for sum1:25
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sum1:25,.34621
+Elapsed time: .339407 seconds (.339) for sum1:25
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sum1:25,.339407
 
-real	0m0.352s
-user	0m0.344s
+real	0m0.344s
+user	0m0.336s
 sys	0m0.008s
 Running...
 Running sum1:25
-Elapsed time: .336277 seconds (.336) for sum1:25
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sum1:25,.336277
+Elapsed time: .33581 seconds (.336) for sum1:25
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sum1:25,.33581
 
-real	0m0.342s
-user	0m0.326s
-sys	0m0.016s
+real	0m0.340s
+user	0m0.328s
+sys	0m0.012s
 
 Testing cat under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -849,28 +849,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/cat.scm /tmp/larcenous/GambitC/cat.exe
 Running...
 Running cat:50
-Elapsed time: 1.319872 seconds (1.32) for cat:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,cat:50,1.319872
+Elapsed time: 1.33675 seconds (1.337) for cat:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,cat:50,1.33675
 
-real	0m1.326s
-user	0m1.058s
-sys	0m0.267s
+real	0m1.340s
+user	0m1.028s
+sys	0m0.312s
 Running...
 Running cat:50
-Elapsed time: 1.320241 seconds (1.32) for cat:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,cat:50,1.320241
+Elapsed time: 1.339295 seconds (1.339) for cat:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,cat:50,1.339295
 
-real	0m1.326s
-user	0m1.094s
-sys	0m0.232s
+real	0m1.343s
+user	0m1.118s
+sys	0m0.224s
 Running...
 Running cat:50
-Elapsed time: 1.318551 seconds (1.319) for cat:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,cat:50,1.318551
+Elapsed time: 1.333642 seconds (1.334) for cat:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,cat:50,1.333642
 
-real	0m1.324s
-user	0m1.072s
-sys	0m0.252s
+real	0m1.337s
+user	0m1.093s
+sys	0m0.244s
 
 Testing tail under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -878,28 +878,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/tail.scm /tmp/larcenous/GambitC/tail.exe
 Running...
 Running tail:50
-Elapsed time: 1.563071 seconds (1.563) for tail:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,tail:50,1.563071
+Elapsed time: 1.574131 seconds (1.574) for tail:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,tail:50,1.574131
 
-real	0m1.571s
-user	0m1.247s
-sys	0m0.324s
+real	0m1.580s
+user	0m1.232s
+sys	0m0.348s
 Running...
 Running tail:50
-Elapsed time: 1.577996 seconds (1.578) for tail:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,tail:50,1.577996
+Elapsed time: 1.610867 seconds (1.611) for tail:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,tail:50,1.610867
 
-real	0m1.587s
-user	0m1.213s
-sys	0m0.367s
+real	0m1.617s
+user	0m1.284s
+sys	0m0.328s
 Running...
 Running tail:50
-Elapsed time: 1.563153 seconds (1.563) for tail:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,tail:50,1.563153
+Elapsed time: 1.58963 seconds (1.59) for tail:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,tail:50,1.58963
 
-real	0m1.572s
-user	0m1.220s
-sys	0m0.352s
+real	0m1.596s
+user	0m1.267s
+sys	0m0.328s
 
 Testing wc under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -907,28 +907,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/wc.scm /tmp/larcenous/GambitC/wc.exe
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 1.197783 seconds (1.198) for wc:inputs/bib:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,wc:inputs/bib:50,1.197783
+Elapsed time: 1.22571 seconds (1.226) for wc:inputs/bib:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,wc:inputs/bib:50,1.22571
 
-real	0m1.203s
-user	0m1.155s
-sys	0m0.048s
+real	0m1.229s
+user	0m1.189s
+sys	0m0.040s
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 1.194574 seconds (1.195) for wc:inputs/bib:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,wc:inputs/bib:50,1.194574
+Elapsed time: 1.22459 seconds (1.225) for wc:inputs/bib:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,wc:inputs/bib:50,1.22459
 
-real	0m1.201s
-user	0m1.153s
-sys	0m0.048s
+real	0m1.228s
+user	0m1.172s
+sys	0m0.056s
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 1.195651 seconds (1.196) for wc:inputs/bib:50
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,wc:inputs/bib:50,1.195651
+Elapsed time: 1.223953 seconds (1.224) for wc:inputs/bib:50
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,wc:inputs/bib:50,1.223953
 
-real	0m1.201s
-user	0m1.133s
-sys	0m0.068s
+real	0m1.227s
+user	0m1.191s
+sys	0m0.036s
 
 Testing read1 under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -936,28 +936,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/read1.scm /tmp/larcenous/GambitC/read1.exe
 Running...
 Running read1:2500
-Elapsed time: .767645 seconds (.768) for read1:2500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,read1:2500,.767645
+Elapsed time: .747168 seconds (.747) for read1:2500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,read1:2500,.747168
 
-real	0m0.774s
-user	0m0.766s
-sys	0m0.008s
+real	0m0.751s
+user	0m0.721s
+sys	0m0.030s
 Running...
 Running read1:2500
-Elapsed time: .763953 seconds (.764) for read1:2500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,read1:2500,.763953
+Elapsed time: .754309 seconds (.754) for read1:2500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,read1:2500,.754309
 
-real	0m0.771s
-user	0m0.758s
-sys	0m0.012s
+real	0m0.758s
+user	0m0.732s
+sys	0m0.027s
 Running...
 Running read1:2500
-Elapsed time: .77461 seconds (.775) for read1:2500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,read1:2500,.77461
+Elapsed time: .74804 seconds (.748) for read1:2500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,read1:2500,.74804
 
-real	0m0.781s
-user	0m0.762s
-sys	0m0.019s
+real	0m0.752s
+user	0m0.716s
+sys	0m0.036s
 
 Testing conform under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -965,28 +965,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/conform.scm /tmp/larcenous/GambitC/conform.exe
 Running...
 Running conform:500
-Elapsed time: 2.117023 seconds (2.117) for conform:500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,conform:500,2.117023
+Elapsed time: 2.176756 seconds (2.177) for conform:500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,conform:500,2.176756
 
-real	0m2.123s
-user	0m2.115s
-sys	0m0.008s
-Running...
-Running conform:500
-Elapsed time: 2.11268 seconds (2.113) for conform:500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,conform:500,2.11268
-
-real	0m2.119s
-user	0m2.116s
-sys	0m0.003s
-Running...
-Running conform:500
-Elapsed time: 2.115987 seconds (2.116) for conform:500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,conform:500,2.115987
-
-real	0m2.124s
-user	0m2.120s
+real	0m2.181s
+user	0m2.177s
 sys	0m0.004s
+Running...
+Running conform:500
+Elapsed time: 2.182716 seconds (2.183) for conform:500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,conform:500,2.182716
+
+real	0m2.186s
+user	0m2.182s
+sys	0m0.004s
+Running...
+Running conform:500
+Elapsed time: 2.191169 seconds (2.191) for conform:500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,conform:500,2.191169
+
+real	0m2.195s
+user	0m2.186s
+sys	0m0.008s
 
 Testing dynamic under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -994,28 +994,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/dynamic.scm /tmp/larcenous/GambitC/dynamic.exe
 Running...
 Running dynamic:500
-Elapsed time: 3.064423 seconds (3.064) for dynamic:500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,dynamic:500,3.064423
+Elapsed time: 3.21474 seconds (3.215) for dynamic:500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,dynamic:500,3.21474
 
-real	0m3.070s
-user	0m3.050s
+real	0m3.219s
+user	0m3.199s
 sys	0m0.020s
 Running...
 Running dynamic:500
-Elapsed time: 3.107393 seconds (3.107) for dynamic:500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,dynamic:500,3.107393
+Elapsed time: 3.225213 seconds (3.225) for dynamic:500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,dynamic:500,3.225213
 
-real	0m3.113s
-user	0m3.097s
-sys	0m0.016s
+real	0m3.229s
+user	0m3.197s
+sys	0m0.032s
 Running...
 Running dynamic:500
-Elapsed time: 3.065627 seconds (3.066) for dynamic:500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,dynamic:500,3.065627
+Elapsed time: 3.224635 seconds (3.225) for dynamic:500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,dynamic:500,3.224635
 
-real	0m3.072s
-user	0m3.059s
-sys	0m0.012s
+real	0m3.229s
+user	0m3.201s
+sys	0m0.028s
 
 Testing earley under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1023,28 +1023,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/earley.scm /tmp/larcenous/GambitC/earley.exe
 Running...
 Running earley:1
-Elapsed time: 2.477222 seconds (2.477) for earley:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,earley:1,2.477222
+Elapsed time: 2.690573 seconds (2.691) for earley:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,earley:1,2.690573
 
-real	0m2.578s
-user	0m1.881s
-sys	0m0.696s
+real	0m2.782s
+user	0m1.965s
+sys	0m0.785s
 Running...
 Running earley:1
-Elapsed time: 2.493193 seconds (2.493) for earley:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,earley:1,2.493193
+Elapsed time: 2.479365 seconds (2.479) for earley:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,earley:1,2.479365
 
-real	0m2.600s
-user	0m1.876s
-sys	0m0.724s
+real	0m2.561s
+user	0m1.828s
+sys	0m0.732s
 Running...
 Running earley:1
-Elapsed time: 2.496768 seconds (2.497) for earley:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,earley:1,2.496768
+Elapsed time: 2.573181 seconds (2.573) for earley:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,earley:1,2.573181
 
-real	0m2.597s
-user	0m1.892s
-sys	0m0.704s
+real	0m2.656s
+user	0m1.991s
+sys	0m0.664s
 
 Testing graphs under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1052,28 +1052,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/graphs.scm /tmp/larcenous/GambitC/graphs.exe
 Running...
 Running graphs:7:3
-Elapsed time: 6.150957 seconds (6.151) for graphs:7:3
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,graphs:7:3,6.150957
+Elapsed time: 6.255424 seconds (6.255) for graphs:7:3
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,graphs:7:3,6.255424
 
-real	0m6.162s
-user	0m6.069s
-sys	0m0.092s
+real	0m6.263s
+user	0m6.147s
+sys	0m0.116s
 Running...
 Running graphs:7:3
-Elapsed time: 6.506406 seconds (6.506) for graphs:7:3
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,graphs:7:3,6.506406
+Elapsed time: 6.213938 seconds (6.214) for graphs:7:3
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,graphs:7:3,6.213938
 
-real	0m6.518s
-user	0m6.430s
-sys	0m0.088s
+real	0m6.222s
+user	0m6.161s
+sys	0m0.060s
 Running...
 Running graphs:7:3
-Elapsed time: 6.186336 seconds (6.186) for graphs:7:3
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,graphs:7:3,6.186336
+Elapsed time: 6.22964 seconds (6.23) for graphs:7:3
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,graphs:7:3,6.22964
 
-real	0m6.198s
-user	0m6.109s
-sys	0m0.088s
+real	0m6.238s
+user	0m6.137s
+sys	0m0.100s
 
 Testing lattice under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1081,28 +1081,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/lattice.scm /tmp/larcenous/GambitC/lattice.exe
 Running...
 Running lattice:44:10
-Elapsed time: 3.559041 seconds (3.559) for lattice:44:10
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,lattice:44:10,3.559041
+Elapsed time: 3.42857 seconds (3.429) for lattice:44:10
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,lattice:44:10,3.42857
 
-real	0m3.565s
-user	0m3.564s
-sys	0m0.000s
-Running...
-Running lattice:44:10
-Elapsed time: 3.562677 seconds (3.563) for lattice:44:10
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,lattice:44:10,3.562677
-
-real	0m3.570s
-user	0m3.561s
-sys	0m0.008s
-Running...
-Running lattice:44:10
-Elapsed time: 3.539753 seconds (3.54) for lattice:44:10
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,lattice:44:10,3.539753
-
-real	0m3.546s
-user	0m3.542s
+real	0m3.433s
+user	0m3.429s
 sys	0m0.004s
+Running...
+Running lattice:44:10
+Elapsed time: 3.426486 seconds (3.426) for lattice:44:10
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,lattice:44:10,3.426486
+
+real	0m3.431s
+user	0m3.418s
+sys	0m0.012s
+Running...
+Running lattice:44:10
+Elapsed time: 3.429028 seconds (3.429) for lattice:44:10
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,lattice:44:10,3.429028
+
+real	0m3.433s
+user	0m3.421s
+sys	0m0.012s
 
 Testing matrix under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1110,28 +1110,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/matrix.scm /tmp/larcenous/GambitC/matrix.exe
 Running...
 Running matrix:5:5:2500
-Elapsed time: 1.309848 seconds (1.31) for matrix:5:5:2500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,matrix:5:5:2500,1.309848
+Elapsed time: 1.334888 seconds (1.335) for matrix:5:5:2500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,matrix:5:5:2500,1.334888
 
-real	0m1.317s
-user	0m1.313s
-sys	0m0.004s
+real	0m1.339s
+user	0m1.332s
+sys	0m0.006s
 Running...
 Running matrix:5:5:2500
-Elapsed time: 1.310646 seconds (1.311) for matrix:5:5:2500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,matrix:5:5:2500,1.310646
+Elapsed time: 1.497579 seconds (1.498) for matrix:5:5:2500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,matrix:5:5:2500,1.497579
 
-real	0m1.317s
-user	0m1.312s
-sys	0m0.005s
-Running...
-Running matrix:5:5:2500
-Elapsed time: 1.311427 seconds (1.311) for matrix:5:5:2500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,matrix:5:5:2500,1.311427
-
-real	0m1.318s
-user	0m1.307s
+real	0m1.502s
+user	0m1.449s
 sys	0m0.011s
+Running...
+Running matrix:5:5:2500
+Elapsed time: 1.320787 seconds (1.321) for matrix:5:5:2500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,matrix:5:5:2500,1.320787
+
+real	0m1.324s
+user	0m1.324s
+sys	0m0.000s
 
 Testing maze under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1139,28 +1139,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/maze.scm /tmp/larcenous/GambitC/maze.exe
 Running...
 Running maze:20:7:10000
-Elapsed time: .45987 seconds (.46) for maze:20:7:10000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,maze:20:7:10000,.45987
+Elapsed time: .482547 seconds (.483) for maze:20:7:10000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,maze:20:7:10000,.482547
 
-real	0m0.466s
-user	0m0.453s
+real	0m0.487s
+user	0m0.458s
+sys	0m0.028s
+Running...
+Running maze:20:7:10000
+Elapsed time: .475833 seconds (.476) for maze:20:7:10000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,maze:20:7:10000,.475833
+
+real	0m0.479s
+user	0m0.467s
 sys	0m0.012s
 Running...
 Running maze:20:7:10000
-Elapsed time: .466292 seconds (.466) for maze:20:7:10000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,maze:20:7:10000,.466292
+Elapsed time: .481097 seconds (.481) for maze:20:7:10000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,maze:20:7:10000,.481097
 
-real	0m0.473s
-user	0m0.456s
-sys	0m0.016s
-Running...
-Running maze:20:7:10000
-Elapsed time: .454324 seconds (.454) for maze:20:7:10000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,maze:20:7:10000,.454324
-
-real	0m0.461s
-user	0m0.433s
-sys	0m0.027s
+real	0m0.485s
+user	0m0.480s
+sys	0m0.004s
 
 Testing mazefun under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1168,28 +1168,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/mazefun.scm /tmp/larcenous/GambitC/mazefun.exe
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 1.748187 seconds (1.748) for mazefun:11:11:10000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mazefun:11:11:10000,1.748187
+Elapsed time: 1.807422 seconds (1.807) for mazefun:11:11:10000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mazefun:11:11:10000,1.807422
 
-real	0m1.755s
-user	0m1.748s
-sys	0m0.007s
+real	0m1.811s
+user	0m1.806s
+sys	0m0.005s
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 1.766516 seconds (1.767) for mazefun:11:11:10000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mazefun:11:11:10000,1.766516
+Elapsed time: 1.805308 seconds (1.805) for mazefun:11:11:10000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mazefun:11:11:10000,1.805308
 
-real	0m1.773s
-user	0m1.769s
-sys	0m0.004s
+real	0m1.809s
+user	0m1.800s
+sys	0m0.008s
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 1.757087 seconds (1.757) for mazefun:11:11:10000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mazefun:11:11:10000,1.757087
+Elapsed time: 1.806217 seconds (1.806) for mazefun:11:11:10000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mazefun:11:11:10000,1.806217
 
-real	0m1.764s
-user	0m1.761s
-sys	0m0.002s
+real	0m1.810s
+user	0m1.798s
+sys	0m0.012s
 
 Testing nqueens under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1197,28 +1197,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/nqueens.scm /tmp/larcenous/GambitC/nqueens.exe
 Running...
 Running nqueens:13:10
-Elapsed time: 5.997189 seconds (5.997) for nqueens:13:10
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nqueens:13:10,5.997189
+Elapsed time: 6.721374 seconds (6.721) for nqueens:13:10
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nqueens:13:10,6.721374
 
-real	0m6.003s
-user	0m5.998s
-sys	0m0.004s
+real	0m6.726s
+user	0m6.717s
+sys	0m0.007s
 Running...
 Running nqueens:13:10
-Elapsed time: 6.020647 seconds (6.021) for nqueens:13:10
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nqueens:13:10,6.020647
+Elapsed time: 5.944574 seconds (5.945) for nqueens:13:10
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nqueens:13:10,5.944574
 
-real	0m6.027s
-user	0m6.021s
-sys	0m0.005s
-Running...
-Running nqueens:13:10
-Elapsed time: 5.997908 seconds (5.998) for nqueens:13:10
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nqueens:13:10,5.997908
-
-real	0m6.004s
-user	0m5.996s
+real	0m5.949s
+user	0m5.940s
 sys	0m0.008s
+Running...
+Running nqueens:13:10
+Elapsed time: 5.966966 seconds (5.967) for nqueens:13:10
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nqueens:13:10,5.966966
+
+real	0m5.971s
+user	0m5.971s
+sys	0m0.000s
 
 Testing paraffins under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1226,28 +1226,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/paraffins.scm /tmp/larcenous/GambitC/paraffins.exe
 Running...
 Running paraffins:23:10
-Elapsed time: 2.474524 seconds (2.475) for paraffins:23:10
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,paraffins:23:10,2.474524
+Elapsed time: 2.529896 seconds (2.53) for paraffins:23:10
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,paraffins:23:10,2.529896
 
-real	0m2.541s
-user	0m1.741s
-sys	0m0.799s
+real	0m2.576s
+user	0m1.791s
+sys	0m0.784s
 Running...
 Running paraffins:23:10
-Elapsed time: 2.462531 seconds (2.463) for paraffins:23:10
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,paraffins:23:10,2.462531
+Elapsed time: 2.501169 seconds (2.501) for paraffins:23:10
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,paraffins:23:10,2.501169
 
-real	0m2.532s
-user	0m1.756s
+real	0m2.546s
+user	0m1.754s
+sys	0m0.791s
+Running...
+Running paraffins:23:10
+Elapsed time: 2.496187 seconds (2.496) for paraffins:23:10
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,paraffins:23:10,2.496187
+
+real	0m2.548s
+user	0m1.771s
 sys	0m0.776s
-Running...
-Running paraffins:23:10
-Elapsed time: 2.541698 seconds (2.542) for paraffins:23:10
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,paraffins:23:10,2.541698
-
-real	0m2.611s
-user	0m1.782s
-sys	0m0.827s
 
 Testing parsing under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1255,28 +1255,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/parsing.scm /tmp/larcenous/GambitC/parsing.exe
 Running...
 Running parsing:2500
-Elapsed time: 1.490252 seconds (1.49) for parsing:2500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,parsing:2500,1.490252
+Elapsed time: 1.494352 seconds (1.494) for parsing:2500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,parsing:2500,1.494352
 
-real	0m1.496s
-user	0m1.488s
+real	0m1.499s
+user	0m1.491s
 sys	0m0.008s
 Running...
 Running parsing:2500
-Elapsed time: 1.488183 seconds (1.488) for parsing:2500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,parsing:2500,1.488183
+Elapsed time: 1.475745 seconds (1.476) for parsing:2500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,parsing:2500,1.475745
+
+real	0m1.480s
+user	0m1.476s
+sys	0m0.004s
+Running...
+Running parsing:2500
+Elapsed time: 1.490969 seconds (1.491) for parsing:2500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,parsing:2500,1.490969
 
 real	0m1.494s
 user	0m1.486s
-sys	0m0.009s
-Running...
-Running parsing:2500
-Elapsed time: 1.493896 seconds (1.494) for parsing:2500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,parsing:2500,1.493896
-
-real	0m1.501s
-user	0m1.496s
-sys	0m0.004s
+sys	0m0.008s
 
 Testing peval under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1284,28 +1284,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/peval.scm /tmp/larcenous/GambitC/peval.exe
 Running...
 Running peval:2000
-Elapsed time: 1.69835 seconds (1.698) for peval:2000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,peval:2000,1.69835
+Elapsed time: 1.709327 seconds (1.709) for peval:2000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,peval:2000,1.709327
 
-real	0m1.705s
-user	0m1.697s
+real	0m1.714s
+user	0m1.705s
 sys	0m0.008s
 Running...
 Running peval:2000
-Elapsed time: 1.683265 seconds (1.683) for peval:2000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,peval:2000,1.683265
+Elapsed time: 1.716133 seconds (1.716) for peval:2000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,peval:2000,1.716133
 
-real	0m1.690s
-user	0m1.685s
-sys	0m0.004s
+real	0m1.722s
+user	0m1.721s
+sys	0m0.000s
 Running...
 Running peval:2000
-Elapsed time: 1.697069 seconds (1.697) for peval:2000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,peval:2000,1.697069
+Elapsed time: 1.71523 seconds (1.715) for peval:2000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,peval:2000,1.71523
 
-real	0m1.704s
-user	0m1.692s
-sys	0m0.012s
+real	0m1.719s
+user	0m1.715s
+sys	0m0.004s
 
 Testing primes under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1313,28 +1313,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/primes.scm /tmp/larcenous/GambitC/primes.exe
 Running...
 Running primes:1000:10000
-Elapsed time: .619792 seconds (.62) for primes:1000:10000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,primes:1000:10000,.619792
+Elapsed time: .638586 seconds (.639) for primes:1000:10000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,primes:1000:10000,.638586
 
-real	0m0.626s
-user	0m0.626s
+real	0m0.643s
+user	0m0.636s
+sys	0m0.007s
+Running...
+Running primes:1000:10000
+Elapsed time: .627126 seconds (.627) for primes:1000:10000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,primes:1000:10000,.627126
+
+real	0m0.632s
+user	0m0.632s
 sys	0m0.000s
 Running...
 Running primes:1000:10000
-Elapsed time: .626548 seconds (.627) for primes:1000:10000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,primes:1000:10000,.626548
+Elapsed time: .619398 seconds (.619) for primes:1000:10000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,primes:1000:10000,.619398
 
-real	0m0.633s
-user	0m0.617s
-sys	0m0.016s
-Running...
-Running primes:1000:10000
-Elapsed time: .618464 seconds (.618) for primes:1000:10000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,primes:1000:10000,.618464
-
-real	0m0.625s
-user	0m0.616s
-sys	0m0.009s
+real	0m0.623s
+user	0m0.623s
+sys	0m0.000s
 
 Testing quicksort under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1342,28 +1342,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/quicksort.scm /tmp/larcenous/GambitC/quicksort.exe
 Running...
 Running quicksort:10000:2500
-Elapsed time: 3.679814 seconds (3.68) for quicksort:10000:2500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,quicksort:10000:2500,3.679814
+Elapsed time: 3.725064 seconds (3.725) for quicksort:10000:2500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,quicksort:10000:2500,3.725064
 
-real	0m3.689s
-user	0m3.613s
+real	0m3.732s
+user	0m3.656s
 sys	0m0.076s
 Running...
 Running quicksort:10000:2500
-Elapsed time: 3.638752 seconds (3.639) for quicksort:10000:2500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,quicksort:10000:2500,3.638752
+Elapsed time: 3.725037 seconds (3.725) for quicksort:10000:2500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,quicksort:10000:2500,3.725037
 
-real	0m3.647s
-user	0m3.567s
-sys	0m0.080s
+real	0m3.732s
+user	0m3.639s
+sys	0m0.092s
 Running...
 Running quicksort:10000:2500
-Elapsed time: 3.649987 seconds (3.65) for quicksort:10000:2500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,quicksort:10000:2500,3.649987
+Elapsed time: 3.728969 seconds (3.729) for quicksort:10000:2500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,quicksort:10000:2500,3.728969
 
-real	0m3.659s
-user	0m3.550s
-sys	0m0.108s
+real	0m3.736s
+user	0m3.668s
+sys	0m0.068s
 
 Testing scheme under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1371,28 +1371,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/scheme.scm /tmp/larcenous/GambitC/scheme.exe
 Running...
 Running scheme:100000
-Elapsed time: 2.989514 seconds (2.99) for scheme:100000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,scheme:100000,2.989514
+Elapsed time: 2.703264 seconds (2.703) for scheme:100000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,scheme:100000,2.703264
 
-real	0m2.996s
-user	0m2.992s
-sys	0m0.004s
-Running...
-Running scheme:100000
-Elapsed time: 2.994826 seconds (2.995) for scheme:100000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,scheme:100000,2.994826
-
-real	0m3.000s
-user	0m2.996s
-sys	0m0.004s
-Running...
-Running scheme:100000
-Elapsed time: 3.007956 seconds (3.008) for scheme:100000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,scheme:100000,3.007956
-
-real	0m3.014s
-user	0m3.013s
+real	0m2.708s
+user	0m2.708s
 sys	0m0.000s
+Running...
+Running scheme:100000
+Elapsed time: 2.712873 seconds (2.713) for scheme:100000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,scheme:100000,2.712873
+
+real	0m2.717s
+user	0m2.698s
+sys	0m0.019s
+Running...
+Running scheme:100000
+Elapsed time: 2.8416 seconds (2.842) for scheme:100000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,scheme:100000,2.8416
+
+real	0m2.846s
+user	0m2.840s
+sys	0m0.005s
 
 Testing slatex under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1400,28 +1400,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/slatex.scm /tmp/larcenous/GambitC/slatex.exe
 Running...
 Running slatex:500
-Elapsed time: 2.241412 seconds (2.241) for slatex:500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,slatex:500,2.241412
+Elapsed time: 2.217737 seconds (2.218) for slatex:500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,slatex:500,2.217737
 
-real	0m2.251s
-user	0m1.141s
-sys	0m1.076s
+real	0m2.222s
+user	0m1.147s
+sys	0m1.029s
 Running...
 Running slatex:500
-Elapsed time: 2.198545 seconds (2.199) for slatex:500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,slatex:500,2.198545
+Elapsed time: 2.208032 seconds (2.208) for slatex:500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,slatex:500,2.208032
 
-real	0m2.205s
-user	0m1.138s
-sys	0m1.024s
+real	0m2.213s
+user	0m1.108s
+sys	0m1.071s
 Running...
 Running slatex:500
-Elapsed time: 2.186181 seconds (2.186) for slatex:500
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,slatex:500,2.186181
+Elapsed time: 2.170443 seconds (2.17) for slatex:500
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,slatex:500,2.170443
 
-real	0m2.192s
-user	0m1.143s
-sys	0m1.015s
+real	0m2.174s
+user	0m1.155s
+sys	0m0.976s
 
 Testing chudnovsky under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1429,28 +1429,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/chudnovsky.scm /tmp/larcenous/GambitC/chudnovsky.exe
 Running...
 Running chudnovsky:50:500:50:1000
-Elapsed time: .253133 seconds (.253) for chudnovsky:50:500:50:1000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,chudnovsky:50:500:50:1000,.253133
+Elapsed time: .250255 seconds (.25) for chudnovsky:50:500:50:1000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,chudnovsky:50:500:50:1000,.250255
 
-real	0m0.259s
-user	0m0.259s
-sys	0m0.000s
+real	0m0.255s
+user	0m0.252s
+sys	0m0.003s
 Running...
 Running chudnovsky:50:500:50:1000
-Elapsed time: .252108 seconds (.252) for chudnovsky:50:500:50:1000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,chudnovsky:50:500:50:1000,.252108
+Elapsed time: .285173 seconds (.285) for chudnovsky:50:500:50:1000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,chudnovsky:50:500:50:1000,.285173
 
-real	0m0.260s
-user	0m0.259s
-sys	0m0.000s
+real	0m0.291s
+user	0m0.275s
+sys	0m0.016s
 Running...
 Running chudnovsky:50:500:50:1000
-Elapsed time: .249811 seconds (.25) for chudnovsky:50:500:50:1000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,chudnovsky:50:500:50:1000,.249811
+Elapsed time: .251171 seconds (.251) for chudnovsky:50:500:50:1000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,chudnovsky:50:500:50:1000,.251171
 
-real	0m0.258s
-user	0m0.254s
-sys	0m0.004s
+real	0m0.256s
+user	0m0.256s
+sys	0m0.000s
 
 Testing nboyer under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1458,28 +1458,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/nboyer.scm /tmp/larcenous/GambitC/nboyer.exe
 Running...
 Running nboyer:5:1
-Elapsed time: 2.26143 seconds (2.261) for nboyer:5:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nboyer:5:1,2.26143
+Elapsed time: 2.210857 seconds (2.211) for nboyer:5:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nboyer:5:1,2.210857
 
-real	0m2.317s
-user	0m1.977s
-sys	0m0.340s
+real	0m2.250s
+user	0m1.930s
+sys	0m0.320s
 Running...
 Running nboyer:5:1
-Elapsed time: 2.242306 seconds (2.242) for nboyer:5:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nboyer:5:1,2.242306
+Elapsed time: 2.26746 seconds (2.267) for nboyer:5:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nboyer:5:1,2.26746
 
-real	0m2.300s
-user	0m2.003s
-sys	0m0.296s
+real	0m2.307s
+user	0m2.007s
+sys	0m0.300s
 Running...
 Running nboyer:5:1
-Elapsed time: 2.236834 seconds (2.237) for nboyer:5:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nboyer:5:1,2.236834
+Elapsed time: 2.332069 seconds (2.332) for nboyer:5:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,nboyer:5:1,2.332069
 
-real	0m2.294s
-user	0m1.982s
-sys	0m0.312s
+real	0m2.371s
+user	0m2.062s
+sys	0m0.309s
 
 Testing sboyer under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1487,27 +1487,27 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/sboyer.scm /tmp/larcenous/GambitC/sboyer.exe
 Running...
 Running sboyer:5:1
-Elapsed time: .925478 seconds (.925) for sboyer:5:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sboyer:5:1,.925478
+Elapsed time: .965407 seconds (.965) for sboyer:5:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sboyer:5:1,.965407
 
-real	0m0.948s
-user	0m0.836s
-sys	0m0.112s
+real	0m0.981s
+user	0m0.892s
+sys	0m0.088s
 Running...
 Running sboyer:5:1
-Elapsed time: .971708 seconds (.972) for sboyer:5:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sboyer:5:1,.971708
+Elapsed time: .958637 seconds (.959) for sboyer:5:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sboyer:5:1,.958637
 
-real	0m0.996s
-user	0m0.871s
-sys	0m0.124s
+real	0m0.974s
+user	0m0.910s
+sys	0m0.064s
 Running...
 Running sboyer:5:1
-Elapsed time: .965695 seconds (.966) for sboyer:5:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sboyer:5:1,.965695
+Elapsed time: .983972 seconds (.984) for sboyer:5:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,sboyer:5:1,.983972
 
-real	0m0.988s
-user	0m0.888s
+real	0m0.999s
+user	0m0.899s
 sys	0m0.100s
 
 Testing gcbench under GambitC
@@ -1550,12 +1550,12 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 5.312184 seconds (5.312) for gcbench:20:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,gcbench:20:1,5.312184
+Elapsed time: 5.238121 seconds (5.238) for gcbench:20:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,gcbench:20:1,5.238121
 
-real	0m5.333s
-user	0m5.196s
-sys	0m0.136s
+real	0m5.255s
+user	0m5.128s
+sys	0m0.127s
 Running...
 The garbage collector should touch about 128 megabytes of heap storage.
 The use of more or less memory will skew the results.
@@ -1592,12 +1592,12 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 5.281466 seconds (5.281) for gcbench:20:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,gcbench:20:1,5.281466
+Elapsed time: 5.222057 seconds (5.222) for gcbench:20:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,gcbench:20:1,5.222057
 
-real	0m5.302s
-user	0m5.134s
-sys	0m0.168s
+real	0m5.238s
+user	0m5.062s
+sys	0m0.176s
 Running...
 The garbage collector should touch about 128 megabytes of heap storage.
 The use of more or less memory will skew the results.
@@ -1634,12 +1634,12 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 5.336492 seconds (5.336) for gcbench:20:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,gcbench:20:1,5.336492
+Elapsed time: 5.237401 seconds (5.237) for gcbench:20:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,gcbench:20:1,5.237401
 
-real	0m5.357s
-user	0m5.197s
-sys	0m0.160s
+real	0m5.254s
+user	0m5.120s
+sys	0m0.134s
 
 Testing mperm under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1647,28 +1647,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/mperm.scm /tmp/larcenous/GambitC/mperm.exe
 Running...
 Running mperm:20:10:2:1
-Elapsed time: 4.377076 seconds (4.377) for mperm:20:10:2:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mperm:20:10:2:1,4.377076
+Elapsed time: 4.330608 seconds (4.331) for mperm:20:10:2:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mperm:20:10:2:1,4.330608
 
-real	0m4.801s
-user	0m3.860s
-sys	0m0.940s
+real	0m4.726s
+user	0m3.893s
+sys	0m0.832s
 Running...
 Running mperm:20:10:2:1
-Elapsed time: 4.427174 seconds (4.427) for mperm:20:10:2:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mperm:20:10:2:1,4.427174
+Elapsed time: 4.316344 seconds (4.316) for mperm:20:10:2:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mperm:20:10:2:1,4.316344
 
-real	0m4.848s
-user	0m3.972s
+real	0m4.729s
+user	0m3.852s
 sys	0m0.876s
 Running...
 Running mperm:20:10:2:1
-Elapsed time: 4.407574 seconds (4.408) for mperm:20:10:2:1
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mperm:20:10:2:1,4.407574
+Elapsed time: 4.342192 seconds (4.342) for mperm:20:10:2:1
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,mperm:20:10:2:1,4.342192
 
-real	0m4.832s
-user	0m3.959s
-sys	0m0.872s
+real	0m4.722s
+user	0m3.870s
+sys	0m0.852s
 
 Testing equal under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1676,28 +1676,28 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/equal.scm /tmp/larcenous/GambitC/equal.exe
 Running...
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: .2245 seconds (.225) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,equal:100:100:8:1000:2000:5000,.2245
+Elapsed time: .220802 seconds (.221) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,equal:100:100:8:1000:2000:5000,.220802
 
-real	0m0.230s
-user	0m0.174s
-sys	0m0.055s
+real	0m0.225s
+user	0m0.161s
+sys	0m0.064s
 Running...
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: .227441 seconds (.227) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,equal:100:100:8:1000:2000:5000,.227441
+Elapsed time: .216693 seconds (.217) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,equal:100:100:8:1000:2000:5000,.216693
 
-real	0m0.234s
-user	0m0.193s
-sys	0m0.040s
+real	0m0.221s
+user	0m0.173s
+sys	0m0.048s
 Running...
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: .229559 seconds (.23) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,equal:100:100:8:1000:2000:5000,.229559
+Elapsed time: .219612 seconds (.22) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,equal:100:100:8:1000:2000:5000,.219612
 
-real	0m0.236s
-user	0m0.196s
-sys	0m0.040s
+real	0m0.224s
+user	0m0.180s
+sys	0m0.044s
 
 Testing bv2string under GambitC
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/GambitC-prelude.scm
@@ -1705,25 +1705,25 @@ Compiling...
 gambitc_comp /tmp/larcenous/GambitC/bv2string.scm /tmp/larcenous/GambitC/bv2string.exe
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: 1.066931 seconds (1.067) for bv2string:1000:1000:100
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,bv2string:1000:1000:100,1.066931
+Elapsed time: 1.070005 seconds (1.07) for bv2string:1000:1000:100
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,bv2string:1000:1000:100,1.070005
+
+real	0m1.075s
+user	0m0.940s
+sys	0m0.132s
+Running...
+Running bv2string:1000:1000:100
+Elapsed time: 1.069909 seconds (1.07) for bv2string:1000:1000:100
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,bv2string:1000:1000:100,1.069909
+
+real	0m1.074s
+user	0m0.919s
+sys	0m0.151s
+Running...
+Running bv2string:1000:1000:100
+Elapsed time: 1.068126 seconds (1.068) for bv2string:1000:1000:100
++!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,bv2string:1000:1000:100,1.068126
 
 real	0m1.073s
-user	0m0.935s
-sys	0m0.135s
-Running...
-Running bv2string:1000:1000:100
-Elapsed time: 1.071603 seconds (1.072) for bv2string:1000:1000:100
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,bv2string:1000:1000:100,1.071603
-
-real	0m1.079s
-user	0m0.956s
-sys	0m0.120s
-Running...
-Running bv2string:1000:1000:100
-Elapsed time: 1.078223 seconds (1.078) for bv2string:1000:1000:100
-+!CSVLINE!+gambitc-v4.9.5-125-g60ad373b,bv2string:1000:1000:100,1.078223
-
-real	0m1.085s
-user	0m0.981s
-sys	0m0.100s
+user	0m0.921s
+sys	0m0.148s

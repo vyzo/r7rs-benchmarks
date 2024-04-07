@@ -29,7 +29,6 @@
   <p>
   <h3>Notes</h3>
   <ul>
-  <li>Gerbil and Gambit were configured with <tt>--enable-shared</tt>.</li>
   <li>See also the older results for <a href="index-v0-18.html">Gerbil v0.18</a>.</li>
   <li>Regression Analysis for results relative to the v0.18 benchmarks:
    <ul>
@@ -143,7 +142,7 @@ END
   (map (lambda (c)
          (case c
            (("Racket") "Racket")
-           (("GambitC") "Gambit (baseline)")
+           (("GambitC") "Gambit safe")
            (("Gerbil-sep") "Gerbil safe/sep")
            (("Gerbil-fpo") "Gerbil safe/fpo")
            (("Gerbil-unsafe-sep") "Gerbil unsafe/sep")
