@@ -21,14 +21,24 @@
 </head>
 <body>
   <h2>R7RS benchmarks for Gerbil</h2>
-  <p>These are the results for Gerbil v0.18.2 pre-release, Gambit v4.9.5-125, and Racket v8.10</h2>
+  <p>These are the results for <b>Gerbil v0.18.2 (pre-release)</b>, Gambit v4.9.5-125, and Racket v8.10</h2>
   <p>This is based on ecraven's benchmarks, which seem unmaintained.
 
   <p>The benchmarks were run on a Dell XPS 13-9320 laptop.
   <p>Each benchmark was run 3 times, and I kept the best value.
   <p>
-  <b>Note:</b> See also the results for <a href="index-v0-18.html">Gerbil v0.18</a>.
-
+  <h3>Notes</h3>
+  <ul>
+  <li>Gerbil and Gambit were configured with <tt>--enable-shared</tt>.</li>
+  <li>See also the older results for <a href="index-v0-18.html">Gerbil v0.18</a>.</li>
+  <li>Regression Analysis for results relative to the v0.18 benchmarks:
+   <ul>
+   <li><a href="regression-safe-sep.html">Gerbil safe/sep</a></li>
+   <li><a href="regression-unsafe-sep.html">Gerbil unsafe/sep</a></li>
+   <li><a href="regression-unsafe-fpo.html">Gerbil unsafe/fpo</a></li>
+   <li>Note: the benchmarks were not run with safe/fpo for v0.18</li>
+   </ul>
+  </ul>
 
   <h2>Results</h2>
   <table>

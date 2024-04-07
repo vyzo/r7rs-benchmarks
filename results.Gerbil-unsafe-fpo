@@ -1,6 +1,6 @@
 
 ****************************
-Benchmarking Gerbil-unsafe-fpo on Sat Apr 6 11:22:32 AM EEST 2024 under Linux dellicious 6.1.0-1034-oem #34-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 5 18:29:21 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Benchmarking Gerbil-unsafe-fpo on Sun Apr 7 09:33:52 PM EEST 2024 under Linux dellicious 6.1.0-1034-oem #34-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 5 18:29:21 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 
 Testing browse under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -11,28 +11,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/browse.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/browse.exe__exe_.c:
 Running...
 Running browse:2000
-Elapsed time: .807238 seconds (.807) for browse:2000
-+!CSVLINE!+gerbil-v0.18.1-86,browse:2000,.807238
+Elapsed time: .793878 seconds (.794) for browse:2000
++!CSVLINE!+gerbil-v0.18.1-94,browse:2000,.793878
 
-real	0m0.816s
-user	0m0.807s
+real	0m0.800s
+user	0m0.791s
 sys	0m0.009s
 Running...
 Running browse:2000
-Elapsed time: .821928 seconds (.822) for browse:2000
-+!CSVLINE!+gerbil-v0.18.1-86,browse:2000,.821928
+Elapsed time: .806266 seconds (.806) for browse:2000
++!CSVLINE!+gerbil-v0.18.1-94,browse:2000,.806266
 
-real	0m0.829s
-user	0m0.823s
-sys	0m0.005s
+real	0m0.813s
+user	0m0.801s
+sys	0m0.012s
 Running...
 Running browse:2000
-Elapsed time: .81515 seconds (.815) for browse:2000
-+!CSVLINE!+gerbil-v0.18.1-86,browse:2000,.81515
+Elapsed time: .797636 seconds (.798) for browse:2000
++!CSVLINE!+gerbil-v0.18.1-94,browse:2000,.797636
 
-real	0m0.822s
-user	0m0.810s
-sys	0m0.012s
+real	0m0.805s
+user	0m0.804s
+sys	0m0.000s
 
 Testing deriv under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -43,28 +43,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/deriv.scm /tmp/larcenous
 /tmp/larcenous/Gerbil-unsafe-fpo/deriv.exe__exe_.c:
 Running...
 Running deriv:10000000
-Elapsed time: 1.281319 seconds (1.281) for deriv:10000000
-+!CSVLINE!+gerbil-v0.18.1-86,deriv:10000000,1.281319
+Elapsed time: 1.282902 seconds (1.283) for deriv:10000000
++!CSVLINE!+gerbil-v0.18.1-94,deriv:10000000,1.282902
 
-real	0m1.289s
-user	0m1.283s
-sys	0m0.006s
+real	0m1.290s
+user	0m1.261s
+sys	0m0.029s
 Running...
 Running deriv:10000000
-Elapsed time: 1.284947 seconds (1.285) for deriv:10000000
-+!CSVLINE!+gerbil-v0.18.1-86,deriv:10000000,1.284947
+Elapsed time: 1.313363 seconds (1.313) for deriv:10000000
++!CSVLINE!+gerbil-v0.18.1-94,deriv:10000000,1.313363
 
-real	0m1.292s
-user	0m1.284s
-sys	0m0.008s
+real	0m1.321s
+user	0m1.316s
+sys	0m0.004s
 Running...
 Running deriv:10000000
-Elapsed time: 1.57067 seconds (1.571) for deriv:10000000
-+!CSVLINE!+gerbil-v0.18.1-86,deriv:10000000,1.57067
+Elapsed time: 1.299998 seconds (1.3) for deriv:10000000
++!CSVLINE!+gerbil-v0.18.1-94,deriv:10000000,1.299998
 
-real	0m1.577s
-user	0m1.560s
-sys	0m0.017s
+real	0m1.307s
+user	0m1.302s
+sys	0m0.005s
 
 Testing destruc under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -75,28 +75,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/destruc.scm /tmp/larceno
 /tmp/larcenous/Gerbil-unsafe-fpo/destruc.exe__exe_.c:
 Running...
 Running destruc:600:50:4000
-Elapsed time: 1.767755 seconds (1.768) for destruc:600:50:4000
-+!CSVLINE!+gerbil-v0.18.1-86,destruc:600:50:4000,1.767755
+Elapsed time: 1.765634 seconds (1.766) for destruc:600:50:4000
++!CSVLINE!+gerbil-v0.18.1-94,destruc:600:50:4000,1.765634
 
-real	0m1.776s
-user	0m1.771s
-sys	0m0.004s
+real	0m1.774s
+user	0m1.763s
+sys	0m0.011s
 Running...
 Running destruc:600:50:4000
-Elapsed time: 1.820916 seconds (1.821) for destruc:600:50:4000
-+!CSVLINE!+gerbil-v0.18.1-86,destruc:600:50:4000,1.820916
+Elapsed time: 1.798196 seconds (1.798) for destruc:600:50:4000
++!CSVLINE!+gerbil-v0.18.1-94,destruc:600:50:4000,1.798196
 
-real	0m1.828s
-user	0m1.817s
-sys	0m0.010s
-Running...
-Running destruc:600:50:4000
-Elapsed time: 1.842355 seconds (1.842) for destruc:600:50:4000
-+!CSVLINE!+gerbil-v0.18.1-86,destruc:600:50:4000,1.842355
-
-real	0m1.849s
-user	0m1.845s
+real	0m1.806s
+user	0m1.801s
 sys	0m0.005s
+Running...
+Running destruc:600:50:4000
+Elapsed time: 1.925589 seconds (1.926) for destruc:600:50:4000
++!CSVLINE!+gerbil-v0.18.1-94,destruc:600:50:4000,1.925589
+
+real	0m1.933s
+user	0m1.910s
+sys	0m0.003s
 
 Testing diviter under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -107,28 +107,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/diviter.scm /tmp/larceno
 /tmp/larcenous/Gerbil-unsafe-fpo/diviter.exe__exe_.c:
 Running...
 Running diviter:1000:1000000
-Elapsed time: 1.641807 seconds (1.642) for diviter:1000:1000000
-+!CSVLINE!+gerbil-v0.18.1-86,diviter:1000:1000000,1.641807
+Elapsed time: 1.650039 seconds (1.65) for diviter:1000:1000000
++!CSVLINE!+gerbil-v0.18.1-94,diviter:1000:1000000,1.650039
 
-real	0m1.649s
-user	0m1.635s
-sys	0m0.013s
-Running...
-Running diviter:1000:1000000
-Elapsed time: 1.631957 seconds (1.632) for diviter:1000:1000000
-+!CSVLINE!+gerbil-v0.18.1-86,diviter:1000:1000000,1.631957
-
-real	0m1.638s
-user	0m1.638s
+real	0m1.658s
+user	0m1.658s
 sys	0m0.000s
 Running...
 Running diviter:1000:1000000
-Elapsed time: 1.61336 seconds (1.613) for diviter:1000:1000000
-+!CSVLINE!+gerbil-v0.18.1-86,diviter:1000:1000000,1.61336
+Elapsed time: 1.632968 seconds (1.633) for diviter:1000:1000000
++!CSVLINE!+gerbil-v0.18.1-94,diviter:1000:1000000,1.632968
 
-real	0m1.619s
-user	0m1.613s
-sys	0m0.006s
+real	0m1.641s
+user	0m1.630s
+sys	0m0.010s
+Running...
+Running diviter:1000:1000000
+Elapsed time: 1.620521 seconds (1.621) for diviter:1000:1000000
++!CSVLINE!+gerbil-v0.18.1-94,diviter:1000:1000000,1.620521
+
+real	0m1.628s
+user	0m1.619s
+sys	0m0.009s
 
 Testing divrec under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -139,28 +139,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/divrec.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/divrec.exe__exe_.c:
 Running...
 Running divrec:1000:1000000
-Elapsed time: 2.40177 seconds (2.402) for divrec:1000:1000000
-+!CSVLINE!+gerbil-v0.18.1-86,divrec:1000:1000000,2.40177
+Elapsed time: 2.331969 seconds (2.332) for divrec:1000:1000000
++!CSVLINE!+gerbil-v0.18.1-94,divrec:1000:1000000,2.331969
 
-real	0m2.413s
-user	0m2.413s
-sys	0m0.000s
+real	0m2.339s
+user	0m2.330s
+sys	0m0.008s
 Running...
 Running divrec:1000:1000000
-Elapsed time: 2.40284 seconds (2.403) for divrec:1000:1000000
-+!CSVLINE!+gerbil-v0.18.1-86,divrec:1000:1000000,2.40284
+Elapsed time: 2.360922 seconds (2.361) for divrec:1000:1000000
++!CSVLINE!+gerbil-v0.18.1-94,divrec:1000:1000000,2.360922
 
-real	0m2.409s
-user	0m2.399s
-sys	0m0.010s
+real	0m2.368s
+user	0m2.351s
+sys	0m0.016s
 Running...
 Running divrec:1000:1000000
-Elapsed time: 2.35902 seconds (2.359) for divrec:1000:1000000
-+!CSVLINE!+gerbil-v0.18.1-86,divrec:1000:1000000,2.35902
+Elapsed time: 2.352416 seconds (2.352) for divrec:1000:1000000
++!CSVLINE!+gerbil-v0.18.1-94,divrec:1000:1000000,2.352416
 
-real	0m2.365s
+real	0m2.360s
 user	0m2.360s
-sys	0m0.005s
+sys	0m0.000s
 
 Testing puzzle under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -171,28 +171,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/puzzle.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/puzzle.exe__exe_.c:
 Running...
 Running puzzle:1000
-Elapsed time: 1.684408 seconds (1.684) for puzzle:1000
-+!CSVLINE!+gerbil-v0.18.1-86,puzzle:1000,1.684408
+Elapsed time: 1.674594 seconds (1.675) for puzzle:1000
++!CSVLINE!+gerbil-v0.18.1-94,puzzle:1000,1.674594
+
+real	0m1.681s
+user	0m1.672s
+sys	0m0.008s
+Running...
+Running puzzle:1000
+Elapsed time: 1.67654 seconds (1.677) for puzzle:1000
++!CSVLINE!+gerbil-v0.18.1-94,puzzle:1000,1.67654
+
+real	0m1.684s
+user	0m1.684s
+sys	0m0.000s
+Running...
+Running puzzle:1000
+Elapsed time: 1.683169 seconds (1.683) for puzzle:1000
++!CSVLINE!+gerbil-v0.18.1-94,puzzle:1000,1.683169
 
 real	0m1.691s
-user	0m1.687s
-sys	0m0.004s
-Running...
-Running puzzle:1000
-Elapsed time: 1.677397 seconds (1.677) for puzzle:1000
-+!CSVLINE!+gerbil-v0.18.1-86,puzzle:1000,1.677397
-
-real	0m1.686s
-user	0m1.666s
-sys	0m0.020s
-Running...
-Running puzzle:1000
-Elapsed time: 1.678714 seconds (1.679) for puzzle:1000
-+!CSVLINE!+gerbil-v0.18.1-86,puzzle:1000,1.678714
-
-real	0m1.686s
 user	0m1.686s
-sys	0m0.000s
+sys	0m0.004s
 
 Testing triangl under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -203,28 +203,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/triangl.scm /tmp/larceno
 /tmp/larcenous/Gerbil-unsafe-fpo/triangl.exe__exe_.c:
 Running...
 Running triangl:22:1:50
-Elapsed time: 1.377994 seconds (1.378) for triangl:22:1:50
-+!CSVLINE!+gerbil-v0.18.1-86,triangl:22:1:50,1.377994
-
-real	0m1.386s
-user	0m1.370s
-sys	0m0.016s
-Running...
-Running triangl:22:1:50
-Elapsed time: 1.380519 seconds (1.381) for triangl:22:1:50
-+!CSVLINE!+gerbil-v0.18.1-86,triangl:22:1:50,1.380519
+Elapsed time: 1.378598 seconds (1.379) for triangl:22:1:50
++!CSVLINE!+gerbil-v0.18.1-94,triangl:22:1:50,1.378598
 
 real	0m1.387s
-user	0m1.387s
-sys	0m0.000s
+user	0m1.379s
+sys	0m0.008s
 Running...
 Running triangl:22:1:50
-Elapsed time: 1.377743 seconds (1.378) for triangl:22:1:50
-+!CSVLINE!+gerbil-v0.18.1-86,triangl:22:1:50,1.377743
+Elapsed time: 1.384788 seconds (1.385) for triangl:22:1:50
++!CSVLINE!+gerbil-v0.18.1-94,triangl:22:1:50,1.384788
 
-real	0m1.384s
-user	0m1.376s
-sys	0m0.008s
+real	0m1.392s
+user	0m1.387s
+sys	0m0.004s
+Running...
+Running triangl:22:1:50
+Elapsed time: 1.382294 seconds (1.382) for triangl:22:1:50
++!CSVLINE!+gerbil-v0.18.1-94,triangl:22:1:50,1.382294
+
+real	0m1.390s
+user	0m1.389s
+sys	0m0.000s
 
 Testing tak under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -235,27 +235,27 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/tak.scm /tmp/larcenous/G
 /tmp/larcenous/Gerbil-unsafe-fpo/tak.exe__exe_.c:
 Running...
 Running tak:40:20:11:1
-Elapsed time: 1.210744 seconds (1.211) for tak:40:20:11:1
-+!CSVLINE!+gerbil-v0.18.1-86,tak:40:20:11:1,1.210744
+Elapsed time: 1.21532 seconds (1.215) for tak:40:20:11:1
++!CSVLINE!+gerbil-v0.18.1-94,tak:40:20:11:1,1.21532
 
-real	0m1.217s
-user	0m1.213s
+real	0m1.221s
+user	0m1.221s
+sys	0m0.000s
+Running...
+Running tak:40:20:11:1
+Elapsed time: 1.213131 seconds (1.213) for tak:40:20:11:1
++!CSVLINE!+gerbil-v0.18.1-94,tak:40:20:11:1,1.213131
+
+real	0m1.220s
+user	0m1.215s
 sys	0m0.004s
 Running...
 Running tak:40:20:11:1
-Elapsed time: 1.206603 seconds (1.207) for tak:40:20:11:1
-+!CSVLINE!+gerbil-v0.18.1-86,tak:40:20:11:1,1.206603
+Elapsed time: 1.222162 seconds (1.222) for tak:40:20:11:1
++!CSVLINE!+gerbil-v0.18.1-94,tak:40:20:11:1,1.222162
 
-real	0m1.213s
-user	0m1.208s
-sys	0m0.004s
-Running...
-Running tak:40:20:11:1
-Elapsed time: 1.213403 seconds (1.213) for tak:40:20:11:1
-+!CSVLINE!+gerbil-v0.18.1-86,tak:40:20:11:1,1.213403
-
-real	0m1.219s
-user	0m1.219s
+real	0m1.228s
+user	0m1.228s
 sys	0m0.000s
 
 Testing takl under Gerbil-unsafe-fpo
@@ -267,28 +267,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/takl.scm /tmp/larcenous/
 /tmp/larcenous/Gerbil-unsafe-fpo/takl.exe__exe_.c:
 Running...
 Running takl:40:20:12:1
-Elapsed time: 1.132175 seconds (1.132) for takl:40:20:12:1
-+!CSVLINE!+gerbil-v0.18.1-86,takl:40:20:12:1,1.132175
+Elapsed time: 1.134601 seconds (1.135) for takl:40:20:12:1
++!CSVLINE!+gerbil-v0.18.1-94,takl:40:20:12:1,1.134601
+
+real	0m1.141s
+user	0m1.141s
+sys	0m0.000s
+Running...
+Running takl:40:20:12:1
+Elapsed time: 1.133071 seconds (1.133) for takl:40:20:12:1
++!CSVLINE!+gerbil-v0.18.1-94,takl:40:20:12:1,1.133071
 
 real	0m1.139s
 user	0m1.135s
 sys	0m0.004s
 Running...
 Running takl:40:20:12:1
-Elapsed time: 1.129671 seconds (1.13) for takl:40:20:12:1
-+!CSVLINE!+gerbil-v0.18.1-86,takl:40:20:12:1,1.129671
+Elapsed time: 1.130162 seconds (1.13) for takl:40:20:12:1
++!CSVLINE!+gerbil-v0.18.1-94,takl:40:20:12:1,1.130162
 
-real	0m1.136s
-user	0m1.132s
-sys	0m0.004s
-Running...
-Running takl:40:20:12:1
-Elapsed time: 1.128711 seconds (1.129) for takl:40:20:12:1
-+!CSVLINE!+gerbil-v0.18.1-86,takl:40:20:12:1,1.128711
-
-real	0m1.134s
-user	0m1.130s
-sys	0m0.004s
+real	0m1.137s
+user	0m1.137s
+sys	0m0.000s
 
 Testing ntakl under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -299,27 +299,27 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/ntakl.scm /tmp/larcenous
 /tmp/larcenous/Gerbil-unsafe-fpo/ntakl.exe__exe_.c:
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 1.13339 seconds (1.133) for ntakl:40:20:12:1
-+!CSVLINE!+gerbil-v0.18.1-86,ntakl:40:20:12:1,1.13339
+Elapsed time: 1.128378 seconds (1.128) for ntakl:40:20:12:1
++!CSVLINE!+gerbil-v0.18.1-94,ntakl:40:20:12:1,1.128378
 
-real	0m1.141s
-user	0m1.129s
-sys	0m0.012s
-Running...
-Running ntakl:40:20:12:1
-Elapsed time: 1.139731 seconds (1.14) for ntakl:40:20:12:1
-+!CSVLINE!+gerbil-v0.18.1-86,ntakl:40:20:12:1,1.139731
-
-real	0m1.146s
-user	0m1.146s
+real	0m1.135s
+user	0m1.135s
 sys	0m0.000s
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 1.149359 seconds (1.149) for ntakl:40:20:12:1
-+!CSVLINE!+gerbil-v0.18.1-86,ntakl:40:20:12:1,1.149359
+Elapsed time: 1.130493 seconds (1.13) for ntakl:40:20:12:1
++!CSVLINE!+gerbil-v0.18.1-94,ntakl:40:20:12:1,1.130493
 
-real	0m1.155s
-user	0m1.155s
+real	0m1.137s
+user	0m1.137s
+sys	0m0.000s
+Running...
+Running ntakl:40:20:12:1
+Elapsed time: 1.131166 seconds (1.131) for ntakl:40:20:12:1
++!CSVLINE!+gerbil-v0.18.1-94,ntakl:40:20:12:1,1.131166
+
+real	0m1.137s
+user	0m1.137s
 sys	0m0.000s
 
 Testing cpstak under Gerbil-unsafe-fpo
@@ -331,28 +331,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/cpstak.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/cpstak.exe__exe_.c:
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 3.489309 seconds (3.489) for cpstak:40:20:11:1
-+!CSVLINE!+gerbil-v0.18.1-86,cpstak:40:20:11:1,3.489309
+Elapsed time: 3.88227 seconds (3.882) for cpstak:40:20:11:1
++!CSVLINE!+gerbil-v0.18.1-94,cpstak:40:20:11:1,3.88227
 
-real	0m3.497s
-user	0m3.492s
-sys	0m0.005s
+real	0m3.889s
+user	0m3.834s
+sys	0m0.012s
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 3.46973 seconds (3.47) for cpstak:40:20:11:1
-+!CSVLINE!+gerbil-v0.18.1-86,cpstak:40:20:11:1,3.46973
+Elapsed time: 3.589485 seconds (3.589) for cpstak:40:20:11:1
++!CSVLINE!+gerbil-v0.18.1-94,cpstak:40:20:11:1,3.589485
 
-real	0m3.476s
-user	0m3.468s
-sys	0m0.008s
+real	0m3.595s
+user	0m3.581s
+sys	0m0.012s
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 3.538404 seconds (3.538) for cpstak:40:20:11:1
-+!CSVLINE!+gerbil-v0.18.1-86,cpstak:40:20:11:1,3.538404
+Elapsed time: 3.584656 seconds (3.585) for cpstak:40:20:11:1
++!CSVLINE!+gerbil-v0.18.1-94,cpstak:40:20:11:1,3.584656
 
-real	0m3.545s
-user	0m3.545s
-sys	0m0.000s
+real	0m3.591s
+user	0m3.585s
+sys	0m0.004s
 
 Testing ctak under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -363,27 +363,27 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/ctak.scm /tmp/larcenous/
 /tmp/larcenous/Gerbil-unsafe-fpo/ctak.exe__exe_.c:
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 1.565899 seconds (1.566) for ctak:32:16:8:1
-+!CSVLINE!+gerbil-v0.18.1-86,ctak:32:16:8:1,1.565899
+Elapsed time: 1.598398 seconds (1.598) for ctak:32:16:8:1
++!CSVLINE!+gerbil-v0.18.1-94,ctak:32:16:8:1,1.598398
 
-real	0m1.574s
-user	0m1.559s
-sys	0m0.014s
+real	0m1.604s
+user	0m1.599s
+sys	0m0.005s
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 1.570177 seconds (1.57) for ctak:32:16:8:1
-+!CSVLINE!+gerbil-v0.18.1-86,ctak:32:16:8:1,1.570177
+Elapsed time: 1.588318 seconds (1.588) for ctak:32:16:8:1
++!CSVLINE!+gerbil-v0.18.1-94,ctak:32:16:8:1,1.588318
 
-real	0m1.577s
-user	0m1.568s
+real	0m1.594s
+user	0m1.585s
 sys	0m0.009s
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 1.570807 seconds (1.571) for ctak:32:16:8:1
-+!CSVLINE!+gerbil-v0.18.1-86,ctak:32:16:8:1,1.570807
+Elapsed time: 1.780324 seconds (1.78) for ctak:32:16:8:1
++!CSVLINE!+gerbil-v0.18.1-94,ctak:32:16:8:1,1.780324
 
-real	0m1.577s
-user	0m1.565s
+real	0m1.788s
+user	0m1.735s
 sys	0m0.012s
 
 Testing fib under Gerbil-unsafe-fpo
@@ -395,28 +395,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/fib.scm /tmp/larcenous/G
 /tmp/larcenous/Gerbil-unsafe-fpo/fib.exe__exe_.c:
 Running...
 Running fib:40:5
-Elapsed time: 2.118526 seconds (2.119) for fib:40:5
-+!CSVLINE!+gerbil-v0.18.1-86,fib:40:5,2.118526
+Elapsed time: 2.156031 seconds (2.156) for fib:40:5
++!CSVLINE!+gerbil-v0.18.1-94,fib:40:5,2.156031
 
-real	0m2.125s
-user	0m2.113s
-sys	0m0.012s
-Running...
-Running fib:40:5
-Elapsed time: 2.131448 seconds (2.131) for fib:40:5
-+!CSVLINE!+gerbil-v0.18.1-86,fib:40:5,2.131448
-
-real	0m2.137s
-user	0m2.137s
+real	0m2.162s
+user	0m2.162s
 sys	0m0.000s
 Running...
 Running fib:40:5
-Elapsed time: 2.167518 seconds (2.168) for fib:40:5
-+!CSVLINE!+gerbil-v0.18.1-86,fib:40:5,2.167518
+Elapsed time: 2.151688 seconds (2.152) for fib:40:5
++!CSVLINE!+gerbil-v0.18.1-94,fib:40:5,2.151688
 
-real	0m2.173s
-user	0m2.165s
+real	0m2.158s
+user	0m2.150s
 sys	0m0.008s
+Running...
+Running fib:40:5
+Elapsed time: 2.154562 seconds (2.155) for fib:40:5
++!CSVLINE!+gerbil-v0.18.1-94,fib:40:5,2.154562
+
+real	0m2.160s
+user	0m2.160s
+sys	0m0.000s
 
 Testing fibc under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -427,28 +427,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/fibc.scm /tmp/larcenous/
 /tmp/larcenous/Gerbil-unsafe-fpo/fibc.exe__exe_.c:
 Running...
 Running fibc:30:10
-Elapsed time: 1.29125 seconds (1.291) for fibc:30:10
-+!CSVLINE!+gerbil-v0.18.1-86,fibc:30:10,1.29125
+Elapsed time: 1.091146 seconds (1.091) for fibc:30:10
++!CSVLINE!+gerbil-v0.18.1-94,fibc:30:10,1.091146
 
-real	0m1.300s
-user	0m1.291s
-sys	0m0.009s
+real	0m1.099s
+user	0m1.093s
+sys	0m0.005s
 Running...
 Running fibc:30:10
-Elapsed time: 1.089724 seconds (1.09) for fibc:30:10
-+!CSVLINE!+gerbil-v0.18.1-86,fibc:30:10,1.089724
+Elapsed time: 1.160965 seconds (1.161) for fibc:30:10
++!CSVLINE!+gerbil-v0.18.1-94,fibc:30:10,1.160965
 
-real	0m1.095s
-user	0m1.087s
-sys	0m0.008s
+real	0m1.168s
+user	0m1.153s
+sys	0m0.014s
 Running...
 Running fibc:30:10
-Elapsed time: 1.096744 seconds (1.097) for fibc:30:10
-+!CSVLINE!+gerbil-v0.18.1-86,fibc:30:10,1.096744
+Elapsed time: 1.097387 seconds (1.097) for fibc:30:10
++!CSVLINE!+gerbil-v0.18.1-94,fibc:30:10,1.097387
 
-real	0m1.103s
-user	0m1.095s
-sys	0m0.008s
+real	0m1.104s
+user	0m1.104s
+sys	0m0.000s
 
 Testing fibfp under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -459,28 +459,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/fibfp.scm /tmp/larcenous
 /tmp/larcenous/Gerbil-unsafe-fpo/fibfp.exe__exe_.c:
 Running...
 Running fibfp:35.:10
-Elapsed time: 1.052434 seconds (1.052) for fibfp:35.:10
-+!CSVLINE!+gerbil-v0.18.1-86,fibfp:35.:10,1.052434
+Elapsed time: 1.067812 seconds (1.068) for fibfp:35.:10
++!CSVLINE!+gerbil-v0.18.1-94,fibfp:35.:10,1.067812
 
-real	0m1.059s
-user	0m1.047s
-sys	0m0.012s
+real	0m1.076s
+user	0m1.057s
+sys	0m0.018s
 Running...
 Running fibfp:35.:10
-Elapsed time: 1.068695 seconds (1.069) for fibfp:35.:10
-+!CSVLINE!+gerbil-v0.18.1-86,fibfp:35.:10,1.068695
+Elapsed time: 1.044304 seconds (1.044) for fibfp:35.:10
++!CSVLINE!+gerbil-v0.18.1-94,fibfp:35.:10,1.044304
 
-real	0m1.078s
-user	0m1.068s
+real	0m1.051s
+user	0m1.043s
 sys	0m0.009s
 Running...
 Running fibfp:35.:10
-Elapsed time: 1.042044 seconds (1.042) for fibfp:35.:10
-+!CSVLINE!+gerbil-v0.18.1-86,fibfp:35.:10,1.042044
+Elapsed time: 1.054227 seconds (1.054) for fibfp:35.:10
++!CSVLINE!+gerbil-v0.18.1-94,fibfp:35.:10,1.054227
 
-real	0m1.049s
-user	0m1.040s
-sys	0m0.008s
+real	0m1.061s
+user	0m1.047s
+sys	0m0.014s
 
 Testing sum under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -491,27 +491,27 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/sum.scm /tmp/larcenous/G
 /tmp/larcenous/Gerbil-unsafe-fpo/sum.exe__exe_.c:
 Running...
 Running sum:10000:200000
-Elapsed time: 1.691434 seconds (1.691) for sum:10000:200000
-+!CSVLINE!+gerbil-v0.18.1-86,sum:10000:200000,1.691434
+Elapsed time: 1.701345 seconds (1.701) for sum:10000:200000
++!CSVLINE!+gerbil-v0.18.1-94,sum:10000:200000,1.701345
 
-real	0m1.699s
-user	0m1.687s
-sys	0m0.012s
+real	0m1.709s
+user	0m1.693s
+sys	0m0.016s
 Running...
 Running sum:10000:200000
-Elapsed time: 1.690174 seconds (1.69) for sum:10000:200000
-+!CSVLINE!+gerbil-v0.18.1-86,sum:10000:200000,1.690174
-
-real	0m1.697s
-user	0m1.689s
-sys	0m0.008s
-Running...
-Running sum:10000:200000
-Elapsed time: 1.691199 seconds (1.691) for sum:10000:200000
-+!CSVLINE!+gerbil-v0.18.1-86,sum:10000:200000,1.691199
+Elapsed time: 1.691002 seconds (1.691) for sum:10000:200000
++!CSVLINE!+gerbil-v0.18.1-94,sum:10000:200000,1.691002
 
 real	0m1.698s
-user	0m1.694s
+user	0m1.698s
+sys	0m0.000s
+Running...
+Running sum:10000:200000
+Elapsed time: 1.706441 seconds (1.706) for sum:10000:200000
++!CSVLINE!+gerbil-v0.18.1-94,sum:10000:200000,1.706441
+
+real	0m1.714s
+user	0m1.710s
 sys	0m0.004s
 
 Testing sumfp under Gerbil-unsafe-fpo
@@ -523,28 +523,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/sumfp.scm /tmp/larcenous
 /tmp/larcenous/Gerbil-unsafe-fpo/sumfp.exe__exe_.c:
 Running...
 Running sumfp:1000000.:500
-Elapsed time: 1.671921 seconds (1.672) for sumfp:1000000.:500
-+!CSVLINE!+gerbil-v0.18.1-86,sumfp:1000000.:500,1.671921
+Elapsed time: 1.732513 seconds (1.733) for sumfp:1000000.:500
++!CSVLINE!+gerbil-v0.18.1-94,sumfp:1000000.:500,1.732513
 
-real	0m1.678s
-user	0m1.666s
-sys	0m0.012s
+real	0m1.739s
+user	0m1.737s
+sys	0m0.002s
 Running...
 Running sumfp:1000000.:500
-Elapsed time: 1.640736 seconds (1.641) for sumfp:1000000.:500
-+!CSVLINE!+gerbil-v0.18.1-86,sumfp:1000000.:500,1.640736
+Elapsed time: 1.729366 seconds (1.729) for sumfp:1000000.:500
++!CSVLINE!+gerbil-v0.18.1-94,sumfp:1000000.:500,1.729366
 
-real	0m1.647s
-user	0m1.645s
-sys	0m0.001s
+real	0m1.736s
+user	0m1.720s
+sys	0m0.016s
 Running...
 Running sumfp:1000000.:500
-Elapsed time: 1.641209 seconds (1.641) for sumfp:1000000.:500
-+!CSVLINE!+gerbil-v0.18.1-86,sumfp:1000000.:500,1.641209
+Elapsed time: 1.745869 seconds (1.746) for sumfp:1000000.:500
++!CSVLINE!+gerbil-v0.18.1-94,sumfp:1000000.:500,1.745869
 
-real	0m1.647s
-user	0m1.639s
-sys	0m0.008s
+real	0m1.753s
+user	0m1.739s
+sys	0m0.014s
 
 Testing fft under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -555,27 +555,27 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/fft.scm /tmp/larcenous/G
 /tmp/larcenous/Gerbil-unsafe-fpo/fft.exe__exe_.c:
 Running...
 Running fft:65536:100
-Elapsed time: 1.142208 seconds (1.142) for fft:65536:100
-+!CSVLINE!+gerbil-v0.18.1-86,fft:65536:100,1.142208
+Elapsed time: 1.125374 seconds (1.125) for fft:65536:100
++!CSVLINE!+gerbil-v0.18.1-94,fft:65536:100,1.125374
 
-real	0m1.150s
-user	0m1.149s
-sys	0m0.001s
+real	0m1.133s
+user	0m1.128s
+sys	0m0.005s
 Running...
 Running fft:65536:100
-Elapsed time: 1.26205 seconds (1.262) for fft:65536:100
-+!CSVLINE!+gerbil-v0.18.1-86,fft:65536:100,1.26205
+Elapsed time: 1.127177 seconds (1.127) for fft:65536:100
++!CSVLINE!+gerbil-v0.18.1-94,fft:65536:100,1.127177
 
-real	0m1.269s
-user	0m1.259s
-sys	0m0.009s
+real	0m1.134s
+user	0m1.123s
+sys	0m0.010s
 Running...
 Running fft:65536:100
-Elapsed time: 1.280712 seconds (1.281) for fft:65536:100
-+!CSVLINE!+gerbil-v0.18.1-86,fft:65536:100,1.280712
+Elapsed time: 1.141932 seconds (1.142) for fft:65536:100
++!CSVLINE!+gerbil-v0.18.1-94,fft:65536:100,1.141932
 
-real	0m1.287s
-user	0m1.283s
+real	0m1.148s
+user	0m1.144s
 sys	0m0.004s
 
 Testing mbrot under Gerbil-unsafe-fpo
@@ -587,28 +587,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/mbrot.scm /tmp/larcenous
 /tmp/larcenous/Gerbil-unsafe-fpo/mbrot.exe__exe_.c:
 Running...
 Running mbrot:75:1000
-Elapsed time: 2.451506 seconds (2.452) for mbrot:75:1000
-+!CSVLINE!+gerbil-v0.18.1-86,mbrot:75:1000,2.451506
+Elapsed time: 2.475858 seconds (2.476) for mbrot:75:1000
++!CSVLINE!+gerbil-v0.18.1-94,mbrot:75:1000,2.475858
 
-real	0m2.459s
-user	0m2.455s
-sys	0m0.004s
+real	0m2.483s
+user	0m2.476s
+sys	0m0.007s
 Running...
 Running mbrot:75:1000
-Elapsed time: 2.46249 seconds (2.462) for mbrot:75:1000
-+!CSVLINE!+gerbil-v0.18.1-86,mbrot:75:1000,2.46249
+Elapsed time: 2.461688 seconds (2.462) for mbrot:75:1000
++!CSVLINE!+gerbil-v0.18.1-94,mbrot:75:1000,2.461688
 
 real	0m2.469s
-user	0m2.461s
-sys	0m0.008s
+user	0m2.464s
+sys	0m0.005s
 Running...
 Running mbrot:75:1000
-Elapsed time: 2.464269 seconds (2.464) for mbrot:75:1000
-+!CSVLINE!+gerbil-v0.18.1-86,mbrot:75:1000,2.464269
+Elapsed time: 2.467277 seconds (2.467) for mbrot:75:1000
++!CSVLINE!+gerbil-v0.18.1-94,mbrot:75:1000,2.467277
 
-real	0m2.471s
-user	0m2.464s
-sys	0m0.006s
+real	0m2.473s
+user	0m2.465s
+sys	0m0.008s
 
 Testing mbrotZ under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -619,27 +619,27 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/mbrotZ.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/mbrotZ.exe__exe_.c:
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 6.40185 seconds (6.402) for mbrotZ:75:1000
-+!CSVLINE!+gerbil-v0.18.1-86,mbrotZ:75:1000,6.40185
+Elapsed time: 6.423906 seconds (6.424) for mbrotZ:75:1000
++!CSVLINE!+gerbil-v0.18.1-94,mbrotZ:75:1000,6.423906
 
-real	0m6.410s
-user	0m6.405s
-sys	0m0.004s
+real	0m6.431s
+user	0m6.402s
+sys	0m0.028s
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 6.471347 seconds (6.471) for mbrotZ:75:1000
-+!CSVLINE!+gerbil-v0.18.1-86,mbrotZ:75:1000,6.471347
+Elapsed time: 6.422521 seconds (6.423) for mbrotZ:75:1000
++!CSVLINE!+gerbil-v0.18.1-94,mbrotZ:75:1000,6.422521
 
-real	0m6.478s
-user	0m6.467s
-sys	0m0.011s
+real	0m6.429s
+user	0m6.419s
+sys	0m0.010s
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 6.450129 seconds (6.45) for mbrotZ:75:1000
-+!CSVLINE!+gerbil-v0.18.1-86,mbrotZ:75:1000,6.450129
+Elapsed time: 6.405368 seconds (6.405) for mbrotZ:75:1000
++!CSVLINE!+gerbil-v0.18.1-94,mbrotZ:75:1000,6.405368
 
-real	0m6.457s
-user	0m6.452s
+real	0m6.412s
+user	0m6.408s
 sys	0m0.004s
 
 Testing nucleic under Gerbil-unsafe-fpo
@@ -651,28 +651,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/nucleic.scm /tmp/larceno
 /tmp/larcenous/Gerbil-unsafe-fpo/nucleic.exe__exe_.c:
 Running...
 Running nucleic:50
-Elapsed time: 1.02479 seconds (1.025) for nucleic:50
-+!CSVLINE!+gerbil-v0.18.1-86,nucleic:50,1.02479
+Elapsed time: 1.007157 seconds (1.007) for nucleic:50
++!CSVLINE!+gerbil-v0.18.1-94,nucleic:50,1.007157
 
-real	0m1.031s
-user	0m1.027s
+real	0m1.014s
+user	0m1.012s
+sys	0m0.002s
+Running...
+Running nucleic:50
+Elapsed time: 1.012564 seconds (1.013) for nucleic:50
++!CSVLINE!+gerbil-v0.18.1-94,nucleic:50,1.012564
+
+real	0m1.020s
+user	0m1.015s
 sys	0m0.004s
 Running...
 Running nucleic:50
-Elapsed time: 1.02268 seconds (1.023) for nucleic:50
-+!CSVLINE!+gerbil-v0.18.1-86,nucleic:50,1.02268
+Elapsed time: 1.015822 seconds (1.016) for nucleic:50
++!CSVLINE!+gerbil-v0.18.1-94,nucleic:50,1.015822
 
-real	0m1.029s
-user	0m1.020s
-sys	0m0.009s
-Running...
-Running nucleic:50
-Elapsed time: 1.012027 seconds (1.012) for nucleic:50
-+!CSVLINE!+gerbil-v0.18.1-86,nucleic:50,1.012027
-
-real	0m1.019s
-user	0m1.017s
-sys	0m0.002s
+real	0m1.022s
+user	0m1.014s
+sys	0m0.008s
 
 Testing pi under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -683,27 +683,27 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/pi.scm /tmp/larcenous/Ge
 /tmp/larcenous/Gerbil-unsafe-fpo/pi.exe__exe_.c:
 Running...
 Running pi:50:500:50:100
-Elapsed time: .659999 seconds (.66) for pi:50:500:50:100
-+!CSVLINE!+gerbil-v0.18.1-86,pi:50:500:50:100,.659999
+Elapsed time: .662248 seconds (.662) for pi:50:500:50:100
++!CSVLINE!+gerbil-v0.18.1-94,pi:50:500:50:100,.662248
 
-real	0m0.667s
-user	0m0.655s
-sys	0m0.012s
-Running...
-Running pi:50:500:50:100
-Elapsed time: .657851 seconds (.658) for pi:50:500:50:100
-+!CSVLINE!+gerbil-v0.18.1-86,pi:50:500:50:100,.657851
-
-real	0m0.664s
-user	0m0.659s
+real	0m0.669s
+user	0m0.665s
 sys	0m0.004s
 Running...
 Running pi:50:500:50:100
-Elapsed time: .659123 seconds (.659) for pi:50:500:50:100
-+!CSVLINE!+gerbil-v0.18.1-86,pi:50:500:50:100,.659123
+Elapsed time: .659125 seconds (.659) for pi:50:500:50:100
++!CSVLINE!+gerbil-v0.18.1-94,pi:50:500:50:100,.659125
 
-real	0m0.666s
-user	0m0.661s
+real	0m0.667s
+user	0m0.654s
+sys	0m0.012s
+Running...
+Running pi:50:500:50:100
+Elapsed time: .665488 seconds (.665) for pi:50:500:50:100
++!CSVLINE!+gerbil-v0.18.1-94,pi:50:500:50:100,.665488
+
+real	0m0.673s
+user	0m0.668s
 sys	0m0.004s
 
 Testing pnpoly under Gerbil-unsafe-fpo
@@ -715,28 +715,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/pnpoly.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/pnpoly.exe__exe_.c:
 Running...
 Running pnpoly:1000000
-Elapsed time: 1.80694 seconds (1.807) for pnpoly:1000000
-+!CSVLINE!+gerbil-v0.18.1-86,pnpoly:1000000,1.80694
+Elapsed time: 1.787654 seconds (1.788) for pnpoly:1000000
++!CSVLINE!+gerbil-v0.18.1-94,pnpoly:1000000,1.787654
 
-real	0m1.814s
-user	0m1.809s
-sys	0m0.005s
+real	0m1.795s
+user	0m1.784s
+sys	0m0.012s
 Running...
 Running pnpoly:1000000
-Elapsed time: 1.777548 seconds (1.778) for pnpoly:1000000
-+!CSVLINE!+gerbil-v0.18.1-86,pnpoly:1000000,1.777548
+Elapsed time: 1.788654 seconds (1.789) for pnpoly:1000000
++!CSVLINE!+gerbil-v0.18.1-94,pnpoly:1000000,1.788654
 
-real	0m1.784s
-user	0m1.776s
-sys	0m0.008s
-Running...
-Running pnpoly:1000000
-Elapsed time: 1.778714 seconds (1.779) for pnpoly:1000000
-+!CSVLINE!+gerbil-v0.18.1-86,pnpoly:1000000,1.778714
-
-real	0m1.785s
-user	0m1.776s
+real	0m1.796s
+user	0m1.787s
 sys	0m0.009s
+Running...
+Running pnpoly:1000000
+Elapsed time: 1.776694 seconds (1.777) for pnpoly:1000000
++!CSVLINE!+gerbil-v0.18.1-94,pnpoly:1000000,1.776694
+
+real	0m1.787s
+user	0m1.781s
+sys	0m0.006s
 
 Testing ray under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -747,28 +747,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/ray.scm /tmp/larcenous/G
 /tmp/larcenous/Gerbil-unsafe-fpo/ray.exe__exe_.c:
 Running...
 Running ray:50
-Elapsed time: 1.015717 seconds (1.016) for ray:50
-+!CSVLINE!+gerbil-v0.18.1-86,ray:50,1.015717
+Elapsed time: .978475 seconds (.978) for ray:50
++!CSVLINE!+gerbil-v0.18.1-94,ray:50,.978475
 
-real	0m1.023s
-user	0m0.995s
-sys	0m0.028s
+real	0m0.989s
+user	0m0.963s
+sys	0m0.017s
 Running...
 Running ray:50
-Elapsed time: .966975 seconds (.967) for ray:50
-+!CSVLINE!+gerbil-v0.18.1-86,ray:50,.966975
+Elapsed time: .979381 seconds (.979) for ray:50
++!CSVLINE!+gerbil-v0.18.1-94,ray:50,.979381
 
-real	0m0.973s
-user	0m0.968s
-sys	0m0.005s
+real	0m0.986s
+user	0m0.982s
+sys	0m0.004s
 Running...
 Running ray:50
-Elapsed time: .950221 seconds (.95) for ray:50
-+!CSVLINE!+gerbil-v0.18.1-86,ray:50,.950221
+Elapsed time: .969747 seconds (.97) for ray:50
++!CSVLINE!+gerbil-v0.18.1-94,ray:50,.969747
 
-real	0m0.957s
-user	0m0.948s
-sys	0m0.008s
+real	0m0.976s
+user	0m0.969s
+sys	0m0.007s
 
 Testing simplex under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -779,28 +779,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/simplex.scm /tmp/larceno
 /tmp/larcenous/Gerbil-unsafe-fpo/simplex.exe__exe_.c:
 Running...
 Running simplex:1000000
-Elapsed time: 1.047568 seconds (1.048) for simplex:1000000
-+!CSVLINE!+gerbil-v0.18.1-86,simplex:1000000,1.047568
+Elapsed time: 1.042714 seconds (1.043) for simplex:1000000
++!CSVLINE!+gerbil-v0.18.1-94,simplex:1000000,1.042714
 
-real	0m1.056s
-user	0m1.056s
-sys	0m0.000s
+real	0m1.050s
+user	0m1.042s
+sys	0m0.008s
 Running...
 Running simplex:1000000
-Elapsed time: 1.046492 seconds (1.046) for simplex:1000000
-+!CSVLINE!+gerbil-v0.18.1-86,simplex:1000000,1.046492
+Elapsed time: 1.063242 seconds (1.063) for simplex:1000000
++!CSVLINE!+gerbil-v0.18.1-94,simplex:1000000,1.063242
 
-real	0m1.054s
-user	0m1.050s
-sys	0m0.003s
+real	0m1.069s
+user	0m1.058s
+sys	0m0.011s
 Running...
 Running simplex:1000000
-Elapsed time: 1.080539 seconds (1.081) for simplex:1000000
-+!CSVLINE!+gerbil-v0.18.1-86,simplex:1000000,1.080539
+Elapsed time: 1.044266 seconds (1.044) for simplex:1000000
++!CSVLINE!+gerbil-v0.18.1-94,simplex:1000000,1.044266
 
-real	0m1.088s
-user	0m1.083s
-sys	0m0.005s
+real	0m1.051s
+user	0m1.047s
+sys	0m0.004s
 
 Testing ack under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -811,28 +811,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/ack.scm /tmp/larcenous/G
 /tmp/larcenous/Gerbil-unsafe-fpo/ack.exe__exe_.c:
 Running...
 Running ack:3:12:2
-Elapsed time: 1.913858 seconds (1.914) for ack:3:12:2
-+!CSVLINE!+gerbil-v0.18.1-86,ack:3:12:2,1.913858
+Elapsed time: 1.783714 seconds (1.784) for ack:3:12:2
++!CSVLINE!+gerbil-v0.18.1-94,ack:3:12:2,1.783714
 
-real	0m1.923s
-user	0m1.919s
+real	0m1.790s
+user	0m1.789s
+sys	0m0.000s
+Running...
+Running ack:3:12:2
+Elapsed time: 1.814636 seconds (1.815) for ack:3:12:2
++!CSVLINE!+gerbil-v0.18.1-94,ack:3:12:2,1.814636
+
+real	0m1.822s
+user	0m1.818s
 sys	0m0.004s
 Running...
 Running ack:3:12:2
-Elapsed time: 1.772604 seconds (1.773) for ack:3:12:2
-+!CSVLINE!+gerbil-v0.18.1-86,ack:3:12:2,1.772604
+Elapsed time: 2.636942 seconds (2.637) for ack:3:12:2
++!CSVLINE!+gerbil-v0.18.1-94,ack:3:12:2,2.636942
 
-real	0m1.778s
-user	0m1.778s
-sys	0m0.000s
-Running...
-Running ack:3:12:2
-Elapsed time: 2.19865 seconds (2.199) for ack:3:12:2
-+!CSVLINE!+gerbil-v0.18.1-86,ack:3:12:2,2.19865
-
-real	0m2.205s
-user	0m2.205s
-sys	0m0.000s
+real	0m2.644s
+user	0m2.639s
+sys	0m0.004s
 
 Testing array1 under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -843,28 +843,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/array1.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/array1.exe__exe_.c:
 Running...
 Running array1:1000000:500
-Elapsed time: 3.338891 seconds (3.339) for array1:1000000:500
-+!CSVLINE!+gerbil-v0.18.1-86,array1:1000000:500,3.338891
+Elapsed time: 3.34539 seconds (3.345) for array1:1000000:500
++!CSVLINE!+gerbil-v0.18.1-94,array1:1000000:500,3.34539
 
-real	0m3.347s
-user	0m1.121s
-sys	0m2.226s
+real	0m3.352s
+user	0m1.207s
+sys	0m2.145s
 Running...
 Running array1:1000000:500
-Elapsed time: 3.342019 seconds (3.342) for array1:1000000:500
-+!CSVLINE!+gerbil-v0.18.1-86,array1:1000000:500,3.342019
+Elapsed time: 3.407542 seconds (3.408) for array1:1000000:500
++!CSVLINE!+gerbil-v0.18.1-94,array1:1000000:500,3.407542
 
-real	0m3.348s
-user	0m1.100s
-sys	0m2.248s
+real	0m3.414s
+user	0m1.188s
+sys	0m2.225s
 Running...
 Running array1:1000000:500
-Elapsed time: 3.376794 seconds (3.377) for array1:1000000:500
-+!CSVLINE!+gerbil-v0.18.1-86,array1:1000000:500,3.376794
+Elapsed time: 3.362631 seconds (3.363) for array1:1000000:500
++!CSVLINE!+gerbil-v0.18.1-94,array1:1000000:500,3.362631
 
-real	0m3.383s
-user	0m1.240s
-sys	0m2.143s
+real	0m3.369s
+user	0m1.207s
+sys	0m2.162s
 
 Testing string under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -875,28 +875,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/string.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/string.exe__exe_.c:
 Running...
 Running string:500000:100
-Elapsed time: 1.155515 seconds (1.156) for string:500000:100
-+!CSVLINE!+gerbil-v0.18.1-86,string:500000:100,1.155515
+Elapsed time: 1.133335 seconds (1.133) for string:500000:100
++!CSVLINE!+gerbil-v0.18.1-94,string:500000:100,1.133335
 
-real	0m1.164s
-user	0m0.675s
-sys	0m0.489s
+real	0m1.142s
+user	0m0.636s
+sys	0m0.506s
 Running...
 Running string:500000:100
-Elapsed time: 1.13847 seconds (1.138) for string:500000:100
-+!CSVLINE!+gerbil-v0.18.1-86,string:500000:100,1.13847
+Elapsed time: 1.16077 seconds (1.161) for string:500000:100
++!CSVLINE!+gerbil-v0.18.1-94,string:500000:100,1.16077
 
-real	0m1.145s
-user	0m0.655s
-sys	0m0.489s
+real	0m1.168s
+user	0m0.663s
+sys	0m0.505s
 Running...
 Running string:500000:100
-Elapsed time: 1.148637 seconds (1.149) for string:500000:100
-+!CSVLINE!+gerbil-v0.18.1-86,string:500000:100,1.148637
+Elapsed time: 1.150798 seconds (1.151) for string:500000:100
++!CSVLINE!+gerbil-v0.18.1-94,string:500000:100,1.150798
 
-real	0m1.155s
-user	0m0.680s
-sys	0m0.474s
+real	0m1.157s
+user	0m0.632s
+sys	0m0.524s
 
 Testing sum1 under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -907,28 +907,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/sum1.scm /tmp/larcenous/
 /tmp/larcenous/Gerbil-unsafe-fpo/sum1.exe__exe_.c:
 Running...
 Running sum1:25
-Elapsed time: .314327 seconds (.314) for sum1:25
-+!CSVLINE!+gerbil-v0.18.1-86,sum1:25,.314327
+Elapsed time: .314282 seconds (.314) for sum1:25
++!CSVLINE!+gerbil-v0.18.1-94,sum1:25,.314282
 
 real	0m0.321s
-user	0m0.313s
-sys	0m0.008s
+user	0m0.301s
+sys	0m0.020s
 Running...
 Running sum1:25
-Elapsed time: .317882 seconds (.318) for sum1:25
-+!CSVLINE!+gerbil-v0.18.1-86,sum1:25,.317882
+Elapsed time: .315539 seconds (.316) for sum1:25
++!CSVLINE!+gerbil-v0.18.1-94,sum1:25,.315539
 
-real	0m0.325s
+real	0m0.323s
 user	0m0.314s
-sys	0m0.011s
+sys	0m0.008s
 Running...
 Running sum1:25
-Elapsed time: .318636 seconds (.319) for sum1:25
-+!CSVLINE!+gerbil-v0.18.1-86,sum1:25,.318636
+Elapsed time: .31397 seconds (.314) for sum1:25
++!CSVLINE!+gerbil-v0.18.1-94,sum1:25,.31397
 
-real	0m0.326s
-user	0m0.318s
-sys	0m0.008s
+real	0m0.321s
+user	0m0.301s
+sys	0m0.020s
 
 Testing cat under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -939,28 +939,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/cat.scm /tmp/larcenous/G
 /tmp/larcenous/Gerbil-unsafe-fpo/cat.exe__exe_.c:
 Running...
 Running cat:50
-Elapsed time: 1.073235 seconds (1.073) for cat:50
-+!CSVLINE!+gerbil-v0.18.1-86,cat:50,1.073235
+Elapsed time: 1.084677 seconds (1.085) for cat:50
++!CSVLINE!+gerbil-v0.18.1-94,cat:50,1.084677
 
-real	0m1.082s
-user	0m0.827s
-sys	0m0.248s
+real	0m1.093s
+user	0m0.844s
+sys	0m0.244s
 Running...
 Running cat:50
-Elapsed time: 1.063684 seconds (1.064) for cat:50
-+!CSVLINE!+gerbil-v0.18.1-86,cat:50,1.063684
+Elapsed time: 1.067371 seconds (1.067) for cat:50
++!CSVLINE!+gerbil-v0.18.1-94,cat:50,1.067371
 
-real	0m1.070s
-user	0m0.817s
-sys	0m0.252s
+real	0m1.074s
+user	0m0.805s
+sys	0m0.268s
 Running...
 Running cat:50
-Elapsed time: 1.06437 seconds (1.064) for cat:50
-+!CSVLINE!+gerbil-v0.18.1-86,cat:50,1.06437
+Elapsed time: 1.069547 seconds (1.07) for cat:50
++!CSVLINE!+gerbil-v0.18.1-94,cat:50,1.069547
 
-real	0m1.070s
-user	0m0.781s
-sys	0m0.289s
+real	0m1.076s
+user	0m0.800s
+sys	0m0.276s
 
 Testing tail under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -971,28 +971,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/tail.scm /tmp/larcenous/
 /tmp/larcenous/Gerbil-unsafe-fpo/tail.exe__exe_.c:
 Running...
 Running tail:50
-Elapsed time: 1.56428 seconds (1.564) for tail:50
-+!CSVLINE!+gerbil-v0.18.1-86,tail:50,1.56428
+Elapsed time: 1.566662 seconds (1.567) for tail:50
++!CSVLINE!+gerbil-v0.18.1-94,tail:50,1.566662
 
 real	0m1.577s
-user	0m1.212s
-sys	0m0.364s
+user	0m1.249s
+sys	0m0.328s
 Running...
 Running tail:50
-Elapsed time: 1.551858 seconds (1.552) for tail:50
-+!CSVLINE!+gerbil-v0.18.1-86,tail:50,1.551858
+Elapsed time: 1.56756 seconds (1.568) for tail:50
++!CSVLINE!+gerbil-v0.18.1-94,tail:50,1.56756
 
-real	0m1.560s
-user	0m1.192s
-sys	0m0.368s
+real	0m1.577s
+user	0m1.252s
+sys	0m0.324s
 Running...
 Running tail:50
-Elapsed time: 1.555693 seconds (1.556) for tail:50
-+!CSVLINE!+gerbil-v0.18.1-86,tail:50,1.555693
+Elapsed time: 1.548272 seconds (1.548) for tail:50
++!CSVLINE!+gerbil-v0.18.1-94,tail:50,1.548272
 
-real	0m1.564s
-user	0m1.268s
-sys	0m0.296s
+real	0m1.557s
+user	0m1.237s
+sys	0m0.320s
 
 Testing wc under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1003,28 +1003,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/wc.scm /tmp/larcenous/Ge
 /tmp/larcenous/Gerbil-unsafe-fpo/wc.exe__exe_.c:
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 1.00206 seconds (1.002) for wc:inputs/bib:50
-+!CSVLINE!+gerbil-v0.18.1-86,wc:inputs/bib:50,1.00206
+Elapsed time: 1.044557 seconds (1.045) for wc:inputs/bib:50
++!CSVLINE!+gerbil-v0.18.1-94,wc:inputs/bib:50,1.044557
 
-real	0m1.010s
-user	0m0.966s
-sys	0m0.044s
+real	0m1.053s
+user	0m1.021s
+sys	0m0.032s
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 1.002385 seconds (1.002) for wc:inputs/bib:50
-+!CSVLINE!+gerbil-v0.18.1-86,wc:inputs/bib:50,1.002385
+Elapsed time: 1.012107 seconds (1.012) for wc:inputs/bib:50
++!CSVLINE!+gerbil-v0.18.1-94,wc:inputs/bib:50,1.012107
 
-real	0m1.009s
-user	0m0.961s
-sys	0m0.048s
+real	0m1.018s
+user	0m0.978s
+sys	0m0.040s
 Running...
 Running wc:inputs/bib:50
-Elapsed time: 1.010258 seconds (1.01) for wc:inputs/bib:50
-+!CSVLINE!+gerbil-v0.18.1-86,wc:inputs/bib:50,1.010258
+Elapsed time: 1.009288 seconds (1.009) for wc:inputs/bib:50
++!CSVLINE!+gerbil-v0.18.1-94,wc:inputs/bib:50,1.009288
 
-real	0m1.016s
-user	0m0.924s
-sys	0m0.092s
+real	0m1.015s
+user	0m0.955s
+sys	0m0.060s
 
 Testing read1 under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1035,28 +1035,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/read1.scm /tmp/larcenous
 /tmp/larcenous/Gerbil-unsafe-fpo/read1.exe__exe_.c:
 Running...
 Running read1:2500
-Elapsed time: .786304 seconds (.786) for read1:2500
-+!CSVLINE!+gerbil-v0.18.1-86,read1:2500,.786304
+Elapsed time: .796675 seconds (.797) for read1:2500
++!CSVLINE!+gerbil-v0.18.1-94,read1:2500,.796675
 
-real	0m0.795s
-user	0m0.778s
-sys	0m0.016s
+real	0m0.807s
+user	0m0.771s
+sys	0m0.036s
 Running...
 Running read1:2500
-Elapsed time: .787789 seconds (.788) for read1:2500
-+!CSVLINE!+gerbil-v0.18.1-86,read1:2500,.787789
+Elapsed time: .783936 seconds (.784) for read1:2500
++!CSVLINE!+gerbil-v0.18.1-94,read1:2500,.783936
+
+real	0m0.793s
+user	0m0.764s
+sys	0m0.028s
+Running...
+Running read1:2500
+Elapsed time: .786872 seconds (.787) for read1:2500
++!CSVLINE!+gerbil-v0.18.1-94,read1:2500,.786872
 
 real	0m0.794s
-user	0m0.770s
-sys	0m0.024s
-Running...
-Running read1:2500
-Elapsed time: .784667 seconds (.785) for read1:2500
-+!CSVLINE!+gerbil-v0.18.1-86,read1:2500,.784667
-
-real	0m0.792s
-user	0m0.748s
-sys	0m0.044s
+user	0m0.742s
+sys	0m0.052s
 
 Testing conform under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1067,28 +1067,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/conform.scm /tmp/larceno
 /tmp/larcenous/Gerbil-unsafe-fpo/conform.exe__exe_.c:
 Running...
 Running conform:500
-Elapsed time: 1.760196 seconds (1.76) for conform:500
-+!CSVLINE!+gerbil-v0.18.1-86,conform:500,1.760196
+Elapsed time: 1.758248 seconds (1.758) for conform:500
++!CSVLINE!+gerbil-v0.18.1-94,conform:500,1.758248
 
-real	0m1.768s
-user	0m1.756s
-sys	0m0.012s
-Running...
-Running conform:500
-Elapsed time: 1.740167 seconds (1.74) for conform:500
-+!CSVLINE!+gerbil-v0.18.1-86,conform:500,1.740167
-
-real	0m1.747s
-user	0m1.743s
+real	0m1.767s
+user	0m1.763s
 sys	0m0.004s
 Running...
 Running conform:500
-Elapsed time: 1.7404 seconds (1.74) for conform:500
-+!CSVLINE!+gerbil-v0.18.1-86,conform:500,1.7404
+Elapsed time: 1.757824 seconds (1.758) for conform:500
++!CSVLINE!+gerbil-v0.18.1-94,conform:500,1.757824
 
-real	0m1.747s
-user	0m1.734s
-sys	0m0.012s
+real	0m1.765s
+user	0m1.761s
+sys	0m0.004s
+Running...
+Running conform:500
+Elapsed time: 1.738974 seconds (1.739) for conform:500
++!CSVLINE!+gerbil-v0.18.1-94,conform:500,1.738974
+
+real	0m1.746s
+user	0m1.742s
+sys	0m0.004s
 
 Testing dynamic under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1099,28 +1099,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/dynamic.scm /tmp/larceno
 /tmp/larcenous/Gerbil-unsafe-fpo/dynamic.exe__exe_.c:
 Running...
 Running dynamic:500
-Elapsed time: 2.822324 seconds (2.822) for dynamic:500
-+!CSVLINE!+gerbil-v0.18.1-86,dynamic:500,2.822324
+Elapsed time: 2.903236 seconds (2.903) for dynamic:500
++!CSVLINE!+gerbil-v0.18.1-94,dynamic:500,2.903236
 
-real	0m2.831s
-user	0m2.811s
-sys	0m0.020s
+real	0m2.911s
+user	0m2.884s
+sys	0m0.026s
 Running...
 Running dynamic:500
-Elapsed time: 2.853734 seconds (2.854) for dynamic:500
-+!CSVLINE!+gerbil-v0.18.1-86,dynamic:500,2.853734
+Elapsed time: 2.835268 seconds (2.835) for dynamic:500
++!CSVLINE!+gerbil-v0.18.1-94,dynamic:500,2.835268
 
-real	0m2.860s
-user	0m2.840s
-sys	0m0.020s
+real	0m2.843s
+user	0m2.812s
+sys	0m0.030s
 Running...
 Running dynamic:500
-Elapsed time: 2.975444 seconds (2.975) for dynamic:500
-+!CSVLINE!+gerbil-v0.18.1-86,dynamic:500,2.975444
+Elapsed time: 2.829945 seconds (2.83) for dynamic:500
++!CSVLINE!+gerbil-v0.18.1-94,dynamic:500,2.829945
 
-real	0m2.982s
-user	0m2.954s
-sys	0m0.020s
+real	0m2.837s
+user	0m2.813s
+sys	0m0.024s
 
 Testing earley under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1131,28 +1131,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/earley.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/earley.exe__exe_.c:
 Running...
 Running earley:1
-Elapsed time: 3.257741 seconds (3.258) for earley:1
-+!CSVLINE!+gerbil-v0.18.1-86,earley:1,3.257741
+Elapsed time: 3.21353 seconds (3.214) for earley:1
++!CSVLINE!+gerbil-v0.18.1-94,earley:1,3.21353
 
-real	0m3.382s
-user	0m2.582s
-sys	0m0.799s
+real	0m3.329s
+user	0m2.528s
+sys	0m0.800s
 Running...
 Running earley:1
-Elapsed time: 3.21956 seconds (3.22) for earley:1
-+!CSVLINE!+gerbil-v0.18.1-86,earley:1,3.21956
+Elapsed time: 3.213254 seconds (3.213) for earley:1
++!CSVLINE!+gerbil-v0.18.1-94,earley:1,3.213254
 
-real	0m3.343s
-user	0m2.563s
-sys	0m0.780s
+real	0m3.329s
+user	0m2.556s
+sys	0m0.772s
 Running...
 Running earley:1
-Elapsed time: 3.254212 seconds (3.254) for earley:1
-+!CSVLINE!+gerbil-v0.18.1-86,earley:1,3.254212
+Elapsed time: 3.25726 seconds (3.257) for earley:1
++!CSVLINE!+gerbil-v0.18.1-94,earley:1,3.25726
 
 real	0m3.376s
-user	0m2.608s
-sys	0m0.768s
+user	0m2.558s
+sys	0m0.817s
 
 Testing graphs under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1163,28 +1163,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/graphs.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/graphs.exe__exe_.c:
 Running...
 Running graphs:7:3
-Elapsed time: 6.211001 seconds (6.211) for graphs:7:3
-+!CSVLINE!+gerbil-v0.18.1-86,graphs:7:3,6.211001
+Elapsed time: 6.245705 seconds (6.246) for graphs:7:3
++!CSVLINE!+gerbil-v0.18.1-94,graphs:7:3,6.245705
 
-real	0m6.223s
-user	0m6.142s
+real	0m6.256s
+user	0m6.168s
+sys	0m0.088s
+Running...
+Running graphs:7:3
+Elapsed time: 6.241701 seconds (6.242) for graphs:7:3
++!CSVLINE!+gerbil-v0.18.1-94,graphs:7:3,6.241701
+
+real	0m6.253s
+user	0m6.137s
+sys	0m0.116s
+Running...
+Running graphs:7:3
+Elapsed time: 6.201371 seconds (6.201) for graphs:7:3
++!CSVLINE!+gerbil-v0.18.1-94,graphs:7:3,6.201371
+
+real	0m6.213s
+user	0m6.133s
 sys	0m0.080s
-Running...
-Running graphs:7:3
-Elapsed time: 6.251774 seconds (6.252) for graphs:7:3
-+!CSVLINE!+gerbil-v0.18.1-86,graphs:7:3,6.251774
-
-real	0m6.262s
-user	0m6.149s
-sys	0m0.112s
-Running...
-Running graphs:7:3
-Elapsed time: 6.353205 seconds (6.353) for graphs:7:3
-+!CSVLINE!+gerbil-v0.18.1-86,graphs:7:3,6.353205
-
-real	0m6.364s
-user	0m6.260s
-sys	0m0.104s
 
 Testing lattice under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1195,28 +1195,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/lattice.scm /tmp/larceno
 /tmp/larcenous/Gerbil-unsafe-fpo/lattice.exe__exe_.c:
 Running...
 Running lattice:44:10
-Elapsed time: 3.070651 seconds (3.071) for lattice:44:10
-+!CSVLINE!+gerbil-v0.18.1-86,lattice:44:10,3.070651
+Elapsed time: 2.962433 seconds (2.962) for lattice:44:10
++!CSVLINE!+gerbil-v0.18.1-94,lattice:44:10,2.962433
 
-real	0m3.078s
-user	0m3.047s
-sys	0m0.008s
+real	0m2.972s
+user	0m2.965s
+sys	0m0.007s
 Running...
 Running lattice:44:10
-Elapsed time: 2.959329 seconds (2.959) for lattice:44:10
-+!CSVLINE!+gerbil-v0.18.1-86,lattice:44:10,2.959329
+Elapsed time: 2.936288 seconds (2.936) for lattice:44:10
++!CSVLINE!+gerbil-v0.18.1-94,lattice:44:10,2.936288
 
-real	0m2.966s
-user	0m2.955s
-sys	0m0.010s
+real	0m2.943s
+user	0m2.943s
+sys	0m0.000s
 Running...
 Running lattice:44:10
-Elapsed time: 2.969121 seconds (2.969) for lattice:44:10
-+!CSVLINE!+gerbil-v0.18.1-86,lattice:44:10,2.969121
+Elapsed time: 2.966761 seconds (2.967) for lattice:44:10
++!CSVLINE!+gerbil-v0.18.1-94,lattice:44:10,2.966761
 
-real	0m2.976s
-user	0m2.974s
-sys	0m0.002s
+real	0m2.974s
+user	0m2.971s
+sys	0m0.003s
 
 Testing matrix under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1227,28 +1227,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/matrix.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/matrix.exe__exe_.c:
 Running...
 Running matrix:5:5:2500
-Elapsed time: 1.226634 seconds (1.227) for matrix:5:5:2500
-+!CSVLINE!+gerbil-v0.18.1-86,matrix:5:5:2500,1.226634
+Elapsed time: 1.215656 seconds (1.216) for matrix:5:5:2500
++!CSVLINE!+gerbil-v0.18.1-94,matrix:5:5:2500,1.215656
 
-real	0m1.234s
-user	0m1.225s
+real	0m1.223s
+user	0m1.215s
 sys	0m0.008s
 Running...
 Running matrix:5:5:2500
-Elapsed time: 1.22889 seconds (1.229) for matrix:5:5:2500
-+!CSVLINE!+gerbil-v0.18.1-86,matrix:5:5:2500,1.22889
+Elapsed time: 1.217212 seconds (1.217) for matrix:5:5:2500
++!CSVLINE!+gerbil-v0.18.1-94,matrix:5:5:2500,1.217212
 
-real	0m1.238s
-user	0m1.224s
+real	0m1.225s
+user	0m1.211s
 sys	0m0.014s
 Running...
 Running matrix:5:5:2500
-Elapsed time: 1.211464 seconds (1.211) for matrix:5:5:2500
-+!CSVLINE!+gerbil-v0.18.1-86,matrix:5:5:2500,1.211464
+Elapsed time: 1.221482 seconds (1.221) for matrix:5:5:2500
++!CSVLINE!+gerbil-v0.18.1-94,matrix:5:5:2500,1.221482
 
-real	0m1.218s
-user	0m1.216s
-sys	0m0.002s
+real	0m1.228s
+user	0m1.228s
+sys	0m0.000s
 
 Testing maze under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1259,27 +1259,27 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/maze.scm /tmp/larcenous/
 /tmp/larcenous/Gerbil-unsafe-fpo/maze.exe__exe_.c:
 Running...
 Running maze:20:7:10000
-Elapsed time: .656392 seconds (.656) for maze:20:7:10000
-+!CSVLINE!+gerbil-v0.18.1-86,maze:20:7:10000,.656392
+Elapsed time: .599869 seconds (.6) for maze:20:7:10000
++!CSVLINE!+gerbil-v0.18.1-94,maze:20:7:10000,.599869
 
-real	0m0.667s
-user	0m0.637s
+real	0m0.610s
+user	0m0.593s
+sys	0m0.016s
+Running...
+Running maze:20:7:10000
+Elapsed time: .600656 seconds (.601) for maze:20:7:10000
++!CSVLINE!+gerbil-v0.18.1-94,maze:20:7:10000,.600656
+
+real	0m0.608s
+user	0m0.580s
 sys	0m0.028s
 Running...
 Running maze:20:7:10000
-Elapsed time: .616206 seconds (.616) for maze:20:7:10000
-+!CSVLINE!+gerbil-v0.18.1-86,maze:20:7:10000,.616206
+Elapsed time: .609257 seconds (.609) for maze:20:7:10000
++!CSVLINE!+gerbil-v0.18.1-94,maze:20:7:10000,.609257
 
-real	0m0.623s
-user	0m0.598s
-sys	0m0.024s
-Running...
-Running maze:20:7:10000
-Elapsed time: .606144 seconds (.606) for maze:20:7:10000
-+!CSVLINE!+gerbil-v0.18.1-86,maze:20:7:10000,.606144
-
-real	0m0.612s
-user	0m0.599s
+real	0m0.616s
+user	0m0.603s
 sys	0m0.012s
 
 Testing mazefun under Gerbil-unsafe-fpo
@@ -1291,28 +1291,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/mazefun.scm /tmp/larceno
 /tmp/larcenous/Gerbil-unsafe-fpo/mazefun.exe__exe_.c:
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 1.742331 seconds (1.742) for mazefun:11:11:10000
-+!CSVLINE!+gerbil-v0.18.1-86,mazefun:11:11:10000,1.742331
+Elapsed time: 1.749262 seconds (1.749) for mazefun:11:11:10000
++!CSVLINE!+gerbil-v0.18.1-94,mazefun:11:11:10000,1.749262
 
-real	0m1.751s
-user	0m1.742s
-sys	0m0.009s
+real	0m1.757s
+user	0m1.752s
+sys	0m0.005s
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 1.757629 seconds (1.758) for mazefun:11:11:10000
-+!CSVLINE!+gerbil-v0.18.1-86,mazefun:11:11:10000,1.757629
+Elapsed time: 1.737149 seconds (1.737) for mazefun:11:11:10000
++!CSVLINE!+gerbil-v0.18.1-94,mazefun:11:11:10000,1.737149
 
-real	0m1.764s
-user	0m1.747s
-sys	0m0.016s
+real	0m1.744s
+user	0m1.744s
+sys	0m0.000s
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 1.744776 seconds (1.745) for mazefun:11:11:10000
-+!CSVLINE!+gerbil-v0.18.1-86,mazefun:11:11:10000,1.744776
+Elapsed time: 1.765852 seconds (1.766) for mazefun:11:11:10000
++!CSVLINE!+gerbil-v0.18.1-94,mazefun:11:11:10000,1.765852
 
-real	0m1.751s
-user	0m1.743s
-sys	0m0.008s
+real	0m1.773s
+user	0m1.773s
+sys	0m0.000s
 
 Testing nqueens under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1323,28 +1323,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/nqueens.scm /tmp/larceno
 /tmp/larcenous/Gerbil-unsafe-fpo/nqueens.exe__exe_.c:
 Running...
 Running nqueens:13:10
-Elapsed time: 6.117783 seconds (6.118) for nqueens:13:10
-+!CSVLINE!+gerbil-v0.18.1-86,nqueens:13:10,6.117783
+Elapsed time: 6.065685 seconds (6.066) for nqueens:13:10
++!CSVLINE!+gerbil-v0.18.1-94,nqueens:13:10,6.065685
 
-real	0m6.125s
-user	0m6.112s
-sys	0m0.012s
+real	0m6.072s
+user	0m6.067s
+sys	0m0.004s
 Running...
 Running nqueens:13:10
-Elapsed time: 6.108469 seconds (6.108) for nqueens:13:10
-+!CSVLINE!+gerbil-v0.18.1-86,nqueens:13:10,6.108469
+Elapsed time: 6.117582 seconds (6.118) for nqueens:13:10
++!CSVLINE!+gerbil-v0.18.1-94,nqueens:13:10,6.117582
 
-real	0m6.115s
-user	0m6.106s
+real	0m6.125s
+user	0m6.117s
 sys	0m0.008s
 Running...
 Running nqueens:13:10
-Elapsed time: 6.095477 seconds (6.095) for nqueens:13:10
-+!CSVLINE!+gerbil-v0.18.1-86,nqueens:13:10,6.095477
+Elapsed time: 6.080544 seconds (6.081) for nqueens:13:10
++!CSVLINE!+gerbil-v0.18.1-94,nqueens:13:10,6.080544
 
-real	0m6.102s
-user	0m6.086s
-sys	0m0.016s
+real	0m6.087s
+user	0m6.083s
+sys	0m0.004s
 
 Testing paraffins under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1355,28 +1355,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/paraffins.scm /tmp/larce
 /tmp/larcenous/Gerbil-unsafe-fpo/paraffins.exe__exe_.c:
 Running...
 Running paraffins:23:10
-Elapsed time: 2.478314 seconds (2.478) for paraffins:23:10
-+!CSVLINE!+gerbil-v0.18.1-86,paraffins:23:10,2.478314
+Elapsed time: 2.523157 seconds (2.523) for paraffins:23:10
++!CSVLINE!+gerbil-v0.18.1-94,paraffins:23:10,2.523157
 
-real	0m2.541s
-user	0m1.800s
-sys	0m0.740s
+real	0m2.590s
+user	0m1.858s
+sys	0m0.731s
 Running...
 Running paraffins:23:10
-Elapsed time: 2.648265 seconds (2.648) for paraffins:23:10
-+!CSVLINE!+gerbil-v0.18.1-86,paraffins:23:10,2.648265
+Elapsed time: 2.46824 seconds (2.468) for paraffins:23:10
++!CSVLINE!+gerbil-v0.18.1-94,paraffins:23:10,2.46824
 
-real	0m2.709s
-user	0m1.984s
-sys	0m0.724s
+real	0m2.531s
+user	0m1.871s
+sys	0m0.660s
 Running...
 Running paraffins:23:10
-Elapsed time: 3.095494 seconds (3.095) for paraffins:23:10
-+!CSVLINE!+gerbil-v0.18.1-86,paraffins:23:10,3.095494
+Elapsed time: 2.454777 seconds (2.455) for paraffins:23:10
++!CSVLINE!+gerbil-v0.18.1-94,paraffins:23:10,2.454777
 
-real	0m3.156s
-user	0m2.407s
-sys	0m0.748s
+real	0m2.516s
+user	0m1.784s
+sys	0m0.732s
 
 Testing parsing under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1387,27 +1387,27 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/parsing.scm /tmp/larceno
 /tmp/larcenous/Gerbil-unsafe-fpo/parsing.exe__exe_.c:
 Running...
 Running parsing:2500
-Elapsed time: 1.401232 seconds (1.401) for parsing:2500
-+!CSVLINE!+gerbil-v0.18.1-86,parsing:2500,1.401232
+Elapsed time: 1.397647 seconds (1.398) for parsing:2500
++!CSVLINE!+gerbil-v0.18.1-94,parsing:2500,1.397647
+
+real	0m1.405s
+user	0m1.396s
+sys	0m0.009s
+Running...
+Running parsing:2500
+Elapsed time: 1.402815 seconds (1.403) for parsing:2500
++!CSVLINE!+gerbil-v0.18.1-94,parsing:2500,1.402815
 
 real	0m1.410s
-user	0m1.400s
-sys	0m0.010s
-Running...
-Running parsing:2500
-Elapsed time: 1.401083 seconds (1.401) for parsing:2500
-+!CSVLINE!+gerbil-v0.18.1-86,parsing:2500,1.401083
-
-real	0m1.409s
-user	0m1.407s
-sys	0m0.002s
-Running...
-Running parsing:2500
-Elapsed time: 1.400018 seconds (1.4) for parsing:2500
-+!CSVLINE!+gerbil-v0.18.1-86,parsing:2500,1.400018
-
-real	0m1.407s
 user	0m1.401s
+sys	0m0.008s
+Running...
+Running parsing:2500
+Elapsed time: 1.403735 seconds (1.404) for parsing:2500
++!CSVLINE!+gerbil-v0.18.1-94,parsing:2500,1.403735
+
+real	0m1.411s
+user	0m1.405s
 sys	0m0.006s
 
 Testing peval under Gerbil-unsafe-fpo
@@ -1419,28 +1419,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/peval.scm /tmp/larcenous
 /tmp/larcenous/Gerbil-unsafe-fpo/peval.exe__exe_.c:
 Running...
 Running peval:2000
-Elapsed time: 1.474522 seconds (1.475) for peval:2000
-+!CSVLINE!+gerbil-v0.18.1-86,peval:2000,1.474522
+Elapsed time: 1.47495 seconds (1.475) for peval:2000
++!CSVLINE!+gerbil-v0.18.1-94,peval:2000,1.47495
 
-real	0m1.481s
-user	0m1.476s
-sys	0m0.005s
+real	0m1.483s
+user	0m1.471s
+sys	0m0.012s
 Running...
 Running peval:2000
-Elapsed time: 1.464922 seconds (1.465) for peval:2000
-+!CSVLINE!+gerbil-v0.18.1-86,peval:2000,1.464922
+Elapsed time: 1.475207 seconds (1.475) for peval:2000
++!CSVLINE!+gerbil-v0.18.1-94,peval:2000,1.475207
+
+real	0m1.483s
+user	0m1.475s
+sys	0m0.008s
+Running...
+Running peval:2000
+Elapsed time: 1.464447 seconds (1.464) for peval:2000
++!CSVLINE!+gerbil-v0.18.1-94,peval:2000,1.464447
 
 real	0m1.472s
-user	0m1.468s
-sys	0m0.004s
-Running...
-Running peval:2000
-Elapsed time: 1.467194 seconds (1.467) for peval:2000
-+!CSVLINE!+gerbil-v0.18.1-86,peval:2000,1.467194
-
-real	0m1.474s
-user	0m1.464s
-sys	0m0.010s
+user	0m1.455s
+sys	0m0.016s
 
 Testing primes under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1451,27 +1451,27 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/primes.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/primes.exe__exe_.c:
 Running...
 Running primes:1000:10000
-Elapsed time: .61237 seconds (.612) for primes:1000:10000
-+!CSVLINE!+gerbil-v0.18.1-86,primes:1000:10000,.61237
+Elapsed time: .621581 seconds (.622) for primes:1000:10000
++!CSVLINE!+gerbil-v0.18.1-94,primes:1000:10000,.621581
 
-real	0m0.622s
-user	0m0.608s
-sys	0m0.014s
+real	0m0.632s
+user	0m0.625s
+sys	0m0.007s
 Running...
 Running primes:1000:10000
-Elapsed time: .739349 seconds (.739) for primes:1000:10000
-+!CSVLINE!+gerbil-v0.18.1-86,primes:1000:10000,.739349
+Elapsed time: .619845 seconds (.62) for primes:1000:10000
++!CSVLINE!+gerbil-v0.18.1-94,primes:1000:10000,.619845
+
+real	0m0.626s
+user	0m0.616s
+sys	0m0.009s
+Running...
+Running primes:1000:10000
+Elapsed time: .740306 seconds (.74) for primes:1000:10000
++!CSVLINE!+gerbil-v0.18.1-94,primes:1000:10000,.740306
 
 real	0m0.747s
-user	0m0.745s
-sys	0m0.002s
-Running...
-Running primes:1000:10000
-Elapsed time: .695154 seconds (.695) for primes:1000:10000
-+!CSVLINE!+gerbil-v0.18.1-86,primes:1000:10000,.695154
-
-real	0m0.701s
-user	0m0.701s
+user	0m0.747s
 sys	0m0.000s
 
 Testing quicksort under Gerbil-unsafe-fpo
@@ -1483,28 +1483,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/quicksort.scm /tmp/larce
 /tmp/larcenous/Gerbil-unsafe-fpo/quicksort.exe__exe_.c:
 Running...
 Running quicksort:10000:2500
-Elapsed time: 3.35749 seconds (3.357) for quicksort:10000:2500
-+!CSVLINE!+gerbil-v0.18.1-86,quicksort:10000:2500,3.35749
+Elapsed time: 3.367834 seconds (3.368) for quicksort:10000:2500
++!CSVLINE!+gerbil-v0.18.1-94,quicksort:10000:2500,3.367834
 
-real	0m3.368s
-user	0m3.308s
-sys	0m0.060s
+real	0m3.379s
+user	0m3.306s
+sys	0m0.072s
 Running...
 Running quicksort:10000:2500
-Elapsed time: 3.351568 seconds (3.352) for quicksort:10000:2500
-+!CSVLINE!+gerbil-v0.18.1-86,quicksort:10000:2500,3.351568
+Elapsed time: 3.352895 seconds (3.353) for quicksort:10000:2500
++!CSVLINE!+gerbil-v0.18.1-94,quicksort:10000:2500,3.352895
 
-real	0m3.362s
-user	0m3.318s
-sys	0m0.044s
+real	0m3.364s
+user	0m3.283s
+sys	0m0.080s
 Running...
 Running quicksort:10000:2500
-Elapsed time: 3.357781 seconds (3.358) for quicksort:10000:2500
-+!CSVLINE!+gerbil-v0.18.1-86,quicksort:10000:2500,3.357781
+Elapsed time: 3.362168 seconds (3.362) for quicksort:10000:2500
++!CSVLINE!+gerbil-v0.18.1-94,quicksort:10000:2500,3.362168
 
-real	0m3.367s
-user	0m3.303s
-sys	0m0.064s
+real	0m3.373s
+user	0m3.260s
+sys	0m0.112s
 
 Testing scheme under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1515,28 +1515,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/scheme.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/scheme.exe__exe_.c:
 Running...
 Running scheme:100000
-Elapsed time: 2.21291 seconds (2.213) for scheme:100000
-+!CSVLINE!+gerbil-v0.18.1-86,scheme:100000,2.21291
+Elapsed time: 2.197401 seconds (2.197) for scheme:100000
++!CSVLINE!+gerbil-v0.18.1-94,scheme:100000,2.197401
 
-real	0m2.220s
-user	0m2.216s
+real	0m2.208s
+user	0m2.196s
+sys	0m0.013s
+Running...
+Running scheme:100000
+Elapsed time: 2.206614 seconds (2.207) for scheme:100000
++!CSVLINE!+gerbil-v0.18.1-94,scheme:100000,2.206614
+
+real	0m2.213s
+user	0m2.209s
 sys	0m0.004s
 Running...
 Running scheme:100000
-Elapsed time: 2.19178 seconds (2.192) for scheme:100000
-+!CSVLINE!+gerbil-v0.18.1-86,scheme:100000,2.19178
+Elapsed time: 2.208277 seconds (2.208) for scheme:100000
++!CSVLINE!+gerbil-v0.18.1-94,scheme:100000,2.208277
 
-real	0m2.199s
-user	0m2.191s
-sys	0m0.008s
-Running...
-Running scheme:100000
-Elapsed time: 2.211028 seconds (2.211) for scheme:100000
-+!CSVLINE!+gerbil-v0.18.1-86,scheme:100000,2.211028
-
-real	0m2.218s
-user	0m2.217s
-sys	0m0.000s
+real	0m2.215s
+user	0m2.211s
+sys	0m0.004s
 
 Testing slatex under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1547,28 +1547,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/slatex.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/slatex.exe__exe_.c:
 Running...
 Running slatex:500
-Elapsed time: 2.259179 seconds (2.259) for slatex:500
-+!CSVLINE!+gerbil-v0.18.1-86,slatex:500,2.259179
+Elapsed time: 2.136695 seconds (2.137) for slatex:500
++!CSVLINE!+gerbil-v0.18.1-94,slatex:500,2.136695
 
-real	0m2.266s
-user	0m1.084s
-sys	0m1.119s
+real	0m2.143s
+user	0m1.049s
+sys	0m1.061s
 Running...
 Running slatex:500
-Elapsed time: 2.092741 seconds (2.093) for slatex:500
-+!CSVLINE!+gerbil-v0.18.1-86,slatex:500,2.092741
+Elapsed time: 2.085529 seconds (2.086) for slatex:500
++!CSVLINE!+gerbil-v0.18.1-94,slatex:500,2.085529
 
-real	0m2.099s
-user	0m1.106s
-sys	0m0.961s
+real	0m2.093s
+user	0m1.056s
+sys	0m1.001s
 Running...
 Running slatex:500
-Elapsed time: 2.078338 seconds (2.078) for slatex:500
-+!CSVLINE!+gerbil-v0.18.1-86,slatex:500,2.078338
+Elapsed time: 2.079201 seconds (2.079) for slatex:500
++!CSVLINE!+gerbil-v0.18.1-94,slatex:500,2.079201
 
-real	0m2.084s
-user	0m1.014s
-sys	0m1.040s
+real	0m2.086s
+user	0m1.081s
+sys	0m0.971s
 
 Testing chudnovsky under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1579,28 +1579,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/chudnovsky.scm /tmp/larc
 /tmp/larcenous/Gerbil-unsafe-fpo/chudnovsky.exe__exe_.c:
 Running...
 Running chudnovsky:50:500:50:1000
-Elapsed time: .249505 seconds (.25) for chudnovsky:50:500:50:1000
-+!CSVLINE!+gerbil-v0.18.1-86,chudnovsky:50:500:50:1000,.249505
+Elapsed time: .250372 seconds (.25) for chudnovsky:50:500:50:1000
++!CSVLINE!+gerbil-v0.18.1-94,chudnovsky:50:500:50:1000,.250372
+
+real	0m0.258s
+user	0m0.254s
+sys	0m0.004s
+Running...
+Running chudnovsky:50:500:50:1000
+Elapsed time: .248548 seconds (.249) for chudnovsky:50:500:50:1000
++!CSVLINE!+gerbil-v0.18.1-94,chudnovsky:50:500:50:1000,.248548
 
 real	0m0.256s
 user	0m0.252s
 sys	0m0.004s
 Running...
 Running chudnovsky:50:500:50:1000
-Elapsed time: .248584 seconds (.249) for chudnovsky:50:500:50:1000
-+!CSVLINE!+gerbil-v0.18.1-86,chudnovsky:50:500:50:1000,.248584
+Elapsed time: .247849 seconds (.248) for chudnovsky:50:500:50:1000
++!CSVLINE!+gerbil-v0.18.1-94,chudnovsky:50:500:50:1000,.247849
 
 real	0m0.256s
-user	0m0.246s
-sys	0m0.009s
-Running...
-Running chudnovsky:50:500:50:1000
-Elapsed time: .249219 seconds (.249) for chudnovsky:50:500:50:1000
-+!CSVLINE!+gerbil-v0.18.1-86,chudnovsky:50:500:50:1000,.249219
-
-real	0m0.256s
-user	0m0.248s
-sys	0m0.008s
+user	0m0.252s
+sys	0m0.004s
 
 Testing nboyer under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1611,28 +1611,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/nboyer.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/nboyer.exe__exe_.c:
 Running...
 Running nboyer:5:1
-Elapsed time: 2.200157 seconds (2.2) for nboyer:5:1
-+!CSVLINE!+gerbil-v0.18.1-86,nboyer:5:1,2.200157
+Elapsed time: 2.206596 seconds (2.207) for nboyer:5:1
++!CSVLINE!+gerbil-v0.18.1-94,nboyer:5:1,2.206596
 
-real	0m2.259s
-user	0m1.876s
-sys	0m0.384s
+real	0m2.265s
+user	0m1.905s
+sys	0m0.360s
 Running...
 Running nboyer:5:1
-Elapsed time: 2.254424 seconds (2.254) for nboyer:5:1
-+!CSVLINE!+gerbil-v0.18.1-86,nboyer:5:1,2.254424
+Elapsed time: 2.69601 seconds (2.696) for nboyer:5:1
++!CSVLINE!+gerbil-v0.18.1-94,nboyer:5:1,2.69601
 
-real	0m2.313s
-user	0m1.949s
-sys	0m0.363s
+real	0m2.758s
+user	0m2.442s
+sys	0m0.316s
 Running...
 Running nboyer:5:1
-Elapsed time: 2.226186 seconds (2.226) for nboyer:5:1
-+!CSVLINE!+gerbil-v0.18.1-86,nboyer:5:1,2.226186
+Elapsed time: 2.244208 seconds (2.244) for nboyer:5:1
++!CSVLINE!+gerbil-v0.18.1-94,nboyer:5:1,2.244208
 
-real	0m2.285s
-user	0m1.948s
-sys	0m0.336s
+real	0m2.308s
+user	0m1.960s
+sys	0m0.348s
 
 Testing sboyer under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1643,28 +1643,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/sboyer.scm /tmp/larcenou
 /tmp/larcenous/Gerbil-unsafe-fpo/sboyer.exe__exe_.c:
 Running...
 Running sboyer:5:1
-Elapsed time: .802109 seconds (.802) for sboyer:5:1
-+!CSVLINE!+gerbil-v0.18.1-86,sboyer:5:1,.802109
+Elapsed time: .825516 seconds (.826) for sboyer:5:1
++!CSVLINE!+gerbil-v0.18.1-94,sboyer:5:1,.825516
 
-real	0m0.827s
-user	0m0.743s
+real	0m0.852s
+user	0m0.788s
+sys	0m0.064s
+Running...
+Running sboyer:5:1
+Elapsed time: .849315 seconds (.849) for sboyer:5:1
++!CSVLINE!+gerbil-v0.18.1-94,sboyer:5:1,.849315
+
+real	0m0.876s
+user	0m0.772s
+sys	0m0.104s
+Running...
+Running sboyer:5:1
+Elapsed time: .812541 seconds (.813) for sboyer:5:1
++!CSVLINE!+gerbil-v0.18.1-94,sboyer:5:1,.812541
+
+real	0m0.840s
+user	0m0.756s
 sys	0m0.084s
-Running...
-Running sboyer:5:1
-Elapsed time: .797584 seconds (.798) for sboyer:5:1
-+!CSVLINE!+gerbil-v0.18.1-86,sboyer:5:1,.797584
-
-real	0m0.821s
-user	0m0.744s
-sys	0m0.076s
-Running...
-Running sboyer:5:1
-Elapsed time: .808993 seconds (.809) for sboyer:5:1
-+!CSVLINE!+gerbil-v0.18.1-86,sboyer:5:1,.808993
-
-real	0m0.832s
-user	0m0.736s
-sys	0m0.096s
 
 Testing gcbench under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1709,12 +1709,12 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 1.316314 seconds (1.316) for gcbench:20:1
-+!CSVLINE!+gerbil-v0.18.1-86,gcbench:20:1,1.316314
+Elapsed time: 1.341975 seconds (1.342) for gcbench:20:1
++!CSVLINE!+gerbil-v0.18.1-94,gcbench:20:1,1.341975
 
-real	0m1.338s
-user	0m1.217s
-sys	0m0.120s
+real	0m1.365s
+user	0m1.205s
+sys	0m0.160s
 Running...
 The garbage collector should touch about 128 megabytes of heap storage.
 The use of more or less memory will skew the results.
@@ -1751,12 +1751,12 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 1.318104 seconds (1.318) for gcbench:20:1
-+!CSVLINE!+gerbil-v0.18.1-86,gcbench:20:1,1.318104
+Elapsed time: 1.679306 seconds (1.679) for gcbench:20:1
++!CSVLINE!+gerbil-v0.18.1-94,gcbench:20:1,1.679306
 
-real	0m1.339s
-user	0m1.206s
-sys	0m0.132s
+real	0m1.700s
+user	0m1.589s
+sys	0m0.111s
 Running...
 The garbage collector should touch about 128 megabytes of heap storage.
 The use of more or less memory will skew the results.
@@ -1793,12 +1793,12 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 1.313838 seconds (1.314) for gcbench:20:1
-+!CSVLINE!+gerbil-v0.18.1-86,gcbench:20:1,1.313838
+Elapsed time: 1.316166 seconds (1.316) for gcbench:20:1
++!CSVLINE!+gerbil-v0.18.1-94,gcbench:20:1,1.316166
 
-real	0m1.334s
-user	0m1.206s
-sys	0m0.127s
+real	0m1.340s
+user	0m1.224s
+sys	0m0.116s
 
 Testing mperm under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1809,28 +1809,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/mperm.scm /tmp/larcenous
 /tmp/larcenous/Gerbil-unsafe-fpo/mperm.exe__exe_.c:
 Running...
 Running mperm:20:10:2:1
-Elapsed time: 4.753256 seconds (4.753) for mperm:20:10:2:1
-+!CSVLINE!+gerbil-v0.18.1-86,mperm:20:10:2:1,4.753256
+Elapsed time: 4.514757 seconds (4.515) for mperm:20:10:2:1
++!CSVLINE!+gerbil-v0.18.1-94,mperm:20:10:2:1,4.514757
 
-real	0m5.211s
-user	0m4.259s
-sys	0m0.952s
+real	0m4.946s
+user	0m4.078s
+sys	0m0.867s
 Running...
 Running mperm:20:10:2:1
-Elapsed time: 4.482132 seconds (4.482) for mperm:20:10:2:1
-+!CSVLINE!+gerbil-v0.18.1-86,mperm:20:10:2:1,4.482132
+Elapsed time: 4.488924 seconds (4.489) for mperm:20:10:2:1
++!CSVLINE!+gerbil-v0.18.1-94,mperm:20:10:2:1,4.488924
 
-real	0m4.908s
-user	0m4.015s
-sys	0m0.892s
+real	0m4.918s
+user	0m4.077s
+sys	0m0.839s
 Running...
 Running mperm:20:10:2:1
-Elapsed time: 4.470739 seconds (4.471) for mperm:20:10:2:1
-+!CSVLINE!+gerbil-v0.18.1-86,mperm:20:10:2:1,4.470739
+Elapsed time: 4.501517 seconds (4.502) for mperm:20:10:2:1
++!CSVLINE!+gerbil-v0.18.1-94,mperm:20:10:2:1,4.501517
 
-real	0m4.893s
-user	0m4.072s
-sys	0m0.820s
+real	0m4.952s
+user	0m4.044s
+sys	0m0.908s
 
 Testing equal under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1841,28 +1841,28 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/equal.scm /tmp/larcenous
 /tmp/larcenous/Gerbil-unsafe-fpo/equal.exe__exe_.c:
 Running...
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: .235337 seconds (.235) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+gerbil-v0.18.1-86,equal:100:100:8:1000:2000:5000,.235337
+Elapsed time: .239146 seconds (.239) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+gerbil-v0.18.1-94,equal:100:100:8:1000:2000:5000,.239146
 
-real	0m0.243s
-user	0m0.175s
-sys	0m0.068s
+real	0m0.246s
+user	0m0.189s
+sys	0m0.056s
 Running...
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: .232541 seconds (.233) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+gerbil-v0.18.1-86,equal:100:100:8:1000:2000:5000,.232541
+Elapsed time: .231065 seconds (.231) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+gerbil-v0.18.1-94,equal:100:100:8:1000:2000:5000,.231065
 
-real	0m0.239s
-user	0m0.191s
-sys	0m0.048s
+real	0m0.238s
+user	0m0.185s
+sys	0m0.052s
 Running...
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: .246728 seconds (.247) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+gerbil-v0.18.1-86,equal:100:100:8:1000:2000:5000,.246728
+Elapsed time: .273537 seconds (.274) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+gerbil-v0.18.1-94,equal:100:100:8:1000:2000:5000,.273537
 
-real	0m0.254s
-user	0m0.210s
-sys	0m0.044s
+real	0m0.282s
+user	0m0.221s
+sys	0m0.061s
 
 Testing bv2string under Gerbil-unsafe-fpo
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-fpo-prelude.scm
@@ -1873,25 +1873,25 @@ gerbil_unsafe_fpo_comp /tmp/larcenous/Gerbil-unsafe-fpo/bv2string.scm /tmp/larce
 /tmp/larcenous/Gerbil-unsafe-fpo/bv2string.exe__exe_.c:
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: .905536 seconds (.906) for bv2string:1000:1000:100
-+!CSVLINE!+gerbil-v0.18.1-86,bv2string:1000:1000:100,.905536
+Elapsed time: .905899 seconds (.906) for bv2string:1000:1000:100
++!CSVLINE!+gerbil-v0.18.1-94,bv2string:1000:1000:100,.905899
 
-real	0m0.915s
-user	0m0.559s
-sys	0m0.356s
+real	0m0.916s
+user	0m0.587s
+sys	0m0.327s
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: .905339 seconds (.905) for bv2string:1000:1000:100
-+!CSVLINE!+gerbil-v0.18.1-86,bv2string:1000:1000:100,.905339
+Elapsed time: .921005 seconds (.921) for bv2string:1000:1000:100
++!CSVLINE!+gerbil-v0.18.1-94,bv2string:1000:1000:100,.921005
 
-real	0m0.915s
-user	0m0.623s
-sys	0m0.292s
+real	0m0.931s
+user	0m0.584s
+sys	0m0.344s
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: .904098 seconds (.904) for bv2string:1000:1000:100
-+!CSVLINE!+gerbil-v0.18.1-86,bv2string:1000:1000:100,.904098
+Elapsed time: .926306 seconds (.926) for bv2string:1000:1000:100
++!CSVLINE!+gerbil-v0.18.1-94,bv2string:1000:1000:100,.926306
 
-real	0m0.913s
-user	0m0.596s
-sys	0m0.316s
+real	0m0.937s
+user	0m0.599s
+sys	0m0.335s
