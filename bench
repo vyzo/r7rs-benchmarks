@@ -1262,7 +1262,7 @@ for system in $systems ; do
                  ;;
 
         gerbil-sep) NAME='Gerbil-sep'
-                COMP=gerbil_ep_comp
+                COMP=gerbil_sep_comp
                 EXEC=gerbil_exec
                 COMPOPTS=""
                 EXTENSION="scm"
