@@ -52,15 +52,23 @@
 
 ;; GRAPH NODES
 
-(define make-internal-node vector)
-(define (internal-node-name node) (vector-ref node 0))
-(define (internal-node-green-edges node) (vector-ref node 1))
-(define (internal-node-red-edges node) (vector-ref node 2))
-(define (internal-node-blue-edges node) (vector-ref node 3))
-(define (set-internal-node-name! node name) (vector-set! node 0 name))
-(define (set-internal-node-green-edges! node edges) (vector-set! node 1 edges))
-(define (set-internal-node-red-edges! node edges) (vector-set! node 2 edges))
-(define (set-internal-node-blue-edges! node edges) (vector-set! node 3 edges))
+;; (define make-internal-node vector)
+;; (define (internal-node-name node) (vector-ref node 0))
+;; (define (internal-node-green-edges node) (vector-ref node 1))
+;; (define (internal-node-red-edges node) (vector-ref node 2))
+;; (define (internal-node-blue-edges node) (vector-ref node 3))
+;; (define (set-internal-node-name! node name) (vector-set! node 0 name))
+;; (define (set-internal-node-green-edges! node edges) (vector-set! node 1 edges))
+;; (define (set-internal-node-red-edges! node edges) (vector-set! node 2 edges))
+;; (define (set-internal-node-blue-edges! node edges) (vector-set! node 3 edges))
+
+(define-record-type <node>
+  (make-internal-node name green red blue)
+  internal-node?
+  (name internal-node-name set-internal-node-name!)
+  (green green-edges set-green-edges!)
+  (red red-edges set-red-edges!)
+  (blue blue-edges set-blue-edges!))
 
 (define (make-node name . blue-edges);; User's constructor
   (let ((name (if (symbol? name) (symbol->string name) name))
@@ -73,44 +81,51 @@
 ;; Selectors
 
 ;;(define name internal-node-name)
-(define (make-edge-getter selector)
-  (lambda (node)
-    (if (or (none-node? node) (any-node? node))
-        (error #f "Can't get edges from the ANY or NONE nodes")
-        (selector node))))
-(define red-edges (make-edge-getter internal-node-red-edges))
-(define green-edges (make-edge-getter internal-node-green-edges))
-(define blue-edges (make-edge-getter internal-node-blue-edges))
+;; (define (make-edge-getter selector)
+;;   (lambda (node)
+;;     (if (or (none-node? node) (any-node? node))
+;;       (error #f "Can't get edges from the ANY or NONE nodes")
+;;       (selector node))))))
+;; (define red-edges (make-edge-getter internal-node-red-edges))
+;; (define green-edges (make-edge-getter internal-node-green-edges))
+;; (define blue-edges (make-edge-getter internal-node-blue-edges))
 
 ;; Mutators
 
-(define (make-edge-setter mutator!)
-  (lambda (node value)
-    (cond ((any-node? node) (error #f "Can't set edges from the ANY node"))
-          ((none-node? node) 'OK)
-          (else (mutator! node value)))))
-(define set-red-edges! (make-edge-setter set-internal-node-red-edges!))
-(define set-green-edges! (make-edge-setter set-internal-node-green-edges!))
-(define set-blue-edges! (make-edge-setter set-internal-node-blue-edges!))
+;; (define (make-edge-setter mutator!)
+;;   (lambda (node value)
+;;     (cond ((any-node? node) (error #f "Can't set edges from the ANY node"))
+;;           ((none-node? node) 'OK)
+;;           (else (mutator! node value)))))
+;; (define set-red-edges! (make-edge-setter set-internal-node-red-edges!))
+;; (define set-green-edges! (make-edge-setter set-internal-node-green-edges!))
+;; (define set-blue-edges! (make-edge-setter set-internal-node-blue-edges!))
 
 ;; BLUE EDGES
 
-(define make-blue-edge vector)
-(define (blue-edge-operation edge) (vector-ref edge 0))
-(define (blue-edge-arg-node edge) (vector-ref edge 1))
-(define (blue-edge-res-node edge) (vector-ref edge 2))
-(define (set-blue-edge-operation! edge value) (vector-set! edge 0 value))
-(define (set-blue-edge-arg-node! edge value) (vector-set! edge 1 value))
-(define (set-blue-edge-res-node! edge value) (vector-set! edge 2 value))
+;; (define make-blue-edge vector)
+;; (define (blue-edge-operation edge) (vector-ref edge 0))
+;; (define (blue-edge-arg-node edge) (vector-ref edge 1))
+;; (define (blue-edge-res-node edge) (vector-ref edge 2))
+;; (define (set-blue-edge-operation! edge value) (vector-set! edge 0 value))
+;; (define (set-blue-edge-arg-node! edge value) (vector-set! edge 1 value))
+;; (define (set-blue-edge-res-node! edge value) (vector-set! edge 2 value))
 
-;; Selectors
-(define operation blue-edge-operation)
-(define arg-node blue-edge-arg-node)
-(define res-node blue-edge-res-node)
+;; ;; Selectors
+;; (define operation blue-edge-operation)
+;; (define arg-node blue-edge-arg-node)
+;; (define res-node blue-edge-res-node)
 
-;; Mutators
-(define set-arg-node! set-blue-edge-arg-node!)
-(define set-res-node! set-blue-edge-res-node!)
+;; ;; Mutators
+;; (define set-arg-node! set-blue-edge-arg-node!)
+;; (define set-res-node! set-blue-edge-res-node!)
+
+(define-record-type <blue-edge>
+  (make-blue-edge operation arg res)
+  blue-edge?
+  (operation operation)
+  (arg arg-node set-arg-node!)
+  (res res-node set-res-node!))
 
 ;; Higher level operations on blue edges
 
@@ -125,11 +140,18 @@
 
 ;; GRAPHS
 
-(define make-internal-graph vector)
-(define (internal-graph-nodes graph) (vector-ref graph 0))
-(define (internal-graph-already-met graph) (vector-ref graph 1))
-(define (internal-graph-already-joined graph) (vector-ref graph 2))
-(define (set-internal-graph-nodes! graph nodes) (vector-set! graph 0 nodes))
+;; (define make-internal-graph vector)
+;; (define (internal-graph-nodes graph) (vector-ref graph 0))
+;; (define (internal-graph-already-met graph) (vector-ref graph 1))
+;; (define (internal-graph-already-joined graph) (vector-ref graph 2))
+;; (define (set-internal-graph-nodes! graph nodes) (vector-set! graph 0 nodes))
+
+(define-record-type <graph>
+  (make-internal-graph nodes already-met already-joined)
+  graph?
+  (nodes graph-nodes set-internal-graph-nodes!)
+  (already-met already-met)
+  (already-joined already-joined))
 
 ;; Constructor
 
@@ -138,9 +160,9 @@
 
 ;; Selectors
 
-(define graph-nodes internal-graph-nodes)
-(define already-met internal-graph-already-met)
-(define already-joined internal-graph-already-joined)
+;; (define graph-nodes internal-graph-nodes)
+;; (define already-met internal-graph-already-met)
+;; (define already-joined internal-graph-already-joined)
 
 ;; Higher level functions on graphs
 

@@ -3,12 +3,19 @@
 
 (import (scheme base) (scheme inexact) (scheme file) (scheme read) (scheme write) (scheme time))
 
-(define (make-point x y z)
-  (vector x y z))
+;; (define (make-point x y z)
+;;   (vector x y z))
 
-(define (point-x p) (vector-ref p 0))
-(define (point-y p) (vector-ref p 1))
-(define (point-z p) (vector-ref p 2))
+;; (define (point-x p) (vector-ref p 0))
+;; (define (point-y p) (vector-ref p 1))
+;; (define (point-z p) (vector-ref p 2))
+
+(define-record-type Point
+  (make-point x y z)
+  Point?
+  (x point-x)
+  (y point-y)
+  (z point-z))
 
 (define (sq x) (* x x))
 
@@ -102,12 +109,19 @@
             (* (point-y ray) (point-y n))
             (* (point-z ray) (point-z n))))))
 
-(define (make-sphere color radius center)
-  (vector color radius center))
+;; (define (make-sphere color radius center)
+;;   (vector color radius center))
 
-(define (sphere-color s) (vector-ref s 0))
-(define (sphere-radius s) (vector-ref s 1))
-(define (sphere-center s) (vector-ref s 2))
+;; (define (sphere-color s) (vector-ref s 0))
+;; (define (sphere-radius s) (vector-ref s 1))
+;; (define (sphere-center s) (vector-ref s 2))
+
+(define-record-type Sphere
+  (make-sphere color radius center)
+  Sphere?
+  (color sphere-color)
+  (radius sphere-radius)
+  (center sphere-center))
 
 (define (defsphere x y z r c)
   (let ((s (make-sphere c r (make-point x y z))))

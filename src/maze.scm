@@ -227,29 +227,45 @@
 ;;   (parent #f);; For DFS spanning tree construction.
 ;;   (mark #f));; For marking the solution path.
 
-(define (make-wall owner neighbor bit)
-  (vector 'wall owner neighbor bit))
+;; (define (make-wall owner neighbor bit)
+;;   (vector 'wall owner neighbor bit))
 
-(define (wall:owner o)          (vector-ref o 1))
-(define (set-wall:owner o v)    (vector-set! o 1 v))
-(define (wall:neighbor o)       (vector-ref o 2))
-(define (set-wall:neighbor o v) (vector-set! o 2 v))
-(define (wall:bit o)            (vector-ref o 3))
-(define (set-wall:bit o v)      (vector-set! o 3 v))
+;; (define (wall:owner o)          (vector-ref o 1))
+;; (define (set-wall:owner o v)    (vector-set! o 1 v))
+;; (define (wall:neighbor o)       (vector-ref o 2))
+;; (define (set-wall:neighbor o v) (vector-set! o 2 v))
+;; (define (wall:bit o)            (vector-ref o 3))
+;; (define (set-wall:bit o v)      (vector-set! o 3 v))
+
+(define-record-type Wall
+  (make-wall owner neighbor bit)
+  Wall?
+  (owner wall:owner set-wall:owner)
+  (neighbor wall:neighbor set-wall:neighbor)
+  (bit wall:bit set-wall:bit))
+
+(define-record-type Cell
+  (make-cell% reachable id walls parent mark)
+  Cell?
+  (reachable cell:reachable set-cell:reachable)
+  (id cell:id set-cell:id)
+  (walls cell:walls set-cell:walls)
+  (parent cell:parent set-cell:parent)
+  (mark cell:mark set-cell:mark))
 
 (define (make-cell reachable id)
-  (vector 'cell reachable id -1 #f #f))
+  (make-cell% reachable id -1 #f #f))
 
-(define (cell:reachable o)       (vector-ref o 1))
-(define (set-cell:reachable o v) (vector-set! o 1 v))
-(define (cell:id o)              (vector-ref o 2))
-(define (set-cell:id o v)        (vector-set! o 2 v))
-(define (cell:walls o)           (vector-ref o 3))
-(define (set-cell:walls o v)     (vector-set! o 3 v))
-(define (cell:parent o)          (vector-ref o 4))
-(define (set-cell:parent o v)    (vector-set! o 4 v))
-(define (cell:mark o)            (vector-ref o 5))
-(define (set-cell:mark o v)      (vector-set! o 5 v))
+;; (define (cell:reachable o)       (vector-ref o 1))
+;; (define (set-cell:reachable o v) (vector-set! o 1 v))
+;; (define (cell:id o)              (vector-ref o 2))
+;; (define (set-cell:id o v)        (vector-set! o 2 v))
+;; (define (cell:walls o)           (vector-ref o 3))
+;; (define (set-cell:walls o v)     (vector-set! o 3 v))
+;; (define (cell:parent o)          (vector-ref o 4))
+;; (define (set-cell:parent o v)    (vector-set! o 4 v))
+;; (define (cell:mark o)            (vector-ref o 5))
+;; (define (set-cell:mark o v)      (vector-set! o 5 v))
 
 ;;; Iterates in reverse order.
 
@@ -379,19 +395,25 @@
 ;;   ncols
 ;;   elts)
 
-(define (make-harr nrows ncols elts)
-  (vector 'harr nrows ncols elts))
+;; (define (make-harr nrows ncols elts)
+;;   (vector 'harr nrows ncols elts))
 
-(define (harr:nrows o)       (vector-ref o 1))
-(define (set-harr:nrows o v) (vector-set! o 1 v))
-(define (harr:ncols o)       (vector-ref o 2))
-(define (set-harr:ncols o v) (vector-set! o 2 v))
-(define (harr:elts o)        (vector-ref o 3))
-(define (set-harr:elts o v)  (vector-set! o 3 v))
+;; (define (harr:nrows o)       (vector-ref o 1))
+;; (define (set-harr:nrows o v) (vector-set! o 1 v))
+;; (define (harr:ncols o)       (vector-ref o 2))
+;; (define (set-harr:ncols o v) (vector-set! o 2 v))
+;; (define (harr:elts o)        (vector-ref o 3))
+;; (define (set-harr:elts o v)  (vector-set! o 3 v))
+
+(define-record-type Harr
+  (make-harr nrows ncols elts)
+  Harr?
+  (nrows harr:nrows set-harr:nrows)
+  (ncols harr:ncols set-harr:ncols)
+  (elts harr:elts set-harr:elts))
 
 (define (harr r c)
   (make-harr r c (make-vector (* r c))))
-
 
 
 (define (href ha x y)
