@@ -71,47 +71,42 @@
 ;;; recursive random number generators"
 ;;; available at his web site http://www.iro.umontreal.ca/~lecuyer
 
-(define seed-set! #f)
-(define seed-ref #f)
-(define random-flonum #f)
+(define norm 2.328306549295728e-10)
+(define m1 4294967087.0)
+(define m2 4294944443.0)
+(define a12 1403580.0)
+(define a13n 810728.0)
+(define a21 527612.0)
+(define a23n 1370589.0)
+(define seed (vector 1.0 0.0 0.0 1.0 0.0 0.0)) ;; will be mutated
 
-(let ((norm 2.328306549295728e-10)
-      (m1 4294967087.0)
-      (m2 4294944443.0)
-      (a12 1403580.0)
-      (a13n 810728.0)
-      (a21 527612.0)
-      (a23n 1370589.0)
-      (seed (vector 1.0 0.0 0.0 1.0 0.0 0.0)));; will be mutated
+(define seed-set!
+  (lambda l (set! seed (list->vector l))))
+(define seed-ref
+  (lambda () (vector->list seed)))
+(define random-flonum
+  (lambda ()
+    (let ((seed seed)) ;; make it local
+      (let ((p1 (- (* a12 (vector-ref seed 1))
+                   (* a13n (vector-ref seed 0))))
+            (p2 (- (* a21 (vector-ref seed 5))
+                   (* a23n (vector-ref seed 3)))))
+        (let ((k1 (truncate (/ p1 m1)))
+              (k2 (truncate (/ p2 m2)))
+              (ignore1 (vector-set! seed 0 (vector-ref seed 1)))
+              (ignore3 (vector-set! seed 3 (vector-ref seed 4))))
+          (let ((p1 (- p1 (* k1 m1)))
+                (p2 (- p2 (* k2 m2)))
+                (ignore2 (vector-set! seed 1 (vector-ref seed 2)))
+                (ignore4 (vector-set! seed 4 (vector-ref seed 5))))
+            (let ((p1 (if (< p1 0.0) (+ p1 m1) p1))
+                  (p2 (if (< p2 0.0) (+ p2 m2) p2)))
+              (vector-set! seed 2 p1)
+              (vector-set! seed 5 p2)
+              (if (<= p1 p2)
+                (* norm (+ (- p1 p2) m1))
+                (* norm (- p1 p2))))))))))
 
-  ;; uses no conversions between flonums and fixnums.
-
-  (set! random-flonum
-        (lambda ()
-          (let ((seed seed));; make it local
-            (let ((p1 (- (* a12 (vector-ref seed 1))
-                         (* a13n (vector-ref seed 0))))
-                  (p2 (- (* a21 (vector-ref seed 5))
-                         (* a23n (vector-ref seed 3)))))
-              (let ((k1 (truncate (/ p1 m1)))
-                    (k2 (truncate (/ p2 m2)))
-                    (ignore1 (vector-set! seed 0 (vector-ref seed 1)))
-                    (ignore3 (vector-set! seed 3 (vector-ref seed 4))))
-                (let ((p1 (- p1 (* k1 m1)))
-                      (p2 (- p2 (* k2 m2)))
-                      (ignore2 (vector-set! seed 1 (vector-ref seed 2)))
-                      (ignore4 (vector-set! seed 4 (vector-ref seed 5))))
-                  (let ((p1 (if (< p1 0.0) (+ p1 m1) p1))
-                        (p2 (if (< p2 0.0) (+ p2 m2) p2)))
-                    (vector-set! seed 2 p1)
-                    (vector-set! seed 5 p2)
-                    (if (<= p1 p2)
-                        (* norm (+ (- p1 p2) m1))
-                        (* norm (- p1 p2))))))))))
-
-  (set! seed-ref (lambda () (vector->list seed)))
-
-  (set! seed-set! (lambda l (set! seed (list->vector l)))))
 
 (define (random n)
   (exact (truncate (* (inexact n) (random-flonum)))))
