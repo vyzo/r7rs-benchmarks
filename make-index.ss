@@ -21,7 +21,7 @@
 </head>
 <body>
   <h2>R7RS benchmarks for Gerbil</h2>
-  <p>These are the results for <b>Gerbil v0.18.2 (pre-release)</b>, Gambit v4.9.5-125, and Racket v8.10</h2>
+  <p>These are the results for <b>Gerbil v0.18.2 (pre-release)</b>, Gambit v4.9.5-130 (same as the Gerbil pin), and Racket v8.10</h2>
   <p>This is based on ecraven's benchmarks, which seem unmaintained.
 
   <p>The benchmarks were run on a Dell XPS 13-9320 laptop.
@@ -39,6 +39,12 @@
    </ul>
   <li>For result comparison between Gerbil safe/sep and Racket see <a href="regression-gerbil-vs-racket.html">here</a></li>
   </ul>
+
+  <h4>Benchmark Modifications</h4>
+
+  <p>There have been some modifications in the source relative to ecraven's benchmarks. Specifically:
+  <p>The <tt>conform</tt>, <tt>maze</tt> and <tt>ray</tt> benchmarks have been modified to use records defined with <tt>define-record-type</tt> instead of vectors.
+  <p>R7RS has record types for a reason and <b>it is completely unreasonable to use vectors instead of records in the year 2024.</b>.
 
   <h2>Results</h2>
   <table>
