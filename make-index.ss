@@ -21,7 +21,8 @@
 </head>
 <body>
   <h2>R7RS benchmarks for Gerbil</h2>
-  <p>These are the results for <b>Gerbil v0.18.2 (pre-release)</b>, Gambit v4.9.5-130 (same as the Gerbil pin), and Racket v8.10</h2>
+  <p>These are the results for <b>Gerbil v0.18.1-97 </b> (pre-release of v0.18.2), <b>Gambit v4.9.5-130</b> (same as the Gerbil pin), and <b>Racket v8.10</b>.
+  Both Gerbil and Gambit are tuned with <tt>-:m64M</tt>, which gives an initial heap size of 64M.
   <p>This is based on ecraven's benchmarks, which seem unmaintained.
 
   <p>The benchmarks were run on a Dell XPS 13-9320 laptop.
@@ -37,7 +38,8 @@
    <li><a href="regression-unsafe-fpo.html">Gerbil unsafe/fpo</a></li>
    <li>Note: the benchmarks were not run with safe/fpo for v0.18</li>
    </ul>
-  <li>For result comparison between Gerbil safe/sep and Racket see <a href="regression-gerbil-vs-racket.html">here</a></li>
+   <li>For result comparison between Gerbil safe/sep and Racket see <a href="regression-gerbil-vs-racket.html">here</a></li>
+   <li>For result comparison between Gerbil safe/sep and vanilla Gambit see <a href="regression-gerbil-vs-gambit.html">here</a></li>
   </ul>
 
   <h4>Benchmark Modifications</h4>

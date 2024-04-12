@@ -1,269 +1,269 @@
 
 ****************************
-Benchmarking Gerbil-unsafe-sep on Thu Apr 11 09:24:37 PM EEST 2024 under Linux dellicious 6.1.0-1034-oem #34-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 5 18:29:21 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Benchmarking Gerbil-unsafe-sep on Fri Apr 12 11:48:02 AM EEST 2024 under Linux dellicious 6.1.0-1034-oem #34-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 5 18:29:21 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 
 Testing browse under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/browse.scm /tmp/larcenous/Gerbil-unsafe-sep/browse.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/browse.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/browse.exe__exe.scm:
 Running...
 Running browse:2000
-Elapsed time: .779977 seconds (.78) for browse:2000
-+!CSVLINE!+gerbil-v0.18.1-97,browse:2000,.779977
+Elapsed time: .749277 seconds (.749) for browse:2000
++!CSVLINE!+gerbil-v0.18.1-97,browse:2000,.749277
 
-real	0m0.786s
-user	0m0.780s
-sys	0m0.006s
+real	0m0.758s
+user	0m0.750s
+sys	0m0.008s
 Running...
 Running browse:2000
-Elapsed time: .76477 seconds (.765) for browse:2000
-+!CSVLINE!+gerbil-v0.18.1-97,browse:2000,.76477
+Elapsed time: .752445 seconds (.752) for browse:2000
++!CSVLINE!+gerbil-v0.18.1-97,browse:2000,.752445
+
+real	0m0.762s
+user	0m0.738s
+sys	0m0.024s
+Running...
+Running browse:2000
+Elapsed time: .761235 seconds (.761) for browse:2000
++!CSVLINE!+gerbil-v0.18.1-97,browse:2000,.761235
 
 real	0m0.770s
-user	0m0.765s
-sys	0m0.005s
-Running...
-Running browse:2000
-Elapsed time: .760464 seconds (.76) for browse:2000
-+!CSVLINE!+gerbil-v0.18.1-97,browse:2000,.760464
-
-real	0m0.765s
-user	0m0.760s
-sys	0m0.005s
+user	0m0.762s
+sys	0m0.008s
 
 Testing deriv under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/deriv.scm /tmp/larcenous/Gerbil-unsafe-sep/deriv.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/deriv.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/deriv.exe__exe.scm:
 Running...
 Running deriv:10000000
-Elapsed time: 1.225412 seconds (1.225) for deriv:10000000
-+!CSVLINE!+gerbil-v0.18.1-97,deriv:10000000,1.225412
+Elapsed time: 1.347887 seconds (1.348) for deriv:10000000
++!CSVLINE!+gerbil-v0.18.1-97,deriv:10000000,1.347887
 
-real	0m1.231s
-user	0m1.229s
-sys	0m0.002s
+real	0m1.356s
+user	0m1.328s
+sys	0m0.028s
 Running...
 Running deriv:10000000
-Elapsed time: 1.103997 seconds (1.104) for deriv:10000000
-+!CSVLINE!+gerbil-v0.18.1-97,deriv:10000000,1.103997
+Elapsed time: 1.182414 seconds (1.182) for deriv:10000000
++!CSVLINE!+gerbil-v0.18.1-97,deriv:10000000,1.182414
 
-real	0m1.109s
-user	0m1.096s
-sys	0m0.013s
+real	0m1.191s
+user	0m1.167s
+sys	0m0.024s
 Running...
 Running deriv:10000000
-Elapsed time: 1.381086 seconds (1.381) for deriv:10000000
-+!CSVLINE!+gerbil-v0.18.1-97,deriv:10000000,1.381086
+Elapsed time: 1.399356 seconds (1.399) for deriv:10000000
++!CSVLINE!+gerbil-v0.18.1-97,deriv:10000000,1.399356
 
-real	0m1.386s
-user	0m1.386s
-sys	0m0.000s
+real	0m1.408s
+user	0m1.380s
+sys	0m0.028s
 
 Testing destruc under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/destruc.scm /tmp/larcenous/Gerbil-unsafe-sep/destruc.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/destruc.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/destruc.exe__exe.scm:
 Running...
 Running destruc:600:50:4000
-Elapsed time: 1.782459 seconds (1.782) for destruc:600:50:4000
-+!CSVLINE!+gerbil-v0.18.1-97,destruc:600:50:4000,1.782459
+Elapsed time: 1.687066 seconds (1.687) for destruc:600:50:4000
++!CSVLINE!+gerbil-v0.18.1-97,destruc:600:50:4000,1.687066
 
-real	0m1.788s
-user	0m1.779s
-sys	0m0.009s
+real	0m1.695s
+user	0m1.671s
+sys	0m0.024s
 Running...
 Running destruc:600:50:4000
-Elapsed time: 1.624511 seconds (1.625) for destruc:600:50:4000
-+!CSVLINE!+gerbil-v0.18.1-97,destruc:600:50:4000,1.624511
+Elapsed time: 1.668991 seconds (1.669) for destruc:600:50:4000
++!CSVLINE!+gerbil-v0.18.1-97,destruc:600:50:4000,1.668991
 
-real	0m1.630s
-user	0m1.615s
-sys	0m0.015s
+real	0m1.677s
+user	0m1.649s
+sys	0m0.028s
 Running...
 Running destruc:600:50:4000
-Elapsed time: 1.608894 seconds (1.609) for destruc:600:50:4000
-+!CSVLINE!+gerbil-v0.18.1-97,destruc:600:50:4000,1.608894
+Elapsed time: 1.692618 seconds (1.693) for destruc:600:50:4000
++!CSVLINE!+gerbil-v0.18.1-97,destruc:600:50:4000,1.692618
 
-real	0m1.614s
-user	0m1.607s
-sys	0m0.007s
+real	0m1.702s
+user	0m1.677s
+sys	0m0.024s
 
 Testing diviter under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/diviter.scm /tmp/larcenous/Gerbil-unsafe-sep/diviter.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/diviter.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/diviter.exe__exe.scm:
 Running...
 Running diviter:1000:1000000
-Elapsed time: 1.650024 seconds (1.65) for diviter:1000:1000000
-+!CSVLINE!+gerbil-v0.18.1-97,diviter:1000:1000000,1.650024
+Elapsed time: 1.567698 seconds (1.568) for diviter:1000:1000000
++!CSVLINE!+gerbil-v0.18.1-97,diviter:1000:1000000,1.567698
 
-real	0m1.656s
-user	0m1.640s
-sys	0m0.016s
+real	0m1.576s
+user	0m1.556s
+sys	0m0.020s
 Running...
 Running diviter:1000:1000000
-Elapsed time: 1.62913 seconds (1.629) for diviter:1000:1000000
-+!CSVLINE!+gerbil-v0.18.1-97,diviter:1000:1000000,1.62913
+Elapsed time: 1.477585 seconds (1.478) for diviter:1000:1000000
++!CSVLINE!+gerbil-v0.18.1-97,diviter:1000:1000000,1.477585
 
-real	0m1.634s
-user	0m1.624s
-sys	0m0.010s
+real	0m1.486s
+user	0m1.466s
+sys	0m0.020s
 Running...
 Running diviter:1000:1000000
-Elapsed time: 1.596514 seconds (1.597) for diviter:1000:1000000
-+!CSVLINE!+gerbil-v0.18.1-97,diviter:1000:1000000,1.596514
+Elapsed time: 1.452258 seconds (1.452) for diviter:1000:1000000
++!CSVLINE!+gerbil-v0.18.1-97,diviter:1000:1000000,1.452258
 
-real	0m1.601s
-user	0m1.591s
-sys	0m0.010s
+real	0m1.461s
+user	0m1.441s
+sys	0m0.020s
 
 Testing divrec under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/divrec.scm /tmp/larcenous/Gerbil-unsafe-sep/divrec.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/divrec.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/divrec.exe__exe.scm:
 Running...
 Running divrec:1000:1000000
-Elapsed time: 2.101974 seconds (2.102) for divrec:1000:1000000
-+!CSVLINE!+gerbil-v0.18.1-97,divrec:1000:1000000,2.101974
+Elapsed time: 2.169342 seconds (2.169) for divrec:1000:1000000
++!CSVLINE!+gerbil-v0.18.1-97,divrec:1000:1000000,2.169342
 
-real	0m2.108s
-user	0m2.100s
-sys	0m0.008s
+real	0m2.178s
+user	0m2.162s
+sys	0m0.016s
 Running...
 Running divrec:1000:1000000
-Elapsed time: 2.049395 seconds (2.049) for divrec:1000:1000000
-+!CSVLINE!+gerbil-v0.18.1-97,divrec:1000:1000000,2.049395
+Elapsed time: 2.176363 seconds (2.176) for divrec:1000:1000000
++!CSVLINE!+gerbil-v0.18.1-97,divrec:1000:1000000,2.176363
 
-real	0m2.057s
-user	0m2.036s
+real	0m2.185s
+user	0m2.160s
+sys	0m0.024s
+Running...
+Running divrec:1000:1000000
+Elapsed time: 2.159228 seconds (2.159) for divrec:1000:1000000
++!CSVLINE!+gerbil-v0.18.1-97,divrec:1000:1000000,2.159228
+
+real	0m2.167s
+user	0m2.147s
 sys	0m0.020s
-Running...
-Running divrec:1000:1000000
-Elapsed time: 2.042641 seconds (2.043) for divrec:1000:1000000
-+!CSVLINE!+gerbil-v0.18.1-97,divrec:1000:1000000,2.042641
-
-real	0m2.048s
-user	0m2.038s
-sys	0m0.011s
 
 Testing puzzle under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/puzzle.scm /tmp/larcenous/Gerbil-unsafe-sep/puzzle.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/puzzle.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/puzzle.exe__exe.scm:
 Running...
 Running puzzle:1000
-Elapsed time: 1.569126 seconds (1.569) for puzzle:1000
-+!CSVLINE!+gerbil-v0.18.1-97,puzzle:1000,1.569126
+Elapsed time: 1.599734 seconds (1.6) for puzzle:1000
++!CSVLINE!+gerbil-v0.18.1-97,puzzle:1000,1.599734
 
-real	0m1.575s
+real	0m1.608s
+user	0m1.588s
+sys	0m0.020s
+Running...
+Running puzzle:1000
+Elapsed time: 1.580869 seconds (1.581) for puzzle:1000
++!CSVLINE!+gerbil-v0.18.1-97,puzzle:1000,1.580869
+
+real	0m1.589s
+user	0m1.549s
+sys	0m0.040s
+Running...
+Running puzzle:1000
+Elapsed time: 1.594822 seconds (1.595) for puzzle:1000
++!CSVLINE!+gerbil-v0.18.1-97,puzzle:1000,1.594822
+
+real	0m1.603s
 user	0m1.567s
-sys	0m0.008s
-Running...
-Running puzzle:1000
-Elapsed time: 1.574424 seconds (1.574) for puzzle:1000
-+!CSVLINE!+gerbil-v0.18.1-97,puzzle:1000,1.574424
-
-real	0m1.581s
-user	0m1.572s
-sys	0m0.008s
-Running...
-Running puzzle:1000
-Elapsed time: 1.573159 seconds (1.573) for puzzle:1000
-+!CSVLINE!+gerbil-v0.18.1-97,puzzle:1000,1.573159
-
-real	0m1.579s
-user	0m1.571s
-sys	0m0.008s
+sys	0m0.036s
 
 Testing triangl under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/triangl.scm /tmp/larcenous/Gerbil-unsafe-sep/triangl.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/triangl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/triangl.exe__exe.scm:
 Running...
 Running triangl:22:1:50
-Elapsed time: 1.157493 seconds (1.157) for triangl:22:1:50
-+!CSVLINE!+gerbil-v0.18.1-97,triangl:22:1:50,1.157493
+Elapsed time: 1.164839 seconds (1.165) for triangl:22:1:50
++!CSVLINE!+gerbil-v0.18.1-97,triangl:22:1:50,1.164839
 
-real	0m1.163s
-user	0m1.163s
+real	0m1.171s
+user	0m1.167s
+sys	0m0.004s
+Running...
+Running triangl:22:1:50
+Elapsed time: 1.161817 seconds (1.162) for triangl:22:1:50
++!CSVLINE!+gerbil-v0.18.1-97,triangl:22:1:50,1.161817
+
+real	0m1.170s
+user	0m1.170s
 sys	0m0.000s
 Running...
 Running triangl:22:1:50
-Elapsed time: 1.156996 seconds (1.157) for triangl:22:1:50
-+!CSVLINE!+gerbil-v0.18.1-97,triangl:22:1:50,1.156996
+Elapsed time: 1.163645 seconds (1.164) for triangl:22:1:50
++!CSVLINE!+gerbil-v0.18.1-97,triangl:22:1:50,1.163645
 
-real	0m1.163s
-user	0m1.159s
-sys	0m0.004s
-Running...
-Running triangl:22:1:50
-Elapsed time: 1.158794 seconds (1.159) for triangl:22:1:50
-+!CSVLINE!+gerbil-v0.18.1-97,triangl:22:1:50,1.158794
-
-real	0m1.164s
-user	0m1.160s
-sys	0m0.004s
+real	0m1.170s
+user	0m1.154s
+sys	0m0.016s
 
 Testing tak under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/tak.scm /tmp/larcenous/Gerbil-unsafe-sep/tak.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/tak.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/tak.exe__exe.scm:
 Running...
 Running tak:40:20:11:1
-Elapsed time: 1.397016 seconds (1.397) for tak:40:20:11:1
-+!CSVLINE!+gerbil-v0.18.1-97,tak:40:20:11:1,1.397016
+Elapsed time: 1.379905 seconds (1.38) for tak:40:20:11:1
++!CSVLINE!+gerbil-v0.18.1-97,tak:40:20:11:1,1.379905
 
-real	0m1.402s
-user	0m1.401s
-sys	0m0.000s
+real	0m1.385s
+user	0m1.377s
+sys	0m0.008s
 Running...
 Running tak:40:20:11:1
-Elapsed time: 1.379799 seconds (1.38) for tak:40:20:11:1
-+!CSVLINE!+gerbil-v0.18.1-97,tak:40:20:11:1,1.379799
+Elapsed time: 1.390504 seconds (1.391) for tak:40:20:11:1
++!CSVLINE!+gerbil-v0.18.1-97,tak:40:20:11:1,1.390504
 
-real	0m1.384s
+real	0m1.395s
+user	0m1.391s
+sys	0m0.004s
+Running...
+Running tak:40:20:11:1
+Elapsed time: 1.383657 seconds (1.384) for tak:40:20:11:1
++!CSVLINE!+gerbil-v0.18.1-97,tak:40:20:11:1,1.383657
+
+real	0m1.388s
 user	0m1.384s
-sys	0m0.000s
-Running...
-Running tak:40:20:11:1
-Elapsed time: 1.373788 seconds (1.374) for tak:40:20:11:1
-+!CSVLINE!+gerbil-v0.18.1-97,tak:40:20:11:1,1.373788
-
-real	0m1.379s
-user	0m1.375s
 sys	0m0.004s
 
 Testing takl under Gerbil-unsafe-sep
@@ -271,65 +271,65 @@ Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prel
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/takl.scm /tmp/larcenous/Gerbil-unsafe-sep/takl.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/takl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/takl.exe__exe.scm:
 Running...
 Running takl:40:20:12:1
-Elapsed time: 1.118633 seconds (1.119) for takl:40:20:12:1
-+!CSVLINE!+gerbil-v0.18.1-97,takl:40:20:12:1,1.118633
+Elapsed time: 1.115643 seconds (1.116) for takl:40:20:12:1
++!CSVLINE!+gerbil-v0.18.1-97,takl:40:20:12:1,1.115643
 
-real	0m1.123s
-user	0m1.123s
+real	0m1.121s
+user	0m1.117s
+sys	0m0.004s
+Running...
+Running takl:40:20:12:1
+Elapsed time: 1.116305 seconds (1.116) for takl:40:20:12:1
++!CSVLINE!+gerbil-v0.18.1-97,takl:40:20:12:1,1.116305
+
+real	0m1.121s
+user	0m1.113s
+sys	0m0.008s
+Running...
+Running takl:40:20:12:1
+Elapsed time: 1.120152 seconds (1.12) for takl:40:20:12:1
++!CSVLINE!+gerbil-v0.18.1-97,takl:40:20:12:1,1.120152
+
+real	0m1.125s
+user	0m1.125s
 sys	0m0.000s
-Running...
-Running takl:40:20:12:1
-Elapsed time: 1.119027 seconds (1.119) for takl:40:20:12:1
-+!CSVLINE!+gerbil-v0.18.1-97,takl:40:20:12:1,1.119027
-
-real	0m1.124s
-user	0m1.120s
-sys	0m0.004s
-Running...
-Running takl:40:20:12:1
-Elapsed time: 1.165036 seconds (1.165) for takl:40:20:12:1
-+!CSVLINE!+gerbil-v0.18.1-97,takl:40:20:12:1,1.165036
-
-real	0m1.169s
-user	0m1.165s
-sys	0m0.004s
 
 Testing ntakl under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/ntakl.scm /tmp/larcenous/Gerbil-unsafe-sep/ntakl.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/ntakl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/ntakl.exe__exe.scm:
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 1.108408 seconds (1.108) for ntakl:40:20:12:1
-+!CSVLINE!+gerbil-v0.18.1-97,ntakl:40:20:12:1,1.108408
+Elapsed time: 1.110235 seconds (1.11) for ntakl:40:20:12:1
++!CSVLINE!+gerbil-v0.18.1-97,ntakl:40:20:12:1,1.110235
 
-real	0m1.113s
-user	0m1.105s
-sys	0m0.008s
-Running...
-Running ntakl:40:20:12:1
-Elapsed time: 1.108614 seconds (1.109) for ntakl:40:20:12:1
-+!CSVLINE!+gerbil-v0.18.1-97,ntakl:40:20:12:1,1.108614
-
-real	0m1.113s
-user	0m1.113s
+real	0m1.115s
+user	0m1.115s
 sys	0m0.000s
 Running...
 Running ntakl:40:20:12:1
-Elapsed time: 1.107723 seconds (1.108) for ntakl:40:20:12:1
-+!CSVLINE!+gerbil-v0.18.1-97,ntakl:40:20:12:1,1.107723
+Elapsed time: 1.110204 seconds (1.11) for ntakl:40:20:12:1
++!CSVLINE!+gerbil-v0.18.1-97,ntakl:40:20:12:1,1.110204
 
-real	0m1.112s
-user	0m1.108s
+real	0m1.115s
+user	0m1.115s
+sys	0m0.000s
+Running...
+Running ntakl:40:20:12:1
+Elapsed time: 1.111092 seconds (1.111) for ntakl:40:20:12:1
++!CSVLINE!+gerbil-v0.18.1-97,ntakl:40:20:12:1,1.111092
+
+real	0m1.116s
+user	0m1.112s
 sys	0m0.004s
 
 Testing cpstak under Gerbil-unsafe-sep
@@ -337,1352 +337,1352 @@ Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prel
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/cpstak.scm /tmp/larcenous/Gerbil-unsafe-sep/cpstak.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/cpstak.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/cpstak.exe__exe.scm:
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 3.091118 seconds (3.091) for cpstak:40:20:11:1
-+!CSVLINE!+gerbil-v0.18.1-97,cpstak:40:20:11:1,3.091118
+Elapsed time: 3.114418 seconds (3.114) for cpstak:40:20:11:1
++!CSVLINE!+gerbil-v0.18.1-97,cpstak:40:20:11:1,3.114418
 
-real	0m3.096s
-user	0m3.092s
-sys	0m0.004s
+real	0m3.122s
+user	0m3.090s
+sys	0m0.032s
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 3.041501 seconds (3.042) for cpstak:40:20:11:1
-+!CSVLINE!+gerbil-v0.18.1-97,cpstak:40:20:11:1,3.041501
+Elapsed time: 3.157874 seconds (3.158) for cpstak:40:20:11:1
++!CSVLINE!+gerbil-v0.18.1-97,cpstak:40:20:11:1,3.157874
 
-real	0m3.046s
-user	0m3.038s
-sys	0m0.008s
+real	0m3.166s
+user	0m3.141s
+sys	0m0.024s
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 3.023663 seconds (3.024) for cpstak:40:20:11:1
-+!CSVLINE!+gerbil-v0.18.1-97,cpstak:40:20:11:1,3.023663
+Elapsed time: 3.201646 seconds (3.202) for cpstak:40:20:11:1
++!CSVLINE!+gerbil-v0.18.1-97,cpstak:40:20:11:1,3.201646
 
-real	0m3.028s
-user	0m3.016s
-sys	0m0.012s
+real	0m3.210s
+user	0m3.190s
+sys	0m0.020s
 
 Testing ctak under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/ctak.scm /tmp/larcenous/Gerbil-unsafe-sep/ctak.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/ctak.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/ctak.exe__exe.scm:
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 1.63255 seconds (1.633) for ctak:32:16:8:1
-+!CSVLINE!+gerbil-v0.18.1-97,ctak:32:16:8:1,1.63255
+Elapsed time: 1.51986 seconds (1.52) for ctak:32:16:8:1
++!CSVLINE!+gerbil-v0.18.1-97,ctak:32:16:8:1,1.51986
 
-real	0m1.639s
-user	0m1.627s
-sys	0m0.011s
+real	0m1.531s
+user	0m1.503s
+sys	0m0.028s
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 1.621778 seconds (1.622) for ctak:32:16:8:1
-+!CSVLINE!+gerbil-v0.18.1-97,ctak:32:16:8:1,1.621778
+Elapsed time: 1.56533 seconds (1.565) for ctak:32:16:8:1
++!CSVLINE!+gerbil-v0.18.1-97,ctak:32:16:8:1,1.56533
 
-real	0m1.627s
-user	0m1.616s
-sys	0m0.010s
+real	0m1.573s
+user	0m1.553s
+sys	0m0.020s
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 1.64925 seconds (1.649) for ctak:32:16:8:1
-+!CSVLINE!+gerbil-v0.18.1-97,ctak:32:16:8:1,1.64925
+Elapsed time: 1.542128 seconds (1.542) for ctak:32:16:8:1
++!CSVLINE!+gerbil-v0.18.1-97,ctak:32:16:8:1,1.542128
 
-real	0m1.654s
-user	0m1.642s
-sys	0m0.012s
+real	0m1.550s
+user	0m1.526s
+sys	0m0.024s
 
 Testing fib under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/fib.scm /tmp/larcenous/Gerbil-unsafe-sep/fib.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/fib.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/fib.exe__exe.scm:
 Running...
 Running fib:40:5
-Elapsed time: 2.30278 seconds (2.303) for fib:40:5
-+!CSVLINE!+gerbil-v0.18.1-97,fib:40:5,2.30278
+Elapsed time: 2.312461 seconds (2.312) for fib:40:5
++!CSVLINE!+gerbil-v0.18.1-97,fib:40:5,2.312461
 
-real	0m2.308s
-user	0m2.304s
+real	0m2.317s
+user	0m2.309s
+sys	0m0.008s
+Running...
+Running fib:40:5
+Elapsed time: 2.306984 seconds (2.307) for fib:40:5
++!CSVLINE!+gerbil-v0.18.1-97,fib:40:5,2.306984
+
+real	0m2.312s
+user	0m2.308s
 sys	0m0.004s
 Running...
 Running fib:40:5
-Elapsed time: 2.302548 seconds (2.303) for fib:40:5
-+!CSVLINE!+gerbil-v0.18.1-97,fib:40:5,2.302548
+Elapsed time: 2.313602 seconds (2.314) for fib:40:5
++!CSVLINE!+gerbil-v0.18.1-97,fib:40:5,2.313602
 
-real	0m2.307s
-user	0m2.307s
-sys	0m0.000s
-Running...
-Running fib:40:5
-Elapsed time: 2.311128 seconds (2.311) for fib:40:5
-+!CSVLINE!+gerbil-v0.18.1-97,fib:40:5,2.311128
-
-real	0m2.315s
-user	0m2.315s
-sys	0m0.000s
+real	0m2.318s
+user	0m2.314s
+sys	0m0.004s
 
 Testing fibc under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/fibc.scm /tmp/larcenous/Gerbil-unsafe-sep/fibc.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/fibc.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/fibc.exe__exe.scm:
 Running...
 Running fibc:30:10
-Elapsed time: 1.058084 seconds (1.058) for fibc:30:10
-+!CSVLINE!+gerbil-v0.18.1-97,fibc:30:10,1.058084
+Elapsed time: 1.016992 seconds (1.017) for fibc:30:10
++!CSVLINE!+gerbil-v0.18.1-97,fibc:30:10,1.016992
 
-real	0m1.063s
-user	0m1.051s
-sys	0m0.012s
+real	0m1.025s
+user	0m1.005s
+sys	0m0.020s
 Running...
 Running fibc:30:10
-Elapsed time: 1.120078 seconds (1.12) for fibc:30:10
-+!CSVLINE!+gerbil-v0.18.1-97,fibc:30:10,1.120078
+Elapsed time: 1.120903 seconds (1.121) for fibc:30:10
++!CSVLINE!+gerbil-v0.18.1-97,fibc:30:10,1.120903
 
-real	0m1.125s
-user	0m1.125s
-sys	0m0.000s
+real	0m1.129s
+user	0m1.100s
+sys	0m0.028s
 Running...
 Running fibc:30:10
-Elapsed time: 1.066087 seconds (1.066) for fibc:30:10
-+!CSVLINE!+gerbil-v0.18.1-97,fibc:30:10,1.066087
+Elapsed time: 1.046875 seconds (1.047) for fibc:30:10
++!CSVLINE!+gerbil-v0.18.1-97,fibc:30:10,1.046875
 
-real	0m1.071s
-user	0m1.063s
-sys	0m0.008s
+real	0m1.055s
+user	0m1.030s
+sys	0m0.024s
 
 Testing fibfp under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/fibfp.scm /tmp/larcenous/Gerbil-unsafe-sep/fibfp.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/fibfp.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/fibfp.exe__exe.scm:
 Running...
 Running fibfp:35.:10
-Elapsed time: 1.04695 seconds (1.047) for fibfp:35.:10
-+!CSVLINE!+gerbil-v0.18.1-97,fibfp:35.:10,1.04695
+Elapsed time: 1.042101 seconds (1.042) for fibfp:35.:10
++!CSVLINE!+gerbil-v0.18.1-97,fibfp:35.:10,1.042101
 
-real	0m1.052s
-user	0m1.042s
-sys	0m0.010s
+real	0m1.050s
+user	0m1.026s
+sys	0m0.024s
 Running...
 Running fibfp:35.:10
-Elapsed time: 1.038321 seconds (1.038) for fibfp:35.:10
-+!CSVLINE!+gerbil-v0.18.1-97,fibfp:35.:10,1.038321
+Elapsed time: 1.03934 seconds (1.039) for fibfp:35.:10
++!CSVLINE!+gerbil-v0.18.1-97,fibfp:35.:10,1.03934
 
-real	0m1.043s
-user	0m1.033s
-sys	0m0.009s
+real	0m1.047s
+user	0m1.030s
+sys	0m0.017s
 Running...
 Running fibfp:35.:10
-Elapsed time: 1.047732 seconds (1.048) for fibfp:35.:10
-+!CSVLINE!+gerbil-v0.18.1-97,fibfp:35.:10,1.047732
+Elapsed time: 1.038667 seconds (1.039) for fibfp:35.:10
++!CSVLINE!+gerbil-v0.18.1-97,fibfp:35.:10,1.038667
 
-real	0m1.053s
-user	0m1.044s
-sys	0m0.009s
+real	0m1.046s
+user	0m1.013s
+sys	0m0.034s
 
 Testing sum under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/sum.scm /tmp/larcenous/Gerbil-unsafe-sep/sum.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/sum.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/sum.exe__exe.scm:
 Running...
 Running sum:10000:200000
-Elapsed time: 1.690141 seconds (1.69) for sum:10000:200000
-+!CSVLINE!+gerbil-v0.18.1-97,sum:10000:200000,1.690141
+Elapsed time: 1.698541 seconds (1.699) for sum:10000:200000
++!CSVLINE!+gerbil-v0.18.1-97,sum:10000:200000,1.698541
 
-real	0m1.696s
-user	0m1.695s
+real	0m1.705s
+user	0m1.705s
 sys	0m0.000s
 Running...
 Running sum:10000:200000
-Elapsed time: 1.689241 seconds (1.689) for sum:10000:200000
-+!CSVLINE!+gerbil-v0.18.1-97,sum:10000:200000,1.689241
+Elapsed time: 1.696565 seconds (1.697) for sum:10000:200000
++!CSVLINE!+gerbil-v0.18.1-97,sum:10000:200000,1.696565
 
-real	0m1.695s
-user	0m1.678s
-sys	0m0.016s
+real	0m1.703s
+user	0m1.699s
+sys	0m0.004s
 Running...
 Running sum:10000:200000
-Elapsed time: 1.689796 seconds (1.69) for sum:10000:200000
-+!CSVLINE!+gerbil-v0.18.1-97,sum:10000:200000,1.689796
+Elapsed time: 1.696944 seconds (1.697) for sum:10000:200000
++!CSVLINE!+gerbil-v0.18.1-97,sum:10000:200000,1.696944
 
-real	0m1.695s
-user	0m1.679s
-sys	0m0.016s
+real	0m1.703s
+user	0m1.703s
+sys	0m0.000s
 
 Testing sumfp under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/sumfp.scm /tmp/larcenous/Gerbil-unsafe-sep/sumfp.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/sumfp.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/sumfp.exe__exe.scm:
 Running...
 Running sumfp:1000000.:500
-Elapsed time: 1.738862 seconds (1.739) for sumfp:1000000.:500
-+!CSVLINE!+gerbil-v0.18.1-97,sumfp:1000000.:500,1.738862
+Elapsed time: 1.767821 seconds (1.768) for sumfp:1000000.:500
++!CSVLINE!+gerbil-v0.18.1-97,sumfp:1000000.:500,1.767821
 
-real	0m1.745s
-user	0m1.737s
-sys	0m0.008s
+real	0m1.776s
+user	0m1.748s
+sys	0m0.028s
 Running...
 Running sumfp:1000000.:500
-Elapsed time: 1.730972 seconds (1.731) for sumfp:1000000.:500
-+!CSVLINE!+gerbil-v0.18.1-97,sumfp:1000000.:500,1.730972
+Elapsed time: 1.820763 seconds (1.821) for sumfp:1000000.:500
++!CSVLINE!+gerbil-v0.18.1-97,sumfp:1000000.:500,1.820763
 
-real	0m1.736s
-user	0m1.728s
-sys	0m0.008s
+real	0m1.829s
+user	0m1.804s
+sys	0m0.024s
 Running...
 Running sumfp:1000000.:500
-Elapsed time: 1.753469 seconds (1.753) for sumfp:1000000.:500
-+!CSVLINE!+gerbil-v0.18.1-97,sumfp:1000000.:500,1.753469
+Elapsed time: 2.090365 seconds (2.09) for sumfp:1000000.:500
++!CSVLINE!+gerbil-v0.18.1-97,sumfp:1000000.:500,2.090365
 
-real	0m1.758s
-user	0m1.740s
-sys	0m0.017s
+real	0m2.099s
+user	0m2.075s
+sys	0m0.024s
 
 Testing fft under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/fft.scm /tmp/larcenous/Gerbil-unsafe-sep/fft.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/fft.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/fft.exe__exe.scm:
 Running...
 Running fft:65536:100
-Elapsed time: 1.28881 seconds (1.289) for fft:65536:100
-+!CSVLINE!+gerbil-v0.18.1-97,fft:65536:100,1.28881
+Elapsed time: 1.027634 seconds (1.028) for fft:65536:100
++!CSVLINE!+gerbil-v0.18.1-97,fft:65536:100,1.027634
 
-real	0m1.294s
-user	0m1.284s
-sys	0m0.010s
+real	0m1.036s
+user	0m1.011s
+sys	0m0.024s
 Running...
 Running fft:65536:100
-Elapsed time: 1.157135 seconds (1.157) for fft:65536:100
-+!CSVLINE!+gerbil-v0.18.1-97,fft:65536:100,1.157135
+Elapsed time: .710904 seconds (.711) for fft:65536:100
++!CSVLINE!+gerbil-v0.18.1-97,fft:65536:100,.710904
 
-real	0m1.162s
-user	0m1.149s
-sys	0m0.012s
+real	0m0.719s
+user	0m0.691s
+sys	0m0.028s
 Running...
 Running fft:65536:100
-Elapsed time: 1.153901 seconds (1.154) for fft:65536:100
-+!CSVLINE!+gerbil-v0.18.1-97,fft:65536:100,1.153901
+Elapsed time: 1.026133 seconds (1.026) for fft:65536:100
++!CSVLINE!+gerbil-v0.18.1-97,fft:65536:100,1.026133
 
-real	0m1.159s
-user	0m1.153s
-sys	0m0.006s
+real	0m1.034s
+user	0m1.014s
+sys	0m0.020s
 
 Testing mbrot under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/mbrot.scm /tmp/larcenous/Gerbil-unsafe-sep/mbrot.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/mbrot.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/mbrot.exe__exe.scm:
 Running...
 Running mbrot:75:1000
-Elapsed time: 2.472346 seconds (2.472) for mbrot:75:1000
-+!CSVLINE!+gerbil-v0.18.1-97,mbrot:75:1000,2.472346
+Elapsed time: 2.180498 seconds (2.181) for mbrot:75:1000
++!CSVLINE!+gerbil-v0.18.1-97,mbrot:75:1000,2.180498
 
-real	0m2.478s
-user	0m2.472s
-sys	0m0.005s
+real	0m2.188s
+user	0m2.164s
+sys	0m0.024s
 Running...
 Running mbrot:75:1000
-Elapsed time: 2.493371 seconds (2.493) for mbrot:75:1000
-+!CSVLINE!+gerbil-v0.18.1-97,mbrot:75:1000,2.493371
+Elapsed time: 2.337955 seconds (2.338) for mbrot:75:1000
++!CSVLINE!+gerbil-v0.18.1-97,mbrot:75:1000,2.337955
 
-real	0m2.498s
-user	0m2.494s
-sys	0m0.004s
+real	0m2.346s
+user	0m2.322s
+sys	0m0.024s
 Running...
 Running mbrot:75:1000
-Elapsed time: 2.499072 seconds (2.499) for mbrot:75:1000
-+!CSVLINE!+gerbil-v0.18.1-97,mbrot:75:1000,2.499072
+Elapsed time: 2.607755 seconds (2.608) for mbrot:75:1000
++!CSVLINE!+gerbil-v0.18.1-97,mbrot:75:1000,2.607755
 
-real	0m2.504s
-user	0m2.488s
-sys	0m0.016s
+real	0m2.616s
+user	0m2.590s
+sys	0m0.026s
 
 Testing mbrotZ under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/mbrotZ.scm /tmp/larcenous/Gerbil-unsafe-sep/mbrotZ.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/mbrotZ.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/mbrotZ.exe__exe.scm:
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 6.206037 seconds (6.206) for mbrotZ:75:1000
-+!CSVLINE!+gerbil-v0.18.1-97,mbrotZ:75:1000,6.206037
+Elapsed time: 5.840618 seconds (5.841) for mbrotZ:75:1000
++!CSVLINE!+gerbil-v0.18.1-97,mbrotZ:75:1000,5.840618
 
-real	0m6.212s
-user	0m6.209s
-sys	0m0.002s
+real	0m5.849s
+user	0m5.829s
+sys	0m0.020s
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 6.109216 seconds (6.109) for mbrotZ:75:1000
-+!CSVLINE!+gerbil-v0.18.1-97,mbrotZ:75:1000,6.109216
+Elapsed time: 5.859166 seconds (5.859) for mbrotZ:75:1000
++!CSVLINE!+gerbil-v0.18.1-97,mbrotZ:75:1000,5.859166
 
-real	0m6.114s
-user	0m6.107s
-sys	0m0.007s
+real	0m5.867s
+user	0m5.839s
+sys	0m0.028s
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 6.366442 seconds (6.366) for mbrotZ:75:1000
-+!CSVLINE!+gerbil-v0.18.1-97,mbrotZ:75:1000,6.366442
+Elapsed time: 5.732755 seconds (5.733) for mbrotZ:75:1000
++!CSVLINE!+gerbil-v0.18.1-97,mbrotZ:75:1000,5.732755
 
-real	0m6.371s
-user	0m6.355s
-sys	0m0.016s
+real	0m5.740s
+user	0m5.712s
+sys	0m0.028s
 
 Testing nucleic under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/nucleic.scm /tmp/larcenous/Gerbil-unsafe-sep/nucleic.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/nucleic.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/nucleic.exe__exe.scm:
 Running...
 Running nucleic:50
-Elapsed time: 1.00319 seconds (1.003) for nucleic:50
-+!CSVLINE!+gerbil-v0.18.1-97,nucleic:50,1.00319
+Elapsed time: .907383 seconds (.907) for nucleic:50
++!CSVLINE!+gerbil-v0.18.1-97,nucleic:50,.907383
 
-real	0m1.009s
-user	0m1.008s
-sys	0m0.000s
+real	0m0.916s
+user	0m0.892s
+sys	0m0.024s
 Running...
 Running nucleic:50
-Elapsed time: 1.007704 seconds (1.008) for nucleic:50
-+!CSVLINE!+gerbil-v0.18.1-97,nucleic:50,1.007704
+Elapsed time: .894206 seconds (.894) for nucleic:50
++!CSVLINE!+gerbil-v0.18.1-97,nucleic:50,.894206
 
-real	0m1.012s
-user	0m1.003s
-sys	0m0.009s
+real	0m0.902s
+user	0m0.878s
+sys	0m0.024s
 Running...
 Running nucleic:50
-Elapsed time: .991038 seconds (.991) for nucleic:50
-+!CSVLINE!+gerbil-v0.18.1-97,nucleic:50,.991038
+Elapsed time: .936481 seconds (.936) for nucleic:50
++!CSVLINE!+gerbil-v0.18.1-97,nucleic:50,.936481
 
-real	0m0.996s
-user	0m0.990s
-sys	0m0.007s
+real	0m0.945s
+user	0m0.913s
+sys	0m0.032s
 
 Testing pi under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/pi.scm /tmp/larcenous/Gerbil-unsafe-sep/pi.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/pi.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/pi.exe__exe.scm:
 Running...
 Running pi:50:500:50:100
-Elapsed time: .605354 seconds (.605) for pi:50:500:50:100
-+!CSVLINE!+gerbil-v0.18.1-97,pi:50:500:50:100,.605354
+Elapsed time: .61041 seconds (.61) for pi:50:500:50:100
++!CSVLINE!+gerbil-v0.18.1-97,pi:50:500:50:100,.61041
 
-real	0m0.611s
+real	0m0.619s
+user	0m0.599s
+sys	0m0.020s
+Running...
+Running pi:50:500:50:100
+Elapsed time: .616625 seconds (.617) for pi:50:500:50:100
++!CSVLINE!+gerbil-v0.18.1-97,pi:50:500:50:100,.616625
+
+real	0m0.625s
+user	0m0.601s
+sys	0m0.024s
+Running...
+Running pi:50:500:50:100
+Elapsed time: .618918 seconds (.619) for pi:50:500:50:100
++!CSVLINE!+gerbil-v0.18.1-97,pi:50:500:50:100,.618918
+
+real	0m0.628s
 user	0m0.604s
-sys	0m0.007s
-Running...
-Running pi:50:500:50:100
-Elapsed time: .597349 seconds (.597) for pi:50:500:50:100
-+!CSVLINE!+gerbil-v0.18.1-97,pi:50:500:50:100,.597349
-
-real	0m0.602s
-user	0m0.594s
-sys	0m0.009s
-Running...
-Running pi:50:500:50:100
-Elapsed time: .594781 seconds (.595) for pi:50:500:50:100
-+!CSVLINE!+gerbil-v0.18.1-97,pi:50:500:50:100,.594781
-
-real	0m0.600s
-user	0m0.593s
-sys	0m0.007s
+sys	0m0.024s
 
 Testing pnpoly under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/pnpoly.scm /tmp/larcenous/Gerbil-unsafe-sep/pnpoly.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/pnpoly.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/pnpoly.exe__exe.scm:
 Running...
 Running pnpoly:1000000
-Elapsed time: 1.448075 seconds (1.448) for pnpoly:1000000
-+!CSVLINE!+gerbil-v0.18.1-97,pnpoly:1000000,1.448075
+Elapsed time: 1.415702 seconds (1.416) for pnpoly:1000000
++!CSVLINE!+gerbil-v0.18.1-97,pnpoly:1000000,1.415702
 
-real	0m1.454s
-user	0m1.446s
-sys	0m0.007s
+real	0m1.423s
+user	0m1.403s
+sys	0m0.020s
 Running...
 Running pnpoly:1000000
-Elapsed time: 1.447559 seconds (1.448) for pnpoly:1000000
-+!CSVLINE!+gerbil-v0.18.1-97,pnpoly:1000000,1.447559
+Elapsed time: 1.405699 seconds (1.406) for pnpoly:1000000
++!CSVLINE!+gerbil-v0.18.1-97,pnpoly:1000000,1.405699
 
-real	0m1.453s
-user	0m1.448s
-sys	0m0.005s
+real	0m1.414s
+user	0m1.378s
+sys	0m0.036s
 Running...
 Running pnpoly:1000000
-Elapsed time: 1.44459 seconds (1.445) for pnpoly:1000000
-+!CSVLINE!+gerbil-v0.18.1-97,pnpoly:1000000,1.44459
+Elapsed time: 1.411518 seconds (1.412) for pnpoly:1000000
++!CSVLINE!+gerbil-v0.18.1-97,pnpoly:1000000,1.411518
 
-real	0m1.449s
-user	0m1.444s
-sys	0m0.005s
+real	0m1.419s
+user	0m1.411s
+sys	0m0.008s
 
 Testing ray under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/ray.scm /tmp/larcenous/Gerbil-unsafe-sep/ray.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/ray.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/ray.exe__exe.scm:
 Running...
 Running ray:50
-Elapsed time: .999991 seconds (1.) for ray:50
-+!CSVLINE!+gerbil-v0.18.1-97,ray:50,.999991
+Elapsed time: 1.096524 seconds (1.097) for ray:50
++!CSVLINE!+gerbil-v0.18.1-97,ray:50,1.096524
 
-real	0m1.005s
-user	0m1.001s
-sys	0m0.004s
+real	0m1.105s
+user	0m1.081s
+sys	0m0.024s
 Running...
 Running ray:50
-Elapsed time: 1.009004 seconds (1.009) for ray:50
-+!CSVLINE!+gerbil-v0.18.1-97,ray:50,1.009004
+Elapsed time: 1.094767 seconds (1.095) for ray:50
++!CSVLINE!+gerbil-v0.18.1-97,ray:50,1.094767
 
-real	0m1.014s
-user	0m0.995s
-sys	0m0.010s
+real	0m1.103s
+user	0m1.062s
+sys	0m0.032s
 Running...
 Running ray:50
-Elapsed time: .996154 seconds (.996) for ray:50
-+!CSVLINE!+gerbil-v0.18.1-97,ray:50,.996154
+Elapsed time: .914911 seconds (.915) for ray:50
++!CSVLINE!+gerbil-v0.18.1-97,ray:50,.914911
 
-real	0m1.001s
-user	0m0.979s
-sys	0m0.022s
+real	0m0.923s
+user	0m0.895s
+sys	0m0.028s
 
 Testing simplex under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/simplex.scm /tmp/larcenous/Gerbil-unsafe-sep/simplex.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/simplex.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/simplex.exe__exe.scm:
 Running...
 Running simplex:1000000
-Elapsed time: .930876 seconds (.931) for simplex:1000000
-+!CSVLINE!+gerbil-v0.18.1-97,simplex:1000000,.930876
+Elapsed time: .903149 seconds (.903) for simplex:1000000
++!CSVLINE!+gerbil-v0.18.1-97,simplex:1000000,.903149
 
-real	0m0.936s
-user	0m0.930s
-sys	0m0.006s
+real	0m0.912s
+user	0m0.896s
+sys	0m0.016s
 Running...
 Running simplex:1000000
-Elapsed time: .934068 seconds (.934) for simplex:1000000
-+!CSVLINE!+gerbil-v0.18.1-97,simplex:1000000,.934068
+Elapsed time: .951752 seconds (.952) for simplex:1000000
++!CSVLINE!+gerbil-v0.18.1-97,simplex:1000000,.951752
 
-real	0m0.939s
-user	0m0.928s
-sys	0m0.011s
+real	0m0.960s
+user	0m0.944s
+sys	0m0.016s
 Running...
 Running simplex:1000000
-Elapsed time: .931961 seconds (.932) for simplex:1000000
-+!CSVLINE!+gerbil-v0.18.1-97,simplex:1000000,.931961
+Elapsed time: .950529 seconds (.951) for simplex:1000000
++!CSVLINE!+gerbil-v0.18.1-97,simplex:1000000,.950529
 
-real	0m0.936s
-user	0m0.932s
-sys	0m0.005s
+real	0m0.959s
+user	0m0.935s
+sys	0m0.024s
 
 Testing ack under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/ack.scm /tmp/larcenous/Gerbil-unsafe-sep/ack.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/ack.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/ack.exe__exe.scm:
 Running...
 Running ack:3:12:2
-Elapsed time: 2.315793 seconds (2.316) for ack:3:12:2
-+!CSVLINE!+gerbil-v0.18.1-97,ack:3:12:2,2.315793
+Elapsed time: 1.861879 seconds (1.862) for ack:3:12:2
++!CSVLINE!+gerbil-v0.18.1-97,ack:3:12:2,1.861879
 
-real	0m2.321s
-user	0m2.317s
+real	0m1.867s
+user	0m1.867s
+sys	0m0.000s
+Running...
+Running ack:3:12:2
+Elapsed time: 1.84817 seconds (1.848) for ack:3:12:2
++!CSVLINE!+gerbil-v0.18.1-97,ack:3:12:2,1.84817
+
+real	0m1.853s
+user	0m1.853s
+sys	0m0.000s
+Running...
+Running ack:3:12:2
+Elapsed time: 2.059852 seconds (2.06) for ack:3:12:2
++!CSVLINE!+gerbil-v0.18.1-97,ack:3:12:2,2.059852
+
+real	0m2.064s
+user	0m2.060s
 sys	0m0.004s
-Running...
-Running ack:3:12:2
-Elapsed time: 2.290941 seconds (2.291) for ack:3:12:2
-+!CSVLINE!+gerbil-v0.18.1-97,ack:3:12:2,2.290941
-
-real	0m2.296s
-user	0m2.296s
-sys	0m0.000s
-Running...
-Running ack:3:12:2
-Elapsed time: 2.596604 seconds (2.597) for ack:3:12:2
-+!CSVLINE!+gerbil-v0.18.1-97,ack:3:12:2,2.596604
-
-real	0m2.601s
-user	0m2.601s
-sys	0m0.000s
 
 Testing array1 under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/array1.scm /tmp/larcenous/Gerbil-unsafe-sep/array1.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/array1.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/array1.exe__exe.scm:
 Running...
 Running array1:1000000:500
-Elapsed time: 3.304185 seconds (3.304) for array1:1000000:500
-+!CSVLINE!+gerbil-v0.18.1-97,array1:1000000:500,3.304185
+Elapsed time: 1.467475 seconds (1.467) for array1:1000000:500
++!CSVLINE!+gerbil-v0.18.1-97,array1:1000000:500,1.467475
 
-real	0m3.309s
-user	0m1.101s
-sys	0m2.209s
+real	0m1.476s
+user	0m1.436s
+sys	0m0.040s
 Running...
 Running array1:1000000:500
-Elapsed time: 3.553661 seconds (3.554) for array1:1000000:500
-+!CSVLINE!+gerbil-v0.18.1-97,array1:1000000:500,3.553661
+Elapsed time: 1.480368 seconds (1.48) for array1:1000000:500
++!CSVLINE!+gerbil-v0.18.1-97,array1:1000000:500,1.480368
 
-real	0m3.558s
-user	0m1.343s
-sys	0m2.215s
+real	0m1.489s
+user	0m1.444s
+sys	0m0.044s
 Running...
 Running array1:1000000:500
-Elapsed time: 3.34038 seconds (3.34) for array1:1000000:500
-+!CSVLINE!+gerbil-v0.18.1-97,array1:1000000:500,3.34038
+Elapsed time: 1.45974 seconds (1.46) for array1:1000000:500
++!CSVLINE!+gerbil-v0.18.1-97,array1:1000000:500,1.45974
 
-real	0m3.345s
-user	0m1.108s
-sys	0m2.236s
+real	0m1.468s
+user	0m1.407s
+sys	0m0.060s
 
 Testing string under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/string.scm /tmp/larcenous/Gerbil-unsafe-sep/string.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/string.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/string.exe__exe.scm:
 Running...
 Running string:500000:100
-Elapsed time: 1.178731 seconds (1.179) for string:500000:100
-+!CSVLINE!+gerbil-v0.18.1-97,string:500000:100,1.178731
+Elapsed time: .961412 seconds (.961) for string:500000:100
++!CSVLINE!+gerbil-v0.18.1-97,string:500000:100,.961412
 
-real	0m1.184s
-user	0m0.703s
-sys	0m0.480s
+real	0m0.970s
+user	0m0.913s
+sys	0m0.056s
 Running...
 Running string:500000:100
-Elapsed time: 1.194903 seconds (1.195) for string:500000:100
-+!CSVLINE!+gerbil-v0.18.1-97,string:500000:100,1.194903
+Elapsed time: .956063 seconds (.956) for string:500000:100
++!CSVLINE!+gerbil-v0.18.1-97,string:500000:100,.956063
 
-real	0m1.200s
-user	0m0.666s
-sys	0m0.534s
+real	0m0.965s
+user	0m0.909s
+sys	0m0.056s
 Running...
 Running string:500000:100
-Elapsed time: 1.208543 seconds (1.209) for string:500000:100
-+!CSVLINE!+gerbil-v0.18.1-97,string:500000:100,1.208543
+Elapsed time: .954131 seconds (.954) for string:500000:100
++!CSVLINE!+gerbil-v0.18.1-97,string:500000:100,.954131
 
-real	0m1.213s
-user	0m0.672s
-sys	0m0.541s
+real	0m0.963s
+user	0m0.907s
+sys	0m0.056s
 
 Testing sum1 under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/sum1.scm /tmp/larcenous/Gerbil-unsafe-sep/sum1.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/sum1.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/sum1.exe__exe.scm:
 Running...
 Running sum1:25
-Elapsed time: .311581 seconds (.312) for sum1:25
-+!CSVLINE!+gerbil-v0.18.1-97,sum1:25,.311581
+Elapsed time: .31944 seconds (.319) for sum1:25
++!CSVLINE!+gerbil-v0.18.1-97,sum1:25,.31944
 
-real	0m0.316s
-user	0m0.293s
-sys	0m0.023s
+real	0m0.327s
+user	0m0.291s
+sys	0m0.036s
 Running...
 Running sum1:25
-Elapsed time: .31977 seconds (.32) for sum1:25
-+!CSVLINE!+gerbil-v0.18.1-97,sum1:25,.31977
+Elapsed time: .318485 seconds (.318) for sum1:25
++!CSVLINE!+gerbil-v0.18.1-97,sum1:25,.318485
 
-real	0m0.325s
-user	0m0.317s
-sys	0m0.008s
+real	0m0.326s
+user	0m0.285s
+sys	0m0.041s
 Running...
 Running sum1:25
-Elapsed time: .313744 seconds (.314) for sum1:25
-+!CSVLINE!+gerbil-v0.18.1-97,sum1:25,.313744
+Elapsed time: .327826 seconds (.328) for sum1:25
++!CSVLINE!+gerbil-v0.18.1-97,sum1:25,.327826
 
-real	0m0.318s
-user	0m0.302s
-sys	0m0.016s
+real	0m0.336s
+user	0m0.292s
+sys	0m0.044s
 
 Testing cat under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/cat.scm /tmp/larcenous/Gerbil-unsafe-sep/cat.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/cat.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/cat.exe__exe.scm:
 Running...
 Running cat:50
-Elapsed time: 1.053913 seconds (1.054) for cat:50
-+!CSVLINE!+gerbil-v0.18.1-97,cat:50,1.053913
+Elapsed time: 1.053087 seconds (1.053) for cat:50
++!CSVLINE!+gerbil-v0.18.1-97,cat:50,1.053087
 
 real	0m1.059s
+user	0m0.794s
+sys	0m0.265s
+Running...
+Running cat:50
+Elapsed time: 1.056612 seconds (1.057) for cat:50
++!CSVLINE!+gerbil-v0.18.1-97,cat:50,1.056612
+
+real	0m1.061s
+user	0m0.844s
+sys	0m0.212s
+Running...
+Running cat:50
+Elapsed time: 1.057314 seconds (1.057) for cat:50
++!CSVLINE!+gerbil-v0.18.1-97,cat:50,1.057314
+
+real	0m1.062s
 user	0m0.799s
-sys	0m0.260s
-Running...
-Running cat:50
-Elapsed time: 1.045418 seconds (1.045) for cat:50
-+!CSVLINE!+gerbil-v0.18.1-97,cat:50,1.045418
-
-real	0m1.050s
-user	0m0.798s
-sys	0m0.252s
-Running...
-Running cat:50
-Elapsed time: 1.045997 seconds (1.046) for cat:50
-+!CSVLINE!+gerbil-v0.18.1-97,cat:50,1.045997
-
-real	0m1.050s
-user	0m0.823s
-sys	0m0.228s
+sys	0m0.263s
 
 Testing tail under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/tail.scm /tmp/larcenous/Gerbil-unsafe-sep/tail.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/tail.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/tail.exe__exe.scm:
 Running...
 Running tail:50
-Elapsed time: 1.561097 seconds (1.561) for tail:50
-+!CSVLINE!+gerbil-v0.18.1-97,tail:50,1.561097
+Elapsed time: 1.540101 seconds (1.54) for tail:50
++!CSVLINE!+gerbil-v0.18.1-97,tail:50,1.540101
 
-real	0m1.568s
-user	0m1.220s
-sys	0m0.348s
+real	0m1.548s
+user	0m1.236s
+sys	0m0.312s
 Running...
 Running tail:50
-Elapsed time: 1.574891 seconds (1.575) for tail:50
-+!CSVLINE!+gerbil-v0.18.1-97,tail:50,1.574891
+Elapsed time: 1.542347 seconds (1.542) for tail:50
++!CSVLINE!+gerbil-v0.18.1-97,tail:50,1.542347
 
-real	0m1.582s
-user	0m1.233s
-sys	0m0.343s
+real	0m1.550s
+user	0m1.258s
+sys	0m0.293s
 Running...
 Running tail:50
-Elapsed time: 1.578737 seconds (1.579) for tail:50
-+!CSVLINE!+gerbil-v0.18.1-97,tail:50,1.578737
+Elapsed time: 1.551625 seconds (1.552) for tail:50
++!CSVLINE!+gerbil-v0.18.1-97,tail:50,1.551625
 
-real	0m1.585s
-user	0m1.198s
-sys	0m0.387s
+real	0m1.560s
+user	0m1.267s
+sys	0m0.293s
 
 Testing wc under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/wc.scm /tmp/larcenous/Gerbil-unsafe-sep/wc.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/wc.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/wc.exe__exe.scm:
 Running...
 Running wc:inputs/bib:50
-Elapsed time: .987389 seconds (.987) for wc:inputs/bib:50
-+!CSVLINE!+gerbil-v0.18.1-97,wc:inputs/bib:50,.987389
+Elapsed time: .989834 seconds (.99) for wc:inputs/bib:50
++!CSVLINE!+gerbil-v0.18.1-97,wc:inputs/bib:50,.989834
 
-real	0m0.992s
-user	0m0.928s
-sys	0m0.064s
+real	0m0.995s
+user	0m0.959s
+sys	0m0.036s
 Running...
 Running wc:inputs/bib:50
-Elapsed time: .98868 seconds (.989) for wc:inputs/bib:50
-+!CSVLINE!+gerbil-v0.18.1-97,wc:inputs/bib:50,.98868
+Elapsed time: .987536 seconds (.988) for wc:inputs/bib:50
++!CSVLINE!+gerbil-v0.18.1-97,wc:inputs/bib:50,.987536
 
 real	0m0.993s
-user	0m0.928s
-sys	0m0.064s
+user	0m0.945s
+sys	0m0.048s
 Running...
 Running wc:inputs/bib:50
-Elapsed time: .988722 seconds (.989) for wc:inputs/bib:50
-+!CSVLINE!+gerbil-v0.18.1-97,wc:inputs/bib:50,.988722
+Elapsed time: .986351 seconds (.986) for wc:inputs/bib:50
++!CSVLINE!+gerbil-v0.18.1-97,wc:inputs/bib:50,.986351
 
-real	0m0.993s
-user	0m0.949s
-sys	0m0.044s
+real	0m0.991s
+user	0m0.963s
+sys	0m0.028s
 
 Testing read1 under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/read1.scm /tmp/larcenous/Gerbil-unsafe-sep/read1.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/read1.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/read1.exe__exe.scm:
 Running...
 Running read1:2500
-Elapsed time: .786927 seconds (.787) for read1:2500
-+!CSVLINE!+gerbil-v0.18.1-97,read1:2500,.786927
+Elapsed time: .784977 seconds (.785) for read1:2500
++!CSVLINE!+gerbil-v0.18.1-97,read1:2500,.784977
+
+real	0m0.793s
+user	0m0.749s
+sys	0m0.044s
+Running...
+Running read1:2500
+Elapsed time: .795638 seconds (.796) for read1:2500
++!CSVLINE!+gerbil-v0.18.1-97,read1:2500,.795638
+
+real	0m0.804s
+user	0m0.772s
+sys	0m0.032s
+Running...
+Running read1:2500
+Elapsed time: .783441 seconds (.783) for read1:2500
++!CSVLINE!+gerbil-v0.18.1-97,read1:2500,.783441
 
 real	0m0.792s
-user	0m0.776s
-sys	0m0.016s
-Running...
-Running read1:2500
-Elapsed time: .788579 seconds (.789) for read1:2500
-+!CSVLINE!+gerbil-v0.18.1-97,read1:2500,.788579
-
-real	0m0.794s
 user	0m0.760s
-sys	0m0.034s
-Running...
-Running read1:2500
-Elapsed time: .794072 seconds (.794) for read1:2500
-+!CSVLINE!+gerbil-v0.18.1-97,read1:2500,.794072
-
-real	0m0.799s
-user	0m0.781s
-sys	0m0.018s
+sys	0m0.032s
 
 Testing conform under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/conform.scm /tmp/larcenous/Gerbil-unsafe-sep/conform.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/conform.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/conform.exe__exe.scm:
 Running...
 Running conform:500
-Elapsed time: 1.30782 seconds (1.308) for conform:500
-+!CSVLINE!+gerbil-v0.18.1-97,conform:500,1.30782
+Elapsed time: 1.258781 seconds (1.259) for conform:500
++!CSVLINE!+gerbil-v0.18.1-97,conform:500,1.258781
 
-real	0m1.314s
-user	0m1.309s
-sys	0m0.005s
+real	0m1.267s
+user	0m1.227s
+sys	0m0.040s
 Running...
 Running conform:500
-Elapsed time: 1.320697 seconds (1.321) for conform:500
-+!CSVLINE!+gerbil-v0.18.1-97,conform:500,1.320697
+Elapsed time: 1.255691 seconds (1.256) for conform:500
++!CSVLINE!+gerbil-v0.18.1-97,conform:500,1.255691
 
-real	0m1.326s
-user	0m1.316s
-sys	0m0.009s
+real	0m1.264s
+user	0m1.236s
+sys	0m0.028s
 Running...
 Running conform:500
-Elapsed time: 1.314301 seconds (1.314) for conform:500
-+!CSVLINE!+gerbil-v0.18.1-97,conform:500,1.314301
+Elapsed time: 1.256622 seconds (1.257) for conform:500
++!CSVLINE!+gerbil-v0.18.1-97,conform:500,1.256622
 
-real	0m1.319s
-user	0m1.318s
-sys	0m0.000s
+real	0m1.265s
+user	0m1.232s
+sys	0m0.032s
 
 Testing dynamic under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/dynamic.scm /tmp/larcenous/Gerbil-unsafe-sep/dynamic.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/dynamic.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/dynamic.exe__exe.scm:
 Running...
 Running dynamic:500
-Elapsed time: 2.857675 seconds (2.858) for dynamic:500
-+!CSVLINE!+gerbil-v0.18.1-97,dynamic:500,2.857675
+Elapsed time: 2.423061 seconds (2.423) for dynamic:500
++!CSVLINE!+gerbil-v0.18.1-97,dynamic:500,2.423061
 
-real	0m2.863s
-user	0m2.836s
-sys	0m0.027s
+real	0m2.431s
+user	0m2.370s
+sys	0m0.060s
 Running...
 Running dynamic:500
-Elapsed time: 2.854601 seconds (2.855) for dynamic:500
-+!CSVLINE!+gerbil-v0.18.1-97,dynamic:500,2.854601
+Elapsed time: 2.413654 seconds (2.414) for dynamic:500
++!CSVLINE!+gerbil-v0.18.1-97,dynamic:500,2.413654
 
-real	0m2.860s
-user	0m2.847s
-sys	0m0.012s
+real	0m2.422s
+user	0m2.385s
+sys	0m0.036s
 Running...
 Running dynamic:500
-Elapsed time: 2.842456 seconds (2.842) for dynamic:500
-+!CSVLINE!+gerbil-v0.18.1-97,dynamic:500,2.842456
+Elapsed time: 2.425404 seconds (2.425) for dynamic:500
++!CSVLINE!+gerbil-v0.18.1-97,dynamic:500,2.425404
 
-real	0m2.847s
-user	0m2.831s
-sys	0m0.016s
+real	0m2.434s
+user	0m2.397s
+sys	0m0.036s
 
 Testing earley under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/earley.scm /tmp/larcenous/Gerbil-unsafe-sep/earley.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/earley.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/earley.exe__exe.scm:
 Running...
 Running earley:1
-Elapsed time: 3.19213 seconds (3.192) for earley:1
-+!CSVLINE!+gerbil-v0.18.1-97,earley:1,3.19213
+Elapsed time: 2.979997 seconds (2.98) for earley:1
++!CSVLINE!+gerbil-v0.18.1-97,earley:1,2.979997
 
-real	0m3.335s
-user	0m2.514s
-sys	0m0.821s
+real	0m3.109s
+user	0m2.312s
+sys	0m0.796s
 Running...
 Running earley:1
-Elapsed time: 3.23186 seconds (3.232) for earley:1
-+!CSVLINE!+gerbil-v0.18.1-97,earley:1,3.23186
+Elapsed time: 2.820523 seconds (2.821) for earley:1
++!CSVLINE!+gerbil-v0.18.1-97,earley:1,2.820523
 
-real	0m3.374s
-user	0m2.521s
-sys	0m0.852s
+real	0m2.949s
+user	0m2.148s
+sys	0m0.800s
 Running...
 Running earley:1
-Elapsed time: 3.790718 seconds (3.791) for earley:1
-+!CSVLINE!+gerbil-v0.18.1-97,earley:1,3.790718
+Elapsed time: 2.726026 seconds (2.726) for earley:1
++!CSVLINE!+gerbil-v0.18.1-97,earley:1,2.726026
 
-real	0m3.930s
-user	0m3.105s
-sys	0m0.824s
+real	0m2.854s
+user	0m2.042s
+sys	0m0.811s
 
 Testing graphs under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/graphs.scm /tmp/larcenous/Gerbil-unsafe-sep/graphs.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/graphs.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/graphs.exe__exe.scm:
 Running...
 Running graphs:7:3
-Elapsed time: 5.998186 seconds (5.998) for graphs:7:3
-+!CSVLINE!+gerbil-v0.18.1-97,graphs:7:3,5.998186
+Elapsed time: 4.509785 seconds (4.51) for graphs:7:3
++!CSVLINE!+gerbil-v0.18.1-97,graphs:7:3,4.509785
 
-real	0m6.008s
-user	0m5.887s
-sys	0m0.120s
+real	0m4.519s
+user	0m4.443s
+sys	0m0.076s
 Running...
 Running graphs:7:3
-Elapsed time: 6.318511 seconds (6.319) for graphs:7:3
-+!CSVLINE!+gerbil-v0.18.1-97,graphs:7:3,6.318511
+Elapsed time: 4.515192 seconds (4.515) for graphs:7:3
++!CSVLINE!+gerbil-v0.18.1-97,graphs:7:3,4.515192
 
-real	0m6.328s
-user	0m6.243s
-sys	0m0.084s
+real	0m4.525s
+user	0m4.477s
+sys	0m0.048s
 Running...
 Running graphs:7:3
-Elapsed time: 6.015775 seconds (6.016) for graphs:7:3
-+!CSVLINE!+gerbil-v0.18.1-97,graphs:7:3,6.015775
+Elapsed time: 4.598265 seconds (4.598) for graphs:7:3
++!CSVLINE!+gerbil-v0.18.1-97,graphs:7:3,4.598265
 
-real	0m6.025s
-user	0m5.905s
-sys	0m0.120s
+real	0m4.609s
+user	0m4.561s
+sys	0m0.048s
 
 Testing lattice under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/lattice.scm /tmp/larcenous/Gerbil-unsafe-sep/lattice.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/lattice.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/lattice.exe__exe.scm:
 Running...
 Running lattice:44:10
-Elapsed time: 2.729082 seconds (2.729) for lattice:44:10
-+!CSVLINE!+gerbil-v0.18.1-97,lattice:44:10,2.729082
+Elapsed time: 2.73264 seconds (2.733) for lattice:44:10
++!CSVLINE!+gerbil-v0.18.1-97,lattice:44:10,2.73264
 
-real	0m2.734s
-user	0m2.722s
+real	0m2.743s
+user	0m2.729s
 sys	0m0.012s
 Running...
 Running lattice:44:10
-Elapsed time: 2.729138 seconds (2.729) for lattice:44:10
-+!CSVLINE!+gerbil-v0.18.1-97,lattice:44:10,2.729138
+Elapsed time: 2.743273 seconds (2.743) for lattice:44:10
++!CSVLINE!+gerbil-v0.18.1-97,lattice:44:10,2.743273
 
-real	0m2.734s
-user	0m2.722s
-sys	0m0.012s
+real	0m2.752s
+user	0m2.720s
+sys	0m0.032s
 Running...
 Running lattice:44:10
-Elapsed time: 2.749584 seconds (2.75) for lattice:44:10
-+!CSVLINE!+gerbil-v0.18.1-97,lattice:44:10,2.749584
+Elapsed time: 2.722365 seconds (2.722) for lattice:44:10
++!CSVLINE!+gerbil-v0.18.1-97,lattice:44:10,2.722365
 
-real	0m2.755s
-user	0m2.746s
-sys	0m0.008s
+real	0m2.732s
+user	0m2.712s
+sys	0m0.020s
 
 Testing matrix under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/matrix.scm /tmp/larcenous/Gerbil-unsafe-sep/matrix.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/matrix.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/matrix.exe__exe.scm:
 Running...
 Running matrix:5:5:2500
-Elapsed time: 1.181375 seconds (1.181) for matrix:5:5:2500
-+!CSVLINE!+gerbil-v0.18.1-97,matrix:5:5:2500,1.181375
+Elapsed time: 1.141557 seconds (1.142) for matrix:5:5:2500
++!CSVLINE!+gerbil-v0.18.1-97,matrix:5:5:2500,1.141557
 
-real	0m1.188s
-user	0m1.170s
-sys	0m0.018s
+real	0m1.150s
+user	0m1.129s
+sys	0m0.020s
 Running...
 Running matrix:5:5:2500
-Elapsed time: 1.186975 seconds (1.187) for matrix:5:5:2500
-+!CSVLINE!+gerbil-v0.18.1-97,matrix:5:5:2500,1.186975
+Elapsed time: 1.16028 seconds (1.16) for matrix:5:5:2500
++!CSVLINE!+gerbil-v0.18.1-97,matrix:5:5:2500,1.16028
 
-real	0m1.192s
-user	0m1.183s
-sys	0m0.009s
+real	0m1.170s
+user	0m1.145s
+sys	0m0.024s
 Running...
 Running matrix:5:5:2500
-Elapsed time: 1.17571 seconds (1.176) for matrix:5:5:2500
-+!CSVLINE!+gerbil-v0.18.1-97,matrix:5:5:2500,1.17571
+Elapsed time: 1.132558 seconds (1.133) for matrix:5:5:2500
++!CSVLINE!+gerbil-v0.18.1-97,matrix:5:5:2500,1.132558
 
-real	0m1.181s
-user	0m1.174s
-sys	0m0.006s
+real	0m1.141s
+user	0m1.121s
+sys	0m0.020s
 
 Testing maze under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/maze.scm /tmp/larcenous/Gerbil-unsafe-sep/maze.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/maze.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/maze.exe__exe.scm:
 Running...
 Running maze:20:7:10000
-Elapsed time: .584146 seconds (.584) for maze:20:7:10000
-+!CSVLINE!+gerbil-v0.18.1-97,maze:20:7:10000,.584146
+Elapsed time: .597191 seconds (.597) for maze:20:7:10000
++!CSVLINE!+gerbil-v0.18.1-97,maze:20:7:10000,.597191
 
-real	0m0.590s
-user	0m0.563s
-sys	0m0.026s
+real	0m0.605s
+user	0m0.568s
+sys	0m0.036s
 Running...
 Running maze:20:7:10000
-Elapsed time: .588364 seconds (.588) for maze:20:7:10000
-+!CSVLINE!+gerbil-v0.18.1-97,maze:20:7:10000,.588364
+Elapsed time: .631208 seconds (.631) for maze:20:7:10000
++!CSVLINE!+gerbil-v0.18.1-97,maze:20:7:10000,.631208
 
-real	0m0.594s
-user	0m0.571s
-sys	0m0.022s
+real	0m0.640s
+user	0m0.572s
+sys	0m0.068s
 Running...
 Running maze:20:7:10000
-Elapsed time: .58089 seconds (.581) for maze:20:7:10000
-+!CSVLINE!+gerbil-v0.18.1-97,maze:20:7:10000,.58089
+Elapsed time: .603861 seconds (.604) for maze:20:7:10000
++!CSVLINE!+gerbil-v0.18.1-97,maze:20:7:10000,.603861
 
-real	0m0.586s
-user	0m0.560s
-sys	0m0.026s
+real	0m0.614s
+user	0m0.577s
+sys	0m0.036s
 
 Testing mazefun under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/mazefun.scm /tmp/larcenous/Gerbil-unsafe-sep/mazefun.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/mazefun.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/mazefun.exe__exe.scm:
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 1.588177 seconds (1.588) for mazefun:11:11:10000
-+!CSVLINE!+gerbil-v0.18.1-97,mazefun:11:11:10000,1.588177
+Elapsed time: 1.51882 seconds (1.519) for mazefun:11:11:10000
++!CSVLINE!+gerbil-v0.18.1-97,mazefun:11:11:10000,1.51882
 
-real	0m1.593s
-user	0m1.588s
-sys	0m0.004s
+real	0m1.527s
+user	0m1.499s
+sys	0m0.028s
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 1.580522 seconds (1.581) for mazefun:11:11:10000
-+!CSVLINE!+gerbil-v0.18.1-97,mazefun:11:11:10000,1.580522
+Elapsed time: 1.683481 seconds (1.683) for mazefun:11:11:10000
++!CSVLINE!+gerbil-v0.18.1-97,mazefun:11:11:10000,1.683481
 
-real	0m1.586s
-user	0m1.580s
-sys	0m0.005s
+real	0m1.692s
+user	0m1.660s
+sys	0m0.032s
 Running...
 Running mazefun:11:11:10000
-Elapsed time: 1.573346 seconds (1.573) for mazefun:11:11:10000
-+!CSVLINE!+gerbil-v0.18.1-97,mazefun:11:11:10000,1.573346
+Elapsed time: 1.581397 seconds (1.581) for mazefun:11:11:10000
++!CSVLINE!+gerbil-v0.18.1-97,mazefun:11:11:10000,1.581397
 
-real	0m1.578s
-user	0m1.567s
-sys	0m0.011s
+real	0m1.590s
+user	0m1.573s
+sys	0m0.016s
 
 Testing nqueens under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/nqueens.scm /tmp/larcenous/Gerbil-unsafe-sep/nqueens.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/nqueens.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/nqueens.exe__exe.scm:
 Running...
 Running nqueens:13:10
-Elapsed time: 5.545499 seconds (5.546) for nqueens:13:10
-+!CSVLINE!+gerbil-v0.18.1-97,nqueens:13:10,5.545499
+Elapsed time: 5.591748 seconds (5.592) for nqueens:13:10
++!CSVLINE!+gerbil-v0.18.1-97,nqueens:13:10,5.591748
 
-real	0m5.551s
-user	0m5.544s
-sys	0m0.007s
+real	0m5.601s
+user	0m5.568s
+sys	0m0.032s
 Running...
 Running nqueens:13:10
-Elapsed time: 5.585607 seconds (5.586) for nqueens:13:10
-+!CSVLINE!+gerbil-v0.18.1-97,nqueens:13:10,5.585607
+Elapsed time: 5.395415 seconds (5.395) for nqueens:13:10
++!CSVLINE!+gerbil-v0.18.1-97,nqueens:13:10,5.395415
 
-real	0m5.591s
-user	0m5.584s
-sys	0m0.006s
+real	0m5.404s
+user	0m5.380s
+sys	0m0.024s
 Running...
 Running nqueens:13:10
-Elapsed time: 5.545812 seconds (5.546) for nqueens:13:10
-+!CSVLINE!+gerbil-v0.18.1-97,nqueens:13:10,5.545812
+Elapsed time: 5.387034 seconds (5.387) for nqueens:13:10
++!CSVLINE!+gerbil-v0.18.1-97,nqueens:13:10,5.387034
 
-real	0m5.551s
-user	0m5.549s
-sys	0m0.002s
+real	0m5.396s
+user	0m5.368s
+sys	0m0.028s
 
 Testing paraffins under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/paraffins.scm /tmp/larcenous/Gerbil-unsafe-sep/paraffins.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/paraffins.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/paraffins.exe__exe.scm:
 Running...
 Running paraffins:23:10
-Elapsed time: 2.500666 seconds (2.501) for paraffins:23:10
-+!CSVLINE!+gerbil-v0.18.1-97,paraffins:23:10,2.500666
+Elapsed time: 2.705443 seconds (2.705) for paraffins:23:10
++!CSVLINE!+gerbil-v0.18.1-97,paraffins:23:10,2.705443
 
-real	0m2.566s
-user	0m1.833s
-sys	0m0.733s
+real	0m2.761s
+user	0m1.848s
+sys	0m0.912s
 Running...
 Running paraffins:23:10
-Elapsed time: 2.520026 seconds (2.52) for paraffins:23:10
-+!CSVLINE!+gerbil-v0.18.1-97,paraffins:23:10,2.520026
+Elapsed time: 2.742383 seconds (2.742) for paraffins:23:10
++!CSVLINE!+gerbil-v0.18.1-97,paraffins:23:10,2.742383
 
-real	0m2.586s
-user	0m1.825s
-sys	0m0.760s
+real	0m2.794s
+user	0m1.837s
+sys	0m0.956s
 Running...
 Running paraffins:23:10
-Elapsed time: 2.638202 seconds (2.638) for paraffins:23:10
-+!CSVLINE!+gerbil-v0.18.1-97,paraffins:23:10,2.638202
+Elapsed time: 2.737177 seconds (2.737) for paraffins:23:10
++!CSVLINE!+gerbil-v0.18.1-97,paraffins:23:10,2.737177
 
-real	0m2.703s
-user	0m1.959s
-sys	0m0.744s
+real	0m2.788s
+user	0m1.876s
+sys	0m0.912s
 
 Testing parsing under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/parsing.scm /tmp/larcenous/Gerbil-unsafe-sep/parsing.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/parsing.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/parsing.exe__exe.scm:
 Running...
 Running parsing:2500
-Elapsed time: 1.421234 seconds (1.421) for parsing:2500
-+!CSVLINE!+gerbil-v0.18.1-97,parsing:2500,1.421234
+Elapsed time: 1.392835 seconds (1.393) for parsing:2500
++!CSVLINE!+gerbil-v0.18.1-97,parsing:2500,1.392835
 
-real	0m1.426s
-user	0m1.422s
-sys	0m0.004s
+real	0m1.402s
+user	0m1.390s
+sys	0m0.012s
 Running...
 Running parsing:2500
-Elapsed time: 1.382131 seconds (1.382) for parsing:2500
-+!CSVLINE!+gerbil-v0.18.1-97,parsing:2500,1.382131
+Elapsed time: 1.396371 seconds (1.396) for parsing:2500
++!CSVLINE!+gerbil-v0.18.1-97,parsing:2500,1.396371
 
-real	0m1.388s
-user	0m1.388s
-sys	0m0.000s
+real	0m1.405s
+user	0m1.384s
+sys	0m0.020s
 Running...
 Running parsing:2500
-Elapsed time: 1.377613 seconds (1.378) for parsing:2500
-+!CSVLINE!+gerbil-v0.18.1-97,parsing:2500,1.377613
+Elapsed time: 1.385074 seconds (1.385) for parsing:2500
++!CSVLINE!+gerbil-v0.18.1-97,parsing:2500,1.385074
 
-real	0m1.383s
-user	0m1.382s
-sys	0m0.000s
+real	0m1.393s
+user	0m1.373s
+sys	0m0.020s
 
 Testing peval under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/peval.scm /tmp/larcenous/Gerbil-unsafe-sep/peval.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/peval.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/peval.exe__exe.scm:
 Running...
 Running peval:2000
-Elapsed time: 1.453795 seconds (1.454) for peval:2000
-+!CSVLINE!+gerbil-v0.18.1-97,peval:2000,1.453795
+Elapsed time: 1.399469 seconds (1.399) for peval:2000
++!CSVLINE!+gerbil-v0.18.1-97,peval:2000,1.399469
 
-real	0m1.460s
-user	0m1.452s
-sys	0m0.007s
+real	0m1.409s
+user	0m1.392s
+sys	0m0.016s
 Running...
 Running peval:2000
-Elapsed time: 1.469031 seconds (1.469) for peval:2000
-+!CSVLINE!+gerbil-v0.18.1-97,peval:2000,1.469031
+Elapsed time: 1.393667 seconds (1.394) for peval:2000
++!CSVLINE!+gerbil-v0.18.1-97,peval:2000,1.393667
 
-real	0m1.474s
-user	0m1.462s
-sys	0m0.012s
+real	0m1.402s
+user	0m1.386s
+sys	0m0.016s
 Running...
 Running peval:2000
-Elapsed time: 1.458155 seconds (1.458) for peval:2000
-+!CSVLINE!+gerbil-v0.18.1-97,peval:2000,1.458155
+Elapsed time: 1.403716 seconds (1.404) for peval:2000
++!CSVLINE!+gerbil-v0.18.1-97,peval:2000,1.403716
 
-real	0m1.463s
-user	0m1.455s
-sys	0m0.008s
+real	0m1.412s
+user	0m1.396s
+sys	0m0.016s
 
 Testing primes under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/primes.scm /tmp/larcenous/Gerbil-unsafe-sep/primes.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/primes.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/primes.exe__exe.scm:
 Running...
 Running primes:1000:10000
-Elapsed time: .528716 seconds (.529) for primes:1000:10000
-+!CSVLINE!+gerbil-v0.18.1-97,primes:1000:10000,.528716
+Elapsed time: .571194 seconds (.571) for primes:1000:10000
++!CSVLINE!+gerbil-v0.18.1-97,primes:1000:10000,.571194
 
-real	0m0.534s
-user	0m0.529s
-sys	0m0.005s
+real	0m0.580s
+user	0m0.560s
+sys	0m0.020s
 Running...
 Running primes:1000:10000
-Elapsed time: .524886 seconds (.525) for primes:1000:10000
-+!CSVLINE!+gerbil-v0.18.1-97,primes:1000:10000,.524886
+Elapsed time: .570274 seconds (.57) for primes:1000:10000
++!CSVLINE!+gerbil-v0.18.1-97,primes:1000:10000,.570274
 
-real	0m0.530s
-user	0m0.530s
-sys	0m0.000s
+real	0m0.579s
+user	0m0.566s
+sys	0m0.012s
 Running...
 Running primes:1000:10000
-Elapsed time: .544096 seconds (.544) for primes:1000:10000
-+!CSVLINE!+gerbil-v0.18.1-97,primes:1000:10000,.544096
+Elapsed time: .569442 seconds (.569) for primes:1000:10000
++!CSVLINE!+gerbil-v0.18.1-97,primes:1000:10000,.569442
 
-real	0m0.549s
-user	0m0.539s
-sys	0m0.010s
+real	0m0.577s
+user	0m0.561s
+sys	0m0.016s
 
 Testing quicksort under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/quicksort.scm /tmp/larcenous/Gerbil-unsafe-sep/quicksort.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/quicksort.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/quicksort.exe__exe.scm:
 Running...
 Running quicksort:10000:2500
-Elapsed time: 2.964712 seconds (2.965) for quicksort:10000:2500
-+!CSVLINE!+gerbil-v0.18.1-97,quicksort:10000:2500,2.964712
+Elapsed time: 2.992846 seconds (2.993) for quicksort:10000:2500
++!CSVLINE!+gerbil-v0.18.1-97,quicksort:10000:2500,2.992846
 
-real	0m2.975s
-user	0m2.902s
-sys	0m0.072s
+real	0m3.009s
+user	0m2.876s
+sys	0m0.132s
 Running...
 Running quicksort:10000:2500
-Elapsed time: 2.960488 seconds (2.96) for quicksort:10000:2500
-+!CSVLINE!+gerbil-v0.18.1-97,quicksort:10000:2500,2.960488
+Elapsed time: 2.966397 seconds (2.966) for quicksort:10000:2500
++!CSVLINE!+gerbil-v0.18.1-97,quicksort:10000:2500,2.966397
 
-real	0m2.969s
-user	0m2.877s
-sys	0m0.092s
+real	0m2.981s
+user	0m2.897s
+sys	0m0.084s
 Running...
 Running quicksort:10000:2500
-Elapsed time: 2.965321 seconds (2.965) for quicksort:10000:2500
-+!CSVLINE!+gerbil-v0.18.1-97,quicksort:10000:2500,2.965321
+Elapsed time: 2.963969 seconds (2.964) for quicksort:10000:2500
++!CSVLINE!+gerbil-v0.18.1-97,quicksort:10000:2500,2.963969
 
-real	0m2.974s
-user	0m2.913s
-sys	0m0.060s
+real	0m2.979s
+user	0m2.882s
+sys	0m0.096s
 
 Testing scheme under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/scheme.scm /tmp/larcenous/Gerbil-unsafe-sep/scheme.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/scheme.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/scheme.exe__exe.scm:
 Running...
 Running scheme:100000
-Elapsed time: 2.445868 seconds (2.446) for scheme:100000
-+!CSVLINE!+gerbil-v0.18.1-97,scheme:100000,2.445868
+Elapsed time: 2.412933 seconds (2.413) for scheme:100000
++!CSVLINE!+gerbil-v0.18.1-97,scheme:100000,2.412933
 
-real	0m2.451s
-user	0m2.447s
-sys	0m0.004s
+real	0m2.421s
+user	0m2.389s
+sys	0m0.032s
 Running...
 Running scheme:100000
-Elapsed time: 2.443212 seconds (2.443) for scheme:100000
-+!CSVLINE!+gerbil-v0.18.1-97,scheme:100000,2.443212
+Elapsed time: 2.411425 seconds (2.411) for scheme:100000
++!CSVLINE!+gerbil-v0.18.1-97,scheme:100000,2.411425
 
-real	0m2.448s
-user	0m2.446s
-sys	0m0.002s
+real	0m2.420s
+user	0m2.403s
+sys	0m0.016s
 Running...
 Running scheme:100000
-Elapsed time: 2.454883 seconds (2.455) for scheme:100000
-+!CSVLINE!+gerbil-v0.18.1-97,scheme:100000,2.454883
+Elapsed time: 2.414814 seconds (2.415) for scheme:100000
++!CSVLINE!+gerbil-v0.18.1-97,scheme:100000,2.414814
 
-real	0m2.460s
-user	0m2.455s
-sys	0m0.004s
+real	0m2.423s
+user	0m2.411s
+sys	0m0.012s
 
 Testing slatex under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/slatex.scm /tmp/larcenous/Gerbil-unsafe-sep/slatex.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/slatex.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/slatex.exe__exe.scm:
 Running...
 Running slatex:500
-Elapsed time: 2.108193 seconds (2.108) for slatex:500
-+!CSVLINE!+gerbil-v0.18.1-97,slatex:500,2.108193
+Elapsed time: 2.06273 seconds (2.063) for slatex:500
++!CSVLINE!+gerbil-v0.18.1-97,slatex:500,2.06273
 
-real	0m2.113s
-user	0m0.929s
-sys	0m1.153s
+real	0m2.072s
+user	0m1.000s
+sys	0m1.043s
 Running...
 Running slatex:500
-Elapsed time: 2.036991 seconds (2.037) for slatex:500
-+!CSVLINE!+gerbil-v0.18.1-97,slatex:500,2.036991
+Elapsed time: 2.034234 seconds (2.034) for slatex:500
++!CSVLINE!+gerbil-v0.18.1-97,slatex:500,2.034234
 
 real	0m2.043s
-user	0m1.012s
-sys	0m1.000s
+user	0m1.040s
+sys	0m0.954s
 Running...
 Running slatex:500
-Elapsed time: 2.053268 seconds (2.053) for slatex:500
-+!CSVLINE!+gerbil-v0.18.1-97,slatex:500,2.053268
+Elapsed time: 1.997593 seconds (1.998) for slatex:500
++!CSVLINE!+gerbil-v0.18.1-97,slatex:500,1.997593
 
-real	0m2.058s
-user	0m0.975s
-sys	0m1.038s
+real	0m2.008s
+user	0m0.941s
+sys	0m1.036s
 
 Testing chudnovsky under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/chudnovsky.scm /tmp/larcenous/Gerbil-unsafe-sep/chudnovsky.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/chudnovsky.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/chudnovsky.exe__exe.scm:
 Running...
 Running chudnovsky:50:500:50:1000
-Elapsed time: .234133 seconds (.234) for chudnovsky:50:500:50:1000
-+!CSVLINE!+gerbil-v0.18.1-97,chudnovsky:50:500:50:1000,.234133
+Elapsed time: .242386 seconds (.242) for chudnovsky:50:500:50:1000
++!CSVLINE!+gerbil-v0.18.1-97,chudnovsky:50:500:50:1000,.242386
 
-real	0m0.239s
-user	0m0.235s
-sys	0m0.004s
+real	0m0.251s
+user	0m0.223s
+sys	0m0.028s
 Running...
 Running chudnovsky:50:500:50:1000
-Elapsed time: .237985 seconds (.238) for chudnovsky:50:500:50:1000
-+!CSVLINE!+gerbil-v0.18.1-97,chudnovsky:50:500:50:1000,.237985
+Elapsed time: .241238 seconds (.241) for chudnovsky:50:500:50:1000
++!CSVLINE!+gerbil-v0.18.1-97,chudnovsky:50:500:50:1000,.241238
 
-real	0m0.243s
-user	0m0.242s
-sys	0m0.000s
+real	0m0.250s
+user	0m0.230s
+sys	0m0.020s
 Running...
 Running chudnovsky:50:500:50:1000
-Elapsed time: .233406 seconds (.233) for chudnovsky:50:500:50:1000
-+!CSVLINE!+gerbil-v0.18.1-97,chudnovsky:50:500:50:1000,.233406
+Elapsed time: .240932 seconds (.241) for chudnovsky:50:500:50:1000
++!CSVLINE!+gerbil-v0.18.1-97,chudnovsky:50:500:50:1000,.240932
 
-real	0m0.238s
-user	0m0.229s
-sys	0m0.009s
+real	0m0.249s
+user	0m0.233s
+sys	0m0.016s
 
 Testing nboyer under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/nboyer.scm /tmp/larcenous/Gerbil-unsafe-sep/nboyer.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/nboyer.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/nboyer.exe__exe.scm:
 Running...
 Running nboyer:5:1
-Elapsed time: 2.258461 seconds (2.258) for nboyer:5:1
-+!CSVLINE!+gerbil-v0.18.1-97,nboyer:5:1,2.258461
+Elapsed time: 2.388361 seconds (2.388) for nboyer:5:1
++!CSVLINE!+gerbil-v0.18.1-97,nboyer:5:1,2.388361
 
-real	0m2.324s
-user	0m1.964s
+real	0m2.451s
+user	0m2.098s
+sys	0m0.352s
+Running...
+Running nboyer:5:1
+Elapsed time: 2.106296 seconds (2.106) for nboyer:5:1
++!CSVLINE!+gerbil-v0.18.1-97,nboyer:5:1,2.106296
+
+real	0m2.169s
+user	0m1.809s
 sys	0m0.360s
 Running...
 Running nboyer:5:1
-Elapsed time: 2.483982 seconds (2.484) for nboyer:5:1
-+!CSVLINE!+gerbil-v0.18.1-97,nboyer:5:1,2.483982
+Elapsed time: 2.140998 seconds (2.141) for nboyer:5:1
++!CSVLINE!+gerbil-v0.18.1-97,nboyer:5:1,2.140998
 
-real	0m2.548s
-user	0m2.184s
-sys	0m0.364s
-Running...
-Running nboyer:5:1
-Elapsed time: 2.154298 seconds (2.154) for nboyer:5:1
-+!CSVLINE!+gerbil-v0.18.1-97,nboyer:5:1,2.154298
-
-real	0m2.216s
-user	0m1.868s
+real	0m2.205s
+user	0m1.857s
 sys	0m0.348s
 
 Testing sboyer under Gerbil-unsafe-sep
@@ -1690,40 +1690,40 @@ Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prel
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/sboyer.scm /tmp/larcenous/Gerbil-unsafe-sep/sboyer.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/sboyer.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/sboyer.exe__exe.scm:
 Running...
 Running sboyer:5:1
-Elapsed time: .848623 seconds (.849) for sboyer:5:1
-+!CSVLINE!+gerbil-v0.18.1-97,sboyer:5:1,.848623
+Elapsed time: .746092 seconds (.746) for sboyer:5:1
++!CSVLINE!+gerbil-v0.18.1-97,sboyer:5:1,.746092
 
-real	0m0.870s
-user	0m0.790s
-sys	0m0.080s
+real	0m0.767s
+user	0m0.675s
+sys	0m0.093s
 Running...
 Running sboyer:5:1
-Elapsed time: .847786 seconds (.848) for sboyer:5:1
-+!CSVLINE!+gerbil-v0.18.1-97,sboyer:5:1,.847786
+Elapsed time: .790811 seconds (.791) for sboyer:5:1
++!CSVLINE!+gerbil-v0.18.1-97,sboyer:5:1,.790811
 
-real	0m0.873s
-user	0m0.769s
-sys	0m0.104s
+real	0m0.817s
+user	0m0.721s
+sys	0m0.096s
 Running...
 Running sboyer:5:1
-Elapsed time: .840705 seconds (.841) for sboyer:5:1
-+!CSVLINE!+gerbil-v0.18.1-97,sboyer:5:1,.840705
+Elapsed time: .781307 seconds (.781) for sboyer:5:1
++!CSVLINE!+gerbil-v0.18.1-97,sboyer:5:1,.781307
 
-real	0m0.867s
-user	0m0.779s
-sys	0m0.088s
+real	0m0.808s
+user	0m0.731s
+sys	0m0.076s
 
 Testing gcbench under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/gcbench.scm /tmp/larcenous/Gerbil-unsafe-sep/gcbench.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/gcbench.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/gcbench.exe__exe.scm:
 Running...
@@ -1762,11 +1762,11 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 1.291469 seconds (1.291) for gcbench:20:1
-+!CSVLINE!+gerbil-v0.18.1-97,gcbench:20:1,1.291469
+Elapsed time: 1.312078 seconds (1.312) for gcbench:20:1
++!CSVLINE!+gerbil-v0.18.1-97,gcbench:20:1,1.312078
 
-real	0m1.310s
-user	0m1.170s
+real	0m1.332s
+user	0m1.191s
 sys	0m0.140s
 Running...
 The garbage collector should touch about 128 megabytes of heap storage.
@@ -1804,11 +1804,11 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 1.351467 seconds (1.351) for gcbench:20:1
-+!CSVLINE!+gerbil-v0.18.1-97,gcbench:20:1,1.351467
+Elapsed time: 1.595922 seconds (1.596) for gcbench:20:1
++!CSVLINE!+gerbil-v0.18.1-97,gcbench:20:1,1.595922
 
-real	0m1.369s
-user	0m1.256s
+real	0m1.614s
+user	0m1.501s
 sys	0m0.112s
 Running...
 The garbage collector should touch about 128 megabytes of heap storage.
@@ -1846,77 +1846,77 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 1.303361 seconds (1.303) for gcbench:20:1
-+!CSVLINE!+gerbil-v0.18.1-97,gcbench:20:1,1.303361
+Elapsed time: 1.457623 seconds (1.458) for gcbench:20:1
++!CSVLINE!+gerbil-v0.18.1-97,gcbench:20:1,1.457623
 
-real	0m1.322s
-user	0m1.202s
-sys	0m0.120s
+real	0m1.477s
+user	0m1.373s
+sys	0m0.104s
 
 Testing mperm under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/mperm.scm /tmp/larcenous/Gerbil-unsafe-sep/mperm.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/mperm.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/mperm.exe__exe.scm:
 Running...
 Running mperm:20:10:2:1
-Elapsed time: 4.522807 seconds (4.523) for mperm:20:10:2:1
-+!CSVLINE!+gerbil-v0.18.1-97,mperm:20:10:2:1,4.522807
+Elapsed time: 4.16525 seconds (4.165) for mperm:20:10:2:1
++!CSVLINE!+gerbil-v0.18.1-97,mperm:20:10:2:1,4.16525
 
-real	0m4.972s
-user	0m4.083s
-sys	0m0.888s
+real	0m4.736s
+user	0m3.851s
+sys	0m0.884s
 Running...
 Running mperm:20:10:2:1
-Elapsed time: 4.423424 seconds (4.423) for mperm:20:10:2:1
-+!CSVLINE!+gerbil-v0.18.1-97,mperm:20:10:2:1,4.423424
+Elapsed time: 4.186335 seconds (4.186) for mperm:20:10:2:1
++!CSVLINE!+gerbil-v0.18.1-97,mperm:20:10:2:1,4.186335
 
-real	0m4.881s
-user	0m3.900s
-sys	0m0.980s
+real	0m4.736s
+user	0m3.880s
+sys	0m0.856s
 Running...
 Running mperm:20:10:2:1
-Elapsed time: 4.875052 seconds (4.875) for mperm:20:10:2:1
-+!CSVLINE!+gerbil-v0.18.1-97,mperm:20:10:2:1,4.875052
+Elapsed time: 4.156262 seconds (4.156) for mperm:20:10:2:1
++!CSVLINE!+gerbil-v0.18.1-97,mperm:20:10:2:1,4.156262
 
-real	0m5.332s
-user	0m4.387s
-sys	0m0.944s
+real	0m4.692s
+user	0m3.767s
+sys	0m0.924s
 
 Testing equal under Gerbil-unsafe-sep
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prelude.scm
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/equal.scm /tmp/larcenous/Gerbil-unsafe-sep/equal.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/equal.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/equal.exe__exe.scm:
 Running...
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: .253227 seconds (.253) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+gerbil-v0.18.1-97,equal:100:100:8:1000:2000:5000,.253227
+Elapsed time: .247666 seconds (.248) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+gerbil-v0.18.1-97,equal:100:100:8:1000:2000:5000,.247666
 
-real	0m0.259s
-user	0m0.219s
-sys	0m0.040s
-Running...
-Running equal:100:100:8:1000:2000:5000
-Elapsed time: .22809 seconds (.228) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+gerbil-v0.18.1-97,equal:100:100:8:1000:2000:5000,.22809
-
-real	0m0.233s
-user	0m0.213s
-sys	0m0.020s
-Running...
-Running equal:100:100:8:1000:2000:5000
-Elapsed time: .228338 seconds (.228) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+gerbil-v0.18.1-97,equal:100:100:8:1000:2000:5000,.228338
-
-real	0m0.233s
+real	0m0.254s
 user	0m0.173s
+sys	0m0.081s
+Running...
+Running equal:100:100:8:1000:2000:5000
+Elapsed time: .242114 seconds (.242) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+gerbil-v0.18.1-97,equal:100:100:8:1000:2000:5000,.242114
+
+real	0m0.248s
+user	0m0.176s
+sys	0m0.072s
+Running...
+Running equal:100:100:8:1000:2000:5000
+Elapsed time: .239293 seconds (.239) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+gerbil-v0.18.1-97,equal:100:100:8:1000:2000:5000,.239293
+
+real	0m0.245s
+user	0m0.185s
 sys	0m0.060s
 
 Testing bv2string under Gerbil-unsafe-sep
@@ -1924,30 +1924,30 @@ Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-prel
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-unsafe-sep-postlude.scm
 Compiling...
 gerbil_unsafe_sep_comp /tmp/larcenous/Gerbil-unsafe-sep/bv2string.scm /tmp/larcenous/Gerbil-unsafe-sep/bv2string.exe
-/usr/local/gerbil/v0.18.1-97-g66328c24b/lib/static/scheme__base-impl.scm:
+/usr/local/gerbil/v0.18.1-97-g24a22afce/lib/static/scheme__base-impl.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/static/bv2string.scm:
 /tmp/larcenous/Gerbil-unsafe-sep/bv2string.exe__exe.scm:
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: .917955 seconds (.918) for bv2string:1000:1000:100
-+!CSVLINE!+gerbil-v0.18.1-97,bv2string:1000:1000:100,.917955
+Elapsed time: .942103 seconds (.942) for bv2string:1000:1000:100
++!CSVLINE!+gerbil-v0.18.1-97,bv2string:1000:1000:100,.942103
 
-real	0m0.925s
-user	0m0.591s
-sys	0m0.325s
+real	0m0.955s
+user	0m0.624s
+sys	0m0.332s
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: .923188 seconds (.923) for bv2string:1000:1000:100
-+!CSVLINE!+gerbil-v0.18.1-97,bv2string:1000:1000:100,.923188
+Elapsed time: .946437 seconds (.946) for bv2string:1000:1000:100
++!CSVLINE!+gerbil-v0.18.1-97,bv2string:1000:1000:100,.946437
 
-real	0m0.929s
-user	0m0.577s
-sys	0m0.346s
+real	0m0.961s
+user	0m0.630s
+sys	0m0.331s
 Running...
 Running bv2string:1000:1000:100
-Elapsed time: .923795 seconds (.924) for bv2string:1000:1000:100
-+!CSVLINE!+gerbil-v0.18.1-97,bv2string:1000:1000:100,.923795
+Elapsed time: .945487 seconds (.945) for bv2string:1000:1000:100
++!CSVLINE!+gerbil-v0.18.1-97,bv2string:1000:1000:100,.945487
 
-real	0m0.930s
-user	0m0.597s
-sys	0m0.333s
+real	0m0.961s
+user	0m0.608s
+sys	0m0.352s
