@@ -27,7 +27,7 @@
   (displayln "<html><head><title>Regression Analysis</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"/></head><body>")
   (printf "<h2>Regression Analysis between ~a and ~a" new old)
   (printf "<table> <th><td>~a</td><td>~a</td><td>delta</td><td>pct</td></th>" new old))
-(def (print-result name new old  delta rdelta)
+(def (print-result name new old delta rdelta)
   (let (color (colored rdelta))
     (printf "<tr><td>~a</td> <td>~a</td> <td>~a</td> <td style=\"background-color:~a\">~1,3f</td> <td style=\"background-color:~a\">~a</td>~n" name new old color delta color (pct rdelta))))
 (def (print-footer)
@@ -43,11 +43,13 @@
 (def (colored delta)
   (if (> delta 0)
     (cond
+     ((< (abs delta) .01) "white")
      ((< (abs delta) .1)  "lightyellow")
      ((< (abs delta) .25) "yellow")
      ((< (abs delta) .5)  "orange")
      (else "orangered"))
     (cond
+     ((< (abs delta) .01) "white")
      ((< (abs delta) .1)  "lightcyan")
      ((< (abs delta) .25) "lightgreen")
      ((< (abs delta) .5)  "lawngreen")
