@@ -38,8 +38,9 @@
    <li><a href="regression-unsafe-fpo.html">Gerbil unsafe/fpo</a></li>
    <li>Note: the benchmarks were not run with safe/fpo for v0.18</li>
    </ul>
-   <li>For result comparison between Gerbil safe/sep and Racket see <a href="regression-gerbil-vs-racket.html">here</a></li>
+   <li>For result comparison between Gerbil safe/sep and Gerbil unsafe/sep see <a href="regression-safe-vs-unsafe.html">here</a></li>
    <li>For result comparison between Gerbil safe/sep and vanilla Gambit see <a href="regression-gerbil-vs-gambit.html">here</a></li>
+   <li>For result comparison between Gerbil safe/sep and Racket see <a href="regression-gerbil-vs-racket.html">here</a></li>
   </ul>
 
   <h4>Benchmark Modifications</h4>
