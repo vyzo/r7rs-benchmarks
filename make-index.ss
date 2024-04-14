@@ -153,9 +153,9 @@ END
          (case c
            (("Racket") "Racket")
            (("GambitC") "Gambit safe")
-           (("Gerbil-sep") "Gerbil safe/sep")
+           (("Gerbil-sep") "Gerbil safe")
            (("Gerbil-fpo") "Gerbil safe/fpo")
-           (("Gerbil-unsafe-sep") "Gerbil unsafe/sep")
+           (("Gerbil-unsafe-sep") "Gerbil unsafe")
            (("Gerbil-unsafe-fpo") "Gerbil unsafe/fpo")
            (else
             (error "unknown contestatnt" c))))
