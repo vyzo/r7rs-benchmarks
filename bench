@@ -1317,6 +1317,16 @@ for system in $systems ; do
                 EXECCOMMANDS=""
                 ;;
 
+        gerbil-unsafe-typed) NAME='Gerbil-unsafe-typed'
+                COMP=gerbil_typed_comp
+                EXEC=gerbil_exec
+                COMPOPTS=""
+                EXTENSION="ss"
+                EXTENSIONCOMP="exe"
+                COMPCOMMANDS=""
+                EXECCOMMANDS=""
+                ;;
+
 
         guile) NAME='Guile'
                COMP=guile_comp
