@@ -12,6 +12,7 @@
   <p>The benchmarks were run on a Dell XPS 13-9320 laptop.
   <p>Each benchmark was run 3 times, and I kept the best value.
   <p>
+
   <h3>Notes</h3>
   <ul>
   <li>See also the older results for <a href="index-v0-18.html">Gerbil v0.18</a>.</li>
@@ -27,13 +28,21 @@
    <li>For result comparison between Gerbil safe and Racket see <a href="regression-gerbil-vs-racket.html">here</a></li>
   </ul>
 
-  <h4>Benchmark Modifications</h4>
+  <h3>Benchmark Modifications</h4>
 
   <p>There have been some modifications in the source relative to ecraven's benchmarks. Specifically:
   <p>The <tt>conform</tt>, <tt>maze</tt> and <tt>ray</tt> benchmarks have been modified to use records defined with <tt>define-record-type</tt> instead of vectors.
   <p>R7RS has record types for a reason and <b>it is completely unreasonable to use vectors instead of records in the year 2024.</b>.
 
   <h2>Results</h2>
+  The Gerbil variants:
+  <ul>
+  <li><b>Gerbil safe</b> is Gerbil in its default safe mode, with separate compilation.</li>
+  <li><b>Gerbil safe/fpo</b> is Gerbil compiled with full program optimization.</li>
+  <li><b>Gerbil unsafe</b> is Gerbil with the main module compiled with <tt>(declare (not safe))</tt>.</li>
+  <li><b>Gerbil unsafe/fpo</b> is Gerbil compiled with full program optimization and <tt>(declare (not safe))</tt>.</li>
+  </ul>
+
   <table>
   <tr><td> <b>Color Coding:</b> </td>
       <td style="background-color:lawngreen">best</td>
