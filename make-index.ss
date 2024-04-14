@@ -33,14 +33,14 @@
   <li>See also the older results for <a href="index-v0-18.html">Gerbil v0.18</a>.</li>
   <li>Regression Analysis for results relative to the v0.18 benchmarks:
    <ul>
-   <li><a href="regression-safe-sep.html">Gerbil safe/sep</a></li>
-   <li><a href="regression-unsafe-sep.html">Gerbil unsafe/sep</a></li>
+   <li><a href="regression-safe-sep.html">Gerbil safe</a></li>
+   <li><a href="regression-unsafe-sep.html">Gerbil unsafe</a></li>
    <li><a href="regression-unsafe-fpo.html">Gerbil unsafe/fpo</a></li>
    <li>Note: the benchmarks were not run with safe/fpo for v0.18</li>
    </ul>
-   <li>For result comparison between Gerbil safe/sep and Gerbil unsafe/sep see <a href="regression-safe-vs-unsafe.html">here</a></li>
-   <li>For result comparison between Gerbil safe/sep and vanilla Gambit see <a href="regression-gerbil-vs-gambit.html">here</a></li>
-   <li>For result comparison between Gerbil safe/sep and Racket see <a href="regression-gerbil-vs-racket.html">here</a></li>
+   <li>For result comparison between Gerbil safe and Gerbil unsafe see <a href="regression-safe-vs-unsafe.html">here</a></li>
+   <li>For result comparison between Gerbil safe and vanilla Gambit (safe) see <a href="regression-gerbil-vs-gambit.html">here</a></li>
+   <li>For result comparison between Gerbil safe and Racket see <a href="regression-gerbil-vs-racket.html">here</a></li>
   </ul>
 
   <h4>Benchmark Modifications</h4>
