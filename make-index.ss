@@ -7,9 +7,8 @@
 
 (def contestants
   '("Gerbil-sep"
-    "Gerbil-fpo"
     "Gerbil-unsafe-sep"
-    "Gerbil-unsafe-fpo"
+    "Gerbil-typed"
     "GambitC"
     "Racket"))
 
@@ -21,13 +20,21 @@
 </head>
 <body>
   <h2>R7RS benchmarks for Gerbil</h2>
-  <p>These are the results for <b>Gerbil v0.18.1-97 </b> (pre-release of v0.18.2), <b>Gambit v4.9.5-130</b> (same as the Gerbil pin), and <b>Racket v8.10</b>.
+  <p>These are the results for <b>Gerbil v0.18.2-pre </b> (pre-release of v0.18.2), <b>Gambit v4.9.5-130</b> (same as the Gerbil pin), and <b>Racket v8.10</b>.
   Both Gerbil and Gambit are tuned with <tt>-:m64M</tt>, which gives an initial heap size of 64M.
   <p>This is based on ecraven's benchmarks, which seem unmaintained.
 
   <p>The benchmarks were run on a Dell XPS 13-9320 laptop.
   <p>Each benchmark was run 3 times, and I kept the best value.
   <p>
+
+  <h2>Gerbil Variants</h2>
+  The Gerbil variants:
+  <ul>
+  <li><b>Gerbil R7RS safe</b> is Gerbil R7RS in its default safe mode, with separate compilation.</li>
+  <li><b>Gerbil R7RS unsafe</b> is Gerbil R7RS with the main module compiled with <tt>(declare (not safe))</tt>.</li>
+  <li><b>Gerbil idiomatic</b> is a variant of the program, written in idiomatic Gerbil with type annotations. This is the code you would write today, not the benchmark code you inherited from 30 years ago.
+  </ul>
 
   <h3>Notes</h3>
   <ul>
@@ -36,13 +43,16 @@
    <ul>
    <li><a href="regression-safe-sep.html">Gerbil safe</a></li>
    <li><a href="regression-unsafe-sep.html">Gerbil unsafe</a></li>
-   <li><a href="regression-unsafe-fpo.html">Gerbil unsafe/fpo</a></li>
-   <li>Note: the benchmarks were not run with safe/fpo for v0.18</li>
    </ul>
-   <li>For result comparison between Gerbil safe and Gerbil unsafe see <a href="regression-safe-vs-unsafe.html">here</a></li>
-   <li>For result comparison between Gerbil safe and vanilla Gambit (safe) see <a href="regression-gerbil-vs-gambit.html">here</a></li>
-   <li>For result comparison between Gerbil safe and Racket see <a href="regression-gerbil-vs-racket.html">here</a></li>
-  </ul>
+   <li>Result comparison:</li>
+   <ul>
+   <li>For result comparison between Gerbil R7RS safe and Gerbil R7RS unsafe see <a href="regression-safe-vs-unsafe.html">here</a></li>
+   <li>For result comparison between Gerbil R7RS safe and vanilla Gambit (safe) see <a href="regression-gerbil-vs-gambit.html">here</a></li>
+   <li>For result comparison between Gerbil R7RS safe and Racket see <a href="regression-gerbil-vs-racket.html">here</a></li>
+   <li>For result comparison between Gerbil idiomatic and Gerbil R7RS safe see <a href="regression-typed-vs-safe.html">here</a></li>
+   <li>For result comparison between Gerbil idiomatic and Racket see <a href="regression-typed-vs-racket.html">here</a></li>
+   </ul>
+   </ul>
 
   <h3>Benchmark Modifications</h4>
 
@@ -51,14 +61,6 @@
   <p>R7RS has record types for a reason and <b>it is completely unreasonable to use vectors instead of records in the year 2024.</b>.
 
   <h2>Results</h2>
-  The Gerbil variants:
-  <ul>
-  <li><b>Gerbil safe</b> is Gerbil in its default safe mode, with separate compilation.</li>
-  <li><b>Gerbil safe/fpo</b> is Gerbil with the program compiled with full program optimization. This allows the compiler to see the Gerbil runtime code.</li>
-  <li><b>Gerbil unsafe</b> is Gerbil with the main module compiled with <tt>(declare (not safe))</tt>.</li>
-  <li><b>Gerbil unsafe/fpo</b> is Gerbil compiled with full program optimization and <tt>(declare (not safe))</tt>.</li>
-  </ul>
-
   <table>
   <tr><td> <b>Color Coding:</b> </td>
       <td style="background-color:lawngreen">best</td>
@@ -124,10 +126,13 @@ END
                      #\:)))
 
 (def (benchmark-result line)
-  (last (string-split line #\,)))
+  (let (res (last (string-split line #\,)))
+    (if (equal? res "COMPILEERROR")
+      "(no program)"
+      res)))
 
 (def (result-colors results)
-  (let* ((indexed  (map (lambda (r i) (cons (string->number r) i))
+  (let* ((indexed  (map (lambda (r i) (cons (or (string->number r) +inf.0) i))
                         results
                         (iota (length results))))
          (sorted  (sort indexed (lambda (a b) (< (car a) (car b)))))
@@ -136,6 +141,7 @@ END
                          (cons
                           (let (delta (/ (- (car x) best) best))
                             (cond
+                             ((infinite? delta) "white") ; no program
                              ((zero? delta) "lawngreen")
                              ((< delta .1) "lightgreen")
                              ((< delta .25)  "lightcyan")
@@ -149,11 +155,13 @@ END
     (map car sorted)))
 
 (def (result-deltas results)
-  (let* ((timings (map string->number results))
+  (let* ((timings (map (lambda (r) (or (string->number r) +inf.0)) results))
          (best    (car (sort timings <))))
     (map (lambda (t)
            (if (> t best)
-             (format "(+~a%)" (/ (floor (* 1000 (/ (- t best) best))) 10))
+             (if (infinite? t)
+               ""
+               (format "(+~a%)" (/ (floor (* 1000 (/ (- t best) best))) 10)))
              "↻"))
          timings)))
 
@@ -162,10 +170,9 @@ END
          (case c
            (("Racket") "Racket")
            (("GambitC") "Gambit safe")
-           (("Gerbil-sep") "Gerbil safe")
-           (("Gerbil-fpo") "Gerbil safe/fpo")
-           (("Gerbil-unsafe-sep") "Gerbil unsafe")
-           (("Gerbil-unsafe-fpo") "Gerbil unsafe/fpo")
+           (("Gerbil-sep") "Gerbil R7RS safe")
+           (("Gerbil-unsafe-sep") "Gerbil R7RS unsafe")
+           (("Gerbil-typed") "Gerbil idiomatic")
            (else
             (error "unknown contestatnt" c))))
        contestants))
