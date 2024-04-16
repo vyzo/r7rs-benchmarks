@@ -2,6 +2,11 @@
 
 (import :std/error :std/iter)
 
+;; this benchmark needs a bit more memory or it suffers with all the graphs
+(let (256M (expt 2 28))
+  (when (< (##get-min-heap) 256M)
+    (##set-min-heap! 256M)))
+
 ;;;; ==== util.ss ====
 
 
