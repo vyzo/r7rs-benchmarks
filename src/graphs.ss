@@ -1,4 +1,5 @@
 ;;; GRAPHS -- Obtained from Andrew Wright.
+;;; ported to idiomatic Gerbil and optimized by vyzo
 
 (import :std/error :std/iter)
 
