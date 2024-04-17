@@ -45,7 +45,7 @@
   => :fixnum
   (let* ((radius    4.0)
          (radius^2  (fl* radius radius)))
-    (let ((z0 (cpx+ z0 (* z step))))
+    (let ((z0 (cpx+ z0 (: (* z step) :cpxnum))))
       (let loop (((z :- :cpxnum) z0) ((c :- :fixnum) 0))
         => :fixnum
         (if (fx= c max-count)
@@ -65,9 +65,7 @@
         (if (fx>= x 0)
           (begin
             (Matrix-set! matrix x y
-                         (count z0 step
-                                (:- (cpx (inexact x) (inexact y))
-                                    :cpxnum)))
+                         (count z0 step (cpx (inexact x) (inexact y))))
             (loop2 (fx- x 1)))
           (loop1 (fx- y 1)))))))
 
