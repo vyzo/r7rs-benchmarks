@@ -1,5 +1,27 @@
 ;;; MATRIX -- Obtained from Andrew Wright.
 
+;; higher performance variants, we know our lists are proper and finiite
+;; Note: these should be in the stdlib
+(def (reverse! lst)
+  (if (null? lst)
+    []
+    (let rotate (((fo :- :pair) lst) (fum []))
+      (let ((next (cdr fo)))
+        (set-cdr! fo fum)
+        (if (null? next)
+          fo
+          (rotate next fo))))))
+
+(def (reverse lst)
+  (if (null? lst)
+    []
+    (let loop (((rest :- :pair) lst) (result []))
+      (let ((first (car rest))
+            (rest  (cdr rest)))
+        (if (null? rest)
+          (cons first result)
+          (loop rest (cons first result)))))))
+
 ;;; We need R6RS div and mod for this benchmark.
 
 (def (div x y)
@@ -227,6 +249,7 @@
 ;; Given a prime number P, return a procedure which, given a `maker' procedure,
 ;; calls it on the operations for the field Z/PZ.
 (def (make-modular modulus)
+  (declare (fixnum) (not safe))
   (let* ((reduce
           (lambda (x)
             (mod x modulus)))
@@ -269,6 +292,7 @@
 ;;       (cont gcd a-coef b-coef)
 ;; where gcd is the GCD and is equal to a-coef * a + b-coef * b.
 (def (n->sgn/abs x cont)
+  (declare (fixnum) (not safe))
   (if (>= x 0)
     (cont 1 x)
     (cons -1 (- x))))
@@ -325,15 +349,13 @@
         []
         (let loop-inner ((in mat) (out []))
           (if (null? in)
-            (map
-              (lambda (x)
-                (cons coef-zero x))
-              (loop out))
-            (using (in :- :pair)
-              (let* ((prow (car in))
-                     (pivot (car prow))
-                     (prest (cdr prow))
-                     (in (cdr in)))
+            (map (lambda (x) (cons coef-zero x))
+                 (loop out))
+            (using ((in :- :pair)
+                    (prow (car in) :- :pair))
+              (let ((pivot (car prow))
+                    (prest (cdr prow))
+                    (in (cdr in)))
                 (if (coef-zero? pivot)
                   (loop-inner in (cons prest out))
                   (let ((zap-row
@@ -343,11 +365,10 @@
                            prest)))
                     (cons (cons coef-one zap-row)
                           (map
-                            (lambda (x)
-                              (cons coef-zero x))
+                            (lambda (x) (cons coef-zero x))
                             (loop
                              (fold in
-                                   (lambda (row mat)
+                                   (lambda ((row :- :pair) mat)
                                      (cons
                                       (let ((first-col (car row))
                                             (rest-row (cdr row)))
