@@ -16,6 +16,9 @@
 (defrule (u8-ref bits i)
   (:- (##u8vector-ref bits i) :fixnum))
 
+(defrule (u8-set! bits i v)
+  (##u8vector-set! bits i v))
+
 (defstruct Piece ((class  :- :fixnum)
                   (bits   :- :u8vector)
                   (maxbit :- :fixnum))
@@ -112,9 +115,9 @@
       (do (((k :- :fixnum) 0 (fx+ k 1)))
           ((fx> k end))
         (when (fx= 1 (u8-ref bits k))
-          (##u8vector-set! puzzle (fx+ j k) 1)))
-      (##u8vector-set! piececount piece.class
-                       (fx- (u8-ref piececount piece.class) 1))
+          (u8-set! puzzle (fx+ j k) 1)))
+      (u8-set! piececount piece.class
+               (fx- (u8-ref piececount piece.class) 1))
       (let (size (##u8vector-length puzzle))
         (:- (do (((k :- :fixnum) j (fx+ k 1)))
                 ((or (fx= k size) (fx= 0 (u8-ref puzzle k)))
@@ -128,10 +131,10 @@
       (do (((k :- :fixnum) 0 (fx+ k 1)))
           ((fx> k end))
         (when (fx= 1 (u8-ref piece.bits k))
-          (##u8vector-set! puzzle (fx+ j k) 0)))
-      (##u8vector-set! piececount
-                       piece.class
-                       (fx+ (u8-ref piececount piece.class) 1)))))
+          (u8-set! puzzle (fx+ j k) 0)))
+      (u8-set! piececount
+               piece.class
+               (fx+ (u8-ref piececount piece.class) 1)))))
 
 (define (run-benchmark)
   (let* ((count (read))
