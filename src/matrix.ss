@@ -136,7 +136,7 @@
     rhs
     (cons lhs rhs)))
 
-(def (zulu old-row new-row-func partitions (equal-cont : :procedure))
+(def (zulu old-row (new-row-func : :procedure) partitions (equal-cont : :procedure))
   (let loop ((p-in partitions) (old-row old-row) (rev-p-out []))
     (let _split ((partition (car p-in)) (old-row old-row) (plus []) (minus []))
       (if (null? partition)
@@ -150,24 +150,26 @@
                      rev-p-out)))
                   (p-in (cdr p-in)))
               (if (null? p-in)
-                (equal-cont (reverse rev-p-out))
+                (equal-cont (reverse! rev-p-out))
                 (loop p-in old-row rev-p-out)))
-            (or (= 1 (car old-row))
-                (_minus (cdr old-row)
-                        (cdr m)))))
-        (let ((next (car partition)))
-          (case (new-row-func next)
-            ((1)
-             (and (= 1 (car old-row))
-                  (_split (cdr partition)
-                          (cdr old-row)
-                          (cons next plus)
-                          minus)))
-            ((-1)
-             (_split (cdr partition)
-                     old-row
-                     plus
-                     (cons next minus)))))))))
+            (using (m :- :pair)
+              (or (= 1 (car old-row))
+                  (_minus (cdr old-row)
+                          (cdr m))))))
+        (using (partition :- :pair)
+          (let ((next (car partition)))
+            (case (new-row-func next)
+              ((1)
+               (and (= 1 (car old-row))
+                    (_split (cdr partition)
+                            (cdr old-row)
+                            (cons next plus)
+                            minus)))
+              ((-1)
+               (_split (cdr partition)
+                       old-row
+                       plus
+                       (cons next minus))))))))))
 
 (def (all? (ok? : :procedure) lst)
   (let loop ((lst lst))
@@ -307,7 +309,14 @@
 ;;       coef-*          multiplication (two args)
 ;;       coef-recip      multiplicative inverse
 ;; Note, matricies are stored as lists of rows (i.e., lists of lists).
-(def (make-row-reduce coef-zero coef-one coef-zero? coef-+ coef-negate coef-* coef-recip)
+(def (make-row-reduce (coef-zero   : :fixnum)
+                      (coef-one    : :fixnum)
+                      (coef-zero?  : :procedure)
+                      (coef-+      : :procedure)
+                      (coef-negate : :procedure)
+                      (coef-*      : :procedure)
+                      (coef-recip  : :procedure))
+  => :procedure
   (lambda (mat)
     (let loop ((mat mat))
       (if (or (null? mat)
@@ -319,37 +328,38 @@
               (lambda (x)
                 (cons coef-zero x))
               (loop out))
-            (let* ((prow (car in))
-                   (pivot (car prow))
-                   (prest (cdr prow))
-                   (in (cdr in)))
-              (if (coef-zero? pivot)
-                (loop-inner in (cons prest out))
-                (let ((zap-row
-                       (map
-                         (let ((mult (coef-recip pivot)))
-                           (lambda (x) (coef-* mult x)))
-                         prest)))
-                  (cons (cons coef-one zap-row)
-                        (map
-                          (lambda (x)
-                            (cons coef-zero x))
-                          (loop
-                           (fold in
-                                 (lambda (row mat)
-                                   (cons
-                                    (let ((first-col (car row))
-                                          (rest-row (cdr row)))
-                                      (if (coef-zero? first-col)
-                                        rest-row
-                                        (map
-                                          (let ((mult (coef-negate first-col)))
-                                            (lambda (f z)
-                                              (coef-+ f (coef-* mult z))))
+            (using (in :- :pair)
+              (let* ((prow (car in))
+                     (pivot (car prow))
+                     (prest (cdr prow))
+                     (in (cdr in)))
+                (if (coef-zero? pivot)
+                  (loop-inner in (cons prest out))
+                  (let ((zap-row
+                         (map
+                           (let ((mult (coef-recip pivot)))
+                             (lambda (x) (coef-* mult x)))
+                           prest)))
+                    (cons (cons coef-one zap-row)
+                          (map
+                            (lambda (x)
+                              (cons coef-zero x))
+                            (loop
+                             (fold in
+                                   (lambda (row mat)
+                                     (cons
+                                      (let ((first-col (car row))
+                                            (rest-row (cdr row)))
+                                        (if (coef-zero? first-col)
                                           rest-row
-                                          zap-row)))
-                                    mat))
-                                 out)))))))))))))
+                                          (map
+                                            (let ((mult (coef-negate first-col)))
+                                              (lambda (f z)
+                                                (coef-+ f (coef-* mult z))))
+                                            rest-row
+                                            zap-row)))
+                                      mat))
+                                   out))))))))))))))
 
 
 ;; Given elements and operations on the base field, return a procedure which
@@ -364,50 +374,54 @@
 ;;       coef-*          multiplication (two args)
 ;;       coef-recip      multiplicative inverse
 ;; Note, matricies are stored as lists of rows (i.e., lists of lists).
-(def make-in-row-space?
-  (lambda (coef-zero coef-one coef-zero? coef-+ coef-negate coef-* coef-recip)
-    (let ((row-reduce
-           (make-row-reduce coef-zero
-                            coef-one
-                            coef-zero?
-                            coef-+
-                            coef-negate
-                            coef-*
-                            coef-recip)))
-      (lambda (mat)
-        (let ((mat (row-reduce mat)))
-          (lambda (row)
-            (let loop ((row row) (mat mat))
-              (if (null? row)
-                  #t
-                  (let ((r-first
-                         (car row))
-                        (r-rest
-                         (cdr row)))
-                    (cond ((coef-zero? r-first)
-                           (loop r-rest
-                                 (map cdr
-                                      (if (or (null? mat) (coef-zero? (caar mat)))
-                                          mat
-                                          (cdr mat)))))
-                          ((null? mat) #f)
-                          (else
+(def (make-in-row-space? (coef-zero   : :fixnum)
+                         (coef-one    : :fixnum)
+                         (coef-zero?  : :procedure)
+                         (coef-+      : :procedure)
+                         (coef-negate : :procedure)
+                         (coef-*      : :procedure)
+                         (coef-recip  : :procedure))
+  => :procedure
+  (let ((row-reduce
+         (make-row-reduce coef-zero
+                          coef-one
+                          coef-zero?
+                          coef-+
+                          coef-negate
+                          coef-*
+                          coef-recip)))
+    (lambda (mat)
+      (let ((mat (row-reduce mat)))
+        (lambda (row)
+          (let loop ((row row) (mat mat))
+            (if (null? row)
+              #t
+              (using (row :- :pair)
+                (let ((r-first (car row))
+                      (r-rest (cdr row)))
+                  (cond ((coef-zero? r-first)
+                         (loop r-rest
+                               (map cdr
+                                    (if (or (null? mat) (coef-zero? (caar mat)))
+                                      mat
+                                      (cdr mat)))))
+                        ((null? mat) #f)
+                        (else
+                         (using (mat :- :pair)
                            (let* ((zap-row (car mat))
                                   (z-first (car zap-row))
                                   (z-rest (cdr zap-row))
                                   (mat (cdr mat)))
                              (if (coef-zero? z-first)
-                                 #f
-                                 (loop
-                                  (map
-                                   (let ((mult
-                                          (coef-negate r-first)))
-                                     (lambda (r z)
-                                       (coef-+ r
-                                               (coef-* mult z))))
-                                   r-rest
-                                   z-rest)
-                                  (map cdr mat)))))))))))))))
+                               #f
+                               (loop
+                                (map
+                                  (let ((mult (coef-negate r-first)))
+                                    (lambda (r z)
+                                      (coef-+ r (coef-* mult z))))
+                                  r-rest
+                                  z-rest)
+                                (map cdr mat))))))))))))))))
 
 
 ;; Given a prime number, return a procedure which takes integer matricies
@@ -508,9 +522,8 @@
               possible-future)))
         (if (null? zulu-future)
           (folder (reverse rev-mat) state)
-          (let loop-inner
-              ((zulu-future zulu-future)
-               (state state))
+          (let loop-inner ((zulu-future zulu-future)
+                           (state state))
             (if (null? zulu-future)
               state
               (let ((rest-of-future (cdr zulu-future)))
