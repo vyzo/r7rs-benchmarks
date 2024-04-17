@@ -69,23 +69,6 @@
 
   (if (null? lst) [] (rotate lst [])))
 
-;; Select elements of a list which pass some test and map a function
-;; over the result.  Note, only efficiency prevents this from being the
-;; composition of select and map.
-(def (select-map (test : :procedure) (func : :procedure) lst)
-  (def (select ac lst)
-    (if (null? lst)
-      (xreverse! ac)
-      (using (lst :- :pair)
-        (select
-         (let ((head (car lst)))
-           (if (test head)
-             (cons (func head)
-                   ac)
-             ac))
-         (cdr lst)))))
-  (select [] lst))
-
 ;; This version of map-and tail-recurses on the last test.
 (def (map-and (proc : :procedure) lst)
   (if (null? lst)
@@ -103,27 +86,27 @@
              new)
   (let ((scmp source.cmp)
         (tcmp target.cmp))
-    (let ((less
-           (select-map
-            (lambda (p)
-              (eq? 'less (scmp (car p) new)))
-            cdr
-            pas))
-          (more
-           (select-map
-            (lambda (p)
-              (eq? 'more (scmp (car p) new)))
-            cdr
-            pas)))
-      (zulu-select
-       (lambda (t)
-         (and (map-and
-               (lambda (t2) (memq (tcmp t2 t) '(less equal)))
-               less)
-          (map-and
-           (lambda (t2) (memq (tcmp t2 t) '(more equal)))
-           more)))
-       target.elements))))
+    (let loop ((rest pas) (less []) (more []))
+      (if (null? rest)
+        (let ((less (xreverse! less))
+              (more (xreverse! more)))
+          (zulu-select
+           (lambda (t)
+             (and (map-and (lambda (t2) (memq (tcmp t2 t) '(less equal)))
+                           less)
+                  (map-and(lambda (t2) (memq (tcmp t2 t) '(more equal)))
+                          more)))
+           target.elements))
+        (using (rest :- :pair)
+          (let ((first (car rest))
+                (rest  (cdr rest)))
+            (case (scmp (car first) new)
+              ((less)
+               (loop rest (cons (cdr first) less) more))
+              ((more)
+               (loop rest less (cons (cdr first) more)))
+              (else
+               (loop rest less more)))))))))
 
 (def (maps-rest (source : Lattice)
                 (target : Lattice)
