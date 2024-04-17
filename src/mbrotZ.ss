@@ -25,13 +25,24 @@
   (:- (##cpxnum-make a b)
       :cpxnum))
 
-(defrule (cpx+ a b)
-  (:- (##cpxnum.+ a b)
-      :cpxnum))
+(def (cpx+ (a : :cpxnum) (b : :cpxnum))
+  => :cpxnum
+  (let ((ar (##cpxnum-real a))
+        (ai (##cpxnum-imag a))
+        (br (##cpxnum-real b))
+        (bi (##cpxnum-imag b)))
+    (:- (##cpxnum-make (fl+ ar br) (fl+ ai bi))
+        :cpxnum)))
 
-(defrule (cpx* a b)
-  (:- (##cpxnum.* a b)
-      :cpxnum))
+(def (cpx* (a : :cpxnum) (b : :cpxnum))
+  => :cpxnum
+  (let ((ar (##cpxnum-real a))
+        (ai (##cpxnum-imag a))
+        (br (##cpxnum-real b))
+        (bi (##cpxnum-imag b)))
+    (:- (##cpxnum-make (##fl- (##fl* ar br) (##fl* ai bi))
+                       (##fl+ (##fl* ar bi) (##fl* ai br)))
+        :cpxnum)))
 
 (defrule (cpx-real c)
   (:- (##cpxnum-real c)
