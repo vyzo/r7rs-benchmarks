@@ -48,9 +48,9 @@
    <ul>
    <li>For result comparison between Gerbil R7RS safe and Gerbil R7RS unsafe see <a href="regression-safe-vs-unsafe.html">here</a></li>
    <li>For result comparison between Gerbil R7RS safe and vanilla Gambit (safe) see <a href="regression-gerbil-vs-gambit.html">here</a></li>
-   <li>For result comparison between Gerbil R7RS safe and Racket see <a href="regression-gerbil-vs-racket.html">here</a></li>
+   <li>For result comparison between Gerbil R7RS safe and Racket R7RS see <a href="regression-gerbil-vs-racket.html">here</a></li>
    <li>For result comparison between Gerbil idiomatic and Gerbil R7RS safe see <a href="regression-typed-vs-safe.html">here</a></li>
-   <li>For result comparison between Gerbil idiomatic and Racket see <a href="regression-typed-vs-racket.html">here</a></li>
+   <li>For result comparison between Gerbil idiomatic and Racket R7RS see <a href="regression-typed-vs-racket.html">here</a></li>
    </ul>
    </ul>
 
@@ -168,7 +168,7 @@ END
 (def (contestant-names contestants)
   (map (lambda (c)
          (case c
-           (("Racket") "Racket")
+           (("Racket") "Racket R7RS")
            (("GambitC") "Gambit safe")
            (("Gerbil-sep") "Gerbil R7RS safe")
            (("Gerbil-unsafe-sep") "Gerbil R7RS unsafe")
