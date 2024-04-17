@@ -19,7 +19,7 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-  <h2>R7RS benchmarks for Gerbil</h2>
+  <h1>R7RS benchmarks for Gerbil</h1>
   <p>These are the results for <b>Gerbil v0.18.2-pre </b> (pre-release of v0.18.2), <b>Gambit v4.9.5-130</b> (same as the Gerbil pin), and <b>Racket v8.10</b>.
   Both Gerbil and Gambit are tuned with <tt>-:m64M</tt>, which gives an initial heap size of 64M.
   <p>This is based on ecraven's benchmarks, which seem unmaintained.
@@ -28,12 +28,12 @@
   <p>Each benchmark was run 3 times, and I kept the best value.
   <p>
 
-  <h2>Gerbil Variants</h2>
+  <h3>Gerbil Variants</h3>
   The Gerbil variants:
   <ul>
   <li><b>Gerbil R7RS safe</b> is Gerbil R7RS in its default safe mode, with separate compilation.</li>
   <li><b>Gerbil R7RS unsafe</b> is Gerbil R7RS with the main module compiled with <tt>(declare (not safe))</tt>.</li>
-  <li><b>Gerbil idiomatic</b> is a variant of the program, written in idiomatic Gerbil with type annotations. This is the code you would write today, not the benchmark code you inherited from 30 years ago.
+  <li><b>Gerbil idiomatic</b> is a variant of the program, written in idiomatic Gerbil with type annotations. This is the code you would write today if you cared about performance, not the benchmark code you inherited from 30 years ago.
   </ul>
 
   <h3>Notes</h3>
