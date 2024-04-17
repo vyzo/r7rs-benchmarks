@@ -6,3 +6,5 @@
 ./regression.ss results.Gerbil-sep results.Gerbil-unsafe-sep > regression-safe-vs-unsafe.html
 ./regression.ss results.Gerbil-sep results.Racket > regression-gerbil-vs-racket.html
 ./regression.ss results.Gerbil-sep results.GambitC > regression-gerbil-vs-gambit.html
+./regression.ss results.Gerbil-typed results.Gerbil-sep > regression-typed-vs-safe.html
+./regression.ss results.Gerbil-typed results.Racket > regression-typed-vs-racket.html

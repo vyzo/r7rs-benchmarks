@@ -286,8 +286,8 @@ evaluate ()
 
 make_src_code ()
 {
-    prelude="${SRC}/${NAME}-prelude.scm"
-    postlude="${SRC}/${NAME}-postlude.scm"
+    prelude="${SRC}/${NAME}-prelude.${EXTENSION}"
+    postlude="${SRC}/${NAME}-postlude.${EXTENSION}"
 
     if [ -e "$prelude" ]
     then
@@ -302,7 +302,7 @@ make_src_code ()
         postlude="/dev/null"
     fi
 
-    cat "$prelude" "${SRC}/$1.scm" "${SRC}/common.scm" "$postlude" "${SRC}/common-postlude.scm" > "${TEMP}/$1.${EXTENSION}"
+    cat "$prelude" "${SRC}/$1.${EXTENSION}" "${SRC}/common.scm" "$postlude" "${SRC}/common-postlude.scm" > "${TEMP}/$1.${EXTENSION}"
 }
 
 # -----------------------------------------------------------------------------
@@ -836,6 +836,12 @@ gerbil_unsafe_sep_comp ()
     ${GERBIL} -d $(dirname "$1") -exe -O -o "${1%.scm}.exe" "$1"
 }
 
+gerbil_typed_comp ()
+{
+    sed -i -e 's/^(run-benchmark)$//' $1
+    ${GERBIL} -d $(dirname "$1") -exe -O -o "${1%.ss}.exe" "$1"
+}
+
 gerbil_exec ()
 {
     time "$1" -:m64M < "$2"
@@ -1300,6 +1306,27 @@ for system in $systems ; do
                 COMPCOMMANDS=""
                 EXECCOMMANDS=""
                 ;;
+
+        gerbil-typed) NAME='Gerbil-typed'
+                COMP=gerbil_typed_comp
+                EXEC=gerbil_exec
+                COMPOPTS=""
+                EXTENSION="ss"
+                EXTENSIONCOMP="exe"
+                COMPCOMMANDS=""
+                EXECCOMMANDS=""
+                ;;
+
+        gerbil-unsafe-typed) NAME='Gerbil-unsafe-typed'
+                COMP=gerbil_typed_comp
+                EXEC=gerbil_exec
+                COMPOPTS=""
+                EXTENSION="ss"
+                EXTENSIONCOMP="exe"
+                COMPCOMMANDS=""
+                EXECCOMMANDS=""
+                ;;
+
 
         guile) NAME='Guile'
                COMP=guile_comp

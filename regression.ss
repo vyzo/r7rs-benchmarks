@@ -15,10 +15,11 @@
         ([new . new-rest]
          (match old-rest
            ([old . old-rest]
-            (let ((name (benchmark-name new))
-                  (new-result (string->number (benchmark-result new)))
-                  (old-result (string->number (benchmark-result old))))
-              (print-result name new-result old-result (- new-result old-result) (/ (- new-result old-result) old-result))
+            (let ((name (and new (benchmark-name new)))
+                  (new-result (and new (benchmark-result new)))
+                  (old-result (and old (benchmark-result old))))
+              (when (and name new-result old-result)
+                (print-result name new-result old-result (- new-result old-result) (/ (- new-result old-result) old-result)))
               (loop new-rest old-rest)))))
         (else (void))))
     (print-footer)))
@@ -32,10 +33,6 @@
     (printf "<tr><td>~a</td> <td>~a</td> <td>~a</td> <td style=\"background-color:~a\">~1,3f</td> <td style=\"background-color:~a\">~a</td>~n" name new old color delta color (pct rdelta))))
 (def (print-footer)
   (displayln "</table></body></html>"))
-
-
-;;(def (print-result name delta rdelta)
-;;  (printf "~a ~t~t~t~1,3f ~t~a~n" name delta (pct rdelta)))
 
 (def (pct v)
   (format "(~a~a%)" (if (negative? v) "" "+")(/ (floor (* 1000 v)) 10)))
@@ -60,7 +57,8 @@
                      #\:)))
 
 (def (benchmark-result line)
-  (last (string-split line #\,)))
+  (alet (result (and line (last (string-split line #\,))))
+    (string->number result)))
 
 (def (filter-result-lines lines)
   (filter (cut string-prefix? "+!CSVLINE!+" <>) lines))
@@ -70,11 +68,13 @@
     (match rest
       ([line . rest]
        (let ((bench-name (benchmark-name line))
-             (bench-time (string->number (benchmark-result line))))
+             (bench-time (benchmark-result line)))
          (if (equal? current bench-name)
-           (if (< bench-time best-time)
-             (lp rest bench-name bench-time line result)
-             (lp rest bench-name best-time best-line result))
+           (if bench-time
+             (if (< bench-time best-time)
+               (lp rest bench-name bench-time line result)
+               (lp rest bench-name best-time best-line result))
+             (lp rest bench-name bench-time line result))
            (if current
              (lp rest bench-name bench-time line (cons best-line result))
              (lp rest bench-name bench-time line result)))))
