@@ -10,27 +10,27 @@
   => :procedure
 
   (def (lex-fixed fixed lhs rhs)
-    (def (check lhs rhs)
-      (if (null? lhs)
-        fixed
-        (using ((lhs :- :pair) (rhs :- :pair))
-          (let ((probe
-                 (base (car lhs)
-                       (car rhs))))
-            (if (or (eq? probe 'equal)
-                    (eq? probe fixed))
+    (if (null? lhs)
+      fixed
+      (let check (((lhs :- :pair) lhs) ((rhs :- :pair) rhs))
+        (let ((probe
+               (base (car lhs)
+                     (car rhs))))
+          (if (or (eq? probe 'equal)
+                  (eq? probe fixed))
+            (if (null? (cdr lhs))
+              fixed
               (check (cdr lhs)
-                     (cdr rhs))
-              'uncomparable)))))
-    (check lhs rhs))
+                     (cdr rhs)))
+            'uncomparable)))))
 
   (def (lex-first lhs rhs)
     (if (null? lhs)
       'equal
       (using ((lhs :- :pair) (rhs :- :pair))
-        (let ((probe
-               (base (car lhs)
-                     (car rhs))))
+        (let (probe
+              (base (car lhs)
+                    (car rhs)))
           (case probe
             ((less more)
              (lex-fixed probe
@@ -40,6 +40,7 @@
              (lex-first (cdr lhs)
                         (cdr rhs)))
             (else 'uncomparable))))))
+
   lex-first)
 
 (defstruct Lattice ((elements :- :list) (cmp :- :procedure))
