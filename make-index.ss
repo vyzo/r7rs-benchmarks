@@ -33,16 +33,17 @@
   <ul>
   <li><b>Gerbil R7RS safe</b> is Gerbil R7RS in its default safe mode, with separate compilation.</li>
   <li><b>Gerbil R7RS unsafe</b> is Gerbil R7RS with the main module compiled with <tt>(declare (not safe))</tt>.</li>
-  <li><b>Gerbil idiomatic</b> is a variant of the program, written in idiomatic Gerbil with type annotations. This is the code you would write today if you cared about performance, not the benchmark code you inherited from 30 years ago.
+  <li><b>Gerbil idiomatic</b> is a variant of the program, written in idiomatic Gerbil with type annotations. This is the code you would write today if you cared about performance, not the benchmark code you inherited from 30 years ago. <b>Note:</b> I didn't write idiomatic programs for all benchmarks, because some are so minimal that plain Scheme will do.
   </ul>
+
 
   <h3>Notes</h3>
   <ul>
   <li>See also the older results for <a href="index-v0-18.html">Gerbil v0.18</a>.</li>
   <li>Regression Analysis for results relative to the v0.18 benchmarks:
    <ul>
-   <li><a href="regression-safe-sep.html">Gerbil safe</a></li>
-   <li><a href="regression-unsafe-sep.html">Gerbil unsafe</a></li>
+   <li><a href="regression-safe-sep.html">Gerbil R7RS safe</a></li>
+   <li><a href="regression-unsafe-sep.html">Gerbil R7RS unsafe</a></li>
    </ul>
    <li>Result comparison:</li>
    <ul>
@@ -52,6 +53,7 @@
    <li>For result comparison between Gerbil idiomatic and Gerbil R7RS safe see <a href="regression-typed-vs-safe.html">here</a></li>
    <li>For result comparison between Gerbil idiomatic and Racket R7RS see <a href="regression-typed-vs-racket.html">here</a></li>
    </ul>
+   <li>Many of the original benchmarks are tuned for Chez (or Chez is tuned for them), and by extension Racket; the idiomatic programs show that optimizing them for Gerbil (and by extension Gambit) can produce highly performant code.</li>
    </ul>
 
   <h3>Benchmark Modifications</h4>
