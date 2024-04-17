@@ -13,6 +13,9 @@
 (defrule (index-of i j k)
   (fx+ i (fx* D (fx+ j (fx* D k)))))
 
+(defrule (u8-ref bits i)
+  (:- (##u8vector-ref bits i) :fixnum))
+
 (defstruct Piece ((class  :- :fixnum)
                   (bits   :- :u8vector)
                   (maxbit :- :fixnum))
@@ -38,12 +41,12 @@
 (def (start (size : :fixnum))
   (set! count 0)
   (set! puzzle (make-u8vector board-size 1))
-  #;(for (m (in-range (fx+ size 1)))
-  (u8vector-set! puzzle m 1))
-  (for (i (in-range 1 6))
-    (for (j (in-range 1 6))
-      (for (k (in-range 1 6))
-        (u8vector-set! puzzle (index-of i j k) 0))))
+  (let ()
+    (declare (fixnum) (not safe))
+    (for (i (in-range 1 6))
+      (for (j (in-range 1 6))
+        (for (k (in-range 1 6))
+          (u8vector-set! puzzle (index-of i j k) 0)))))
   (set! pieces
     (vector (Piece 0 3 1 0)
             (Piece 0 1 0 3)
@@ -78,8 +81,8 @@
      (lambda ((return :- :procedure))
        (for (i (in-range (vector-length pieces)))
          (using ((i :- :fixnum)
-                 (p (vector-ref pieces i) :- Piece))
-           (unless (fx= 0 (u8vector-ref piececount p.class))
+                 (p (##vector-ref pieces i) :- Piece))
+           (unless (fx= 0 (u8-ref piececount p.class))
              (when (fit i j)
                (set! k (place i j))
                (cond
@@ -97,8 +100,8 @@
           (end  piece.maxbit))
       (do (((k :- :fixnum) 0 (fx+ k 1)))
           ((or (fx> k end)
-               (and (fx= 1 (u8vector-ref bits k))
-                    (fx= 1 (u8vector-ref puzzle (fx+ j k)))))
+               (and (fx= 1 (u8-ref bits k))
+                    (fx= 1 (u8-ref puzzle (fx+ j k)))))
            (fx> k end))))))
 
 (def (place (i : :fixnum) (j : :fixnum))
@@ -108,13 +111,13 @@
           (end  piece.maxbit))
       (do (((k :- :fixnum) 0 (fx+ k 1)))
           ((fx> k end))
-        (when (fx= 1 (u8vector-ref bits k))
-          (u8vector-set! puzzle (fx+ j k) 1)))
-      (u8vector-set! piececount piece.class
-                     (fx- (u8vector-ref piececount piece.class) 1))
-      (let (size (u8vector-length puzzle))
+        (when (fx= 1 (u8-ref bits k))
+          (##u8vector-set! puzzle (fx+ j k) 1)))
+      (##u8vector-set! piececount piece.class
+                       (fx- (u8-ref piececount piece.class) 1))
+      (let (size (##u8vector-length puzzle))
         (:- (do (((k :- :fixnum) j (fx+ k 1)))
-                ((or (fx= k size) (fx= 0 (u8vector-ref puzzle k)))
+                ((or (fx= k size) (fx= 0 (u8-ref puzzle k)))
                  (if (fx= k size) 0 k)))
             :fixnum)))))
 
@@ -124,11 +127,11 @@
           (end  piece.maxbit))
       (do (((k :- :fixnum) 0 (fx+ k 1)))
           ((fx> k end))
-        (when (fx= 1 (u8vector-ref piece.bits k))
-          (u8vector-set! puzzle (fx+ j k) 0)))
-      (u8vector-set! piececount
-                     piece.class
-                     (fx+ (u8vector-ref piececount piece.class) 1)))))
+        (when (fx= 1 (u8-ref piece.bits k))
+          (##u8vector-set! puzzle (fx+ j k) 0)))
+      (##u8vector-set! piececount
+                       piece.class
+                       (fx+ (u8-ref piececount piece.class) 1)))))
 
 (define (run-benchmark)
   (let* ((count (read))
