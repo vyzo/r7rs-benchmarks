@@ -33,7 +33,7 @@
   <ul>
   <li><b>Gerbil R7RS safe</b> is Gerbil R7RS in its default safe mode, with separate compilation.</li>
   <li><b>Gerbil R7RS unsafe</b> is Gerbil R7RS with the main module compiled with <tt>(declare (not safe))</tt>.</li>
-  <li><b>Gerbil idiomatic</b> is a variant of the program, written in idiomatic Gerbil with type annotations. This is the code you would write today if you cared about performance, not the benchmark code you inherited from 30 years ago. <b>Note:</b> I didn't write idiomatic programs for all benchmarks, because some are so minimal that plain Scheme will do.
+  <li><b>Gerbil idiomatic</b> is a variant of the program, written in idiomatic Gerbil with type annotations. This is the code you would write today if you cared about performance, not the benchmark code you inherited from 30 years ago. <b>Note:</b> I haven't writen idiomatic programs for all the benchmarks yet and some are so minimal that plain Scheme will do.
   </ul>
 
 
