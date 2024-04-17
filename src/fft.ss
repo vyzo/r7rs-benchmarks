@@ -34,12 +34,8 @@
         (when (fx< i j)
           (let ()
             (declare (not safe))        ; perfectly safe
-            (let (temp (f64vector-ref data i))
-              (f64vector-set! data i (f64vector-ref data j))
-              (f64vector-set! data j temp))
-            (let (temp (f64vector-ref data (fx+ i 1)))
-              (f64vector-set! data (fx+ i 1) (f64vector-ref data (fx+ j 1)))
-              (f64vector-set! data (fx+ j 1) temp))))
+            (f64vector-swap! data i j)
+            (f64vector-swap! data (fx+ i) (fx+ j 1))))
         (let loop2 (((m :- :fixnum) (div n 2)) ((j :- :fixnum) j))
           (if (and (fx>= m 2) (fx>= j m))
             (loop2 (div m 2) (fx- j m))
@@ -48,6 +44,7 @@
     ;; Danielson-Lanczos section
 
     (let loop3 (((mmax :- :fixnum) 2))
+      (declare (not safe)) ; perfectly safe
       (when (fx< mmax n)
         (let* ((theta
                 (fl/ pi*2 (inexact mmax)))
