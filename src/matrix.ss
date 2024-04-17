@@ -73,8 +73,7 @@
 ;; Maximal? assumes that mat has atleast one row, and that the first row
 ;; is all +1's.
 (def (maximal? mat)
-  (let pick-first-row ((first-row-perm
-                        (gen-perms mat)))
+  (let pick-first-row ((first-row-perm (gen-perms mat)))
     (if first-row-perm
       (and (zunda first-row-perm mat)
            (pick-first-row (first-row-perm 'brother)))
@@ -86,17 +85,17 @@
          (make-row->func
           (lambda (if-equal if-different)
             (lambda (row)
-              (let ((vec
-                     (make-vector number-of-cols)))
+              (let ((vec (make-vector number-of-cols)))
+                (declare (not safe))
                 (do (((i :- :fixnum) 0 (fx+ i 1))
                      (first first-row (cdr first))
                      (row row (cdr row)))
                     ((fx= i number-of-cols))
                   (vector-set! vec
                                i
-                               (if (fx= (car first) (car row))
-                                 if-equal
-                                 if-different)))
+                                 (if (fx= (car first) (car row))
+                                   if-equal
+                                   if-different)))
                 (lambda (i)
                   (vector-ref vec i))))))
          (mat (cdr mat)))
@@ -112,14 +111,14 @@
     (or (not row-perm)
         (and
           (zulu (car mat)
-                (row->func+ (row-perm 'now))
+                (:- (row->func+ (row-perm 'now)) :procedure)
                 partitions
                 (lambda (new-partitions)
                   (loop (row-perm 'child)
                         (cdr mat)
                         new-partitions)))
           (zulu (car mat)
-                (row->func- (row-perm 'now))
+                (:- (row->func- (row-perm 'now)) :procedure)
                 partitions
                 (lambda (new-partitions)
                   (loop (row-perm 'child)
@@ -526,16 +525,17 @@
                            (state state))
             (if (null? zulu-future)
               state
-              (let ((rest-of-future (cdr zulu-future)))
-                (loop-inner rest-of-future
-                  (let* ((first (car zulu-future))
-                         (new-rev-mat (cons first rev-mat)))
-                    (if (maximal? (reverse new-rev-mat))
-                      (loop (fx+ number-of-rows 1)
-                            new-rev-mat
-                            rest-of-future
-                            state)
-                      state)))))))))))
+              (using (zulu-future :- :pair)
+                (let ((rest-of-future (cdr zulu-future)))
+                  (loop-inner rest-of-future
+                    (let* ((first (car zulu-future))
+                           (new-rev-mat (cons first rev-mat)))
+                      (if (maximal? (reverse new-rev-mat))
+                        (loop (fx+ number-of-rows 1)
+                              new-rev-mat
+                              rest-of-future
+                              state)
+                        state))))))))))))
 
 (def (go-folder mat bsize.blen.blist)
   (let ((bsize (car bsize.blen.blist))
