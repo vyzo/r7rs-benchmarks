@@ -109,26 +109,27 @@
 (def (zebra row-perm (row->func+ : :procedure) (row->func- : :procedure) mat number-of-cols)
   (let loop ((row-perm row-perm) (mat mat) (partitions (list (miota number-of-cols))))
     (or (not row-perm)
-        (and
-          (zulu (car mat)
-                (:- (row->func+ (row-perm 'now)) :procedure)
-                partitions
-                (lambda (new-partitions)
-                  (loop (row-perm 'child)
-                        (cdr mat)
-                        new-partitions)))
-          (zulu (car mat)
-                (:- (row->func- (row-perm 'now)) :procedure)
-                partitions
-                (lambda (new-partitions)
-                  (loop (row-perm 'child)
-                        (cdr mat)
-                        new-partitions)))
-          (let ((new-row-perm (row-perm 'brother)))
-            (or (not new-row-perm)
-                (loop new-row-perm
-                      mat
-                      partitions)))))))
+        (using ((row-perm :- :procedure) (mat :- :pair))
+          (and
+            (zulu (car mat)
+                  (:- (row->func+ (row-perm 'now)) :procedure)
+                  partitions
+                  (lambda (new-partitions)
+                    (loop (row-perm 'child)
+                          (cdr mat)
+                          new-partitions)))
+            (zulu (car mat)
+                  (:- (row->func- (row-perm 'now)) :procedure)
+                  partitions
+                  (lambda (new-partitions)
+                    (loop (row-perm 'child)
+                          (cdr mat)
+                          new-partitions)))
+            (let ((new-row-perm (row-perm 'brother)))
+              (or (not new-row-perm)
+                  (loop new-row-perm
+                        mat
+                        partitions))))))))
 
 (def (cons-if-not-null lhs rhs)
   (if (null? lhs)
@@ -136,6 +137,7 @@
     (cons lhs rhs)))
 
 (def (zulu old-row (new-row-func : :procedure) partitions (equal-cont : :procedure))
+  (declare (not safe))
   (let loop ((p-in partitions) (old-row old-row) (rev-p-out []))
     (let _split ((partition (car p-in)) (old-row old-row) (plus []) (minus []))
       (if (null? partition)
@@ -151,15 +153,15 @@
               (if (null? p-in)
                 (equal-cont (reverse! rev-p-out))
                 (loop p-in old-row rev-p-out)))
-            (using (m :- :pair)
-              (or (= 1 (car old-row))
+            (using ((m :- :pair) (old-row :- :pair))
+              (or (fx= 1 (car old-row))
                   (_minus (cdr old-row)
                           (cdr m))))))
-        (using (partition :- :pair)
+        (using ((partition :- :pair) (old-row :- :pair))
           (let ((next (car partition)))
             (case (new-row-func next)
               ((1)
-               (and (= 1 (car old-row))
+               (and (fx= 1 (car old-row))
                     (_split (cdr partition)
                             (cdr old-row)
                             (cons next plus)
