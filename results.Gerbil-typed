@@ -1,6 +1,6 @@
 
 ****************************
-Benchmarking Gerbil-typed on Thu Apr 18 12:57:46 AM EEST 2024 under Linux dellicious 6.1.0-1034-oem #34-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 5 18:29:21 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Benchmarking Gerbil-typed on Thu Apr 18 12:52:39 PM EEST 2024 under Linux dellicious 6.1.0-1034-oem #34-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 5 18:29:21 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 
 Testing browse under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -11,28 +11,28 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/browse.ss /tmp/larcenous/Gerbil-ty
 /tmp/larcenous/Gerbil-typed/browse.exe__exe.scm:
 Running...
 Running browse:2000
-Elapsed time: .704979 seconds (.705) for browse:2000
-+!CSVLINE!+v0.18.1-115-g864cb402d,browse:2000,.704979
+Elapsed time: .651944 seconds (.652) for browse:2000
++!CSVLINE!+v0.18.1-115-g864cb402d,browse:2000,.651944
 
-real	0m0.713s
-user	0m0.685s
+real	0m0.660s
+user	0m0.632s
 sys	0m0.028s
 Running...
 Running browse:2000
-Elapsed time: .652713 seconds (.653) for browse:2000
-+!CSVLINE!+v0.18.1-115-g864cb402d,browse:2000,.652713
+Elapsed time: .652328 seconds (.652) for browse:2000
++!CSVLINE!+v0.18.1-115-g864cb402d,browse:2000,.652328
 
 real	0m0.661s
-user	0m0.640s
+user	0m0.641s
 sys	0m0.020s
 Running...
 Running browse:2000
-Elapsed time: .654932 seconds (.655) for browse:2000
-+!CSVLINE!+v0.18.1-115-g864cb402d,browse:2000,.654932
+Elapsed time: .696056 seconds (.696) for browse:2000
++!CSVLINE!+v0.18.1-115-g864cb402d,browse:2000,.696056
 
-real	0m0.663s
-user	0m0.650s
-sys	0m0.013s
+real	0m0.704s
+user	0m0.688s
+sys	0m0.016s
 
 Testing deriv under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -43,28 +43,28 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/deriv.ss /tmp/larcenous/Gerbil-typ
 /tmp/larcenous/Gerbil-typed/deriv.exe__exe.scm:
 Running...
 Running deriv:10000000
-Elapsed time: 1.369713 seconds (1.37) for deriv:10000000
-+!CSVLINE!+v0.18.1-115-g864cb402d,deriv:10000000,1.369713
+Elapsed time: 1.211646 seconds (1.212) for deriv:10000000
++!CSVLINE!+v0.18.1-115-g864cb402d,deriv:10000000,1.211646
 
-real	0m1.377s
-user	0m1.365s
-sys	0m0.012s
-Running...
-Running deriv:10000000
-Elapsed time: 1.182939 seconds (1.183) for deriv:10000000
-+!CSVLINE!+v0.18.1-115-g864cb402d,deriv:10000000,1.182939
-
-real	0m1.191s
-user	0m1.167s
+real	0m1.220s
+user	0m1.196s
 sys	0m0.024s
 Running...
 Running deriv:10000000
-Elapsed time: 1.211318 seconds (1.211) for deriv:10000000
-+!CSVLINE!+v0.18.1-115-g864cb402d,deriv:10000000,1.211318
+Elapsed time: 1.178738 seconds (1.179) for deriv:10000000
++!CSVLINE!+v0.18.1-115-g864cb402d,deriv:10000000,1.178738
 
-real	0m1.219s
-user	0m1.190s
-sys	0m0.028s
+real	0m1.187s
+user	0m1.170s
+sys	0m0.016s
+Running...
+Running deriv:10000000
+Elapsed time: 1.179774 seconds (1.18) for deriv:10000000
++!CSVLINE!+v0.18.1-115-g864cb402d,deriv:10000000,1.179774
+
+real	0m1.188s
+user	0m1.164s
+sys	0m0.024s
 
 Testing destruc under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -75,28 +75,28 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/destruc.ss /tmp/larcenous/Gerbil-t
 /tmp/larcenous/Gerbil-typed/destruc.exe__exe.scm:
 Running...
 Running destruc:600:50:4000
-Elapsed time: 1.419673 seconds (1.42) for destruc:600:50:4000
-+!CSVLINE!+v0.18.1-115-g864cb402d,destruc:600:50:4000,1.419673
+Elapsed time: 1.416508 seconds (1.417) for destruc:600:50:4000
++!CSVLINE!+v0.18.1-115-g864cb402d,destruc:600:50:4000,1.416508
 
-real	0m1.428s
-user	0m1.404s
-sys	0m0.024s
+real	0m1.425s
+user	0m1.384s
+sys	0m0.040s
 Running...
 Running destruc:600:50:4000
-Elapsed time: 1.43237 seconds (1.432) for destruc:600:50:4000
-+!CSVLINE!+v0.18.1-115-g864cb402d,destruc:600:50:4000,1.43237
+Elapsed time: 1.417541 seconds (1.418) for destruc:600:50:4000
++!CSVLINE!+v0.18.1-115-g864cb402d,destruc:600:50:4000,1.417541
 
-real	0m1.440s
-user	0m1.420s
+real	0m1.426s
+user	0m1.410s
+sys	0m0.016s
+Running...
+Running destruc:600:50:4000
+Elapsed time: 1.418876 seconds (1.419) for destruc:600:50:4000
++!CSVLINE!+v0.18.1-115-g864cb402d,destruc:600:50:4000,1.418876
+
+real	0m1.427s
+user	0m1.407s
 sys	0m0.020s
-Running...
-Running destruc:600:50:4000
-Elapsed time: 1.464839 seconds (1.465) for destruc:600:50:4000
-+!CSVLINE!+v0.18.1-115-g864cb402d,destruc:600:50:4000,1.464839
-
-real	0m1.472s
-user	0m1.460s
-sys	0m0.012s
 
 Testing diviter under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -135,27 +135,27 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/puzzle.ss /tmp/larcenous/Gerbil-ty
 /tmp/larcenous/Gerbil-typed/puzzle.exe__exe.scm:
 Running...
 Running puzzle:1000
-Elapsed time: 1.077384 seconds (1.077) for puzzle:1000
-+!CSVLINE!+v0.18.1-115-g864cb402d,puzzle:1000,1.077384
+Elapsed time: 1.076755 seconds (1.077) for puzzle:1000
++!CSVLINE!+v0.18.1-115-g864cb402d,puzzle:1000,1.076755
 
-real	0m1.087s
-user	0m1.066s
-sys	0m0.020s
+real	0m1.085s
+user	0m1.073s
+sys	0m0.012s
 Running...
 Running puzzle:1000
-Elapsed time: 1.077428 seconds (1.077) for puzzle:1000
-+!CSVLINE!+v0.18.1-115-g864cb402d,puzzle:1000,1.077428
+Elapsed time: 1.077967 seconds (1.078) for puzzle:1000
++!CSVLINE!+v0.18.1-115-g864cb402d,puzzle:1000,1.077967
 
 real	0m1.086s
-user	0m1.053s
-sys	0m0.032s
+user	0m1.070s
+sys	0m0.016s
 Running...
 Running puzzle:1000
-Elapsed time: 1.072256 seconds (1.072) for puzzle:1000
-+!CSVLINE!+v0.18.1-115-g864cb402d,puzzle:1000,1.072256
+Elapsed time: 1.075914 seconds (1.076) for puzzle:1000
++!CSVLINE!+v0.18.1-115-g864cb402d,puzzle:1000,1.075914
 
-real	0m1.081s
-user	0m1.053s
+real	0m1.083s
+user	0m1.055s
 sys	0m0.028s
 
 Testing triangl under Gerbil-typed
@@ -167,28 +167,28 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/triangl.ss /tmp/larcenous/Gerbil-t
 /tmp/larcenous/Gerbil-typed/triangl.exe__exe.scm:
 Running...
 Running triangl:22:1:50
-Elapsed time: 1.019233 seconds (1.019) for triangl:22:1:50
-+!CSVLINE!+v0.18.1-115-g864cb402d,triangl:22:1:50,1.019233
+Elapsed time: 1.009914 seconds (1.01) for triangl:22:1:50
++!CSVLINE!+v0.18.1-115-g864cb402d,triangl:22:1:50,1.009914
 
-real	0m1.025s
-user	0m1.009s
-sys	0m0.016s
+real	0m1.016s
+user	0m1.004s
+sys	0m0.012s
 Running...
 Running triangl:22:1:50
-Elapsed time: 1.009178 seconds (1.009) for triangl:22:1:50
-+!CSVLINE!+v0.18.1-115-g864cb402d,triangl:22:1:50,1.009178
+Elapsed time: 1.011103 seconds (1.011) for triangl:22:1:50
++!CSVLINE!+v0.18.1-115-g864cb402d,triangl:22:1:50,1.011103
 
-real	0m1.015s
-user	0m1.011s
-sys	0m0.004s
+real	0m1.016s
+user	0m1.008s
+sys	0m0.008s
 Running...
 Running triangl:22:1:50
-Elapsed time: 1.009622 seconds (1.01) for triangl:22:1:50
-+!CSVLINE!+v0.18.1-115-g864cb402d,triangl:22:1:50,1.009622
+Elapsed time: 1.02335 seconds (1.023) for triangl:22:1:50
++!CSVLINE!+v0.18.1-115-g864cb402d,triangl:22:1:50,1.02335
 
-real	0m1.015s
-user	0m1.011s
-sys	0m0.004s
+real	0m1.029s
+user	0m1.017s
+sys	0m0.012s
 
 Testing tak under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -199,28 +199,28 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/tak.ss /tmp/larcenous/Gerbil-typed
 /tmp/larcenous/Gerbil-typed/tak.exe__exe.scm:
 Running...
 Running tak:40:20:11:1
-Elapsed time: .880036 seconds (.88) for tak:40:20:11:1
-+!CSVLINE!+v0.18.1-115-g864cb402d,tak:40:20:11:1,.880036
+Elapsed time: .891494 seconds (.891) for tak:40:20:11:1
++!CSVLINE!+v0.18.1-115-g864cb402d,tak:40:20:11:1,.891494
+
+real	0m0.896s
+user	0m0.896s
+sys	0m0.000s
+Running...
+Running tak:40:20:11:1
+Elapsed time: .881489 seconds (.881) for tak:40:20:11:1
++!CSVLINE!+v0.18.1-115-g864cb402d,tak:40:20:11:1,.881489
+
+real	0m0.886s
+user	0m0.878s
+sys	0m0.008s
+Running...
+Running tak:40:20:11:1
+Elapsed time: .880359 seconds (.88) for tak:40:20:11:1
++!CSVLINE!+v0.18.1-115-g864cb402d,tak:40:20:11:1,.880359
 
 real	0m0.885s
 user	0m0.881s
 sys	0m0.004s
-Running...
-Running tak:40:20:11:1
-Elapsed time: .880873 seconds (.881) for tak:40:20:11:1
-+!CSVLINE!+v0.18.1-115-g864cb402d,tak:40:20:11:1,.880873
-
-real	0m0.886s
-user	0m0.881s
-sys	0m0.004s
-Running...
-Running tak:40:20:11:1
-Elapsed time: .881114 seconds (.881) for tak:40:20:11:1
-+!CSVLINE!+v0.18.1-115-g864cb402d,tak:40:20:11:1,.881114
-
-real	0m0.886s
-user	0m0.885s
-sys	0m0.000s
 
 Testing takl under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -231,28 +231,28 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/takl.ss /tmp/larcenous/Gerbil-type
 /tmp/larcenous/Gerbil-typed/takl.exe__exe.scm:
 Running...
 Running takl:40:20:12:1
-Elapsed time: 1.092609 seconds (1.093) for takl:40:20:12:1
-+!CSVLINE!+v0.18.1-115-g864cb402d,takl:40:20:12:1,1.092609
+Elapsed time: 1.086449 seconds (1.086) for takl:40:20:12:1
++!CSVLINE!+v0.18.1-115-g864cb402d,takl:40:20:12:1,1.086449
 
-real	0m1.098s
-user	0m1.097s
-sys	0m0.000s
+real	0m1.091s
+user	0m1.087s
+sys	0m0.004s
 Running...
 Running takl:40:20:12:1
-Elapsed time: 1.0935 seconds (1.094) for takl:40:20:12:1
-+!CSVLINE!+v0.18.1-115-g864cb402d,takl:40:20:12:1,1.0935
+Elapsed time: 1.080078 seconds (1.08) for takl:40:20:12:1
++!CSVLINE!+v0.18.1-115-g864cb402d,takl:40:20:12:1,1.080078
 
-real	0m1.098s
-user	0m1.098s
-sys	0m0.000s
-Running...
-Running takl:40:20:12:1
-Elapsed time: 1.084248 seconds (1.084) for takl:40:20:12:1
-+!CSVLINE!+v0.18.1-115-g864cb402d,takl:40:20:12:1,1.084248
-
-real	0m1.089s
+real	0m1.085s
 user	0m1.081s
-sys	0m0.008s
+sys	0m0.004s
+Running...
+Running takl:40:20:12:1
+Elapsed time: 1.089773 seconds (1.09) for takl:40:20:12:1
++!CSVLINE!+v0.18.1-115-g864cb402d,takl:40:20:12:1,1.089773
+
+real	0m1.094s
+user	0m1.090s
+sys	0m0.004s
 
 Testing ntakl under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -277,27 +277,27 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/cpstak.ss /tmp/larcenous/Gerbil-ty
 /tmp/larcenous/Gerbil-typed/cpstak.exe__exe.scm:
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 2.621651 seconds (2.622) for cpstak:40:20:11:1
-+!CSVLINE!+v0.18.1-115-g864cb402d,cpstak:40:20:11:1,2.621651
+Elapsed time: 2.694484 seconds (2.694) for cpstak:40:20:11:1
++!CSVLINE!+v0.18.1-115-g864cb402d,cpstak:40:20:11:1,2.694484
 
-real	0m2.630s
-user	0m2.602s
-sys	0m0.028s
+real	0m2.702s
+user	0m2.678s
+sys	0m0.024s
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 2.48807 seconds (2.488) for cpstak:40:20:11:1
-+!CSVLINE!+v0.18.1-115-g864cb402d,cpstak:40:20:11:1,2.48807
+Elapsed time: 2.842914 seconds (2.843) for cpstak:40:20:11:1
++!CSVLINE!+v0.18.1-115-g864cb402d,cpstak:40:20:11:1,2.842914
 
-real	0m2.496s
-user	0m2.467s
-sys	0m0.028s
+real	0m2.851s
+user	0m2.827s
+sys	0m0.024s
 Running...
 Running cpstak:40:20:11:1
-Elapsed time: 2.48841 seconds (2.488) for cpstak:40:20:11:1
-+!CSVLINE!+v0.18.1-115-g864cb402d,cpstak:40:20:11:1,2.48841
+Elapsed time: 2.464085 seconds (2.464) for cpstak:40:20:11:1
++!CSVLINE!+v0.18.1-115-g864cb402d,cpstak:40:20:11:1,2.464085
 
-real	0m2.496s
-user	0m2.480s
+real	0m2.472s
+user	0m2.456s
 sys	0m0.016s
 
 Testing ctak under Gerbil-typed
@@ -309,28 +309,28 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/ctak.ss /tmp/larcenous/Gerbil-type
 /tmp/larcenous/Gerbil-typed/ctak.exe__exe.scm:
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 1.44137 seconds (1.441) for ctak:32:16:8:1
-+!CSVLINE!+v0.18.1-115-g864cb402d,ctak:32:16:8:1,1.44137
+Elapsed time: 1.437735 seconds (1.438) for ctak:32:16:8:1
++!CSVLINE!+v0.18.1-115-g864cb402d,ctak:32:16:8:1,1.437735
 
-real	0m1.449s
-user	0m1.428s
-sys	0m0.020s
+real	0m1.445s
+user	0m1.421s
+sys	0m0.024s
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 1.574457 seconds (1.574) for ctak:32:16:8:1
-+!CSVLINE!+v0.18.1-115-g864cb402d,ctak:32:16:8:1,1.574457
+Elapsed time: 1.413866 seconds (1.414) for ctak:32:16:8:1
++!CSVLINE!+v0.18.1-115-g864cb402d,ctak:32:16:8:1,1.413866
 
-real	0m1.582s
-user	0m1.553s
-sys	0m0.028s
+real	0m1.421s
+user	0m1.397s
+sys	0m0.024s
 Running...
 Running ctak:32:16:8:1
-Elapsed time: 1.426593 seconds (1.427) for ctak:32:16:8:1
-+!CSVLINE!+v0.18.1-115-g864cb402d,ctak:32:16:8:1,1.426593
+Elapsed time: 1.43641 seconds (1.436) for ctak:32:16:8:1
++!CSVLINE!+v0.18.1-115-g864cb402d,ctak:32:16:8:1,1.43641
 
-real	0m1.433s
-user	0m1.405s
-sys	0m0.028s
+real	0m1.443s
+user	0m1.419s
+sys	0m0.024s
 
 Testing fib under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -411,28 +411,28 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/fft.ss /tmp/larcenous/Gerbil-typed
 /tmp/larcenous/Gerbil-typed/fft.exe__exe.scm:
 Running...
 Running fft:65536:100
-Elapsed time: .25049 seconds (.25) for fft:65536:100
-+!CSVLINE!+v0.18.1-115-g864cb402d,fft:65536:100,.25049
+Elapsed time: .250918 seconds (.251) for fft:65536:100
++!CSVLINE!+v0.18.1-115-g864cb402d,fft:65536:100,.250918
 
 real	0m0.259s
-user	0m0.231s
-sys	0m0.028s
+user	0m0.243s
+sys	0m0.016s
 Running...
 Running fft:65536:100
-Elapsed time: .249213 seconds (.249) for fft:65536:100
-+!CSVLINE!+v0.18.1-115-g864cb402d,fft:65536:100,.249213
-
-real	0m0.257s
-user	0m0.245s
-sys	0m0.012s
-Running...
-Running fft:65536:100
-Elapsed time: .249728 seconds (.25) for fft:65536:100
-+!CSVLINE!+v0.18.1-115-g864cb402d,fft:65536:100,.249728
+Elapsed time: .25013 seconds (.25) for fft:65536:100
++!CSVLINE!+v0.18.1-115-g864cb402d,fft:65536:100,.25013
 
 real	0m0.258s
-user	0m0.242s
-sys	0m0.016s
+user	0m0.226s
+sys	0m0.032s
+Running...
+Running fft:65536:100
+Elapsed time: .24491 seconds (.245) for fft:65536:100
++!CSVLINE!+v0.18.1-115-g864cb402d,fft:65536:100,.24491
+
+real	0m0.253s
+user	0m0.233s
+sys	0m0.020s
 
 Testing mbrot under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -443,28 +443,28 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/mbrot.ss /tmp/larcenous/Gerbil-typ
 /tmp/larcenous/Gerbil-typed/mbrot.exe__exe.scm:
 Running...
 Running mbrot:75:1000
-Elapsed time: 1.140589 seconds (1.141) for mbrot:75:1000
-+!CSVLINE!+v0.18.1-115-g864cb402d,mbrot:75:1000,1.140589
+Elapsed time: 1.311597 seconds (1.312) for mbrot:75:1000
++!CSVLINE!+v0.18.1-115-g864cb402d,mbrot:75:1000,1.311597
 
-real	0m1.149s
-user	0m1.133s
+real	0m1.320s
+user	0m1.296s
+sys	0m0.024s
+Running...
+Running mbrot:75:1000
+Elapsed time: 1.138062 seconds (1.138) for mbrot:75:1000
++!CSVLINE!+v0.18.1-115-g864cb402d,mbrot:75:1000,1.138062
+
+real	0m1.146s
+user	0m1.130s
 sys	0m0.016s
 Running...
 Running mbrot:75:1000
-Elapsed time: 1.311237 seconds (1.311) for mbrot:75:1000
-+!CSVLINE!+v0.18.1-115-g864cb402d,mbrot:75:1000,1.311237
+Elapsed time: 1.275597 seconds (1.276) for mbrot:75:1000
++!CSVLINE!+v0.18.1-115-g864cb402d,mbrot:75:1000,1.275597
 
-real	0m1.319s
-user	0m1.302s
-sys	0m0.016s
-Running...
-Running mbrot:75:1000
-Elapsed time: 1.183046 seconds (1.183) for mbrot:75:1000
-+!CSVLINE!+v0.18.1-115-g864cb402d,mbrot:75:1000,1.183046
-
-real	0m1.191s
-user	0m1.162s
-sys	0m0.028s
+real	0m1.284s
+user	0m1.251s
+sys	0m0.032s
 
 Testing mbrotZ under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -475,28 +475,28 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/mbrotZ.ss /tmp/larcenous/Gerbil-ty
 /tmp/larcenous/Gerbil-typed/mbrotZ.exe__exe.scm:
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 1.782999 seconds (1.783) for mbrotZ:75:1000
-+!CSVLINE!+v0.18.1-115-g864cb402d,mbrotZ:75:1000,1.782999
+Elapsed time: 1.763186 seconds (1.763) for mbrotZ:75:1000
++!CSVLINE!+v0.18.1-115-g864cb402d,mbrotZ:75:1000,1.763186
 
-real	0m1.791s
-user	0m1.763s
+real	0m1.771s
+user	0m1.747s
+sys	0m0.024s
+Running...
+Running mbrotZ:75:1000
+Elapsed time: 2.168681 seconds (2.169) for mbrotZ:75:1000
++!CSVLINE!+v0.18.1-115-g864cb402d,mbrotZ:75:1000,2.168681
+
+real	0m2.177s
+user	0m2.149s
 sys	0m0.028s
 Running...
 Running mbrotZ:75:1000
-Elapsed time: 1.77745 seconds (1.777) for mbrotZ:75:1000
-+!CSVLINE!+v0.18.1-115-g864cb402d,mbrotZ:75:1000,1.77745
+Elapsed time: 1.874567 seconds (1.875) for mbrotZ:75:1000
++!CSVLINE!+v0.18.1-115-g864cb402d,mbrotZ:75:1000,1.874567
 
-real	0m1.785s
-user	0m1.757s
-sys	0m0.028s
-Running...
-Running mbrotZ:75:1000
-Elapsed time: 1.779156 seconds (1.779) for mbrotZ:75:1000
-+!CSVLINE!+v0.18.1-115-g864cb402d,mbrotZ:75:1000,1.779156
-
-real	0m1.787s
-user	0m1.766s
-sys	0m0.020s
+real	0m1.882s
+user	0m1.857s
+sys	0m0.025s
 
 Testing nucleic under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -543,16 +543,34 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/pnpoly.ss /tmp/larcenous/Gerbil-ty
 Testing ray under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
 Including postlude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-postlude.ss
-cat: /home/vyzo/src/vyzo/r7rs-benchmarks/src/ray.ss: No such file or directory
 Compiling...
 gerbil_typed_comp /tmp/larcenous/Gerbil-typed/ray.ss /tmp/larcenous/Gerbil-typed/ray.exe
-*** ERROR IN __with-lock -- 
-*** ERROR IN "/tmp/larcenous/Gerbil-typed/ray.ss"@1.1-1.38
---- Syntax Error at (expand ray): Reference to unbound identifier
-... form:   (%#export (rename: run-benchmark main))
-... detail: (rename: run-benchmark main) at "/tmp/larcenous/Gerbil-typed/ray.ss"@1.9-1.37
-... detail: run-benchmark at "/tmp/larcenous/Gerbil-typed/ray.ss"@1.18-1.31
-+!CSVLINE!+gerbil-typed,ray,COMPILEERROR
+/tmp/larcenous/Gerbil-typed/static/ray.scm:
+/tmp/larcenous/Gerbil-typed/ray.exe__exe.scm:
+Running...
+Running ray:50
+Elapsed time: .379872 seconds (.38) for ray:50
++!CSVLINE!+v0.18.1-115-g864cb402d,ray:50,.379872
+
+real	0m0.388s
+user	0m0.352s
+sys	0m0.036s
+Running...
+Running ray:50
+Elapsed time: .37524 seconds (.375) for ray:50
++!CSVLINE!+v0.18.1-115-g864cb402d,ray:50,.37524
+
+real	0m0.385s
+user	0m0.350s
+sys	0m0.036s
+Running...
+Running ray:50
+Elapsed time: .377711 seconds (.378) for ray:50
++!CSVLINE!+v0.18.1-115-g864cb402d,ray:50,.377711
+
+real	0m0.386s
+user	0m0.357s
+sys	0m0.028s
 
 Testing simplex under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -661,27 +679,27 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/wc.ss /tmp/larcenous/Gerbil-typed/
 /tmp/larcenous/Gerbil-typed/wc.exe__exe.scm:
 Running...
 Running wc:inputs/bib:50
-Elapsed time: .850186 seconds (.85) for wc:inputs/bib:50
-+!CSVLINE!+v0.18.1-115-g864cb402d,wc:inputs/bib:50,.850186
+Elapsed time: .863637 seconds (.864) for wc:inputs/bib:50
++!CSVLINE!+v0.18.1-115-g864cb402d,wc:inputs/bib:50,.863637
 
-real	0m0.856s
+real	0m0.869s
+user	0m0.789s
+sys	0m0.080s
+Running...
+Running wc:inputs/bib:50
+Elapsed time: .86434 seconds (.864) for wc:inputs/bib:50
++!CSVLINE!+v0.18.1-115-g864cb402d,wc:inputs/bib:50,.86434
+
+real	0m0.869s
+user	0m0.789s
+sys	0m0.080s
+Running...
+Running wc:inputs/bib:50
+Elapsed time: .863069 seconds (.863) for wc:inputs/bib:50
++!CSVLINE!+v0.18.1-115-g864cb402d,wc:inputs/bib:50,.863069
+
+real	0m0.868s
 user	0m0.816s
-sys	0m0.040s
-Running...
-Running wc:inputs/bib:50
-Elapsed time: .851976 seconds (.852) for wc:inputs/bib:50
-+!CSVLINE!+v0.18.1-115-g864cb402d,wc:inputs/bib:50,.851976
-
-real	0m0.856s
-user	0m0.820s
-sys	0m0.036s
-Running...
-Running wc:inputs/bib:50
-Elapsed time: .84801 seconds (.848) for wc:inputs/bib:50
-+!CSVLINE!+v0.18.1-115-g864cb402d,wc:inputs/bib:50,.84801
-
-real	0m0.853s
-user	0m0.801s
 sys	0m0.052s
 
 Testing read1 under Gerbil-typed
@@ -749,28 +767,28 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/graphs.ss /tmp/larcenous/Gerbil-ty
 /tmp/larcenous/Gerbil-typed/graphs.exe__exe.scm:
 Running...
 Running graphs:7:3
-Elapsed time: 1.654176 seconds (1.654) for graphs:7:3
-+!CSVLINE!+v0.18.1-115-g864cb402d,graphs:7:3,1.654176
+Elapsed time: 1.722421 seconds (1.722) for graphs:7:3
++!CSVLINE!+v0.18.1-115-g864cb402d,graphs:7:3,1.722421
 
-real	0m1.675s
-user	0m1.595s
+real	0m1.743s
+user	0m1.663s
 sys	0m0.080s
 Running...
 Running graphs:7:3
-Elapsed time: 1.726322 seconds (1.726) for graphs:7:3
-+!CSVLINE!+v0.18.1-115-g864cb402d,graphs:7:3,1.726322
+Elapsed time: 1.658174 seconds (1.658) for graphs:7:3
++!CSVLINE!+v0.18.1-115-g864cb402d,graphs:7:3,1.658174
 
-real	0m1.747s
-user	0m1.642s
-sys	0m0.104s
+real	0m1.678s
+user	0m1.582s
+sys	0m0.096s
 Running...
 Running graphs:7:3
-Elapsed time: 1.65314 seconds (1.653) for graphs:7:3
-+!CSVLINE!+v0.18.1-115-g864cb402d,graphs:7:3,1.65314
+Elapsed time: 1.647979 seconds (1.648) for graphs:7:3
++!CSVLINE!+v0.18.1-115-g864cb402d,graphs:7:3,1.647979
 
-real	0m1.674s
-user	0m1.589s
-sys	0m0.084s
+real	0m1.667s
+user	0m1.567s
+sys	0m0.100s
 
 Testing lattice under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -781,28 +799,28 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/lattice.ss /tmp/larcenous/Gerbil-t
 /tmp/larcenous/Gerbil-typed/lattice.exe__exe.scm:
 Running...
 Running lattice:44:10
-Elapsed time: 2.048445 seconds (2.048) for lattice:44:10
-+!CSVLINE!+v0.18.1-115-g864cb402d,lattice:44:10,2.048445
+Elapsed time: 2.04733 seconds (2.047) for lattice:44:10
++!CSVLINE!+v0.18.1-115-g864cb402d,lattice:44:10,2.04733
 
-real	0m2.057s
-user	0m2.029s
-sys	0m0.028s
-Running...
-Running lattice:44:10
-Elapsed time: 2.071602 seconds (2.072) for lattice:44:10
-+!CSVLINE!+v0.18.1-115-g864cb402d,lattice:44:10,2.071602
-
-real	0m2.081s
-user	0m2.072s
-sys	0m0.008s
-Running...
-Running lattice:44:10
-Elapsed time: 2.063158 seconds (2.063) for lattice:44:10
-+!CSVLINE!+v0.18.1-115-g864cb402d,lattice:44:10,2.063158
-
-real	0m2.072s
-user	0m2.055s
+real	0m2.056s
+user	0m2.040s
 sys	0m0.016s
+Running...
+Running lattice:44:10
+Elapsed time: 2.047878 seconds (2.048) for lattice:44:10
++!CSVLINE!+v0.18.1-115-g864cb402d,lattice:44:10,2.047878
+
+real	0m2.056s
+user	0m2.032s
+sys	0m0.024s
+Running...
+Running lattice:44:10
+Elapsed time: 2.05458 seconds (2.055) for lattice:44:10
++!CSVLINE!+v0.18.1-115-g864cb402d,lattice:44:10,2.05458
+
+real	0m2.062s
+user	0m2.038s
+sys	0m0.024s
 
 Testing matrix under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -813,28 +831,28 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/matrix.ss /tmp/larcenous/Gerbil-ty
 /tmp/larcenous/Gerbil-typed/matrix.exe__exe.scm:
 Running...
 Running matrix:5:5:2500
-Elapsed time: .98985 seconds (.99) for matrix:5:5:2500
-+!CSVLINE!+v0.18.1-115-g864cb402d,matrix:5:5:2500,.98985
+Elapsed time: .971755 seconds (.972) for matrix:5:5:2500
++!CSVLINE!+v0.18.1-115-g864cb402d,matrix:5:5:2500,.971755
 
-real	0m0.998s
-user	0m0.961s
-sys	0m0.036s
-Running...
-Running matrix:5:5:2500
-Elapsed time: .985694 seconds (.986) for matrix:5:5:2500
-+!CSVLINE!+v0.18.1-115-g864cb402d,matrix:5:5:2500,.985694
-
-real	0m0.993s
-user	0m0.969s
+real	0m0.980s
+user	0m0.956s
 sys	0m0.024s
 Running...
 Running matrix:5:5:2500
-Elapsed time: .974805 seconds (.975) for matrix:5:5:2500
-+!CSVLINE!+v0.18.1-115-g864cb402d,matrix:5:5:2500,.974805
+Elapsed time: .969287 seconds (.969) for matrix:5:5:2500
++!CSVLINE!+v0.18.1-115-g864cb402d,matrix:5:5:2500,.969287
 
-real	0m0.983s
-user	0m0.959s
-sys	0m0.024s
+real	0m0.977s
+user	0m0.957s
+sys	0m0.020s
+Running...
+Running matrix:5:5:2500
+Elapsed time: .996328 seconds (.996) for matrix:5:5:2500
++!CSVLINE!+v0.18.1-115-g864cb402d,matrix:5:5:2500,.996328
+
+real	0m1.004s
+user	0m0.984s
+sys	0m0.020s
 
 Testing maze under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -873,28 +891,28 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/nqueens.ss /tmp/larcenous/Gerbil-t
 /tmp/larcenous/Gerbil-typed/nqueens.exe__exe.scm:
 Running...
 Running nqueens:13:10
-Elapsed time: 4.259795 seconds (4.26) for nqueens:13:10
-+!CSVLINE!+v0.18.1-115-g864cb402d,nqueens:13:10,4.259795
+Elapsed time: 4.269135 seconds (4.269) for nqueens:13:10
++!CSVLINE!+v0.18.1-115-g864cb402d,nqueens:13:10,4.269135
 
-real	0m4.268s
-user	0m4.252s
-sys	0m0.016s
+real	0m4.277s
+user	0m4.237s
+sys	0m0.040s
 Running...
 Running nqueens:13:10
-Elapsed time: 4.283645 seconds (4.284) for nqueens:13:10
-+!CSVLINE!+v0.18.1-115-g864cb402d,nqueens:13:10,4.283645
+Elapsed time: 4.258309 seconds (4.258) for nqueens:13:10
++!CSVLINE!+v0.18.1-115-g864cb402d,nqueens:13:10,4.258309
 
-real	0m4.291s
-user	0m4.275s
-sys	0m0.016s
-Running...
-Running nqueens:13:10
-Elapsed time: 4.285721 seconds (4.286) for nqueens:13:10
-+!CSVLINE!+v0.18.1-115-g864cb402d,nqueens:13:10,4.285721
-
-real	0m4.294s
-user	0m4.270s
+real	0m4.267s
+user	0m4.242s
 sys	0m0.024s
+Running...
+Running nqueens:13:10
+Elapsed time: 4.252204 seconds (4.252) for nqueens:13:10
++!CSVLINE!+v0.18.1-115-g864cb402d,nqueens:13:10,4.252204
+
+real	0m4.260s
+user	0m4.240s
+sys	0m0.020s
 
 Testing paraffins under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
@@ -961,28 +979,28 @@ gerbil_typed_comp /tmp/larcenous/Gerbil-typed/quicksort.ss /tmp/larcenous/Gerbil
 /tmp/larcenous/Gerbil-typed/quicksort.exe__exe.scm:
 Running...
 Running quicksort:10000:2500
-Elapsed time: 2.80661 seconds (2.807) for quicksort:10000:2500
-+!CSVLINE!+v0.18.1-115-g864cb402d,quicksort:10000:2500,2.80661
+Elapsed time: 2.796408 seconds (2.796) for quicksort:10000:2500
++!CSVLINE!+v0.18.1-115-g864cb402d,quicksort:10000:2500,2.796408
 
-real	0m2.820s
-user	0m2.712s
+real	0m2.809s
+user	0m2.705s
+sys	0m0.104s
+Running...
+Running quicksort:10000:2500
+Elapsed time: 2.820282 seconds (2.82) for quicksort:10000:2500
++!CSVLINE!+v0.18.1-115-g864cb402d,quicksort:10000:2500,2.820282
+
+real	0m2.834s
+user	0m2.725s
 sys	0m0.108s
 Running...
 Running quicksort:10000:2500
-Elapsed time: 2.78688 seconds (2.787) for quicksort:10000:2500
-+!CSVLINE!+v0.18.1-115-g864cb402d,quicksort:10000:2500,2.78688
+Elapsed time: 2.795854 seconds (2.796) for quicksort:10000:2500
++!CSVLINE!+v0.18.1-115-g864cb402d,quicksort:10000:2500,2.795854
 
-real	0m2.800s
-user	0m2.728s
-sys	0m0.072s
-Running...
-Running quicksort:10000:2500
-Elapsed time: 2.799038 seconds (2.799) for quicksort:10000:2500
-+!CSVLINE!+v0.18.1-115-g864cb402d,quicksort:10000:2500,2.799038
-
-real	0m2.813s
-user	0m2.704s
-sys	0m0.108s
+real	0m2.809s
+user	0m2.697s
+sys	0m0.112s
 
 Testing scheme under Gerbil-typed
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Gerbil-typed-prelude.ss
