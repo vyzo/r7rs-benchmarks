@@ -1,6 +1,6 @@
 
 ****************************
-Benchmarking Racket on Thu Apr 11 08:07:42 PM EEST 2024 under Linux dellicious 6.1.0-1034-oem #34-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 5 18:29:21 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+Benchmarking Racket on Thu Apr 18 09:09:45 AM EEST 2024 under Linux dellicious 6.1.0-1034-oem #34-Ubuntu SMP PREEMPT_DYNAMIC Mon Feb 5 18:29:21 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 
 Testing browse under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -10,29 +10,29 @@ raco make /tmp/larcenous/Racket/browse.scm
 Running...
 time racket /tmp/larcenous/Racket/browse.scm
 Running browse:2000
-Elapsed time: 1.814 seconds (1.814) for browse:2000
-+!CSVLINE!+racket-8.10/r7rs,browse:2000,1.814
+Elapsed time: 1.794 seconds (1.794) for browse:2000
++!CSVLINE!+racket-8.12/r7rs,browse:2000,1.794
 
-real	0m2.039s
-user	0m1.975s
-sys	0m0.064s
+real	0m2.025s
+user	0m1.973s
+sys	0m0.052s
 Running...
 time racket /tmp/larcenous/Racket/browse.scm
 Running browse:2000
-Elapsed time: 1.818 seconds (1.818) for browse:2000
-+!CSVLINE!+racket-8.10/r7rs,browse:2000,1.818
+Elapsed time: 1.826 seconds (1.826) for browse:2000
++!CSVLINE!+racket-8.12/r7rs,browse:2000,1.826
 
-real	0m2.046s
-user	0m1.978s
-sys	0m0.068s
+real	0m2.058s
+user	0m1.982s
+sys	0m0.076s
 Running...
 time racket /tmp/larcenous/Racket/browse.scm
 Running browse:2000
-Elapsed time: 1.821 seconds (1.82) for browse:2000
-+!CSVLINE!+racket-8.10/r7rs,browse:2000,1.821
+Elapsed time: 1.832 seconds (1.832) for browse:2000
++!CSVLINE!+racket-8.12/r7rs,browse:2000,1.832
 
-real	0m2.057s
-user	0m2.000s
+real	0m2.068s
+user	0m2.011s
 sys	0m0.056s
 
 Testing deriv under Racket
@@ -43,30 +43,30 @@ raco make /tmp/larcenous/Racket/deriv.scm
 Running...
 time racket /tmp/larcenous/Racket/deriv.scm
 Running deriv:10000000
-Elapsed time: 1.029 seconds (1.03) for deriv:10000000
-+!CSVLINE!+racket-8.10/r7rs,deriv:10000000,1.029
+Elapsed time: 1.143 seconds (1.143) for deriv:10000000
++!CSVLINE!+racket-8.12/r7rs,deriv:10000000,1.143
 
-real	0m1.261s
-user	0m1.193s
-sys	0m0.068s
+real	0m1.398s
+user	0m1.334s
+sys	0m0.064s
 Running...
 time racket /tmp/larcenous/Racket/deriv.scm
 Running deriv:10000000
-Elapsed time: 0.972 seconds (0.973) for deriv:10000000
-+!CSVLINE!+racket-8.10/r7rs,deriv:10000000,0.972
+Elapsed time: 1.182 seconds (1.182) for deriv:10000000
++!CSVLINE!+racket-8.12/r7rs,deriv:10000000,1.182
 
-real	0m1.201s
-user	0m1.121s
-sys	0m0.080s
+real	0m1.415s
+user	0m1.339s
+sys	0m0.076s
 Running...
 time racket /tmp/larcenous/Racket/deriv.scm
 Running deriv:10000000
-Elapsed time: 0.983 seconds (0.982) for deriv:10000000
-+!CSVLINE!+racket-8.10/r7rs,deriv:10000000,0.983
+Elapsed time: 1.163 seconds (1.163) for deriv:10000000
++!CSVLINE!+racket-8.12/r7rs,deriv:10000000,1.163
 
-real	0m1.211s
-user	0m1.131s
-sys	0m0.080s
+real	0m1.394s
+user	0m1.341s
+sys	0m0.052s
 
 Testing destruc under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -76,30 +76,30 @@ raco make /tmp/larcenous/Racket/destruc.scm
 Running...
 time racket /tmp/larcenous/Racket/destruc.scm
 Running destruc:600:50:4000
-Elapsed time: 2.177 seconds (2.177) for destruc:600:50:4000
-+!CSVLINE!+racket-8.10/r7rs,destruc:600:50:4000,2.177
+Elapsed time: 2.269 seconds (2.268) for destruc:600:50:4000
++!CSVLINE!+racket-8.12/r7rs,destruc:600:50:4000,2.269
 
-real	0m2.402s
-user	0m2.334s
+real	0m2.504s
+user	0m2.432s
+sys	0m0.072s
+Running...
+time racket /tmp/larcenous/Racket/destruc.scm
+Running destruc:600:50:4000
+Elapsed time: 2.3 seconds (2.301) for destruc:600:50:4000
++!CSVLINE!+racket-8.12/r7rs,destruc:600:50:4000,2.3
+
+real	0m2.571s
+user	0m2.511s
+sys	0m0.060s
+Running...
+time racket /tmp/larcenous/Racket/destruc.scm
+Running destruc:600:50:4000
+Elapsed time: 2.29 seconds (2.29) for destruc:600:50:4000
++!CSVLINE!+racket-8.12/r7rs,destruc:600:50:4000,2.29
+
+real	0m2.527s
+user	0m2.458s
 sys	0m0.068s
-Running...
-time racket /tmp/larcenous/Racket/destruc.scm
-Running destruc:600:50:4000
-Elapsed time: 2.14 seconds (2.14) for destruc:600:50:4000
-+!CSVLINE!+racket-8.10/r7rs,destruc:600:50:4000,2.14
-
-real	0m2.375s
-user	0m2.299s
-sys	0m0.076s
-Running...
-time racket /tmp/larcenous/Racket/destruc.scm
-Running destruc:600:50:4000
-Elapsed time: 2.205 seconds (2.205) for destruc:600:50:4000
-+!CSVLINE!+racket-8.10/r7rs,destruc:600:50:4000,2.205
-
-real	0m2.435s
-user	0m2.387s
-sys	0m0.048s
 
 Testing diviter under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -109,30 +109,30 @@ raco make /tmp/larcenous/Racket/diviter.scm
 Running...
 time racket /tmp/larcenous/Racket/diviter.scm
 Running diviter:1000:1000000
-Elapsed time: 2.189 seconds (2.189) for diviter:1000:1000000
-+!CSVLINE!+racket-8.10/r7rs,diviter:1000:1000000,2.189
+Elapsed time: 1.856 seconds (1.857) for diviter:1000:1000000
++!CSVLINE!+racket-8.12/r7rs,diviter:1000:1000000,1.856
 
-real	0m2.416s
-user	0m2.352s
-sys	0m0.064s
+real	0m2.081s
+user	0m2.021s
+sys	0m0.060s
 Running...
 time racket /tmp/larcenous/Racket/diviter.scm
 Running diviter:1000:1000000
-Elapsed time: 2.061 seconds (2.061) for diviter:1000:1000000
-+!CSVLINE!+racket-8.10/r7rs,diviter:1000:1000000,2.061
+Elapsed time: 2.098 seconds (2.098) for diviter:1000:1000000
++!CSVLINE!+racket-8.12/r7rs,diviter:1000:1000000,2.098
 
-real	0m2.298s
-user	0m2.246s
-sys	0m0.052s
+real	0m2.325s
+user	0m2.264s
+sys	0m0.060s
 Running...
 time racket /tmp/larcenous/Racket/diviter.scm
 Running diviter:1000:1000000
-Elapsed time: 2.204 seconds (2.204) for diviter:1000:1000000
-+!CSVLINE!+racket-8.10/r7rs,diviter:1000:1000000,2.204
+Elapsed time: 2.749 seconds (2.749) for diviter:1000:1000000
++!CSVLINE!+racket-8.12/r7rs,diviter:1000:1000000,2.749
 
-real	0m2.431s
-user	0m2.347s
-sys	0m0.084s
+real	0m2.986s
+user	0m2.941s
+sys	0m0.044s
 
 Testing divrec under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -142,30 +142,30 @@ raco make /tmp/larcenous/Racket/divrec.scm
 Running...
 time racket /tmp/larcenous/Racket/divrec.scm
 Running divrec:1000:1000000
-Elapsed time: 2.568 seconds (2.569) for divrec:1000:1000000
-+!CSVLINE!+racket-8.10/r7rs,divrec:1000:1000000,2.568
+Elapsed time: 2.636 seconds (2.636) for divrec:1000:1000000
++!CSVLINE!+racket-8.12/r7rs,divrec:1000:1000000,2.636
 
-real	0m2.794s
-user	0m2.750s
-sys	0m0.044s
+real	0m2.861s
+user	0m2.805s
+sys	0m0.056s
 Running...
 time racket /tmp/larcenous/Racket/divrec.scm
 Running divrec:1000:1000000
-Elapsed time: 2.511 seconds (2.51) for divrec:1000:1000000
-+!CSVLINE!+racket-8.10/r7rs,divrec:1000:1000000,2.511
+Elapsed time: 2.842 seconds (2.842) for divrec:1000:1000000
++!CSVLINE!+racket-8.12/r7rs,divrec:1000:1000000,2.842
 
-real	0m2.748s
-user	0m2.680s
+real	0m3.082s
+user	0m3.014s
 sys	0m0.068s
 Running...
 time racket /tmp/larcenous/Racket/divrec.scm
 Running divrec:1000:1000000
-Elapsed time: 2.715 seconds (2.715) for divrec:1000:1000000
-+!CSVLINE!+racket-8.10/r7rs,divrec:1000:1000000,2.715
+Elapsed time: 3.296 seconds (3.297) for divrec:1000:1000000
++!CSVLINE!+racket-8.12/r7rs,divrec:1000:1000000,3.296
 
-real	0m2.952s
-user	0m2.887s
-sys	0m0.064s
+real	0m3.534s
+user	0m3.486s
+sys	0m0.048s
 
 Testing puzzle under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -175,30 +175,30 @@ raco make /tmp/larcenous/Racket/puzzle.scm
 Running...
 time racket /tmp/larcenous/Racket/puzzle.scm
 Running puzzle:1000
-Elapsed time: 2.008 seconds (2.009) for puzzle:1000
-+!CSVLINE!+racket-8.10/r7rs,puzzle:1000,2.008
+Elapsed time: 1.988 seconds (1.988) for puzzle:1000
++!CSVLINE!+racket-8.12/r7rs,puzzle:1000,1.988
 
-real	0m2.240s
-user	0m2.172s
-sys	0m0.068s
-Running...
-time racket /tmp/larcenous/Racket/puzzle.scm
-Running puzzle:1000
-Elapsed time: 2.019 seconds (2.019) for puzzle:1000
-+!CSVLINE!+racket-8.10/r7rs,puzzle:1000,2.019
-
-real	0m2.259s
-user	0m2.182s
-sys	0m0.076s
-Running...
-time racket /tmp/larcenous/Racket/puzzle.scm
-Running puzzle:1000
-Elapsed time: 2.002 seconds (2.001) for puzzle:1000
-+!CSVLINE!+racket-8.10/r7rs,puzzle:1000,2.002
-
-real	0m2.243s
-user	0m2.182s
+real	0m2.218s
+user	0m2.158s
 sys	0m0.060s
+Running...
+time racket /tmp/larcenous/Racket/puzzle.scm
+Running puzzle:1000
+Elapsed time: 1.969 seconds (1.969) for puzzle:1000
++!CSVLINE!+racket-8.12/r7rs,puzzle:1000,1.969
+
+real	0m2.199s
+user	0m2.135s
+sys	0m0.064s
+Running...
+time racket /tmp/larcenous/Racket/puzzle.scm
+Running puzzle:1000
+Elapsed time: 1.972 seconds (1.971) for puzzle:1000
++!CSVLINE!+racket-8.12/r7rs,puzzle:1000,1.972
+
+real	0m2.207s
+user	0m2.142s
+sys	0m0.064s
 
 Testing triangl under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -208,30 +208,30 @@ raco make /tmp/larcenous/Racket/triangl.scm
 Running...
 time racket /tmp/larcenous/Racket/triangl.scm
 Running triangl:22:1:50
-Elapsed time: 1.627 seconds (1.626) for triangl:22:1:50
-+!CSVLINE!+racket-8.10/r7rs,triangl:22:1:50,1.627
+Elapsed time: 1.61 seconds (1.61) for triangl:22:1:50
++!CSVLINE!+racket-8.12/r7rs,triangl:22:1:50,1.61
 
-real	0m1.861s
-user	0m1.809s
-sys	0m0.052s
+real	0m1.841s
+user	0m1.777s
+sys	0m0.064s
 Running...
 time racket /tmp/larcenous/Racket/triangl.scm
 Running triangl:22:1:50
-Elapsed time: 1.627 seconds (1.627) for triangl:22:1:50
-+!CSVLINE!+racket-8.10/r7rs,triangl:22:1:50,1.627
+Elapsed time: 1.614 seconds (1.614) for triangl:22:1:50
++!CSVLINE!+racket-8.12/r7rs,triangl:22:1:50,1.614
 
-real	0m1.859s
-user	0m1.799s
-sys	0m0.060s
+real	0m1.851s
+user	0m1.794s
+sys	0m0.056s
 Running...
 time racket /tmp/larcenous/Racket/triangl.scm
 Running triangl:22:1:50
-Elapsed time: 1.618 seconds (1.618) for triangl:22:1:50
-+!CSVLINE!+racket-8.10/r7rs,triangl:22:1:50,1.618
+Elapsed time: 1.615 seconds (1.616) for triangl:22:1:50
++!CSVLINE!+racket-8.12/r7rs,triangl:22:1:50,1.615
 
-real	0m1.857s
-user	0m1.785s
-sys	0m0.072s
+real	0m1.849s
+user	0m1.765s
+sys	0m0.084s
 
 Testing tak under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -241,30 +241,30 @@ raco make /tmp/larcenous/Racket/tak.scm
 Running...
 time racket /tmp/larcenous/Racket/tak.scm
 Running tak:40:20:11:1
-Elapsed time: 1.197 seconds (1.197) for tak:40:20:11:1
-+!CSVLINE!+racket-8.10/r7rs,tak:40:20:11:1,1.197
+Elapsed time: 1.012 seconds (1.012) for tak:40:20:11:1
++!CSVLINE!+racket-8.12/r7rs,tak:40:20:11:1,1.012
 
-real	0m1.432s
-user	0m1.364s
-sys	0m0.068s
+real	0m1.243s
+user	0m1.167s
+sys	0m0.076s
 Running...
 time racket /tmp/larcenous/Racket/tak.scm
 Running tak:40:20:11:1
-Elapsed time: 1.19 seconds (1.19) for tak:40:20:11:1
-+!CSVLINE!+racket-8.10/r7rs,tak:40:20:11:1,1.19
+Elapsed time: 1.016 seconds (1.017) for tak:40:20:11:1
++!CSVLINE!+racket-8.12/r7rs,tak:40:20:11:1,1.016
 
-real	0m1.428s
-user	0m1.364s
-sys	0m0.064s
+real	0m1.248s
+user	0m1.196s
+sys	0m0.052s
 Running...
 time racket /tmp/larcenous/Racket/tak.scm
 Running tak:40:20:11:1
-Elapsed time: 1.206 seconds (1.206) for tak:40:20:11:1
-+!CSVLINE!+racket-8.10/r7rs,tak:40:20:11:1,1.206
+Elapsed time: 1.016 seconds (1.016) for tak:40:20:11:1
++!CSVLINE!+racket-8.12/r7rs,tak:40:20:11:1,1.016
 
-real	0m1.435s
-user	0m1.367s
-sys	0m0.068s
+real	0m1.251s
+user	0m1.203s
+sys	0m0.048s
 
 Testing takl under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -274,30 +274,30 @@ raco make /tmp/larcenous/Racket/takl.scm
 Running...
 time racket /tmp/larcenous/Racket/takl.scm
 Running takl:40:20:12:1
-Elapsed time: 3.01 seconds (3.01) for takl:40:20:12:1
-+!CSVLINE!+racket-8.10/r7rs,takl:40:20:12:1,3.01
+Elapsed time: 3.018 seconds (3.018) for takl:40:20:12:1
++!CSVLINE!+racket-8.12/r7rs,takl:40:20:12:1,3.018
 
-real	0m3.237s
-user	0m3.165s
-sys	0m0.072s
+real	0m3.243s
+user	0m3.183s
+sys	0m0.060s
 Running...
 time racket /tmp/larcenous/Racket/takl.scm
 Running takl:40:20:12:1
-Elapsed time: 3.048 seconds (3.048) for takl:40:20:12:1
-+!CSVLINE!+racket-8.10/r7rs,takl:40:20:12:1,3.048
+Elapsed time: 3.041 seconds (3.041) for takl:40:20:12:1
++!CSVLINE!+racket-8.12/r7rs,takl:40:20:12:1,3.041
 
-real	0m3.286s
-user	0m3.214s
-sys	0m0.072s
+real	0m3.278s
+user	0m3.226s
+sys	0m0.052s
 Running...
 time racket /tmp/larcenous/Racket/takl.scm
 Running takl:40:20:12:1
-Elapsed time: 3.05 seconds (3.05) for takl:40:20:12:1
-+!CSVLINE!+racket-8.10/r7rs,takl:40:20:12:1,3.05
+Elapsed time: 3.082 seconds (3.083) for takl:40:20:12:1
++!CSVLINE!+racket-8.12/r7rs,takl:40:20:12:1,3.082
 
-real	0m3.288s
-user	0m3.204s
-sys	0m0.084s
+real	0m3.319s
+user	0m3.255s
+sys	0m0.064s
 
 Testing ntakl under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -307,30 +307,30 @@ raco make /tmp/larcenous/Racket/ntakl.scm
 Running...
 time racket /tmp/larcenous/Racket/ntakl.scm
 Running ntakl:40:20:12:1
-Elapsed time: 3.06 seconds (3.06) for ntakl:40:20:12:1
-+!CSVLINE!+racket-8.10/r7rs,ntakl:40:20:12:1,3.06
+Elapsed time: 3.088 seconds (3.088) for ntakl:40:20:12:1
++!CSVLINE!+racket-8.12/r7rs,ntakl:40:20:12:1,3.088
 
-real	0m3.292s
-user	0m3.236s
+real	0m3.317s
+user	0m3.269s
+sys	0m0.048s
+Running...
+time racket /tmp/larcenous/Racket/ntakl.scm
+Running ntakl:40:20:12:1
+Elapsed time: 3.091 seconds (3.092) for ntakl:40:20:12:1
++!CSVLINE!+racket-8.12/r7rs,ntakl:40:20:12:1,3.091
+
+real	0m3.328s
+user	0m3.272s
 sys	0m0.056s
 Running...
 time racket /tmp/larcenous/Racket/ntakl.scm
 Running ntakl:40:20:12:1
-Elapsed time: 3.071 seconds (3.072) for ntakl:40:20:12:1
-+!CSVLINE!+racket-8.10/r7rs,ntakl:40:20:12:1,3.071
+Elapsed time: 3.068 seconds (3.067) for ntakl:40:20:12:1
++!CSVLINE!+racket-8.12/r7rs,ntakl:40:20:12:1,3.068
 
-real	0m3.307s
-user	0m3.250s
-sys	0m0.056s
-Running...
-time racket /tmp/larcenous/Racket/ntakl.scm
-Running ntakl:40:20:12:1
-Elapsed time: 3.026 seconds (3.026) for ntakl:40:20:12:1
-+!CSVLINE!+racket-8.10/r7rs,ntakl:40:20:12:1,3.026
-
-real	0m3.254s
-user	0m3.198s
-sys	0m0.056s
+real	0m3.294s
+user	0m3.233s
+sys	0m0.060s
 
 Testing cpstak under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -340,30 +340,30 @@ raco make /tmp/larcenous/Racket/cpstak.scm
 Running...
 time racket /tmp/larcenous/Racket/cpstak.scm
 Running cpstak:40:20:11:1
-Elapsed time: 2.611 seconds (2.611) for cpstak:40:20:11:1
-+!CSVLINE!+racket-8.10/r7rs,cpstak:40:20:11:1,2.611
+Elapsed time: 2.596 seconds (2.596) for cpstak:40:20:11:1
++!CSVLINE!+racket-8.12/r7rs,cpstak:40:20:11:1,2.596
 
-real	0m2.839s
-user	0m2.783s
-sys	0m0.056s
+real	0m2.819s
+user	0m2.735s
+sys	0m0.084s
 Running...
 time racket /tmp/larcenous/Racket/cpstak.scm
 Running cpstak:40:20:11:1
-Elapsed time: 2.599 seconds (2.599) for cpstak:40:20:11:1
-+!CSVLINE!+racket-8.10/r7rs,cpstak:40:20:11:1,2.599
+Elapsed time: 2.624 seconds (2.624) for cpstak:40:20:11:1
++!CSVLINE!+racket-8.12/r7rs,cpstak:40:20:11:1,2.624
 
-real	0m2.827s
-user	0m2.759s
+real	0m2.854s
+user	0m2.785s
 sys	0m0.068s
 Running...
 time racket /tmp/larcenous/Racket/cpstak.scm
 Running cpstak:40:20:11:1
-Elapsed time: 2.583 seconds (2.583) for cpstak:40:20:11:1
-+!CSVLINE!+racket-8.10/r7rs,cpstak:40:20:11:1,2.583
+Elapsed time: 2.643 seconds (2.643) for cpstak:40:20:11:1
++!CSVLINE!+racket-8.12/r7rs,cpstak:40:20:11:1,2.643
 
-real	0m2.814s
-user	0m2.734s
-sys	0m0.080s
+real	0m2.884s
+user	0m2.828s
+sys	0m0.056s
 
 Testing ctak under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -373,30 +373,30 @@ raco make /tmp/larcenous/Racket/ctak.scm
 Running...
 time racket /tmp/larcenous/Racket/ctak.scm
 Running ctak:32:16:8:1
-Elapsed time: 1.397 seconds (1.397) for ctak:32:16:8:1
-+!CSVLINE!+racket-8.10/r7rs,ctak:32:16:8:1,1.397
+Elapsed time: 1.437 seconds (1.437) for ctak:32:16:8:1
++!CSVLINE!+racket-8.12/r7rs,ctak:32:16:8:1,1.437
 
-real	0m1.625s
-user	0m1.532s
-sys	0m0.092s
-Running...
-time racket /tmp/larcenous/Racket/ctak.scm
-Running ctak:32:16:8:1
-Elapsed time: 1.411 seconds (1.411) for ctak:32:16:8:1
-+!CSVLINE!+racket-8.10/r7rs,ctak:32:16:8:1,1.411
-
-real	0m1.638s
-user	0m1.578s
+real	0m1.667s
+user	0m1.607s
 sys	0m0.060s
 Running...
 time racket /tmp/larcenous/Racket/ctak.scm
 Running ctak:32:16:8:1
-Elapsed time: 1.43 seconds (1.431) for ctak:32:16:8:1
-+!CSVLINE!+racket-8.10/r7rs,ctak:32:16:8:1,1.43
+Elapsed time: 1.423 seconds (1.423) for ctak:32:16:8:1
++!CSVLINE!+racket-8.12/r7rs,ctak:32:16:8:1,1.423
 
-real	0m1.671s
-user	0m1.619s
-sys	0m0.052s
+real	0m1.654s
+user	0m1.589s
+sys	0m0.064s
+Running...
+time racket /tmp/larcenous/Racket/ctak.scm
+Running ctak:32:16:8:1
+Elapsed time: 1.475 seconds (1.475) for ctak:32:16:8:1
++!CSVLINE!+racket-8.12/r7rs,ctak:32:16:8:1,1.475
+
+real	0m1.706s
+user	0m1.665s
+sys	0m0.040s
 
 Testing fib under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -406,29 +406,29 @@ raco make /tmp/larcenous/Racket/fib.scm
 Running...
 time racket /tmp/larcenous/Racket/fib.scm
 Running fib:40:5
-Elapsed time: 2.586 seconds (2.586) for fib:40:5
-+!CSVLINE!+racket-8.10/r7rs,fib:40:5,2.586
+Elapsed time: 2.623 seconds (2.623) for fib:40:5
++!CSVLINE!+racket-8.12/r7rs,fib:40:5,2.623
 
-real	0m2.816s
-user	0m2.747s
-sys	0m0.068s
+real	0m2.854s
+user	0m2.802s
+sys	0m0.052s
 Running...
 time racket /tmp/larcenous/Racket/fib.scm
 Running fib:40:5
-Elapsed time: 2.59 seconds (2.59) for fib:40:5
-+!CSVLINE!+racket-8.10/r7rs,fib:40:5,2.59
+Elapsed time: 2.636 seconds (2.636) for fib:40:5
++!CSVLINE!+racket-8.12/r7rs,fib:40:5,2.636
 
-real	0m2.820s
-user	0m2.756s
-sys	0m0.064s
+real	0m2.871s
+user	0m2.815s
+sys	0m0.056s
 Running...
 time racket /tmp/larcenous/Racket/fib.scm
 Running fib:40:5
-Elapsed time: 2.589 seconds (2.589) for fib:40:5
-+!CSVLINE!+racket-8.10/r7rs,fib:40:5,2.589
+Elapsed time: 2.876 seconds (2.876) for fib:40:5
++!CSVLINE!+racket-8.12/r7rs,fib:40:5,2.876
 
-real	0m2.829s
-user	0m2.765s
+real	0m3.136s
+user	0m3.071s
 sys	0m0.064s
 
 Testing fibc under Racket
@@ -439,30 +439,30 @@ raco make /tmp/larcenous/Racket/fibc.scm
 Running...
 time racket /tmp/larcenous/Racket/fibc.scm
 Running fibc:30:10
-Elapsed time: 0.932 seconds (0.933) for fibc:30:10
-+!CSVLINE!+racket-8.10/r7rs,fibc:30:10,0.932
+Elapsed time: 0.968 seconds (0.968) for fibc:30:10
++!CSVLINE!+racket-8.12/r7rs,fibc:30:10,0.968
 
-real	0m1.163s
-user	0m1.095s
+real	0m1.195s
+user	0m1.127s
 sys	0m0.068s
 Running...
 time racket /tmp/larcenous/Racket/fibc.scm
 Running fibc:30:10
-Elapsed time: 0.935 seconds (0.935) for fibc:30:10
-+!CSVLINE!+racket-8.10/r7rs,fibc:30:10,0.935
+Elapsed time: 0.957 seconds (0.957) for fibc:30:10
++!CSVLINE!+racket-8.12/r7rs,fibc:30:10,0.957
 
-real	0m1.169s
-user	0m1.105s
-sys	0m0.064s
+real	0m1.181s
+user	0m1.133s
+sys	0m0.048s
 Running...
 time racket /tmp/larcenous/Racket/fibc.scm
 Running fibc:30:10
-Elapsed time: 0.943 seconds (0.942) for fibc:30:10
-+!CSVLINE!+racket-8.10/r7rs,fibc:30:10,0.943
+Elapsed time: 0.969 seconds (0.968) for fibc:30:10
++!CSVLINE!+racket-8.12/r7rs,fibc:30:10,0.969
 
-real	0m1.181s
-user	0m1.124s
-sys	0m0.056s
+real	0m1.200s
+user	0m1.140s
+sys	0m0.060s
 
 Testing fibfp under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -472,30 +472,30 @@ raco make /tmp/larcenous/Racket/fibfp.scm
 Running...
 time racket /tmp/larcenous/Racket/fibfp.scm
 Running fibfp:35.0:10
-Elapsed time: 1.926 seconds (1.926) for fibfp:35.0:10
-+!CSVLINE!+racket-8.10/r7rs,fibfp:35.0:10,1.926
+Elapsed time: 2.042 seconds (2.043) for fibfp:35.0:10
++!CSVLINE!+racket-8.12/r7rs,fibfp:35.0:10,2.042
 
-real	0m2.160s
-user	0m2.092s
-sys	0m0.068s
+real	0m2.267s
+user	0m2.222s
+sys	0m0.044s
 Running...
 time racket /tmp/larcenous/Racket/fibfp.scm
 Running fibfp:35.0:10
-Elapsed time: 2.095 seconds (2.095) for fibfp:35.0:10
-+!CSVLINE!+racket-8.10/r7rs,fibfp:35.0:10,2.095
+Elapsed time: 1.93 seconds (1.93) for fibfp:35.0:10
++!CSVLINE!+racket-8.12/r7rs,fibfp:35.0:10,1.93
 
-real	0m2.323s
-user	0m2.266s
-sys	0m0.056s
+real	0m2.163s
+user	0m2.119s
+sys	0m0.044s
 Running...
 time racket /tmp/larcenous/Racket/fibfp.scm
 Running fibfp:35.0:10
-Elapsed time: 2.032 seconds (2.031) for fibfp:35.0:10
-+!CSVLINE!+racket-8.10/r7rs,fibfp:35.0:10,2.032
+Elapsed time: 2.006 seconds (2.006) for fibfp:35.0:10
++!CSVLINE!+racket-8.12/r7rs,fibfp:35.0:10,2.006
 
-real	0m2.260s
-user	0m2.196s
-sys	0m0.064s
+real	0m2.237s
+user	0m2.189s
+sys	0m0.048s
 
 Testing sum under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -505,30 +505,30 @@ raco make /tmp/larcenous/Racket/sum.scm
 Running...
 time racket /tmp/larcenous/Racket/sum.scm
 Running sum:10000:200000
-Elapsed time: 2.102 seconds (2.102) for sum:10000:200000
-+!CSVLINE!+racket-8.10/r7rs,sum:10000:200000,2.102
+Elapsed time: 2.071 seconds (2.072) for sum:10000:200000
++!CSVLINE!+racket-8.12/r7rs,sum:10000:200000,2.071
 
-real	0m2.337s
-user	0m2.297s
-sys	0m0.040s
+real	0m2.295s
+user	0m2.234s
+sys	0m0.060s
 Running...
 time racket /tmp/larcenous/Racket/sum.scm
 Running sum:10000:200000
-Elapsed time: 2.024 seconds (2.025) for sum:10000:200000
-+!CSVLINE!+racket-8.10/r7rs,sum:10000:200000,2.024
+Elapsed time: 2.049 seconds (2.049) for sum:10000:200000
++!CSVLINE!+racket-8.12/r7rs,sum:10000:200000,2.049
 
-real	0m2.262s
-user	0m2.185s
+real	0m2.280s
+user	0m2.216s
+sys	0m0.064s
+Running...
+time racket /tmp/larcenous/Racket/sum.scm
+Running sum:10000:200000
+Elapsed time: 2.054 seconds (2.054) for sum:10000:200000
++!CSVLINE!+racket-8.12/r7rs,sum:10000:200000,2.054
+
+real	0m2.285s
+user	0m2.209s
 sys	0m0.076s
-Running...
-time racket /tmp/larcenous/Racket/sum.scm
-Running sum:10000:200000
-Elapsed time: 2.081 seconds (2.082) for sum:10000:200000
-+!CSVLINE!+racket-8.10/r7rs,sum:10000:200000,2.081
-
-real	0m2.318s
-user	0m2.261s
-sys	0m0.056s
 
 Testing sumfp under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -538,30 +538,30 @@ raco make /tmp/larcenous/Racket/sumfp.scm
 Running...
 time racket /tmp/larcenous/Racket/sumfp.scm
 Running sumfp:1000000.0:500
-Elapsed time: 2.294 seconds (2.294) for sumfp:1000000.0:500
-+!CSVLINE!+racket-8.10/r7rs,sumfp:1000000.0:500,2.294
+Elapsed time: 2.308 seconds (2.308) for sumfp:1000000.0:500
++!CSVLINE!+racket-8.12/r7rs,sumfp:1000000.0:500,2.308
 
-real	0m2.527s
-user	0m2.463s
-sys	0m0.064s
+real	0m2.538s
+user	0m2.469s
+sys	0m0.068s
 Running...
 time racket /tmp/larcenous/Racket/sumfp.scm
 Running sumfp:1000000.0:500
-Elapsed time: 2.3 seconds (2.3) for sumfp:1000000.0:500
-+!CSVLINE!+racket-8.10/r7rs,sumfp:1000000.0:500,2.3
+Elapsed time: 2.285 seconds (2.286) for sumfp:1000000.0:500
++!CSVLINE!+racket-8.12/r7rs,sumfp:1000000.0:500,2.285
 
-real	0m2.537s
-user	0m2.473s
-sys	0m0.064s
+real	0m2.520s
+user	0m2.459s
+sys	0m0.060s
 Running...
 time racket /tmp/larcenous/Racket/sumfp.scm
 Running sumfp:1000000.0:500
-Elapsed time: 2.423 seconds (2.424) for sumfp:1000000.0:500
-+!CSVLINE!+racket-8.10/r7rs,sumfp:1000000.0:500,2.423
+Elapsed time: 2.281 seconds (2.281) for sumfp:1000000.0:500
++!CSVLINE!+racket-8.12/r7rs,sumfp:1000000.0:500,2.281
 
-real	0m2.662s
-user	0m2.581s
-sys	0m0.080s
+real	0m2.514s
+user	0m2.429s
+sys	0m0.084s
 
 Testing fft under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -571,30 +571,30 @@ raco make /tmp/larcenous/Racket/fft.scm
 Running...
 time racket /tmp/larcenous/Racket/fft.scm
 Running fft:65536:100
-Elapsed time: 1.281 seconds (1.281) for fft:65536:100
-+!CSVLINE!+racket-8.10/r7rs,fft:65536:100,1.281
+Elapsed time: 1.252 seconds (1.252) for fft:65536:100
++!CSVLINE!+racket-8.12/r7rs,fft:65536:100,1.252
 
-real	0m1.509s
-user	0m1.465s
-sys	0m0.044s
+real	0m1.473s
+user	0m1.409s
+sys	0m0.064s
 Running...
 time racket /tmp/larcenous/Racket/fft.scm
 Running fft:65536:100
-Elapsed time: 1.299 seconds (1.299) for fft:65536:100
-+!CSVLINE!+racket-8.10/r7rs,fft:65536:100,1.299
+Elapsed time: 1.27 seconds (1.27) for fft:65536:100
++!CSVLINE!+racket-8.12/r7rs,fft:65536:100,1.27
 
-real	0m1.535s
-user	0m1.475s
-sys	0m0.060s
+real	0m1.494s
+user	0m1.445s
+sys	0m0.048s
 Running...
 time racket /tmp/larcenous/Racket/fft.scm
 Running fft:65536:100
-Elapsed time: 1.277 seconds (1.277) for fft:65536:100
-+!CSVLINE!+racket-8.10/r7rs,fft:65536:100,1.277
+Elapsed time: 1.287 seconds (1.288) for fft:65536:100
++!CSVLINE!+racket-8.12/r7rs,fft:65536:100,1.287
 
-real	0m1.506s
-user	0m1.450s
-sys	0m0.056s
+real	0m1.512s
+user	0m1.444s
+sys	0m0.068s
 
 Testing mbrot under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -604,30 +604,30 @@ raco make /tmp/larcenous/Racket/mbrot.scm
 Running...
 time racket /tmp/larcenous/Racket/mbrot.scm
 Running mbrot:75:1000
-Elapsed time: 3.699 seconds (3.699) for mbrot:75:1000
-+!CSVLINE!+racket-8.10/r7rs,mbrot:75:1000,3.699
+Elapsed time: 3.915 seconds (3.915) for mbrot:75:1000
++!CSVLINE!+racket-8.12/r7rs,mbrot:75:1000,3.915
 
-real	0m3.935s
-user	0m3.863s
-sys	0m0.072s
+real	0m4.144s
+user	0m4.095s
+sys	0m0.048s
 Running...
 time racket /tmp/larcenous/Racket/mbrot.scm
 Running mbrot:75:1000
-Elapsed time: 3.762 seconds (3.762) for mbrot:75:1000
-+!CSVLINE!+racket-8.10/r7rs,mbrot:75:1000,3.762
+Elapsed time: 3.679 seconds (3.679) for mbrot:75:1000
++!CSVLINE!+racket-8.12/r7rs,mbrot:75:1000,3.679
 
-real	0m3.999s
-user	0m3.919s
-sys	0m0.080s
+real	0m3.910s
+user	0m3.853s
+sys	0m0.056s
 Running...
 time racket /tmp/larcenous/Racket/mbrot.scm
 Running mbrot:75:1000
-Elapsed time: 3.699 seconds (3.699) for mbrot:75:1000
-+!CSVLINE!+racket-8.10/r7rs,mbrot:75:1000,3.699
+Elapsed time: 3.733 seconds (3.733) for mbrot:75:1000
++!CSVLINE!+racket-8.12/r7rs,mbrot:75:1000,3.733
 
-real	0m3.930s
-user	0m3.846s
-sys	0m0.084s
+real	0m3.964s
+user	0m3.899s
+sys	0m0.064s
 
 Testing mbrotZ under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -637,30 +637,30 @@ raco make /tmp/larcenous/Racket/mbrotZ.scm
 Running...
 time racket /tmp/larcenous/Racket/mbrotZ.scm
 Running mbrotZ:75:1000
-Elapsed time: 3.453 seconds (3.454) for mbrotZ:75:1000
-+!CSVLINE!+racket-8.10/r7rs,mbrotZ:75:1000,3.453
+Elapsed time: 3.466 seconds (3.466) for mbrotZ:75:1000
++!CSVLINE!+racket-8.12/r7rs,mbrotZ:75:1000,3.466
 
-real	0m3.688s
-user	0m3.616s
-sys	0m0.072s
+real	0m3.695s
+user	0m3.646s
+sys	0m0.048s
 Running...
 time racket /tmp/larcenous/Racket/mbrotZ.scm
 Running mbrotZ:75:1000
-Elapsed time: 3.396 seconds (3.397) for mbrotZ:75:1000
-+!CSVLINE!+racket-8.10/r7rs,mbrotZ:75:1000,3.396
+Elapsed time: 3.495 seconds (3.496) for mbrotZ:75:1000
++!CSVLINE!+racket-8.12/r7rs,mbrotZ:75:1000,3.495
 
-real	0m3.637s
-user	0m3.577s
-sys	0m0.060s
+real	0m3.725s
+user	0m3.672s
+sys	0m0.052s
 Running...
 time racket /tmp/larcenous/Racket/mbrotZ.scm
 Running mbrotZ:75:1000
-Elapsed time: 3.483 seconds (3.484) for mbrotZ:75:1000
-+!CSVLINE!+racket-8.10/r7rs,mbrotZ:75:1000,3.483
+Elapsed time: 3.438 seconds (3.438) for mbrotZ:75:1000
++!CSVLINE!+racket-8.12/r7rs,mbrotZ:75:1000,3.438
 
-real	0m3.721s
-user	0m3.653s
-sys	0m0.068s
+real	0m3.670s
+user	0m3.617s
+sys	0m0.052s
 
 Testing nucleic under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -670,30 +670,30 @@ raco make /tmp/larcenous/Racket/nucleic.scm
 Running...
 time racket /tmp/larcenous/Racket/nucleic.scm
 Running nucleic:50
-Elapsed time: 1.384 seconds (1.383) for nucleic:50
-+!CSVLINE!+racket-8.10/r7rs,nucleic:50,1.384
+Elapsed time: 1.413 seconds (1.412) for nucleic:50
++!CSVLINE!+racket-8.12/r7rs,nucleic:50,1.413
 
-real	0m1.617s
-user	0m1.568s
-sys	0m0.049s
+real	0m1.642s
+user	0m1.590s
+sys	0m0.052s
 Running...
 time racket /tmp/larcenous/Racket/nucleic.scm
 Running nucleic:50
-Elapsed time: 1.372 seconds (1.371) for nucleic:50
-+!CSVLINE!+racket-8.10/r7rs,nucleic:50,1.372
+Elapsed time: 1.4 seconds (1.4) for nucleic:50
++!CSVLINE!+racket-8.12/r7rs,nucleic:50,1.4
 
-real	0m1.603s
-user	0m1.531s
-sys	0m0.072s
+real	0m1.635s
+user	0m1.583s
+sys	0m0.052s
 Running...
 time racket /tmp/larcenous/Racket/nucleic.scm
 Running nucleic:50
-Elapsed time: 1.395 seconds (1.395) for nucleic:50
-+!CSVLINE!+racket-8.10/r7rs,nucleic:50,1.395
+Elapsed time: 1.41 seconds (1.41) for nucleic:50
++!CSVLINE!+racket-8.12/r7rs,nucleic:50,1.41
 
-real	0m1.634s
-user	0m1.553s
-sys	0m0.080s
+real	0m1.644s
+user	0m1.584s
+sys	0m0.060s
 
 Testing pi under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -703,29 +703,29 @@ raco make /tmp/larcenous/Racket/pi.scm
 Running...
 time racket /tmp/larcenous/Racket/pi.scm
 Running pi:50:500:50:100
-Elapsed time: 0.476 seconds (0.476) for pi:50:500:50:100
-+!CSVLINE!+racket-8.10/r7rs,pi:50:500:50:100,0.476
+Elapsed time: 0.458 seconds (0.458) for pi:50:500:50:100
++!CSVLINE!+racket-8.12/r7rs,pi:50:500:50:100,0.458
 
-real	0m0.716s
-user	0m0.648s
-sys	0m0.068s
+real	0m0.720s
+user	0m0.636s
+sys	0m0.084s
 Running...
 time racket /tmp/larcenous/Racket/pi.scm
 Running pi:50:500:50:100
-Elapsed time: 0.479 seconds (0.479) for pi:50:500:50:100
-+!CSVLINE!+racket-8.10/r7rs,pi:50:500:50:100,0.479
+Elapsed time: 0.453 seconds (0.453) for pi:50:500:50:100
++!CSVLINE!+racket-8.12/r7rs,pi:50:500:50:100,0.453
 
-real	0m0.715s
-user	0m0.651s
-sys	0m0.064s
+real	0m0.681s
+user	0m0.645s
+sys	0m0.036s
 Running...
 time racket /tmp/larcenous/Racket/pi.scm
 Running pi:50:500:50:100
-Elapsed time: 0.477 seconds (0.476) for pi:50:500:50:100
-+!CSVLINE!+racket-8.10/r7rs,pi:50:500:50:100,0.477
+Elapsed time: 0.453 seconds (0.453) for pi:50:500:50:100
++!CSVLINE!+racket-8.12/r7rs,pi:50:500:50:100,0.453
 
-real	0m0.710s
-user	0m0.654s
+real	0m0.687s
+user	0m0.630s
 sys	0m0.056s
 
 Testing pnpoly under Racket
@@ -736,30 +736,30 @@ raco make /tmp/larcenous/Racket/pnpoly.scm
 Running...
 time racket /tmp/larcenous/Racket/pnpoly.scm
 Running pnpoly:1000000
-Elapsed time: 3.265 seconds (3.264) for pnpoly:1000000
-+!CSVLINE!+racket-8.10/r7rs,pnpoly:1000000,3.265
+Elapsed time: 3.357 seconds (3.358) for pnpoly:1000000
++!CSVLINE!+racket-8.12/r7rs,pnpoly:1000000,3.357
 
-real	0m3.496s
-user	0m3.416s
-sys	0m0.080s
+real	0m3.587s
+user	0m3.526s
+sys	0m0.060s
 Running...
 time racket /tmp/larcenous/Racket/pnpoly.scm
 Running pnpoly:1000000
-Elapsed time: 3.369 seconds (3.369) for pnpoly:1000000
-+!CSVLINE!+racket-8.10/r7rs,pnpoly:1000000,3.369
+Elapsed time: 3.332 seconds (3.331) for pnpoly:1000000
++!CSVLINE!+racket-8.12/r7rs,pnpoly:1000000,3.332
 
-real	0m3.609s
-user	0m3.545s
-sys	0m0.064s
+real	0m3.556s
+user	0m3.499s
+sys	0m0.056s
 Running...
 time racket /tmp/larcenous/Racket/pnpoly.scm
 Running pnpoly:1000000
-Elapsed time: 3.387 seconds (3.387) for pnpoly:1000000
-+!CSVLINE!+racket-8.10/r7rs,pnpoly:1000000,3.387
+Elapsed time: 3.614 seconds (3.614) for pnpoly:1000000
++!CSVLINE!+racket-8.12/r7rs,pnpoly:1000000,3.614
 
-real	0m3.617s
-user	0m3.529s
-sys	0m0.088s
+real	0m3.846s
+user	0m3.797s
+sys	0m0.048s
 
 Testing ray under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -769,30 +769,30 @@ raco make /tmp/larcenous/Racket/ray.scm
 Running...
 time racket /tmp/larcenous/Racket/ray.scm
 Running ray:50
-Elapsed time: 7.51 seconds (7.51) for ray:50
-+!CSVLINE!+racket-8.10/r7rs,ray:50,7.51
+Elapsed time: 7.587 seconds (7.587) for ray:50
++!CSVLINE!+racket-8.12/r7rs,ray:50,7.587
 
-real	0m7.756s
-user	0m7.627s
+real	0m7.818s
+user	0m7.689s
 sys	0m0.128s
 Running...
 time racket /tmp/larcenous/Racket/ray.scm
 Running ray:50
-Elapsed time: 7.512 seconds (7.512) for ray:50
-+!CSVLINE!+racket-8.10/r7rs,ray:50,7.512
+Elapsed time: 7.642 seconds (7.642) for ray:50
++!CSVLINE!+racket-8.12/r7rs,ray:50,7.642
 
-real	0m7.748s
-user	0m7.623s
-sys	0m0.124s
+real	0m7.878s
+user	0m7.785s
+sys	0m0.170s
 Running...
 time racket /tmp/larcenous/Racket/ray.scm
 Running ray:50
-Elapsed time: 7.62 seconds (7.62) for ray:50
-+!CSVLINE!+racket-8.10/r7rs,ray:50,7.62
+Elapsed time: 7.634 seconds (7.634) for ray:50
++!CSVLINE!+racket-8.12/r7rs,ray:50,7.634
 
-real	0m7.854s
-user	0m7.723s
-sys	0m0.120s
+real	0m7.870s
+user	0m7.787s
+sys	0m0.195s
 
 Testing simplex under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -802,30 +802,30 @@ raco make /tmp/larcenous/Racket/simplex.scm
 Running...
 time racket /tmp/larcenous/Racket/simplex.scm
 Running simplex:1000000
-Elapsed time: 1.643 seconds (1.644) for simplex:1000000
-+!CSVLINE!+racket-8.10/r7rs,simplex:1000000,1.643
-
-real	0m1.880s
-user	0m1.816s
-sys	0m0.064s
-Running...
-time racket /tmp/larcenous/Racket/simplex.scm
-Running simplex:1000000
-Elapsed time: 1.615 seconds (1.614) for simplex:1000000
-+!CSVLINE!+racket-8.10/r7rs,simplex:1000000,1.615
+Elapsed time: 1.624 seconds (1.624) for simplex:1000000
++!CSVLINE!+racket-8.12/r7rs,simplex:1000000,1.624
 
 real	0m1.847s
-user	0m1.775s
-sys	0m0.072s
+user	0m1.798s
+sys	0m0.060s
 Running...
 time racket /tmp/larcenous/Racket/simplex.scm
 Running simplex:1000000
-Elapsed time: 1.639 seconds (1.639) for simplex:1000000
-+!CSVLINE!+racket-8.10/r7rs,simplex:1000000,1.639
+Elapsed time: 1.63 seconds (1.63) for simplex:1000000
++!CSVLINE!+racket-8.12/r7rs,simplex:1000000,1.63
 
-real	0m1.875s
-user	0m1.819s
-sys	0m0.056s
+real	0m1.882s
+user	0m1.831s
+sys	0m0.061s
+Running...
+time racket /tmp/larcenous/Racket/simplex.scm
+Running simplex:1000000
+Elapsed time: 1.617 seconds (1.617) for simplex:1000000
++!CSVLINE!+racket-8.12/r7rs,simplex:1000000,1.617
+
+real	0m1.845s
+user	0m1.780s
+sys	0m0.073s
 
 Testing ack under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -835,30 +835,30 @@ raco make /tmp/larcenous/Racket/ack.scm
 Running...
 time racket /tmp/larcenous/Racket/ack.scm
 Running ack:3:12:2
-Elapsed time: 2.014 seconds (2.014) for ack:3:12:2
-+!CSVLINE!+racket-8.10/r7rs,ack:3:12:2,2.014
+Elapsed time: 1.996 seconds (1.997) for ack:3:12:2
++!CSVLINE!+racket-8.12/r7rs,ack:3:12:2,1.996
 
-real	0m2.239s
-user	0m2.175s
-sys	0m0.064s
-Running...
-time racket /tmp/larcenous/Racket/ack.scm
-Running ack:3:12:2
-Elapsed time: 2.985 seconds (2.985) for ack:3:12:2
-+!CSVLINE!+racket-8.10/r7rs,ack:3:12:2,2.985
-
-real	0m3.225s
-user	0m3.157s
-sys	0m0.068s
+real	0m2.219s
+user	0m2.168s
+sys	0m0.056s
 Running...
 time racket /tmp/larcenous/Racket/ack.scm
 Running ack:3:12:2
 Elapsed time: 2.137 seconds (2.137) for ack:3:12:2
-+!CSVLINE!+racket-8.10/r7rs,ack:3:12:2,2.137
++!CSVLINE!+racket-8.12/r7rs,ack:3:12:2,2.137
 
-real	0m2.371s
-user	0m2.303s
-sys	0m0.068s
+real	0m2.363s
+user	0m2.315s
+sys	0m0.052s
+Running...
+time racket /tmp/larcenous/Racket/ack.scm
+Running ack:3:12:2
+Elapsed time: 2.208 seconds (2.209) for ack:3:12:2
++!CSVLINE!+racket-8.12/r7rs,ack:3:12:2,2.208
+
+real	0m2.439s
+user	0m2.387s
+sys	0m0.056s
 
 Testing array1 under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -868,30 +868,30 @@ raco make /tmp/larcenous/Racket/array1.scm
 Running...
 time racket /tmp/larcenous/Racket/array1.scm
 Running array1:1000000:500
-Elapsed time: 6.105 seconds (6.106) for array1:1000000:500
-+!CSVLINE!+racket-8.10/r7rs,array1:1000000:500,6.105
+Elapsed time: 6.068 seconds (6.068) for array1:1000000:500
++!CSVLINE!+racket-8.12/r7rs,array1:1000000:500,6.068
 
-real	0m6.332s
-user	0m2.840s
-sys	0m3.492s
+real	0m6.291s
+user	0m3.283s
+sys	0m3.011s
 Running...
 time racket /tmp/larcenous/Racket/array1.scm
 Running array1:1000000:500
-Elapsed time: 6.277 seconds (6.277) for array1:1000000:500
-+!CSVLINE!+racket-8.10/r7rs,array1:1000000:500,6.277
+Elapsed time: 6.026 seconds (6.026) for array1:1000000:500
++!CSVLINE!+racket-8.12/r7rs,array1:1000000:500,6.026
 
-real	0m6.512s
-user	0m3.116s
-sys	0m3.396s
+real	0m6.257s
+user	0m2.831s
+sys	0m3.423s
 Running...
 time racket /tmp/larcenous/Racket/array1.scm
 Running array1:1000000:500
-Elapsed time: 6.053 seconds (6.053) for array1:1000000:500
-+!CSVLINE!+racket-8.10/r7rs,array1:1000000:500,6.053
+Elapsed time: 6.103 seconds (6.103) for array1:1000000:500
++!CSVLINE!+racket-8.12/r7rs,array1:1000000:500,6.103
 
-real	0m6.288s
-user	0m3.156s
-sys	0m3.132s
+real	0m6.333s
+user	0m3.182s
+sys	0m3.150s
 
 Testing string under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -901,30 +901,30 @@ raco make /tmp/larcenous/Racket/string.scm
 Running...
 time racket /tmp/larcenous/Racket/string.scm
 Running string:500000:100
-Elapsed time: 1.592 seconds (1.592) for string:500000:100
-+!CSVLINE!+racket-8.10/r7rs,string:500000:100,1.592
+Elapsed time: 1.559 seconds (1.559) for string:500000:100
++!CSVLINE!+racket-8.12/r7rs,string:500000:100,1.559
 
-real	0m1.825s
-user	0m1.753s
-sys	0m0.072s
+real	0m1.786s
+user	0m1.726s
+sys	0m0.060s
 Running...
 time racket /tmp/larcenous/Racket/string.scm
 Running string:500000:100
-Elapsed time: 1.69 seconds (1.69) for string:500000:100
-+!CSVLINE!+racket-8.10/r7rs,string:500000:100,1.69
+Elapsed time: 1.762 seconds (1.761) for string:500000:100
++!CSVLINE!+racket-8.12/r7rs,string:500000:100,1.762
 
-real	0m1.927s
-user	0m1.843s
+real	0m2.022s
+user	0m1.938s
 sys	0m0.084s
 Running...
 time racket /tmp/larcenous/Racket/string.scm
 Running string:500000:100
-Elapsed time: 4.396 seconds (4.397) for string:500000:100
-+!CSVLINE!+racket-8.10/r7rs,string:500000:100,4.396
+Elapsed time: 1.721 seconds (1.721) for string:500000:100
++!CSVLINE!+racket-8.12/r7rs,string:500000:100,1.721
 
-real	0m4.635s
-user	0m2.689s
-sys	0m1.945s
+real	0m1.985s
+user	0m1.877s
+sys	0m0.108s
 
 Testing sum1 under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -934,30 +934,30 @@ raco make /tmp/larcenous/Racket/sum1.scm
 Running...
 time racket /tmp/larcenous/Racket/sum1.scm
 Running sum1:25
-Elapsed time: 9.303 seconds (9.303) for sum1:25
-+!CSVLINE!+racket-8.10/r7rs,sum1:25,9.303
+Elapsed time: 9.824 seconds (9.824) for sum1:25
++!CSVLINE!+racket-8.12/r7rs,sum1:25,9.824
 
-real	0m9.531s
-user	0m9.206s
-sys	0m0.324s
+real	0m10.056s
+user	0m9.661s
+sys	0m0.396s
 Running...
 time racket /tmp/larcenous/Racket/sum1.scm
 Running sum1:25
-Elapsed time: 9.081 seconds (9.081) for sum1:25
-+!CSVLINE!+racket-8.10/r7rs,sum1:25,9.081
+Elapsed time: 9.36 seconds (9.36) for sum1:25
++!CSVLINE!+racket-8.12/r7rs,sum1:25,9.36
 
-real	0m9.317s
-user	0m9.041s
-sys	0m0.276s
+real	0m9.607s
+user	0m9.253s
+sys	0m0.356s
 Running...
 time racket /tmp/larcenous/Racket/sum1.scm
 Running sum1:25
-Elapsed time: 9.207 seconds (9.207) for sum1:25
-+!CSVLINE!+racket-8.10/r7rs,sum1:25,9.207
+Elapsed time: 9.432 seconds (9.432) for sum1:25
++!CSVLINE!+racket-8.12/r7rs,sum1:25,9.432
 
-real	0m9.442s
-user	0m9.017s
-sys	0m0.424s
+real	0m9.656s
+user	0m9.286s
+sys	0m0.372s
 
 Testing cat under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -967,30 +967,30 @@ raco make /tmp/larcenous/Racket/cat.scm
 Running...
 time racket /tmp/larcenous/Racket/cat.scm
 Running cat:50
-Elapsed time: 3.622 seconds (3.622) for cat:50
-+!CSVLINE!+racket-8.10/r7rs,cat:50,3.622
+Elapsed time: 3.63 seconds (3.629) for cat:50
++!CSVLINE!+racket-8.12/r7rs,cat:50,3.63
 
-real	0m3.850s
-user	0m3.622s
-sys	0m0.228s
+real	0m3.860s
+user	0m3.617s
+sys	0m0.244s
 Running...
 time racket /tmp/larcenous/Racket/cat.scm
 Running cat:50
-Elapsed time: 3.505 seconds (3.505) for cat:50
-+!CSVLINE!+racket-8.10/r7rs,cat:50,3.505
+Elapsed time: 3.687 seconds (3.687) for cat:50
++!CSVLINE!+racket-8.12/r7rs,cat:50,3.687
 
-real	0m3.735s
-user	0m3.459s
-sys	0m0.276s
+real	0m3.912s
+user	0m3.624s
+sys	0m0.289s
 Running...
 time racket /tmp/larcenous/Racket/cat.scm
 Running cat:50
-Elapsed time: 3.572 seconds (3.571) for cat:50
-+!CSVLINE!+racket-8.10/r7rs,cat:50,3.572
+Elapsed time: 3.645 seconds (3.645) for cat:50
++!CSVLINE!+racket-8.12/r7rs,cat:50,3.645
 
-real	0m3.809s
-user	0m3.577s
-sys	0m0.232s
+real	0m3.871s
+user	0m3.634s
+sys	0m0.236s
 
 Testing tail under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1000,30 +1000,30 @@ raco make /tmp/larcenous/Racket/tail.scm
 Running...
 time racket /tmp/larcenous/Racket/tail.scm
 Running tail:50
-Elapsed time: 2.159 seconds (2.159) for tail:50
-+!CSVLINE!+racket-8.10/r7rs,tail:50,2.159
+Elapsed time: 2.157 seconds (2.157) for tail:50
++!CSVLINE!+racket-8.12/r7rs,tail:50,2.157
 
-real	0m2.389s
-user	0m2.132s
-sys	0m0.256s
-Running...
-time racket /tmp/larcenous/Racket/tail.scm
-Running tail:50
-Elapsed time: 2.163 seconds (2.163) for tail:50
-+!CSVLINE!+racket-8.10/r7rs,tail:50,2.163
-
-real	0m2.398s
-user	0m2.102s
+real	0m2.391s
+user	0m2.094s
 sys	0m0.296s
 Running...
 time racket /tmp/larcenous/Racket/tail.scm
 Running tail:50
-Elapsed time: 2.163 seconds (2.164) for tail:50
-+!CSVLINE!+racket-8.10/r7rs,tail:50,2.163
+Elapsed time: 2.157 seconds (2.157) for tail:50
++!CSVLINE!+racket-8.12/r7rs,tail:50,2.157
 
-real	0m2.395s
-user	0m2.151s
-sys	0m0.244s
+real	0m2.392s
+user	0m2.063s
+sys	0m0.328s
+Running...
+time racket /tmp/larcenous/Racket/tail.scm
+Running tail:50
+Elapsed time: 2.21 seconds (2.21) for tail:50
++!CSVLINE!+racket-8.12/r7rs,tail:50,2.21
+
+real	0m2.445s
+user	0m2.156s
+sys	0m0.288s
 
 Testing wc under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1033,30 +1033,30 @@ raco make /tmp/larcenous/Racket/wc.scm
 Running...
 time racket /tmp/larcenous/Racket/wc.scm
 Running wc:inputs/bib:50
-Elapsed time: 2.548 seconds (2.547) for wc:inputs/bib:50
-+!CSVLINE!+racket-8.10/r7rs,wc:inputs/bib:50,2.548
+Elapsed time: 2.637 seconds (2.638) for wc:inputs/bib:50
++!CSVLINE!+racket-8.12/r7rs,wc:inputs/bib:50,2.637
 
-real	0m2.783s
-user	0m2.691s
-sys	0m0.092s
-Running...
-time racket /tmp/larcenous/Racket/wc.scm
-Running wc:inputs/bib:50
-Elapsed time: 2.581 seconds (2.581) for wc:inputs/bib:50
-+!CSVLINE!+racket-8.10/r7rs,wc:inputs/bib:50,2.581
-
-real	0m2.814s
-user	0m2.725s
+real	0m2.874s
+user	0m2.785s
 sys	0m0.088s
 Running...
 time racket /tmp/larcenous/Racket/wc.scm
 Running wc:inputs/bib:50
-Elapsed time: 2.552 seconds (2.552) for wc:inputs/bib:50
-+!CSVLINE!+racket-8.10/r7rs,wc:inputs/bib:50,2.552
+Elapsed time: 2.633 seconds (2.633) for wc:inputs/bib:50
++!CSVLINE!+racket-8.12/r7rs,wc:inputs/bib:50,2.633
 
-real	0m2.790s
-user	0m2.685s
-sys	0m0.104s
+real	0m2.857s
+user	0m2.761s
+sys	0m0.096s
+Running...
+time racket /tmp/larcenous/Racket/wc.scm
+Running wc:inputs/bib:50
+Elapsed time: 2.617 seconds (2.616) for wc:inputs/bib:50
++!CSVLINE!+racket-8.12/r7rs,wc:inputs/bib:50,2.617
+
+real	0m2.843s
+user	0m2.746s
+sys	0m0.096s
 
 Testing read1 under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1066,30 +1066,30 @@ raco make /tmp/larcenous/Racket/read1.scm
 Running...
 time racket /tmp/larcenous/Racket/read1.scm
 Running read1:2500
-Elapsed time: 9.77 seconds (9.77) for read1:2500
-+!CSVLINE!+racket-8.10/r7rs,read1:2500,9.77
+Elapsed time: 9.933 seconds (9.933) for read1:2500
++!CSVLINE!+racket-8.12/r7rs,read1:2500,9.933
 
-real	0m10.009s
-user	0m9.189s
-sys	0m0.820s
+real	0m10.154s
+user	0m9.252s
+sys	0m0.900s
 Running...
 time racket /tmp/larcenous/Racket/read1.scm
 Running read1:2500
-Elapsed time: 9.977 seconds (9.976) for read1:2500
-+!CSVLINE!+racket-8.10/r7rs,read1:2500,9.977
+Elapsed time: 9.788 seconds (9.788) for read1:2500
++!CSVLINE!+racket-8.12/r7rs,read1:2500,9.788
 
-real	0m10.219s
-user	0m9.334s
-sys	0m0.884s
+real	0m10.020s
+user	0m9.188s
+sys	0m0.832s
 Running...
 time racket /tmp/larcenous/Racket/read1.scm
 Running read1:2500
-Elapsed time: 9.751 seconds (9.751) for read1:2500
-+!CSVLINE!+racket-8.10/r7rs,read1:2500,9.751
+Elapsed time: 9.705 seconds (9.705) for read1:2500
++!CSVLINE!+racket-8.12/r7rs,read1:2500,9.705
 
-real	0m9.997s
-user	0m9.156s
-sys	0m0.840s
+real	0m9.935s
+user	0m8.999s
+sys	0m0.936s
 
 Testing conform under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1099,29 +1099,29 @@ raco make /tmp/larcenous/Racket/conform.scm
 Running...
 time racket /tmp/larcenous/Racket/conform.scm
 Running conform:500
-Elapsed time: 7.276 seconds (7.276) for conform:500
-+!CSVLINE!+racket-8.10/r7rs,conform:500,7.276
+Elapsed time: 7.258 seconds (7.258) for conform:500
++!CSVLINE!+racket-8.12/r7rs,conform:500,7.258
 
-real	0m7.503s
-user	0m7.434s
-sys	0m0.068s
+real	0m7.480s
+user	0m7.409s
+sys	0m0.072s
 Running...
 time racket /tmp/larcenous/Racket/conform.scm
 Running conform:500
-Elapsed time: 7.194 seconds (7.195) for conform:500
-+!CSVLINE!+racket-8.10/r7rs,conform:500,7.194
+Elapsed time: 7.228 seconds (7.228) for conform:500
++!CSVLINE!+racket-8.12/r7rs,conform:500,7.228
 
-real	0m7.432s
-user	0m7.371s
-sys	0m0.060s
+real	0m7.458s
+user	0m7.394s
+sys	0m0.064s
 Running...
 time racket /tmp/larcenous/Racket/conform.scm
 Running conform:500
-Elapsed time: 7.539 seconds (7.539) for conform:500
-+!CSVLINE!+racket-8.10/r7rs,conform:500,7.539
+Elapsed time: 7.205 seconds (7.205) for conform:500
++!CSVLINE!+racket-8.12/r7rs,conform:500,7.205
 
-real	0m7.770s
-user	0m7.698s
+real	0m7.430s
+user	0m7.358s
 sys	0m0.072s
 
 Testing dynamic under Racket
@@ -1132,30 +1132,30 @@ raco make /tmp/larcenous/Racket/dynamic.scm
 Running...
 time racket /tmp/larcenous/Racket/dynamic.scm
 Running dynamic:500
-Elapsed time: 7.906 seconds (7.906) for dynamic:500
-+!CSVLINE!+racket-8.10/r7rs,dynamic:500,7.906
+Elapsed time: 8.309 seconds (8.309) for dynamic:500
++!CSVLINE!+racket-8.12/r7rs,dynamic:500,8.309
 
-real	0m8.139s
-user	0m7.619s
+real	0m8.533s
+user	0m8.018s
+sys	0m0.516s
+Running...
+time racket /tmp/larcenous/Racket/dynamic.scm
+Running dynamic:500
+Elapsed time: 8.025 seconds (8.024) for dynamic:500
++!CSVLINE!+racket-8.12/r7rs,dynamic:500,8.025
+
+real	0m8.250s
+user	0m7.731s
 sys	0m0.520s
 Running...
 time racket /tmp/larcenous/Racket/dynamic.scm
 Running dynamic:500
-Elapsed time: 7.838 seconds (7.838) for dynamic:500
-+!CSVLINE!+racket-8.10/r7rs,dynamic:500,7.838
+Elapsed time: 8.12 seconds (8.12) for dynamic:500
++!CSVLINE!+racket-8.12/r7rs,dynamic:500,8.12
 
-real	0m8.075s
-user	0m7.594s
-sys	0m0.480s
-Running...
-time racket /tmp/larcenous/Racket/dynamic.scm
-Running dynamic:500
-Elapsed time: 7.823 seconds (7.822) for dynamic:500
-+!CSVLINE!+racket-8.10/r7rs,dynamic:500,7.823
-
-real	0m8.060s
-user	0m7.523s
-sys	0m0.536s
+real	0m8.348s
+user	0m7.849s
+sys	0m0.500s
 
 Testing earley under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1165,30 +1165,30 @@ raco make /tmp/larcenous/Racket/earley.scm
 Running...
 time racket /tmp/larcenous/Racket/earley.scm
 Running earley:1
-Elapsed time: 7.236 seconds (7.237) for earley:1
-+!CSVLINE!+racket-8.10/r7rs,earley:1,7.236
+Elapsed time: 6.926 seconds (6.925) for earley:1
++!CSVLINE!+racket-8.12/r7rs,earley:1,6.926
 
-real	0m7.581s
-user	0m6.880s
-sys	0m0.700s
+real	0m7.239s
+user	0m6.648s
+sys	0m0.592s
 Running...
 time racket /tmp/larcenous/Racket/earley.scm
 Running earley:1
-Elapsed time: 7.049 seconds (7.049) for earley:1
-+!CSVLINE!+racket-8.10/r7rs,earley:1,7.049
+Elapsed time: 6.957 seconds (6.957) for earley:1
++!CSVLINE!+racket-8.12/r7rs,earley:1,6.957
 
-real	0m7.386s
-user	0m6.710s
-sys	0m0.676s
+real	0m7.273s
+user	0m6.654s
+sys	0m0.620s
 Running...
 time racket /tmp/larcenous/Racket/earley.scm
 Running earley:1
-Elapsed time: 7.017 seconds (7.017) for earley:1
-+!CSVLINE!+racket-8.10/r7rs,earley:1,7.017
+Elapsed time: 6.862 seconds (6.862) for earley:1
++!CSVLINE!+racket-8.12/r7rs,earley:1,6.862
 
-real	0m7.354s
-user	0m6.638s
-sys	0m0.716s
+real	0m7.173s
+user	0m6.609s
+sys	0m0.564s
 
 Testing graphs under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1198,30 +1198,30 @@ raco make /tmp/larcenous/Racket/graphs.scm
 Running...
 time racket /tmp/larcenous/Racket/graphs.scm
 Running graphs:7:3
-Elapsed time: 1.82 seconds (1.82) for graphs:7:3
-+!CSVLINE!+racket-8.10/r7rs,graphs:7:3,1.82
+Elapsed time: 1.826 seconds (1.826) for graphs:7:3
++!CSVLINE!+racket-8.12/r7rs,graphs:7:3,1.826
 
-real	0m2.051s
-user	0m1.995s
-sys	0m0.056s
+real	0m2.057s
+user	0m1.965s
+sys	0m0.092s
 Running...
 time racket /tmp/larcenous/Racket/graphs.scm
 Running graphs:7:3
-Elapsed time: 1.827 seconds (1.827) for graphs:7:3
-+!CSVLINE!+racket-8.10/r7rs,graphs:7:3,1.827
+Elapsed time: 1.817 seconds (1.816) for graphs:7:3
++!CSVLINE!+racket-8.12/r7rs,graphs:7:3,1.817
 
-real	0m2.059s
-user	0m1.971s
-sys	0m0.088s
+real	0m2.048s
+user	0m1.948s
+sys	0m0.100s
 Running...
 time racket /tmp/larcenous/Racket/graphs.scm
 Running graphs:7:3
-Elapsed time: 1.867 seconds (1.867) for graphs:7:3
-+!CSVLINE!+racket-8.10/r7rs,graphs:7:3,1.867
+Elapsed time: 1.82 seconds (1.821) for graphs:7:3
++!CSVLINE!+racket-8.12/r7rs,graphs:7:3,1.82
 
-real	0m2.097s
-user	0m2.013s
-sys	0m0.084s
+real	0m2.052s
+user	0m1.979s
+sys	0m0.072s
 
 Testing lattice under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1231,30 +1231,30 @@ raco make /tmp/larcenous/Racket/lattice.scm
 Running...
 time racket /tmp/larcenous/Racket/lattice.scm
 Running lattice:44:10
-Elapsed time: 2.752 seconds (2.752) for lattice:44:10
-+!CSVLINE!+racket-8.10/r7rs,lattice:44:10,2.752
+Elapsed time: 2.537 seconds (2.537) for lattice:44:10
++!CSVLINE!+racket-8.12/r7rs,lattice:44:10,2.537
 
-real	0m2.987s
-user	0m2.927s
-sys	0m0.060s
+real	0m2.775s
+user	0m2.698s
+sys	0m0.076s
 Running...
 time racket /tmp/larcenous/Racket/lattice.scm
 Running lattice:44:10
-Elapsed time: 2.64 seconds (2.639) for lattice:44:10
-+!CSVLINE!+racket-8.10/r7rs,lattice:44:10,2.64
+Elapsed time: 2.767 seconds (2.766) for lattice:44:10
++!CSVLINE!+racket-8.12/r7rs,lattice:44:10,2.767
 
-real	0m2.873s
-user	0m2.816s
-sys	0m0.056s
+real	0m3.034s
+user	0m2.960s
+sys	0m0.072s
 Running...
 time racket /tmp/larcenous/Racket/lattice.scm
 Running lattice:44:10
-Elapsed time: 2.576 seconds (2.575) for lattice:44:10
-+!CSVLINE!+racket-8.10/r7rs,lattice:44:10,2.576
+Elapsed time: 2.616 seconds (2.617) for lattice:44:10
++!CSVLINE!+racket-8.12/r7rs,lattice:44:10,2.616
 
-real	0m2.813s
-user	0m2.745s
-sys	0m0.068s
+real	0m2.846s
+user	0m2.757s
+sys	0m0.088s
 
 Testing matrix under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1264,30 +1264,30 @@ raco make /tmp/larcenous/Racket/matrix.scm
 Running...
 time racket /tmp/larcenous/Racket/matrix.scm
 Running matrix:5:5:2500
-Elapsed time: 1.028 seconds (1.028) for matrix:5:5:2500
-+!CSVLINE!+racket-8.10/r7rs,matrix:5:5:2500,1.028
+Elapsed time: 1.022 seconds (1.023) for matrix:5:5:2500
++!CSVLINE!+racket-8.12/r7rs,matrix:5:5:2500,1.022
 
-real	0m1.258s
-user	0m1.206s
+real	0m1.250s
+user	0m1.198s
 sys	0m0.052s
 Running...
 time racket /tmp/larcenous/Racket/matrix.scm
 Running matrix:5:5:2500
-Elapsed time: 0.997 seconds (0.997) for matrix:5:5:2500
-+!CSVLINE!+racket-8.10/r7rs,matrix:5:5:2500,0.997
+Elapsed time: 0.991 seconds (0.991) for matrix:5:5:2500
++!CSVLINE!+racket-8.12/r7rs,matrix:5:5:2500,0.991
 
-real	0m1.228s
-user	0m1.172s
+real	0m1.222s
+user	0m1.166s
 sys	0m0.056s
 Running...
 time racket /tmp/larcenous/Racket/matrix.scm
 Running matrix:5:5:2500
-Elapsed time: 1.034 seconds (1.035) for matrix:5:5:2500
-+!CSVLINE!+racket-8.10/r7rs,matrix:5:5:2500,1.034
+Elapsed time: 1.006 seconds (1.006) for matrix:5:5:2500
++!CSVLINE!+racket-8.12/r7rs,matrix:5:5:2500,1.006
 
-real	0m1.271s
-user	0m1.187s
-sys	0m0.084s
+real	0m1.239s
+user	0m1.178s
+sys	0m0.060s
 
 Testing maze under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1297,30 +1297,30 @@ raco make /tmp/larcenous/Racket/maze.scm
 Running...
 time racket /tmp/larcenous/Racket/maze.scm
 Running maze:20:7:10000
-Elapsed time: 2.118 seconds (2.118) for maze:20:7:10000
-+!CSVLINE!+racket-8.10/r7rs,maze:20:7:10000,2.118
+Elapsed time: 2.112 seconds (2.112) for maze:20:7:10000
++!CSVLINE!+racket-8.12/r7rs,maze:20:7:10000,2.112
+
+real	0m2.339s
+user	0m2.270s
+sys	0m0.068s
+Running...
+time racket /tmp/larcenous/Racket/maze.scm
+Running maze:20:7:10000
+Elapsed time: 2.11 seconds (2.11) for maze:20:7:10000
++!CSVLINE!+racket-8.12/r7rs,maze:20:7:10000,2.11
+
+real	0m2.349s
+user	0m2.284s
+sys	0m0.064s
+Running...
+time racket /tmp/larcenous/Racket/maze.scm
+Running maze:20:7:10000
+Elapsed time: 2.112 seconds (2.112) for maze:20:7:10000
++!CSVLINE!+racket-8.12/r7rs,maze:20:7:10000,2.112
 
 real	0m2.347s
-user	0m2.263s
-sys	0m0.084s
-Running...
-time racket /tmp/larcenous/Racket/maze.scm
-Running maze:20:7:10000
-Elapsed time: 2.155 seconds (2.155) for maze:20:7:10000
-+!CSVLINE!+racket-8.10/r7rs,maze:20:7:10000,2.155
-
-real	0m2.419s
-user	0m2.359s
-sys	0m0.060s
-Running...
-time racket /tmp/larcenous/Racket/maze.scm
-Running maze:20:7:10000
-Elapsed time: 2.161 seconds (2.161) for maze:20:7:10000
-+!CSVLINE!+racket-8.10/r7rs,maze:20:7:10000,2.161
-
-real	0m2.402s
-user	0m2.330s
-sys	0m0.072s
+user	0m2.293s
+sys	0m0.053s
 
 Testing mazefun under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1330,30 +1330,30 @@ raco make /tmp/larcenous/Racket/mazefun.scm
 Running...
 time racket /tmp/larcenous/Racket/mazefun.scm
 Running mazefun:11:11:10000
-Elapsed time: 1.977 seconds (1.976) for mazefun:11:11:10000
-+!CSVLINE!+racket-8.10/r7rs,mazefun:11:11:10000,1.977
+Elapsed time: 2.23 seconds (2.23) for mazefun:11:11:10000
++!CSVLINE!+racket-8.12/r7rs,mazefun:11:11:10000,2.23
 
-real	0m2.205s
-user	0m2.125s
-sys	0m0.080s
+real	0m2.470s
+user	0m2.413s
+sys	0m0.056s
 Running...
 time racket /tmp/larcenous/Racket/mazefun.scm
 Running mazefun:11:11:10000
-Elapsed time: 1.986 seconds (1.985) for mazefun:11:11:10000
-+!CSVLINE!+racket-8.10/r7rs,mazefun:11:11:10000,1.986
+Elapsed time: 1.993 seconds (1.994) for mazefun:11:11:10000
++!CSVLINE!+racket-8.12/r7rs,mazefun:11:11:10000,1.993
 
 real	0m2.224s
-user	0m2.156s
-sys	0m0.068s
+user	0m2.159s
+sys	0m0.064s
 Running...
 time racket /tmp/larcenous/Racket/mazefun.scm
 Running mazefun:11:11:10000
-Elapsed time: 1.954 seconds (1.954) for mazefun:11:11:10000
-+!CSVLINE!+racket-8.10/r7rs,mazefun:11:11:10000,1.954
+Elapsed time: 2.133 seconds (2.133) for mazefun:11:11:10000
++!CSVLINE!+racket-8.12/r7rs,mazefun:11:11:10000,2.133
 
-real	0m2.182s
-user	0m2.105s
-sys	0m0.076s
+real	0m2.366s
+user	0m2.282s
+sys	0m0.084s
 
 Testing nqueens under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1363,30 +1363,30 @@ raco make /tmp/larcenous/Racket/nqueens.scm
 Running...
 time racket /tmp/larcenous/Racket/nqueens.scm
 Running nqueens:13:10
-Elapsed time: 4.443 seconds (4.443) for nqueens:13:10
-+!CSVLINE!+racket-8.10/r7rs,nqueens:13:10,4.443
+Elapsed time: 4.459 seconds (4.46) for nqueens:13:10
++!CSVLINE!+racket-8.12/r7rs,nqueens:13:10,4.459
 
-real	0m4.678s
-user	0m4.629s
-sys	0m0.048s
+real	0m4.696s
+user	0m4.627s
+sys	0m0.068s
 Running...
 time racket /tmp/larcenous/Racket/nqueens.scm
 Running nqueens:13:10
-Elapsed time: 4.533 seconds (4.533) for nqueens:13:10
-+!CSVLINE!+racket-8.10/r7rs,nqueens:13:10,4.533
+Elapsed time: 4.585 seconds (4.585) for nqueens:13:10
++!CSVLINE!+racket-8.12/r7rs,nqueens:13:10,4.585
 
-real	0m4.769s
-user	0m4.712s
-sys	0m0.056s
+real	0m4.817s
+user	0m4.765s
+sys	0m0.052s
 Running...
 time racket /tmp/larcenous/Racket/nqueens.scm
 Running nqueens:13:10
-Elapsed time: 4.598 seconds (4.598) for nqueens:13:10
-+!CSVLINE!+racket-8.10/r7rs,nqueens:13:10,4.598
+Elapsed time: 4.605 seconds (4.605) for nqueens:13:10
++!CSVLINE!+racket-8.12/r7rs,nqueens:13:10,4.605
 
-real	0m4.834s
-user	0m4.750s
-sys	0m0.084s
+real	0m4.831s
+user	0m4.766s
+sys	0m0.064s
 
 Testing paraffins under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1396,30 +1396,30 @@ raco make /tmp/larcenous/Racket/paraffins.scm
 Running...
 time racket /tmp/larcenous/Racket/paraffins.scm
 Running paraffins:23:10
-Elapsed time: 9.373 seconds (9.374) for paraffins:23:10
-+!CSVLINE!+racket-8.10/r7rs,paraffins:23:10,9.373
+Elapsed time: 8.957 seconds (8.957) for paraffins:23:10
++!CSVLINE!+racket-8.12/r7rs,paraffins:23:10,8.957
 
-real	0m9.650s
-user	0m8.257s
-sys	0m1.392s
+real	0m9.219s
+user	0m7.910s
+sys	0m1.308s
 Running...
 time racket /tmp/larcenous/Racket/paraffins.scm
 Running paraffins:23:10
-Elapsed time: 9.054 seconds (9.053) for paraffins:23:10
-+!CSVLINE!+racket-8.10/r7rs,paraffins:23:10,9.054
+Elapsed time: 8.943 seconds (8.943) for paraffins:23:10
++!CSVLINE!+racket-8.12/r7rs,paraffins:23:10,8.943
 
-real	0m9.331s
-user	0m7.954s
-sys	0m1.376s
+real	0m9.215s
+user	0m7.882s
+sys	0m1.332s
 Running...
 time racket /tmp/larcenous/Racket/paraffins.scm
 Running paraffins:23:10
-Elapsed time: 8.99 seconds (8.99) for paraffins:23:10
-+!CSVLINE!+racket-8.10/r7rs,paraffins:23:10,8.99
+Elapsed time: 8.898 seconds (8.899) for paraffins:23:10
++!CSVLINE!+racket-8.12/r7rs,paraffins:23:10,8.898
 
-real	0m9.269s
-user	0m7.896s
-sys	0m1.371s
+real	0m9.168s
+user	0m7.827s
+sys	0m1.340s
 
 Testing parsing under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1429,30 +1429,30 @@ raco make /tmp/larcenous/Racket/parsing.scm
 Running...
 time racket /tmp/larcenous/Racket/parsing.scm
 Running parsing:2500
-Elapsed time: 1.474 seconds (1.473) for parsing:2500
-+!CSVLINE!+racket-8.10/r7rs,parsing:2500,1.474
+Elapsed time: 1.481 seconds (1.481) for parsing:2500
++!CSVLINE!+racket-8.12/r7rs,parsing:2500,1.481
 
-real	0m1.699s
-user	0m1.643s
+real	0m1.714s
+user	0m1.658s
 sys	0m0.056s
 Running...
 time racket /tmp/larcenous/Racket/parsing.scm
 Running parsing:2500
-Elapsed time: 1.468 seconds (1.468) for parsing:2500
-+!CSVLINE!+racket-8.10/r7rs,parsing:2500,1.468
+Elapsed time: 1.476 seconds (1.476) for parsing:2500
++!CSVLINE!+racket-8.12/r7rs,parsing:2500,1.476
 
-real	0m1.698s
-user	0m1.638s
+real	0m1.700s
+user	0m1.640s
 sys	0m0.060s
 Running...
 time racket /tmp/larcenous/Racket/parsing.scm
 Running parsing:2500
-Elapsed time: 1.473 seconds (1.473) for parsing:2500
-+!CSVLINE!+racket-8.10/r7rs,parsing:2500,1.473
+Elapsed time: 1.493 seconds (1.493) for parsing:2500
++!CSVLINE!+racket-8.12/r7rs,parsing:2500,1.493
 
-real	0m1.702s
-user	0m1.634s
-sys	0m0.068s
+real	0m1.725s
+user	0m1.681s
+sys	0m0.044s
 
 Testing peval under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1462,30 +1462,30 @@ raco make /tmp/larcenous/Racket/peval.scm
 Running...
 time racket /tmp/larcenous/Racket/peval.scm
 Running peval:2000
-Elapsed time: 1.559 seconds (1.559) for peval:2000
-+!CSVLINE!+racket-8.10/r7rs,peval:2000,1.559
+Elapsed time: 1.622 seconds (1.622) for peval:2000
++!CSVLINE!+racket-8.12/r7rs,peval:2000,1.622
 
-real	0m1.792s
-user	0m1.704s
-sys	0m0.088s
+real	0m1.848s
+user	0m1.784s
+sys	0m0.064s
 Running...
 time racket /tmp/larcenous/Racket/peval.scm
 Running peval:2000
-Elapsed time: 1.584 seconds (1.584) for peval:2000
-+!CSVLINE!+racket-8.10/r7rs,peval:2000,1.584
+Elapsed time: 1.607 seconds (1.607) for peval:2000
++!CSVLINE!+racket-8.12/r7rs,peval:2000,1.607
 
-real	0m1.827s
-user	0m1.774s
-sys	0m0.052s
+real	0m1.836s
+user	0m1.788s
+sys	0m0.048s
 Running...
 time racket /tmp/larcenous/Racket/peval.scm
 Running peval:2000
-Elapsed time: 1.616 seconds (1.616) for peval:2000
-+!CSVLINE!+racket-8.10/r7rs,peval:2000,1.616
+Elapsed time: 1.622 seconds (1.622) for peval:2000
++!CSVLINE!+racket-8.12/r7rs,peval:2000,1.622
 
-real	0m1.851s
+real	0m1.856s
 user	0m1.799s
-sys	0m0.052s
+sys	0m0.056s
 
 Testing primes under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1495,30 +1495,30 @@ raco make /tmp/larcenous/Racket/primes.scm
 Running...
 time racket /tmp/larcenous/Racket/primes.scm
 Running primes:1000:10000
-Elapsed time: 0.667 seconds (0.668) for primes:1000:10000
-+!CSVLINE!+racket-8.10/r7rs,primes:1000:10000,0.667
+Elapsed time: 0.671 seconds (0.671) for primes:1000:10000
++!CSVLINE!+racket-8.12/r7rs,primes:1000:10000,0.671
 
-real	0m0.904s
-user	0m0.828s
-sys	0m0.076s
-Running...
-time racket /tmp/larcenous/Racket/primes.scm
-Running primes:1000:10000
-Elapsed time: 0.674 seconds (0.673) for primes:1000:10000
-+!CSVLINE!+racket-8.10/r7rs,primes:1000:10000,0.674
-
-real	0m0.913s
-user	0m0.849s
+real	0m0.901s
+user	0m0.837s
 sys	0m0.064s
 Running...
 time racket /tmp/larcenous/Racket/primes.scm
 Running primes:1000:10000
 Elapsed time: 0.665 seconds (0.665) for primes:1000:10000
-+!CSVLINE!+racket-8.10/r7rs,primes:1000:10000,0.665
++!CSVLINE!+racket-8.12/r7rs,primes:1000:10000,0.665
 
-real	0m0.892s
-user	0m0.828s
-sys	0m0.064s
+real	0m0.896s
+user	0m0.835s
+sys	0m0.060s
+Running...
+time racket /tmp/larcenous/Racket/primes.scm
+Running primes:1000:10000
+Elapsed time: 0.666 seconds (0.665) for primes:1000:10000
++!CSVLINE!+racket-8.12/r7rs,primes:1000:10000,0.666
+
+real	0m0.898s
+user	0m0.845s
+sys	0m0.052s
 
 Testing quicksort under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1528,30 +1528,30 @@ raco make /tmp/larcenous/Racket/quicksort.scm
 Running...
 time racket /tmp/larcenous/Racket/quicksort.scm
 Running quicksort:10000:2500
-Elapsed time: 7.838 seconds (7.838) for quicksort:10000:2500
-+!CSVLINE!+racket-8.10/r7rs,quicksort:10000:2500,7.838
+Elapsed time: 7.813 seconds (7.812) for quicksort:10000:2500
++!CSVLINE!+racket-8.12/r7rs,quicksort:10000:2500,7.813
 
-real	0m8.071s
-user	0m8.015s
-sys	0m0.056s
+real	0m8.035s
+user	0m7.967s
+sys	0m0.068s
 Running...
 time racket /tmp/larcenous/Racket/quicksort.scm
 Running quicksort:10000:2500
-Elapsed time: 7.739 seconds (7.739) for quicksort:10000:2500
-+!CSVLINE!+racket-8.10/r7rs,quicksort:10000:2500,7.739
+Elapsed time: 7.74 seconds (7.74) for quicksort:10000:2500
++!CSVLINE!+racket-8.12/r7rs,quicksort:10000:2500,7.74
 
-real	0m7.975s
-user	0m7.910s
-sys	0m0.064s
-Running...
-time racket /tmp/larcenous/Racket/quicksort.scm
-Running quicksort:10000:2500
-Elapsed time: 7.676 seconds (7.675) for quicksort:10000:2500
-+!CSVLINE!+racket-8.10/r7rs,quicksort:10000:2500,7.676
-
-real	0m7.910s
-user	0m7.837s
+real	0m7.973s
+user	0m7.901s
 sys	0m0.072s
+Running...
+time racket /tmp/larcenous/Racket/quicksort.scm
+Running quicksort:10000:2500
+Elapsed time: 7.774 seconds (7.774) for quicksort:10000:2500
++!CSVLINE!+racket-8.12/r7rs,quicksort:10000:2500,7.774
+
+real	0m8.003s
+user	0m7.960s
+sys	0m0.044s
 
 Testing scheme under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1561,30 +1561,30 @@ raco make /tmp/larcenous/Racket/scheme.scm
 Running...
 time racket /tmp/larcenous/Racket/scheme.scm
 Running scheme:100000
-Elapsed time: 2.503 seconds (2.503) for scheme:100000
-+!CSVLINE!+racket-8.10/r7rs,scheme:100000,2.503
+Elapsed time: 2.434 seconds (2.434) for scheme:100000
++!CSVLINE!+racket-8.12/r7rs,scheme:100000,2.434
 
-real	0m2.738s
-user	0m2.674s
-sys	0m0.064s
+real	0m2.665s
+user	0m2.613s
+sys	0m0.052s
 Running...
 time racket /tmp/larcenous/Racket/scheme.scm
 Running scheme:100000
-Elapsed time: 2.457 seconds (2.457) for scheme:100000
-+!CSVLINE!+racket-8.10/r7rs,scheme:100000,2.457
+Elapsed time: 2.426 seconds (2.425) for scheme:100000
++!CSVLINE!+racket-8.12/r7rs,scheme:100000,2.426
 
-real	0m2.712s
-user	0m2.628s
-sys	0m0.084s
+real	0m2.657s
+user	0m2.577s
+sys	0m0.080s
 Running...
 time racket /tmp/larcenous/Racket/scheme.scm
 Running scheme:100000
-Elapsed time: 2.457 seconds (2.457) for scheme:100000
-+!CSVLINE!+racket-8.10/r7rs,scheme:100000,2.457
+Elapsed time: 2.39 seconds (2.39) for scheme:100000
++!CSVLINE!+racket-8.12/r7rs,scheme:100000,2.39
 
-real	0m2.697s
-user	0m2.632s
-sys	0m0.064s
+real	0m2.629s
+user	0m2.573s
+sys	0m0.056s
 
 Testing slatex under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1594,30 +1594,30 @@ raco make /tmp/larcenous/Racket/slatex.scm
 Running...
 time racket /tmp/larcenous/Racket/slatex.scm
 Running slatex:500
-Elapsed time: 6.07 seconds (6.07) for slatex:500
-+!CSVLINE!+racket-8.10/r7rs,slatex:500,6.07
+Elapsed time: 6.137 seconds (6.138) for slatex:500
++!CSVLINE!+racket-8.12/r7rs,slatex:500,6.137
 
-real	0m6.300s
-user	0m4.968s
-sys	0m1.286s
+real	0m6.372s
+user	0m4.970s
+sys	0m1.375s
 Running...
 time racket /tmp/larcenous/Racket/slatex.scm
 Running slatex:500
-Elapsed time: 5.947 seconds (5.947) for slatex:500
-+!CSVLINE!+racket-8.10/r7rs,slatex:500,5.947
+Elapsed time: 5.936 seconds (5.936) for slatex:500
++!CSVLINE!+racket-8.12/r7rs,slatex:500,5.936
 
-real	0m6.182s
-user	0m4.837s
-sys	0m1.298s
+real	0m6.164s
+user	0m4.857s
+sys	0m1.262s
 Running...
 time racket /tmp/larcenous/Racket/slatex.scm
 Running slatex:500
-Elapsed time: 5.923 seconds (5.922) for slatex:500
-+!CSVLINE!+racket-8.10/r7rs,slatex:500,5.923
+Elapsed time: 6.065 seconds (6.066) for slatex:500
++!CSVLINE!+racket-8.12/r7rs,slatex:500,6.065
 
-real	0m6.159s
-user	0m4.907s
-sys	0m1.204s
+real	0m6.301s
+user	0m4.855s
+sys	0m1.418s
 
 Testing chudnovsky under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1627,30 +1627,30 @@ raco make /tmp/larcenous/Racket/chudnovsky.scm
 Running...
 time racket /tmp/larcenous/Racket/chudnovsky.scm
 Running chudnovsky:50:500:50:1000
-Elapsed time: 0.213 seconds (0.213) for chudnovsky:50:500:50:1000
-+!CSVLINE!+racket-8.10/r7rs,chudnovsky:50:500:50:1000,0.213
+Elapsed time: 0.225 seconds (0.225) for chudnovsky:50:500:50:1000
++!CSVLINE!+racket-8.12/r7rs,chudnovsky:50:500:50:1000,0.225
 
-real	0m0.438s
-user	0m0.393s
-sys	0m0.045s
-Running...
-time racket /tmp/larcenous/Racket/chudnovsky.scm
-Running chudnovsky:50:500:50:1000
-Elapsed time: 0.211 seconds (0.211) for chudnovsky:50:500:50:1000
-+!CSVLINE!+racket-8.10/r7rs,chudnovsky:50:500:50:1000,0.211
-
-real	0m0.440s
-user	0m0.391s
-sys	0m0.049s
-Running...
-time racket /tmp/larcenous/Racket/chudnovsky.scm
-Running chudnovsky:50:500:50:1000
-Elapsed time: 0.206 seconds (0.206) for chudnovsky:50:500:50:1000
-+!CSVLINE!+racket-8.10/r7rs,chudnovsky:50:500:50:1000,0.206
-
-real	0m0.437s
-user	0m0.372s
+real	0m0.504s
+user	0m0.440s
 sys	0m0.064s
+Running...
+time racket /tmp/larcenous/Racket/chudnovsky.scm
+Running chudnovsky:50:500:50:1000
+Elapsed time: 0.224 seconds (0.224) for chudnovsky:50:500:50:1000
++!CSVLINE!+racket-8.12/r7rs,chudnovsky:50:500:50:1000,0.224
+
+real	0m0.484s
+user	0m0.412s
+sys	0m0.072s
+Running...
+time racket /tmp/larcenous/Racket/chudnovsky.scm
+Running chudnovsky:50:500:50:1000
+Elapsed time: 0.197 seconds (0.197) for chudnovsky:50:500:50:1000
++!CSVLINE!+racket-8.12/r7rs,chudnovsky:50:500:50:1000,0.197
+
+real	0m0.430s
+user	0m0.371s
+sys	0m0.060s
 
 Testing nboyer under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1660,30 +1660,30 @@ raco make /tmp/larcenous/Racket/nboyer.scm
 Running...
 time racket /tmp/larcenous/Racket/nboyer.scm
 Running nboyer:5:1
-Elapsed time: 3.41 seconds (3.41) for nboyer:5:1
-+!CSVLINE!+racket-8.10/r7rs,nboyer:5:1,3.41
+Elapsed time: 3.297 seconds (3.297) for nboyer:5:1
++!CSVLINE!+racket-8.12/r7rs,nboyer:5:1,3.297
 
-real	0m3.667s
-user	0m3.383s
-sys	0m0.284s
+real	0m3.563s
+user	0m3.227s
+sys	0m0.336s
 Running...
 time racket /tmp/larcenous/Racket/nboyer.scm
 Running nboyer:5:1
-Elapsed time: 3.422 seconds (3.422) for nboyer:5:1
-+!CSVLINE!+racket-8.10/r7rs,nboyer:5:1,3.422
+Elapsed time: 3.416 seconds (3.417) for nboyer:5:1
++!CSVLINE!+racket-8.12/r7rs,nboyer:5:1,3.416
 
 real	0m3.683s
-user	0m3.422s
-sys	0m0.260s
+user	0m3.359s
+sys	0m0.324s
 Running...
 time racket /tmp/larcenous/Racket/nboyer.scm
 Running nboyer:5:1
-Elapsed time: 3.543 seconds (3.543) for nboyer:5:1
-+!CSVLINE!+racket-8.10/r7rs,nboyer:5:1,3.543
+Elapsed time: 3.31 seconds (3.31) for nboyer:5:1
++!CSVLINE!+racket-8.12/r7rs,nboyer:5:1,3.31
 
-real	0m3.810s
-user	0m3.533s
-sys	0m0.276s
+real	0m3.579s
+user	0m3.235s
+sys	0m0.344s
 
 Testing sboyer under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1693,30 +1693,30 @@ raco make /tmp/larcenous/Racket/sboyer.scm
 Running...
 time racket /tmp/larcenous/Racket/sboyer.scm
 Running sboyer:5:1
-Elapsed time: 0.876 seconds (0.875) for sboyer:5:1
-+!CSVLINE!+racket-8.10/r7rs,sboyer:5:1,0.876
+Elapsed time: 0.852 seconds (0.853) for sboyer:5:1
++!CSVLINE!+racket-8.12/r7rs,sboyer:5:1,0.852
 
-real	0m1.132s
-user	0m1.028s
-sys	0m0.104s
+real	0m1.095s
+user	0m0.971s
+sys	0m0.125s
 Running...
 time racket /tmp/larcenous/Racket/sboyer.scm
 Running sboyer:5:1
-Elapsed time: 0.883 seconds (0.884) for sboyer:5:1
-+!CSVLINE!+racket-8.10/r7rs,sboyer:5:1,0.883
+Elapsed time: 0.856 seconds (0.857) for sboyer:5:1
++!CSVLINE!+racket-8.12/r7rs,sboyer:5:1,0.856
 
-real	0m1.138s
-user	0m1.003s
+real	0m1.102s
+user	0m0.942s
+sys	0m0.160s
+Running...
+time racket /tmp/larcenous/Racket/sboyer.scm
+Running sboyer:5:1
+Elapsed time: 0.906 seconds (0.906) for sboyer:5:1
++!CSVLINE!+racket-8.12/r7rs,sboyer:5:1,0.906
+
+real	0m1.154s
+user	0m1.018s
 sys	0m0.136s
-Running...
-time racket /tmp/larcenous/Racket/sboyer.scm
-Running sboyer:5:1
-Elapsed time: 0.905 seconds (0.905) for sboyer:5:1
-+!CSVLINE!+racket-8.10/r7rs,sboyer:5:1,0.905
-
-real	0m1.164s
-user	0m1.048s
-sys	0m0.116s
 
 Testing gcbench under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1760,12 +1760,12 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 2.36 seconds (2.36) for gcbench:20:1
-+!CSVLINE!+racket-8.10/r7rs,gcbench:20:1,2.36
+Elapsed time: 2.296 seconds (2.296) for gcbench:20:1
++!CSVLINE!+racket-8.12/r7rs,gcbench:20:1,2.296
 
-real	0m2.608s
-user	0m2.484s
-sys	0m0.124s
+real	0m2.532s
+user	0m2.412s
+sys	0m0.120s
 Running...
 time racket /tmp/larcenous/Racket/gcbench.scm
 The garbage collector should touch about 128 megabytes of heap storage.
@@ -1803,12 +1803,12 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 2.475 seconds (2.475) for gcbench:20:1
-+!CSVLINE!+racket-8.10/r7rs,gcbench:20:1,2.475
+Elapsed time: 2.298 seconds (2.298) for gcbench:20:1
++!CSVLINE!+racket-8.12/r7rs,gcbench:20:1,2.298
 
-real	0m2.741s
-user	0m2.604s
-sys	0m0.136s
+real	0m2.547s
+user	0m2.399s
+sys	0m0.148s
 Running...
 time racket /tmp/larcenous/Racket/gcbench.scm
 The garbage collector should touch about 128 megabytes of heap storage.
@@ -1846,12 +1846,12 @@ Creating 8 trees of depth 18
 GCBench: Top down construction
 GCBench: Bottom up construction
  Total memory available= ???????? bytes  Free memory= ???????? bytes
-Elapsed time: 2.339 seconds (2.339) for gcbench:20:1
-+!CSVLINE!+racket-8.10/r7rs,gcbench:20:1,2.339
+Elapsed time: 2.315 seconds (2.315) for gcbench:20:1
++!CSVLINE!+racket-8.12/r7rs,gcbench:20:1,2.315
 
-real	0m2.588s
-user	0m2.459s
-sys	0m0.128s
+real	0m2.558s
+user	0m2.450s
+sys	0m0.108s
 
 Testing mperm under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1861,30 +1861,30 @@ raco make /tmp/larcenous/Racket/mperm.scm
 Running...
 time racket /tmp/larcenous/Racket/mperm.scm
 Running mperm:20:10:2:1
-Elapsed time: 21.062 seconds (21.062) for mperm:20:10:2:1
-+!CSVLINE!+racket-8.10/r7rs,mperm:20:10:2:1,21.062
+Elapsed time: 20.294 seconds (20.294) for mperm:20:10:2:1
++!CSVLINE!+racket-8.12/r7rs,mperm:20:10:2:1,20.294
 
-real	0m22.199s
-user	0m20.386s
-sys	0m1.812s
+real	0m21.442s
+user	0m19.415s
+sys	0m2.028s
 Running...
 time racket /tmp/larcenous/Racket/mperm.scm
 Running mperm:20:10:2:1
-Elapsed time: 20.901 seconds (20.901) for mperm:20:10:2:1
-+!CSVLINE!+racket-8.10/r7rs,mperm:20:10:2:1,20.901
+Elapsed time: 20.433 seconds (20.433) for mperm:20:10:2:1
++!CSVLINE!+racket-8.12/r7rs,mperm:20:10:2:1,20.433
 
-real	0m22.010s
-user	0m20.336s
-sys	0m1.672s
+real	0m21.523s
+user	0m19.743s
+sys	0m1.781s
 Running...
 time racket /tmp/larcenous/Racket/mperm.scm
 Running mperm:20:10:2:1
-Elapsed time: 21.003 seconds (21.003) for mperm:20:10:2:1
-+!CSVLINE!+racket-8.10/r7rs,mperm:20:10:2:1,21.003
+Elapsed time: 20.393 seconds (20.393) for mperm:20:10:2:1
++!CSVLINE!+racket-8.12/r7rs,mperm:20:10:2:1,20.393
 
-real	0m22.138s
-user	0m20.332s
-sys	0m1.804s
+real	0m21.491s
+user	0m19.629s
+sys	0m1.864s
 
 Testing equal under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1894,30 +1894,30 @@ raco make /tmp/larcenous/Racket/equal.scm
 Running...
 time racket /tmp/larcenous/Racket/equal.scm
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: 1.559 seconds (1.558) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+racket-8.10/r7rs,equal:100:100:8:1000:2000:5000,1.559
+Elapsed time: 1.592 seconds (1.592) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+racket-8.12/r7rs,equal:100:100:8:1000:2000:5000,1.592
 
-real	0m1.789s
-user	0m1.724s
+real	0m1.820s
+user	0m1.760s
+sys	0m0.060s
+Running...
+time racket /tmp/larcenous/Racket/equal.scm
+Running equal:100:100:8:1000:2000:5000
+Elapsed time: 1.713 seconds (1.713) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+racket-8.12/r7rs,equal:100:100:8:1000:2000:5000,1.713
+
+real	0m1.947s
+user	0m1.882s
 sys	0m0.064s
 Running...
 time racket /tmp/larcenous/Racket/equal.scm
 Running equal:100:100:8:1000:2000:5000
-Elapsed time: 1.493 seconds (1.493) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+racket-8.10/r7rs,equal:100:100:8:1000:2000:5000,1.493
+Elapsed time: 1.6 seconds (1.6) for equal:100:100:8:1000:2000:5000
++!CSVLINE!+racket-8.12/r7rs,equal:100:100:8:1000:2000:5000,1.6
 
-real	0m1.720s
-user	0m1.636s
-sys	0m0.084s
-Running...
-time racket /tmp/larcenous/Racket/equal.scm
-Running equal:100:100:8:1000:2000:5000
-Elapsed time: 1.547 seconds (1.547) for equal:100:100:8:1000:2000:5000
-+!CSVLINE!+racket-8.10/r7rs,equal:100:100:8:1000:2000:5000,1.547
-
-real	0m1.781s
-user	0m1.689s
-sys	0m0.092s
+real	0m1.832s
+user	0m1.771s
+sys	0m0.060s
 
 Testing bv2string under Racket
 Including prelude /home/vyzo/src/vyzo/r7rs-benchmarks/src/Racket-prelude.scm
@@ -1927,27 +1927,27 @@ raco make /tmp/larcenous/Racket/bv2string.scm
 Running...
 time racket /tmp/larcenous/Racket/bv2string.scm
 Running bv2string:1000:1000:100
-Elapsed time: 1.502 seconds (1.501) for bv2string:1000:1000:100
-+!CSVLINE!+racket-8.10/r7rs,bv2string:1000:1000:100,1.502
+Elapsed time: 1.492 seconds (1.492) for bv2string:1000:1000:100
++!CSVLINE!+racket-8.12/r7rs,bv2string:1000:1000:100,1.492
 
-real	0m1.730s
-user	0m1.670s
+real	0m1.724s
+user	0m1.663s
 sys	0m0.060s
 Running...
 time racket /tmp/larcenous/Racket/bv2string.scm
 Running bv2string:1000:1000:100
-Elapsed time: 1.494 seconds (1.494) for bv2string:1000:1000:100
-+!CSVLINE!+racket-8.10/r7rs,bv2string:1000:1000:100,1.494
+Elapsed time: 1.471 seconds (1.471) for bv2string:1000:1000:100
++!CSVLINE!+racket-8.12/r7rs,bv2string:1000:1000:100,1.471
 
-real	0m1.740s
-user	0m1.668s
-sys	0m0.072s
+real	0m1.700s
+user	0m1.659s
+sys	0m0.040s
 Running...
 time racket /tmp/larcenous/Racket/bv2string.scm
 Running bv2string:1000:1000:100
-Elapsed time: 1.487 seconds (1.488) for bv2string:1000:1000:100
-+!CSVLINE!+racket-8.10/r7rs,bv2string:1000:1000:100,1.487
+Elapsed time: 1.514 seconds (1.514) for bv2string:1000:1000:100
++!CSVLINE!+racket-8.12/r7rs,bv2string:1000:1000:100,1.514
 
-real	0m1.748s
-user	0m1.668s
-sys	0m0.080s
+real	0m1.746s
+user	0m1.689s
+sys	0m0.056s

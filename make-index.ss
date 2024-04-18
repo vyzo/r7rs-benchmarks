@@ -20,10 +20,9 @@
 </head>
 <body>
   <h1>R7RS benchmarks for Gerbil</h1>
-  <p>These are the results for <b>Gerbil v0.18.2-pre </b> (pre-release of v0.18.2), <b>Gambit v4.9.5-130</b> (same as the Gerbil pin), and <b>Racket v8.10</b>.
-  Both Gerbil and Gambit are tuned with <tt>-:m64M</tt>, which gives an initial heap size of 64M.
-  <p>This is based on ecraven's benchmarks, which seem unmaintained.
+  <p>These are the results for <b>Gerbil v0.18.2-pre </b> (pre-release of v0.18.2), <b>Gambit v4.9.5-130</b> (same as the Gerbil pin), and <b>Racket v8.12</b>.
 
+  <p>This is based on ecraven's benchmarks, which seem unmaintained.
   <p>The benchmarks were run on a Dell XPS 13-9320 laptop.
   <p>Each benchmark was run 3 times, and I kept the best value.
   <p>
@@ -39,6 +38,7 @@
 
   <h3>Notes</h3>
   <ul>
+  <li>Both Gerbil and Gambit are tuned with <tt>-:m64M</tt>, which gives an initial/minimum heap size of 64M.</li>
   <li>See also the older results for <a href="index-v0-18.html">Gerbil v0.18</a>.</li>
   <li>Regression Analysis for results relative to the v0.18 benchmarks:
    <ul>
